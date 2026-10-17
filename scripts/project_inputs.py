@@ -4,8 +4,8 @@ from pathlib import Path
 
 DIRECTORIES = (".agents", "agents", "brands", "campaigns", "config", "content", "creative",
                "distribution", "docs", "growth", "plugins", "relationships", "research", "scripts",
-               "strategy", "tests", "workflows")
-SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt"}
+               "strategy", "tests", "workflows", "packages", "adapters", "data")
+SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql"}
 
 
 def sensitive_name(name):
@@ -17,7 +17,8 @@ def project_inputs(root):
     """Never follow links or traverse .git, .beads, runtime, caches or secret dirs."""
     root = Path(root).resolve()
     files = {p for p in root.glob("*.md") if p.is_file() and not p.is_symlink()}
-    for name in (".gitignore", ".env.example"):
+    for name in (".gitignore", ".env.example", "package.json", "pnpm-lock.yaml", "tsconfig.json",
+                 "tsconfig.build.json", "vitest.config.ts", "gtm"):
         p = root / name
         if p.is_file() and not p.is_symlink():
             files.add(p)

@@ -24,10 +24,12 @@ For every deliverable include inputs, evidence refs, revision, intended audience
 
 ## Architecture
 
-`agents/` defines task roles (not independent permanent processes), `.agents/skills/` defines Codex-discoverable skills, `workflows/definitions/` owns portable workflow contracts, `packages/` is intended runtime implementation, `adapters/` owns integrations. This is a starter scaffold; no runtime integration should be claimed until code is built and tests pass.
+`agents/` defines task roles (not independent permanent processes), `.agents/skills/` defines Codex-discoverable skills, `workflows/definitions/` owns portable workflow contracts, `packages/` is intended runtime implementation, `adapters/` owns integrations. Phase B implements the tested local/offline core and CLI. Real provider, creative and analytics integrations remain unimplemented; fixture output never proves a live capability.
 
 ## Local validation
 
 `python3 scripts/validate_scaffold.py` validates Phase A governance/schema contracts; use `--json` for redacted findings or `--root PATH` for isolated fixtures. Run `python3 -m unittest discover -s tests -v` and `python3 scripts/security_audit.py --json`; `python3 scripts/verify_phase_a.py` records all checks and source hashes. Missing tools/dependencies are BLOCKED. Full runtime build/tests are still required by the master prompt. If a more specific nested AGENTS.md applies, it augments but cannot relax this file.
 
 Beads is the durable local task tracker. Use `bd` for issues; no markdown task lists or ad hoc memory files. No hooks or remotes were configured in Phase A. See docs/SECURITY.md for the scoped threat model and docs/QA_REPORT.md for honest acceptance evidence.
+
+Phase B runtime validation: `pnpm check`; `python3 scripts/verify_phase_b.py` records B evidence and local CLI demos. Preserve Phase A receipts as historical snapshots. Every tenant CLI operation, including workflow resume/audit trace, requires `--brand`; structural discovery and aggregate read-only costs are administrative exceptions. No .env or credential files are loaded.

@@ -155,7 +155,8 @@ class Audit:
         root_rules = self.read("AGENTS.md") or ""
         if len(root_rules.splitlines()) > 250:
             self.error("instructions.size", "AGENTS.md", "root instructions exceed 250 lines")
-        for scope in SCOPES:
+        runtime_scopes = tuple(name for name in ("packages", "adapters") if (self.root / name).is_dir())
+        for scope in (*SCOPES, *runtime_scopes):
             rel = scope + "/AGENTS.md"
             text = self.read(rel) or ""
             for marker in ("Scope:", "Source of truth:", "Allowed:", "Forbidden:",

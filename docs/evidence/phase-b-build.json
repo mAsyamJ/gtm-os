@@ -1,0 +1,10 @@
+{
+  "command": [
+    "pnpm",
+    "build"
+  ],
+  "exit": 0,
+  "elapsed_seconds": 0.59,
+  "stdout": "",
+  "stderr": "$ tsc -p tsconfig.build.json\n"
+}

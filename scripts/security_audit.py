@@ -18,7 +18,7 @@ def main():
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     files = project_inputs(root)
-    report = {"scope": "phase-a-allowlisted-sources", "files": len(files), "checks": [],
+    report = {"scope": "local-governance-runtime-sources", "files": len(files), "checks": [],
               "limitations": ["No credential stores, runtime logs, Git history, or Beads data scanned.",
                               "Semgrep uses local rules only; this is not a full dependency audit."]}
     env = {k: v for k, v in os.environ.items() if not k.startswith(("GITLEAKS_", "SEMGREP_"))}
@@ -36,7 +36,7 @@ def main():
                          "--max-decode-depth", "0", "--report-format", "json", "--report-path", "-"],
             "semgrep": ["semgrep", "scan", "--config", str(root / "scripts/semgrep-phase-a.yaml"),
                         "--metrics=off", "--disable-version-check", "--no-git-ignore", "--json", "--error",
-                        str(target / "scripts"), str(target / "tests")],
+                        *[str(target / name) for name in ("scripts", "tests", "packages", "adapters") if (target / name).is_dir()]],
         }
         for tool, command in commands.items():
             check = {"tool": tool, "status": "BLOCKED", "findings": None}
@@ -66,7 +66,7 @@ def main():
     report["status"] = ("BLOCKED" if any(c["status"] == "BLOCKED" for c in report["checks"])
                         else "PASS" if all(c["status"] == "PASS" for c in report["checks"]) else "FAIL")
     print(json.dumps(report, indent=2) if args.json else
-          "\n".join([report["status"] + ": Phase A security"] +
+          "\n".join([report["status"] + ": Local source security"] +
                     [f"{c['tool']}: {c['status']}; findings={c['findings']}" for c in report["checks"]]))
     return {"PASS": 0, "BLOCKED": 4, "FAIL": 5}[report["status"]]
 

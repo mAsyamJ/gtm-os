@@ -25,3 +25,12 @@ Research date: 2026-10-17. All licensing, pricing and API claims require actual 
 - Local executable version probes, hashes and installed Python package license metadata: evidence/phase-a-tools.json. They do not attest upstream signatures or commercial asset eligibility.
 
 Unfetched links above remain candidates, not verified support for product features, API prices or licenses. No source card, public biography, product capability or financial claim was fabricated. Receipts/manifests identify local revisions; no creative asset adaptation occurred.
+
+
+## Phase B sources actually inspected
+
+- Official better-sqlite3 repository package manifest: https://github.com/WiseLibs/better-sqlite3/blob/master/package.json. Exact npm version 13.0.3 pins gitHead dbc2ea1165fef1f599b9be12faea33fa5e9d7ffb; archive integrity was checked before source extraction. Reviewed lib/database.js and lib/methods/transaction.js; no peer code copied.
+- Official Zod introduction https://zod.dev/ and Vitest guide https://vitest.dev/guide/ were fetched 2026-10-17 for strict TypeScript/runtime validation and test-runtime requirements. Exact installed versions and licenses come from registry/local package metadata and the lockfile, not an assumed latest version.
+- Existing MCP SDK corpus https://github.com/modelcontextprotocol/typescript-sdk, local commit 9bc40e903fde15534ec06ff4c1347d47000dbe16: util/schema.ts:27–31 shows safeParse at a typed boundary; no copied code.
+- Public npm registry metadata was read for the exact selected dependencies. No authenticated provider or online audit request was made; install lifecycle scripts were disabled. evidence/phase-b-dependencies.json records local metadata/integrity limits.
+- Whole-project XERJ refresh failed on a retained document's inferred-family change. Fresh scoped Python and better-sqlite3 library indexes succeeded with zero skipped code. This is a bounded source-retrieval limitation, not a complete-index success claim.

@@ -23,3 +23,23 @@ rules:
       - pattern: import httpx
       - pattern: import urllib.request
       - pattern: from urllib import request
+  - id: runtime-outbound-client
+    languages: [typescript, javascript]
+    severity: ERROR
+    message: Phase B core/adapters must not call a live network provider.
+    pattern-either:
+      - pattern: fetch(...)
+      - pattern: import $X from "node:http"
+      - pattern: import $X from "node:https"
+      - pattern: import $X from "http"
+      - pattern: import $X from "https"
+      - pattern: import $X from "axios"
+      - pattern: import $X from "undici"
+  - id: runtime-shell-execution
+    languages: [typescript, javascript]
+    severity: ERROR
+    message: Do not execute shell commands from the runtime core or adapters.
+    pattern-either:
+      - pattern: import { exec as $EXEC } from "node:child_process"
+      - pattern: import { execSync as $EXEC } from "node:child_process"
+      - pattern: eval(...)

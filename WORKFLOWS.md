@@ -1,6 +1,6 @@
 # WORKFLOWS.md — Operating map
 
-Workflow YAML is stored in `workflows/definitions/`. Run specification validation before any execution. Until runtime modules exist, YAML is a design contract, not a scheduler.
+Workflow YAML is stored in `workflows/definitions/`. Run specification validation before any execution. The Phase B local engine validates these definitions and executes synthetic JSON fixtures with durable checkpoints. It is not a scheduler or a real creative/publishing engine.
 
 ## Global content lifecycle
 
@@ -22,3 +22,7 @@ Research → verified source card → Strategy → campaign brief → Content �
 ## Failure handling
 
 Auth unavailable -> manual/mock adapter; license uncertain -> asset/tool blocked; source stale -> reacquire evidence; API response ambiguous -> reconcile before retry; X account mismatch -> abort; risk policy violation -> pause entire affected queue and notify owner via current session record.
+
+## Local Phase B job states
+
+`PENDING -> RUNNING -> COMPLETED_LOCAL | AWAITING_APPROVAL | BLOCKED | FAILED | CANCELLED`. Terminal completed/blocked/failed/cancelled jobs do not restart. AWAITING_APPROVAL cannot advance to execution in Phase B. Replaying a key binds the same workflow, sources and scoped input fingerprints; changes block resume. Stage artifact/cost/checkpoint/audit commits are transactional. See docs/PHASE_B.md for the local commands and fixture limits.

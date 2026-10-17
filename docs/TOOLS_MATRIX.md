@@ -28,3 +28,12 @@ Marketing Skills, Social Media Skills and Awesome GTM Skills remain AVAILABLE_LA
 Satori/Sharp/Lucide, Playwright, Motion Canvas and optional video-shotcraft remain planned project capabilities. No render or media-license success is claimed. X official APIs/MCP/xurl are BLOCKED_AUTH for this project; pricing/scopes are unverified and paid ceiling is zero. Postiz, Buffer, Activepieces, analytics services and optional AI media tools remain disabled candidates requiring later checks.
 
 Reproduce safe executable metadata with the inventory script and bounded scanner checks with `python3 scripts/security_audit.py --json`. Do not dispatch a router, authenticate or install anything merely to fill this matrix.
+
+
+## Phase B project additions — installed and verified
+
+Revision: phase-b-r1. The owner subsequently authorized Phase B. Project dependencies now include better-sqlite3 13.0.3 (SQLite 3.53.4 observed), Zod 4.6.7, YAML 2.9.1, TypeScript 7.0.2, Vitest 5.0.5, @types/node 24.19.2 and @types/better-sqlite3 9.6.0. All are exact-pinned; pnpm-lock.yaml preserves integrity and the toolchain/app graphs. Installation used --ignore-scripts and workspace-local store/config files. No global manager or Codex/router configuration was changed.
+
+The SQLite archive's SHA512 matched registry integrity; the official source package has no install hook and includes the Linux native binary. A real in-memory round trip passed. The installed tree has 44 packages, zero install lifecycle hooks, and metadata declaring MIT, ISC, BSD-3-Clause, Apache-2.0 or MPL-2.0. See evidence/phase-b-dependencies.json for every installed package, integrity, manifest/native hashes and limits; this is not a complete vulnerability/legal audit.
+
+The working runtime/CLI and mock boundaries are verified by PHASE_B_QA.md, not by the older version-only probes above. All actual provider connections, renderers and analytics remain blocked/unimplemented. No upstream skill installation or plugin activation occurred.

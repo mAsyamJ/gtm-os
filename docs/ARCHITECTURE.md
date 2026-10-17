@@ -14,22 +14,27 @@ Data: `tenant_id` required on every content object, account mapping, approval, e
 
 External website/skill = untrusted source; output must pass evidence and injection tests. Credentials = protected environment outside LLM. Public publishing = explicit human gate + verified user identity + content hash + projected spend. Marketing claims = cited and scoped to time and jurisdiction.
 
-## Execution note
+## Implemented execution boundary — Phase B
 
-Phase A implements Python governance validation and local evidence tooling. No GTM runtime packages or integrations exist yet. The runtime below is a Phase B–F target, not an installed service.
+The Python governance validator and local evidence tooling remain active. Phase B adds the typed CLI/core, tenant storage and mock boundaries below. This is an on-demand local app, not a deployed service or scheduler.
 
 ```mermaid
 flowchart LR
   Owner[Human owner] --> Operator[Codex operator]
-  Operator --> Contracts[Scoped instructions and brand evidence]
-  Contracts --> Validation[Implemented Python schema and policy checks]
-  Validation --> Receipts[Local QA and provenance receipts]
-  Operator -. Phase B .-> Engine[Typed jobs and workflow engine]
-  Engine -.-> Policy[Claims approval identity and cost gates]
-  Engine -.-> Storage[Separate tenant SQLite stores]
-  Policy -. Phase E .-> Adapters[Mock manual and disabled official adapters]
+  Operator --> CLI[Local redacted CLI]
+  Contracts[Scoped brand and workflow contracts] --> CLI
+  CLI --> Schemas[Zod and policy checks]
+  Schemas --> Engine[Deterministic offline engine]
+  Engine --> Storage[Separate tenant SQLite stores]
+  Engine --> Fixtures[Hash-linked synthetic JSON artifacts]
+  Engine --> Mocks[23 mock or unavailable surfaces]
+  Engine --> Gate[Blocked publication outbox]
+  Storage --> Receipts[Audit cost and QA receipts]
+  Mocks -. Phase C to F .-> Future[Real research media and approved providers]
 ```
 
-Implemented components: `scripts/validate_scaffold.py` owns parsing and declaration checks; `scripts/schemas/governance.json` owns Phase A contracts; fixture tests verify failure cases; audit/inventory scripts produce local evidence. Beads owns task tracking in separate embedded Dolt state. Codex operates these components on demand; there is no daemon or scheduled job.
+Schemas own typed contracts; core owns definition/input validation, transitions and checkpoints; storage owns transactional repositories, source links and audit/cost/outbox records; policy owns unconditional execution denial and a constraint-only approval matcher; connectors/adapters own capability, identity, cost, dry-run and audit interfaces. Operator-defined roles remain instruction contracts, not independent background processes. Beads owns task state in its separate local Dolt database.
 
-Planned runtime ownership: schemas define typed contracts; core owns transitions/checkpoints; storage owns transactional tenant repositories; policy owns claims/approval/spend vetoes; connectors own explicit capabilities/identity/cost/dry-run/audit boundaries. These boundaries must be tested before a runtime capability is reported as working. See ADRs 0001–0003 for accepted design decisions.
+SQLite migration 1 uses WAL/FULL synchronization, per-tenant files and metadata/SQL constraints. Immutable sources, scoped input fingerprints, original audit events and artifact file digests make restart/replay inspectable. Actual synthetic API charges are zero; model/compute costs remain unmeasured. Audit chains are not externally signed or anchored against a local database owner.
+
+Real source ingestion, creative rendering, authenticated accounts, signed human approvals, provider reconciliation, live analytics and campaign simulations remain C–F work. No scheduler, model call, renderer, provider request or verified live identity is implied. See PHASE_B.md and ADRs 0001–0004 for interfaces, tested failures and these limits.

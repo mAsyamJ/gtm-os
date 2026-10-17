@@ -1,6 +1,6 @@
 # Skills — local capability registry
 
-Revision: Phase A r1. Audience: owner and future local implementers. Sources: individual skill frontmatter, role contracts, workflow YAML and the master prompt. These are instruction-only skills, with no runtime engine or provider authorization.
+Revision: Phase A r1. Audience: owner and future local implementers. Sources: individual skill frontmatter, role contracts, workflow YAML and the master prompt. These are instruction-only skills. The Phase B engine dispatches traceable synthetic fixtures for their workflow stages; it does not execute an LLM or fulfill real creative/provider tasks. No provider authorization is implied.
 
 All 29 project skill names and paths appear in this session's supplied skill catalog. The validator checks their project discovery layout and metadata. Global skills with the same names may also appear; project uniqueness does not prove global uniqueness. No global registry was changed.
 
