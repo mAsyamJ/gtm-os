@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+runtime/
+node_modules/
+dist/
+coverage/
+*.log
+*.sqlite
+*.db
+*.mp4
+*.wav
+*.mov
+*.webm
+output/
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+.beads-credential-key
+.beads/proxieddb/
+*.gate.lock*

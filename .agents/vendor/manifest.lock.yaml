@@ -1,0 +1,9 @@
+# This is a planned manifest; NO upstream executable content installed by this scaffold.
+format_version: 1
+installed_and_verified: []
+review_candidates:
+  - https://github.com/coreyhaines31/marketingskills
+  - https://github.com/social-media-skills/skills
+  - https://github.com/composio-community/awesome-gtm-skills
+  - https://github.com/Vincentwei1021/video-shotcraft
+install_policy: pin_and_audit_before_activation
