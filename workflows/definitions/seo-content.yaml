@@ -1,0 +1,42 @@
+id: seo-content
+version: 1
+description: "verified educational topic into crawlable helpful content"
+trigger: "manual command or explicit authorized scheduler"
+owner: seo-cro-engineer
+tenant: "REQUIRED_AT_RUNTIME"
+risk_tier: "LOW_READ_ONLY_UNTIL_ACTION_GATE"
+inputs:
+  - "tenant profile and scoped AGENTS.md"
+  - "source IDs or declared synthetic fixture"
+  - "approved local task request"
+stages:
+  - id: step_1
+    skill: research-intelligence
+    input: "validated output of prior step, tenant source cards and config"
+    output: "research-intelligence validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_2
+    skill: seo-geo-content
+    input: "validated output of prior step, tenant source cards and config"
+    output: "seo-geo-content validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_3
+    skill: claim-verification
+    input: "validated output of prior step, tenant source cards and config"
+    output: "claim-verification validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_4
+    skill: release-qa
+    input: "validated output of prior step, tenant source cards and config"
+    output: "release-qa validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+outputs: "article,metadata,structured_data_proposal"
+approval_gate: "HUMAN_APPROVAL_REQUIRED_PER_EXTERNAL_ACTION"
+cost_policy: "DEFAULT_ZERO_PAID_API_SPEND"
+retry_policy: "bounded exponential backoff, reconcile ambiguous external write"
+resume_checkpoint: "durable local job ID after each validated stage"
+compensation: "pause affected queue; invalidate approval if payload changed"
+metrics:
+  - "artifact quality and review failure count"
+  - "verified useful outcome, not vanity traffic alone"
+terminal_states: [COMPLETED_LOCAL, AWAITING_APPROVAL, BLOCKED, FAILED, CANCELLED]

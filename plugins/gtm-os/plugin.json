@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "founder-retropick-gtm-os",
+  "version": "0.1.0",
+  "description": "Local setup guidance for an evidence-first, dual-brand GTM operating system. No connected live capabilities included.",
+  "author": {"name": "Asyam Jayanegara"},
+  "keywords": ["gtm", "founder", "marketing", "codex", "retropick"],
+  "extensions": {"com.openai": {"onboardingSkill": "./skills/setup/SKILL.md"}}
+}

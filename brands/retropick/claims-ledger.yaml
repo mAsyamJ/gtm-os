@@ -1,0 +1,4 @@
+# Empty ledger intentionally; no fact automatically considered verified.
+tenant: retropick
+claims: []
+approval_required: true

@@ -1,0 +1,37 @@
+id: partner-outreach
+version: 1
+description: "individual opportunity review and unsent outreach"
+trigger: "manual command or explicit authorized scheduler"
+owner: partnerships
+tenant: "REQUIRED_AT_RUNTIME"
+risk_tier: "LOW_READ_ONLY_UNTIL_ACTION_GATE"
+inputs:
+  - "tenant profile and scoped AGENTS.md"
+  - "source IDs or declared synthetic fixture"
+  - "approved local task request"
+stages:
+  - id: step_1
+    skill: research-intelligence
+    input: "validated output of prior step, tenant source cards and config"
+    output: "research-intelligence validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_2
+    skill: partnership-outreach
+    input: "validated output of prior step, tenant source cards and config"
+    output: "partnership-outreach validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_3
+    skill: security-compliance
+    input: "validated output of prior step, tenant source cards and config"
+    output: "security-compliance validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+outputs: "partner_card,unsent_draft"
+approval_gate: "HUMAN_APPROVAL_REQUIRED_PER_EXTERNAL_ACTION"
+cost_policy: "DEFAULT_ZERO_PAID_API_SPEND"
+retry_policy: "bounded exponential backoff, reconcile ambiguous external write"
+resume_checkpoint: "durable local job ID after each validated stage"
+compensation: "pause affected queue; invalidate approval if payload changed"
+metrics:
+  - "artifact quality and review failure count"
+  - "verified useful outcome, not vanity traffic alone"
+terminal_states: [COMPLETED_LOCAL, AWAITING_APPROVAL, BLOCKED, FAILED, CANCELLED]
