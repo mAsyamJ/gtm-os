@@ -1,6 +1,6 @@
-# Asyam × RetroPick Founder-Led GTM OS — Phase C
+# Asyam × RetroPick Founder-Led GTM OS — Phase D
 
-The local CLI supports authorized-file source cards, expiry, evidence-aware strategy/ICP/calendar/brief generation and three curated, licensed reference skills. Separate tenant SQLite stores preserve immutable sources and audit history. The workflow engine still executes its 16 definitions as synthetic JSON fixtures; media rendering, OAuth, live analytics and publication remain later-phase work. The specification is `docs/MASTER_EXECUTION_PROMPT_V2.md`; gates are in `docs/PHASED_EXECUTION.md`.
+The local CLI supports authorized-file source cards, expiry, evidence-aware strategy/ICP/calendar/brief generation and three curated, licensed reference skills. Separate tenant SQLite stores preserve immutable sources and audit history. The workflow engine still executes its 16 definitions as synthetic JSON fixtures; Phase D adds local synthetic graphics/video rendering; OAuth, live analytics and publication remain later-phase work. The specification is `docs/MASTER_EXECUTION_PROMPT_V2.md`; gates are in `docs/PHASED_EXECUTION.md`.
 
 **Brand tenants:** `retropick` (@RetroPickMarket) and `founder` (@iHateModelsss). **No external side effects by default.**
 
@@ -40,11 +40,11 @@ python3 scripts/validate_scaffold.py --json
 python3 -m unittest discover -s tests -v
 python3 scripts/security_audit.py --json
 pnpm check
-python3 scripts/verify_phase_c.py
+python3 scripts/verify_phase_d.py
 ```
 
-Phase C verification builds/tests, exercises compiled CLI commands, checks byte-identical sample replay and records C evidence in `docs/evidence/`. It makes no provider calls or installs. A/B receipts remain historical snapshots. Security requires existing Gitleaks/Semgrep and uses local rules. `lint` is strict TypeScript compiler checking, not an ESLint/style audit.
+Phase D verification builds/tests, renders both media formats, checks a fresh video re-encode and browser pixels, and records D evidence in `docs/evidence/`. It makes no provider calls or installs. A/B/C receipts remain historical snapshots. Security requires existing Gitleaks/Semgrep and uses local rules. `lint` is strict TypeScript compiler checking, not an ESLint/style audit.
 
 Validator options: `--root PATH` audits isolated fixtures; `--json` emits redacted findings. Exit codes: 0 pass, 2 argument error, 4 missing tool/dependency, 5 validation failure. Passing Phase A does not prove runtime tenant isolation or publishing safety.
 
-See `docs/PHASE_C_QA.md`, `docs/PHASE_B.md`, `docs/TOOLS_MATRIX.md`, and `docs/SECURITY.md`. Beads issue `gtm-7qs` tracks this slice; no remote/hooks are configured. No live account identity, product claim, official palette, media asset or provider capability is verified by this setup.
+See [Phase D implementation](docs/PHASE_D.md), [creative gallery](docs/PHASE_D_GALLERY.md), `docs/PHASE_D_QA.md`, `docs/PHASE_C_QA.md`, `docs/PHASE_B.md`, `docs/TOOLS_MATRIX.md`, and `docs/SECURITY.md`. Beads issue `gtm-fc4` tracks this slice; no remote/hooks are configured. No live account identity, product claim, official palette, media asset or provider capability is verified by this setup.

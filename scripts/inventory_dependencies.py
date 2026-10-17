@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Inspect installed public-package metadata and integrity pins without executing hooks."""
 import hashlib
+import argparse
 import json
 from pathlib import Path
 
@@ -8,6 +9,9 @@ import yaml
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--revision', default='phase-b-r1')
+    args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     resolutions = {}
     # pnpm 12 records package-manager and application graphs in separate YAML documents.
@@ -35,16 +39,20 @@ def main():
                        "integrity": resolutions.get(name + "@" + version, {}).get("resolution", {}).get("integrity", "SEE_LOCKFILE"),
                        "manifest_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
                        "lifecycle_scripts": {k: v for k, v in metadata.get("scripts", {}).items()
-                                             if k in ("preinstall", "install", "postinstall")},
+                                             if k in ("preinstall", "install", "postinstall", "prepare", "prepublishOnly")},
                        "native_or_launcher_files": []}
-            for relative in ("prebuilds/linux-x64.node", "rolldown-binding.linux-x64-gnu.node",
-                             "rolldown-binding.linux-x64-musl.node", "lib/tsc", "bin/tsc"):
-                native = folder / relative
+            native_paths = {folder / relative for relative in ("prebuilds/linux-x64.node", "rolldown-binding.linux-x64-gnu.node",
+                             "rolldown-binding.linux-x64-musl.node", "lib/tsc", "bin/tsc")
+                           }
+            for suffix in ('*.node', '*.wasm', '*.so*'):
+                native_paths.update(p for p in folder.rglob(suffix)
+                                    if suffix != '*.so*' or p.name.endswith('.so') or '.so.' in p.name)
+            for native in sorted(native_paths):
                 if native.is_file() and not native.is_symlink():
                     package["native_or_launcher_files"].append({"path": str(native.relative_to(root)),
                         "sha256": hashlib.sha256(native.read_bytes()).hexdigest()})
             packages.append(package)
-    result = {"revision": "phase-b-r1", "registry": "https://registry.npmjs.org",
+    result = {"revision": args.revision, "registry": "https://registry.npmjs.org",
               "source": "Installed metadata and pnpm-lock.yaml; registry metadata read 2026-10-17",
               "install_scripts_enabled": False, "packages": sorted(packages, key=lambda p: p["name"]),
               "limitations": ["Metadata and integrity pins are not a full vulnerability or legal audit.",

@@ -7,9 +7,10 @@ export const PROJECT = resolve(import.meta.dirname, '../..');
 export function workspace(): { root: string; cleanup: () => void } {
   mkdirSync(join(PROJECT, 'runtime/tests'), { recursive: true });
   const root = mkdtempSync(join(PROJECT, 'runtime/tests/case-'));
-  for (const folder of ['config', 'brands', 'workflows', 'agents', '.agents', 'campaigns']) cpSync(join(PROJECT, folder), join(root, folder), { recursive: true });
+  for (const folder of ['config', 'brands', 'workflows', 'agents', '.agents', 'campaigns', 'creative', 'packages/creative']) cpSync(join(PROJECT, folder), join(root, folder), { recursive: true });
   copyFileSync(join(PROJECT, 'AGENTS.md'), join(root, 'AGENTS.md'));
   copyFileSync(join(PROJECT, 'package.json'), join(root, 'package.json'));
+  copyFileSync(join(PROJECT, 'pnpm-lock.yaml'), join(root, 'pnpm-lock.yaml'));
   return { root, cleanup: () => rmSync(root, { recursive: true, force: true }) };
 }
 

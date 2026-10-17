@@ -1,0 +1,27 @@
+{
+  "id": "learning-map",
+  "tenant": "founder",
+  "revision": "phase-d-r1",
+  "variant": "hero",
+  "label": "SYNTHETIC DEMO / PLACEHOLDER",
+  "eyebrow": "Proof before claims",
+  "title": "I would start with one clear question.",
+  "body": "A source-linked learning format, with personal history left unclaimed.",
+  "panels": [
+    {
+      "heading": "Read",
+      "text": "Pin and attribute the upstream example."
+    },
+    {
+      "heading": "Compare",
+      "text": "Make the alternatives explicit."
+    },
+    {
+      "heading": "Reflect",
+      "text": "Separate evidence from interpretation."
+    }
+  ],
+  "footer": "Illustrative concept. Topic proof and owner review are still required.",
+  "alt": "Synthetic founder concept card: I would start with one clear question. A source-linked learning format, with personal history left unclaimed. Neutral placeholder styling; no actual product UI or personal achievement shown.",
+  "contentMode": "ILLUSTRATIVE_NO_PRODUCT_OR_PERSONAL_FACTS"
+}

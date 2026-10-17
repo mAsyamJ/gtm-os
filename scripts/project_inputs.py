@@ -6,7 +6,7 @@ DIRECTORIES = (".agents", "agents", "brands", "campaigns", "config", "content", 
                "distribution", "docs", "growth", "plugins", "relationships", "research", "scripts",
                "strategy", "tests", "workflows", "packages", "adapters", "data",
                "output/sample-plans", "output/sample-calendars")
-SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql"}
+SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql", ".ttf"}
 
 
 def sensitive_name(name):

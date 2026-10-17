@@ -12,8 +12,10 @@ import { HANDLES, TENANTS, TenantSchema, type Tenant } from '../../schemas/src/i
 import { TenantStore } from '../../storage/src/index.js';
 import { auditReferences, ingestSource, researchReport, saveResearchOutput } from '../../research/src/index.js';
 import { contentBrief, contentCalendar, icpHypothesis, strategyPlan } from '../../strategy/src/index.js';
+import { renderTemplate, templateList } from '../../creative/src/graphics.js';
+import { localVideoAdapter } from '../../creative/src/adapter.js';
 
-const HELP = `GTM OS 0.2.0 — Phase C local/offline CLI
+const HELP = `GTM OS 0.2.0 — Phase D local/offline CLI
 
 Working commands:
   gtm doctor [--json]
@@ -31,13 +33,17 @@ Working commands:
   gtm campaign plan --brand TENANT --days 30 [--from YYYY-MM-DD]
   gtm content calendar --brand TENANT --days 14 [--from YYYY-MM-DD]
   gtm content brief --brand TENANT --topic TOPIC [--source SOURCE_ID]
+  gtm design templates --brand TENANT
+  gtm design render --brand TENANT --template NAME --fixture synthetic [--size landscape|wide|square|portrait]
+  gtm video storyboard --brand TENANT --fixture synthetic
+  gtm video render --brand TENANT --fixture synthetic [--size landscape|portrait]
   gtm x auth status --brand TENANT  (BLOCKED; no authentication probe)
 
 All commands support --json. --root PATH selects an explicit local workspace.
 Workflow artifacts are SYNTHETIC JSON contract fixtures, not completed marketing/media.
 Publication, scheduling, outreach and paid calls always fail closed. No command authorizes a write.
 Research uses authorized inbox files only; generated plans are hypotheses pending topic proof.
-Other campaign/content/design/video/analytics/experiments/assets/benchmark commands
+Other campaign/content/analytics/experiments/assets/benchmark commands
 are explicit later-phase blocked boundaries. Use --help with any command.
 Exit: 0 local success; 2 invalid input; 3 permission denied; 4 capability unavailable;
       5 validation failed; 6 execution failed. --version reports this local CLI version.`;
@@ -49,6 +55,7 @@ const OPTIONS = {
   job: { type: 'string' }, draft: { type: 'string' }, id: { type: 'string' }, source: { type: 'string' },
   topic: { type: 'string' }, type: { type: 'string' }, days: { type: 'string' }, from: { type: 'string' },
   template: { type: 'string' }, fixture: { type: 'string' }, period: { type: 'string' },
+  size: { type: 'string' },
 } as const;
 type Values = ReturnType<typeof parseOptions>['values'];
 function parseOptions(args: string[]) { return parseArgs({ args, options: OPTIONS, allowPositionals: true, strict: true }); }
@@ -103,13 +110,14 @@ function doctor(root: string) {
     skills: skills.length, workflows: workflows.length, brands, stores,
     integrations: integrationCatalog(), liveProviders: 'BLOCKED_NOT_CONNECTED',
     researchStrategy: { status: 'LOCAL_IMPLEMENTED', sourceRetrieval: 'AUTHORIZED_FILES_ONLY', liveFacts: 'NOT_ESTABLISHED' },
-    missingComponents: ['Real graphics/video: Phase D',
+    creative: { status: 'LOCAL_SYNTHETIC_RENDERER_IMPLEMENTED', officialTokens: 'NOT_VERIFIED', realProductCapture: 'NOT_IMPLEMENTED' },
+    missingComponents: [
       'OAuth, signed owner approvals, live distribution and analytics: Phase E', 'Full campaign simulations: Phase F'],
     policy: { publishEnabled: false, externalWrites: false, paidApiEnabled: false, xMonthlyCapUsd: 0 },
     modelRouting: 'NOT_INVOKED', benchmarkSavings: 'NOT_MEASURED' };
 }
 
-export function main(argv: string[], defaultRoot: string): number {
+export async function main(argv: string[], defaultRoot: string): Promise<number> {
   let json = argv.includes('--json');
   try {
     let parsed: ReturnType<typeof parseOptions>;
@@ -196,6 +204,16 @@ export function main(argv: string[], defaultRoot: string): number {
       }
       data = saveResearchOutput(root, tenant, key.replace(' ', '-'), document);
       status = 'LOCAL_DRAFT_REQUIRES_REVIEW';
+    } else if (key === 'design templates') data = templateList(root, selected(values));
+    else if (key === 'design render') {
+      const tenant = selected(values);
+      if (!values.template) throw new GtmError('TEMPLATE_REQUIRED', 'Provide a template from design templates', 2);
+      data = await renderTemplate(root, tenant, values.template, { fixture: values.fixture, size: values.size });
+      status = 'SYNTHETIC_LOCAL_RENDER';
+    } else if (key === 'video storyboard') {
+      data = localVideoAdapter(root, selected(values)).storyboard(values.fixture); status = 'SYNTHETIC_LOCAL_STORYBOARD';
+    } else if (key === 'video render') {
+      data = await localVideoAdapter(root, selected(values)).render({ fixture: values.fixture, size: values.size }); status = 'SYNTHETIC_LOCAL_RENDER';
     } else if (words.join(' ') === 'x auth status') {
       const tenant = selected(values); const identity = unavailableAdapter('x-official').identity(tenant);
       emit(json, 'BLOCKED', { identity, reason: 'No authenticated connection; no credential file or identity endpoint was inspected.' }); return 4;

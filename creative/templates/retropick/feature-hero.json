@@ -1,0 +1,27 @@
+{
+  "id": "feature-hero",
+  "tenant": "retropick",
+  "revision": "phase-d-r1",
+  "variant": "hero",
+  "label": "SYNTHETIC DEMO / PLACEHOLDER",
+  "eyebrow": "Verify the flow",
+  "title": "Evidence before a feature claim.",
+  "body": "A concept for explaining a product flow once its behavior is verified.",
+  "panels": [
+    {
+      "heading": "Observe",
+      "text": "Capture the authorized public flow."
+    },
+    {
+      "heading": "Trace",
+      "text": "Connect each statement to its source."
+    },
+    {
+      "heading": "Limit",
+      "text": "State what the evidence cannot show."
+    }
+  ],
+  "footer": "Illustrative concept. Topic proof and owner review are still required.",
+  "alt": "Synthetic retropick concept card: Evidence before a feature claim. A concept for explaining a product flow once its behavior is verified. Neutral placeholder styling; no actual product UI or personal achievement shown.",
+  "contentMode": "ILLUSTRATIVE_NO_PRODUCT_OR_PERSONAL_FACTS"
+}

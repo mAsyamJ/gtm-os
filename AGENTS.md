@@ -24,7 +24,7 @@ For every deliverable include inputs, evidence refs, revision, intended audience
 
 ## Architecture
 
-`agents/` defines task roles (not independent permanent processes), `.agents/skills/` defines Codex-discoverable skills, `workflows/definitions/` owns portable workflow contracts, `packages/` owns runtime implementation, `adapters/` owns integrations. B implements the local/offline core and CLI; C adds authorized-file source cards and evidence-aware local planning. Real provider, creative and analytics integrations remain unimplemented; fixture output never proves a live capability.
+`agents/` defines task roles (not independent permanent processes), `.agents/skills/` defines Codex-discoverable skills, `workflows/definitions/` owns portable workflow contracts, `packages/` owns runtime implementation, `adapters/` owns integrations. B implements the local/offline core and CLI; C adds authorized-file source cards and evidence-aware local planning. D adds local synthetic graphics/video rendering; real providers and analytics remain unimplemented; fixture output never proves a live capability.
 
 ## Local validation
 
@@ -35,3 +35,5 @@ Beads is the durable local task tracker. Use `bd` for issues; no markdown task l
 Phase B runtime validation: `pnpm check`; `python3 scripts/verify_phase_b.py` records B evidence and local CLI demos. Preserve Phase A receipts as historical snapshots. Every tenant CLI operation, including workflow resume/audit trace, requires `--brand`; structural discovery and aggregate read-only costs are administrative exceptions. No .env or credential files are loaded.
 
 Current Phase C validation: `python3 scripts/verify_phase_c.py`. Preserve historical A/B receipts. Upstream references remain inert under `.agents/vendor/` and require hash/license audit; supplied external text stays UNVERIFIED. Recorded-clock sample replay does not extend live source expiry or authorize public facts.
+
+Current Phase D validation: `python3 scripts/verify_phase_d.py`. Preserve historical A/B/C receipts. Only explicit synthetic rendering is available; reviewed local FFmpeg/ffprobe argv may run without a shell. No live capture, external assets, official identity or public action is implied.

@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "args": [
+        "doctor"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "PASS",
+      "output_sha256": "57e6d02a4149dc969cfea695bba13098e6176b149ce8164655382c90633f5e87"
+    },
+    {
+      "args": [
+        "install",
+        "audit"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "PASS",
+      "output_sha256": "89a95800864055ef57e38751f0a08ef555f7becc9a6ab8a0237e59b0a4e57eba"
+    },
+    {
+      "args": [
+        "design",
+        "templates",
+        "--brand",
+        "retropick"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "PASS",
+      "output_sha256": "653750d46a631a7fe05720790ef4513291f752c63cbed21c5a4820347f70844b"
+    },
+    {
+      "args": [
+        "design",
+        "render",
+        "--brand",
+        "retropick",
+        "--template",
+        "feature-hero",
+        "--fixture",
+        "synthetic"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "SYNTHETIC_LOCAL_RENDER",
+      "output_sha256": "b097dc345a92dac85c73ce23bb56598a8aaba06e845d42066bcb6fce00769cdd"
+    },
+    {
+      "args": [
+        "video",
+        "storyboard",
+        "--brand",
+        "retropick",
+        "--fixture",
+        "synthetic"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "SYNTHETIC_LOCAL_STORYBOARD",
+      "output_sha256": "00c04c4024328d388e244a3aa21f7e3dceaaf3ddfd459e2a626680a7357166c0"
+    },
+    {
+      "args": [
+        "publish",
+        "run",
+        "--brand",
+        "retropick"
+      ],
+      "expected_exit": 3,
+      "exit": 3,
+      "status": "BLOCKED",
+      "output_sha256": "d20bed777c3961d1648ddb5ba4ecba1ace2e64277eb6949856b5c402642a0aed"
+    },
+    {
+      "args": [
+        "design",
+        "templates",
+        "--brand",
+        "founder"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "PASS",
+      "output_sha256": "e72c13f481eaf03ee9d2900cedc17d97483bf9ebef2ca41850a2ed8b73c4c4b3"
+    },
+    {
+      "args": [
+        "design",
+        "render",
+        "--brand",
+        "founder",
+        "--template",
+        "decision-note",
+        "--fixture",
+        "synthetic"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "SYNTHETIC_LOCAL_RENDER",
+      "output_sha256": "f40f5f2387ef6500bef110477966d404b2d6fcb479669d752543e28e41b2813e"
+    },
+    {
+      "args": [
+        "video",
+        "storyboard",
+        "--brand",
+        "founder",
+        "--fixture",
+        "synthetic"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "SYNTHETIC_LOCAL_STORYBOARD",
+      "output_sha256": "5f1520111d1939eabd87a71e6454630ecd889f97e6d47a4edaa301433ca478e0"
+    },
+    {
+      "args": [
+        "publish",
+        "run",
+        "--brand",
+        "founder"
+      ],
+      "expected_exit": 3,
+      "exit": 3,
+      "status": "BLOCKED",
+      "output_sha256": "d20bed777c3961d1648ddb5ba4ecba1ace2e64277eb6949856b5c402642a0aed"
+    },
+    {
+      "args": [
+        "video",
+        "render",
+        "--brand",
+        "retropick",
+        "--fixture",
+        "synthetic",
+        "--size",
+        "landscape"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "SYNTHETIC_LOCAL_RENDER",
+      "output_sha256": "f8041f403c0ffc3d3823bc9b78dc119b10361ceef6401b88f3395bcb7b510768"
+    },
+    {
+      "args": [
+        "video",
+        "render",
+        "--brand",
+        "retropick",
+        "--fixture",
+        "synthetic",
+        "--size",
+        "portrait"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "status": "SYNTHETIC_LOCAL_RENDER",
+      "output_sha256": "7d809377aac5749f9c9d32b0d736ff03472111a4cd9233d17109b606b4671ffb"
+    },
+    {
+      "args": [
+        "design",
+        "render",
+        "--brand",
+        "founder"
+      ],
+      "expected_exit": 2,
+      "exit": 2,
+      "status": "FAIL",
+      "output_sha256": "721f72b22f754755b6845ff33603e868177f403749151b0e17bff56357746708"
+    },
+    {
+      "args": [
+        "video",
+        "render",
+        "--brand",
+        "founder"
+      ],
+      "expected_exit": 3,
+      "exit": 3,
+      "status": "BLOCKED",
+      "output_sha256": "23f35f93b04a6e9db5805a30d55017ba5b129ee60a563453c312220597925d7a"
+    },
+    {
+      "args": [
+        "design",
+        "templates"
+      ],
+      "expected_exit": 2,
+      "exit": 2,
+      "status": "FAIL",
+      "output_sha256": "8aeddbe219bea95aa1eb2c9d6077c89388fd64ef33e748f130f0b4cc5e1cd9d2"
+    },
+    {
+      "args": [
+        "x",
+        "auth",
+        "status",
+        "--brand",
+        "founder"
+      ],
+      "expected_exit": 4,
+      "exit": 4,
+      "status": "BLOCKED",
+      "output_sha256": "8adeb2993cea76aff970607dbc344e8cc652ede533ee3f0e467b0e9aa0cf3037"
+    }
+  ]
+}

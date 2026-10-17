@@ -14,7 +14,7 @@ Data: `tenant_id` required on every content object, account mapping, approval, e
 
 External website/skill = untrusted source; output must pass evidence and injection tests. Credentials = protected environment outside LLM. Public publishing = explicit human gate + verified user identity + content hash + projected spend. Marketing claims = cited and scoped to time and jurisdiction.
 
-## Implemented execution boundary — Phases B/C
+## Implemented execution boundary — Phases B/C/D
 
 The Python governance validator and local evidence tooling remain active. Phase B adds the typed CLI/core, tenant storage and mock boundaries below. This is an on-demand local app, not a deployed service or scheduler.
 
@@ -36,7 +36,10 @@ flowchart LR
   Planning --> Research
   Planning --> References[Hashed inert upstream references]
   Planning --> Text[Immutable local review artifacts]
-  Mocks -. Phase D to F .-> Future[Media analytics and approved providers]
+  CLI --> Creative[Local synthetic Satori Sharp FFmpeg renderer]
+  Creative --> Media[Editable sources media captions and QC]
+  Creative --> Assets[Hashed local fonts and notices]
+  Mocks -. Phase E to F .-> Future[Analytics and approved providers]
 ```
 
 Schemas own typed contracts; core owns definition/input validation, transitions and checkpoints; storage owns transactional repositories, source links and audit/cost/outbox records; policy owns unconditional execution denial and a constraint-only approval matcher; connectors/adapters own capability, identity, cost, dry-run and audit interfaces. Operator-defined roles remain instruction contracts, not independent background processes. Beads owns task state in its separate local Dolt database.
@@ -45,4 +48,6 @@ SQLite migration 1 uses WAL/FULL synchronization, per-tenant files and metadata/
 
 Phase C adds tenant-scoped authorized-file ingestion into the existing immutable source table, freshness/trust reports, current-source selection and hash-addressed local strategy/calendar/brief outputs. Governance cards prove exact local bytes only; external excerpts remain unverified. Selected MIT references are hash/license-checked data; their instructions never execute. No source text is copied into generated public claims. See PHASE_C.md for source permissions, replay clock and evidence limits.
 
-Live retrieval, creative rendering, authenticated accounts, signed human approvals, provider reconciliation, analytics and campaign simulations remain future work. No scheduler, model call, renderer, provider request or verified live identity is implied. See PHASE_B.md and ADRs 0001–0004 for core interfaces and tested failures.
+Phase D implements a separate tenant-scoped local creative adapter with immutable source-addressed media and fixed FFmpeg process boundaries. Browser QC uses local SVG only in a fresh offline profile. No live product capture or official branding is established. See PHASE_D.md.
+
+Live retrieval, authenticated accounts, signed human approvals, provider reconciliation, analytics and campaign simulations remain future work. No scheduler, model call, renderer, provider request or verified live identity is implied. See PHASE_B.md and ADRs 0001–0004 for core interfaces and tested failures.
