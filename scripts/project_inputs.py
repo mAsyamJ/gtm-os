@@ -4,7 +4,8 @@ from pathlib import Path
 
 DIRECTORIES = (".agents", "agents", "brands", "campaigns", "config", "content", "creative",
                "distribution", "docs", "growth", "plugins", "relationships", "research", "scripts",
-               "strategy", "tests", "workflows", "packages", "adapters", "data")
+               "strategy", "tests", "workflows", "packages", "adapters", "data",
+               "output/sample-plans", "output/sample-calendars")
 SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql"}
 
 

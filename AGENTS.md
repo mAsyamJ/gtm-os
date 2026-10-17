@@ -24,7 +24,7 @@ For every deliverable include inputs, evidence refs, revision, intended audience
 
 ## Architecture
 
-`agents/` defines task roles (not independent permanent processes), `.agents/skills/` defines Codex-discoverable skills, `workflows/definitions/` owns portable workflow contracts, `packages/` is intended runtime implementation, `adapters/` owns integrations. Phase B implements the tested local/offline core and CLI. Real provider, creative and analytics integrations remain unimplemented; fixture output never proves a live capability.
+`agents/` defines task roles (not independent permanent processes), `.agents/skills/` defines Codex-discoverable skills, `workflows/definitions/` owns portable workflow contracts, `packages/` owns runtime implementation, `adapters/` owns integrations. B implements the local/offline core and CLI; C adds authorized-file source cards and evidence-aware local planning. Real provider, creative and analytics integrations remain unimplemented; fixture output never proves a live capability.
 
 ## Local validation
 
@@ -33,3 +33,5 @@ For every deliverable include inputs, evidence refs, revision, intended audience
 Beads is the durable local task tracker. Use `bd` for issues; no markdown task lists or ad hoc memory files. No hooks or remotes were configured in Phase A. See docs/SECURITY.md for the scoped threat model and docs/QA_REPORT.md for honest acceptance evidence.
 
 Phase B runtime validation: `pnpm check`; `python3 scripts/verify_phase_b.py` records B evidence and local CLI demos. Preserve Phase A receipts as historical snapshots. Every tenant CLI operation, including workflow resume/audit trace, requires `--brand`; structural discovery and aggregate read-only costs are administrative exceptions. No .env or credential files are loaded.
+
+Current Phase C validation: `python3 scripts/verify_phase_c.py`. Preserve historical A/B receipts. Upstream references remain inert under `.agents/vendor/` and require hash/license audit; supplied external text stays UNVERIFIED. Recorded-clock sample replay does not extend live source expiry or authorize public facts.

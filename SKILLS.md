@@ -2,6 +2,8 @@
 
 Revision: Phase A r1. Audience: owner and future local implementers. Sources: individual skill frontmatter, role contracts, workflow YAML and the master prompt. These are instruction-only skills. The Phase B engine dispatches traceable synthetic fixtures for their workflow stages; it does not execute an LLM or fulfill real creative/provider tasks. No provider authorization is implied.
 
+Phase C preserves these 29 canonical entries. Three optional MIT reference bodies are namespaced under `.agents/vendor/`: content-strategy 2.1.3, content-calendar 1.0.0 and thread-writer 1.0.0. Scoped routes live in campaign-architecture and x-thread-writing; no extra automatically discovered upstream skills or provider dependencies are installed. Check pins/licenses with `./gtm install audit`; details in `docs/PHASE_C.md`.
+
 All 29 project skill names and paths appear in this session's supplied skill catalog. The validator checks their project discovery layout and metadata. Global skills with the same names may also appear; project uniqueness does not prove global uniqueness. No global registry was changed.
 
 `ENABLED` means local instruction use only. `BLOCKED` means its execution capability is absent or needs independent permission. Every skill requires explicit tenant selection except structural audits, root/brand instructions and scoped evidence. Local document drafting requires no provider API; downstream costs are NOT_MEASURED and paid calls remain blocked.

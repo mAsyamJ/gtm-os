@@ -71,7 +71,7 @@ describe('compiled CLI', () => {
     const result = cli(['x', 'auth', 'status', '--brand', 'retropick'], 4);
     expect(result.data.identity).toMatchObject({ expectedHandle: 'RetroPickMarket', principalId: null, authenticated: false });
   });
-  test.each([['research', 'daily'], ['design', 'render'], ['video', 'render'], ['analytics', 'report']])('later phase %s %s is an honest blocked boundary', (...args) => expect(cli([...args, '--brand', 'retropick', '--offline'], 4).status).toBe('BLOCKED'));
+  test.each([['design', 'render'], ['video', 'render'], ['analytics', 'report']])('later phase %s %s is an honest blocked boundary', (...args) => expect(cli([...args, '--brand', 'retropick', '--offline'], 4).status).toBe('BLOCKED'));
   test('missing project file is validation failure, not a false pass', () => {
     writeFileSync(join(fixture.root, 'brands/founder/profile.json'), '{invalid-private-value');
     const result = cli(['brand', 'validate', '--brand', 'founder'], 5);

@@ -1,6 +1,6 @@
-# Asyam × RetroPick Founder-Led GTM OS — Phase B
+# Asyam × RetroPick Founder-Led GTM OS — Phase C
 
-The local CLI and deterministic core execute 16 workflow definitions as synthetic JSON fixtures. Zod validates runtime contracts; separate tenant SQLite databases hold immutable sources, jobs/checkpoints, artifact references, blocked outbox entries, costs and a hash-chained audit ledger. Real research/content generation, media rendering, OAuth, live analytics and publication remain later-phase work. The specification is `docs/MASTER_EXECUTION_PROMPT_V2.md`; gates are in `docs/PHASED_EXECUTION.md`.
+The local CLI supports authorized-file source cards, expiry, evidence-aware strategy/ICP/calendar/brief generation and three curated, licensed reference skills. Separate tenant SQLite stores preserve immutable sources and audit history. The workflow engine still executes its 16 definitions as synthetic JSON fixtures; media rendering, OAuth, live analytics and publication remain later-phase work. The specification is `docs/MASTER_EXECUTION_PROMPT_V2.md`; gates are in `docs/PHASED_EXECUTION.md`.
 
 **Brand tenants:** `retropick` (@RetroPickMarket) and `founder` (@iHateModelsss). **No external side effects by default.**
 
@@ -32,17 +32,19 @@ Runs create `runtime/state/<tenant>/gtm.sqlite` and `runtime/artifacts/<tenant>/
 
 ## Verification
 
+Phase C usage, source input schema, licenses and limitations: [implementation notes](docs/PHASE_C.md). Review the [RetroPick plan](output/sample-plans/phase-c-retropick.md), [founder plan](output/sample-plans/phase-c-founder.md), [RetroPick calendar](output/sample-calendars/phase-c-retropick.md) and [founder calendar](output/sample-calendars/phase-c-founder.md). These are hypotheses with missing topic proof, NOT APPROVED public copy. Shipped source examples expire; live commands enforce actual time.
+
 ```bash
 python3 scripts/validate_scaffold.py
 python3 scripts/validate_scaffold.py --json
 python3 -m unittest discover -s tests -v
 python3 scripts/security_audit.py --json
 pnpm check
-python3 scripts/verify_phase_b.py
+python3 scripts/verify_phase_c.py
 ```
 
-Phase B verification builds/tests, performs local CLI demonstrations, verifies artifact hashes, and records separate B evidence in `docs/evidence/`. It makes no provider calls or installs. A receipts remain historical snapshots; do not overwrite them merely to verify B. Security requires existing Gitleaks/Semgrep and uses local rules. `lint` is strict TypeScript compiler checking, not an ESLint/style audit.
+Phase C verification builds/tests, exercises compiled CLI commands, checks byte-identical sample replay and records C evidence in `docs/evidence/`. It makes no provider calls or installs. A/B receipts remain historical snapshots. Security requires existing Gitleaks/Semgrep and uses local rules. `lint` is strict TypeScript compiler checking, not an ESLint/style audit.
 
 Validator options: `--root PATH` audits isolated fixtures; `--json` emits redacted findings. Exit codes: 0 pass, 2 argument error, 4 missing tool/dependency, 5 validation failure. Passing Phase A does not prove runtime tenant isolation or publishing safety.
 
-See `docs/PHASE_B.md`, `docs/PHASE_B_QA.md`, `docs/TOOLS_MATRIX.md`, and `docs/SECURITY.md`. Beads issue `gtm-fff` tracks this slice; no remote/hooks are configured. No live account identity, product claim, official palette, media asset or provider capability is verified by this setup.
+See `docs/PHASE_C_QA.md`, `docs/PHASE_B.md`, `docs/TOOLS_MATRIX.md`, and `docs/SECURITY.md`. Beads issue `gtm-7qs` tracks this slice; no remote/hooks are configured. No live account identity, product claim, official palette, media asset or provider capability is verified by this setup.

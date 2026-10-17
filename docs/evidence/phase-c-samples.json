@@ -1,0 +1,87 @@
+{
+  "revision": "phase-c-r1",
+  "evaluatedAt": "2026-10-17T14:14:25.469Z",
+  "reproducible": true,
+  "files": [
+    {
+      "path": "research/inbox/retropick/voice.json",
+      "sha256": "d0a8edc3c14464020775a149d9cfd500436d429599f282bad7d9cba69f88f180"
+    },
+    {
+      "path": "research/inbox/retropick/positioning.json",
+      "sha256": "7f5497ff78f18c07f00633b53680ed8cf189203fda7702ab09a426d00943cac9"
+    },
+    {
+      "path": "research/inbox/retropick/messaging.json",
+      "sha256": "8972c99ffb3b8a72fce732f3f679bf89a7ff7d8c1eed60a64c653a07fd7bbe20"
+    },
+    {
+      "path": "output/sample-plans/phase-c-retropick.json",
+      "sha256": "d876a1fc8bb641e26bfded436b49d787c4da7fb0e72d02775ac2b94465eb9179"
+    },
+    {
+      "path": "output/sample-plans/phase-c-retropick-brief.json",
+      "sha256": "d574dbe0686233372bfe2a65363d7e2874f07a0c477e55a021c19ea5533cd06d"
+    },
+    {
+      "path": "output/sample-plans/phase-c-retropick-icp.json",
+      "sha256": "4e41c4038543f70f83bdef682a4b95011f28f40ea773ea5592ef5c6d1a2264d4"
+    },
+    {
+      "path": "output/sample-calendars/phase-c-retropick.json",
+      "sha256": "5c4f0d1e92b3a8f967879455846851a631b09632718e7ba05ad216831b5a77cb"
+    },
+    {
+      "path": "docs/evidence/phase-c-retropick-sources.json",
+      "sha256": "bfd533aa79f11f553eec34a1c531ac34075af4dc636c0ffb2f62e8474f3997c9"
+    },
+    {
+      "path": "output/sample-plans/phase-c-retropick.md",
+      "sha256": "3c7e4fbe6ca9004c778febacffa54178bbe49d0d3bbfe8492639beb4685373ea"
+    },
+    {
+      "path": "output/sample-calendars/phase-c-retropick.md",
+      "sha256": "ef5928481100aaaed0f30c773fe9995226d29b5923f3e4c35e581f85bff7e85d"
+    },
+    {
+      "path": "research/inbox/founder/voice.json",
+      "sha256": "015b906ccf568cfbe4038ba0469b0729399709453850de6d20c86af58e9427c9"
+    },
+    {
+      "path": "research/inbox/founder/positioning.json",
+      "sha256": "c9cc4c6798f251da1a7d8829d6abc710ef50437fefc7d1afd06ac0f9cb2d33d7"
+    },
+    {
+      "path": "research/inbox/founder/messaging.json",
+      "sha256": "cc197be282105d030725b87f8c852783becd298d7523dee9d75961e72ea6800e"
+    },
+    {
+      "path": "output/sample-plans/phase-c-founder.json",
+      "sha256": "917d1d58e481ee25750af55d787f8495f7277f459345d6036e4e2f057f880f60"
+    },
+    {
+      "path": "output/sample-plans/phase-c-founder-brief.json",
+      "sha256": "9cfd82cf9991b8f9849d8ec79724eb2ff2b7addf8d506d10b00e410825c7d407"
+    },
+    {
+      "path": "output/sample-plans/phase-c-founder-icp.json",
+      "sha256": "1c0a6d211fb5e5af78bbf91dbc1034488d93eb12b391fd1c5f6f5d6a13908b01"
+    },
+    {
+      "path": "output/sample-calendars/phase-c-founder.json",
+      "sha256": "b46f1f967d60bcc47216d86a67de61d3e7214f3d94471154c1074a617fcffd55"
+    },
+    {
+      "path": "docs/evidence/phase-c-founder-sources.json",
+      "sha256": "601bf4ad6410f8b348d0dc40e9efae763f7b03e6cd4fd29abd00ec59d65ccb42"
+    },
+    {
+      "path": "output/sample-plans/phase-c-founder.md",
+      "sha256": "aaf1da51eb8ea37b3161fa8010e1449462bf5a37cdec4883c42436d3160bb528"
+    },
+    {
+      "path": "output/sample-calendars/phase-c-founder.md",
+      "sha256": "e0a5d24b8c0aac01108f03f4a718b6532a61b62e941968d926f6f01ce6413852"
+    }
+  ]
+}

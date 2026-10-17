@@ -34,3 +34,11 @@ Unfetched links above remain candidates, not verified support for product featur
 - Existing MCP SDK corpus https://github.com/modelcontextprotocol/typescript-sdk, local commit 9bc40e903fde15534ec06ff4c1347d47000dbe16: util/schema.ts:27–31 shows safeParse at a typed boundary; no copied code.
 - Public npm registry metadata was read for the exact selected dependencies. No authenticated provider or online audit request was made; install lifecycle scripts were disabled. evidence/phase-b-dependencies.json records local metadata/integrity limits.
 - Whole-project XERJ refresh failed on a retained document's inferred-family change. Fresh scoped Python and better-sqlite3 library indexes succeeded with zero skipped code. This is a bounded source-retrieval limitation, not a complete-index success claim.
+
+## Phase C sources actually inspected
+
+- [Marketing Skills pinned tree](https://github.com/coreyhaines31/marketingskills/tree/365b412152b9542499ca1439426f7fc3cc92bb65), fetched 2026-10-17: tracked skill/script/manifest names, selected content-strategy 2.1.3 and MIT notice. Upstream metrics are not brand evidence.
+- [Social Media Skills pinned tree](https://github.com/social-media-skills/skills/tree/f28cef2b7067ec64e79c9d85421c022c06659e03), fetched 2026-10-17: calendar/thread bodies 1.0.0, MIT notice, x-growth exclusions, actual names and script/plugin inventories.
+- [Composio GTM Skills pinned tree](https://github.com/composio-community/awesome-gtm-skills/tree/8c5f5794eb06dad32cc46811677142fbc8a15f4f), fetched 2026-10-17: README licensing assertion, actual skill names, ICP/positioning examples and provider/dependency signals. No full license notice; no content copied.
+- Selected tenant VOICE/POSITIONING/MESSAGING bytes: research/inbox files and phase-c-*-sources.json contain exact revisions, observation/expiry and local-use permission. These support governance constraints only. Product URLs and personal profiles remain candidates; no product/founder fact is invented from their names.
+- XERJ scoped package index/search located SourceSchema and TenantStore.putSource; thread-reference structured search failed, so architecture.md:17 was read directly for the outline principle. No upstream runtime code copied; sample method references preserve MIT notices.

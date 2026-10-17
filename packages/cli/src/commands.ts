@@ -10,8 +10,10 @@ import { GtmError, publicError, redact } from '../../observability/src/index.js'
 import { denyExternalAction } from '../../policy/src/index.js';
 import { HANDLES, TENANTS, TenantSchema, type Tenant } from '../../schemas/src/index.js';
 import { TenantStore } from '../../storage/src/index.js';
+import { auditReferences, ingestSource, researchReport, saveResearchOutput } from '../../research/src/index.js';
+import { contentBrief, contentCalendar, icpHypothesis, strategyPlan } from '../../strategy/src/index.js';
 
-const HELP = `GTM OS 0.2.0 — Phase B local/offline CLI
+const HELP = `GTM OS 0.2.0 — Phase C local/offline CLI
 
 Working commands:
   gtm doctor [--json]
@@ -22,13 +24,21 @@ Working commands:
   gtm claims audit --brand TENANT
   gtm costs report [--brand TENANT]
   gtm audit trace --brand TENANT --job JOB_ID
+  gtm research ingest --brand TENANT --source research/inbox/TENANT/FILE.json --offline
+  gtm research daily|sources --brand TENANT --offline
+  gtm strategy icp --brand TENANT
+  gtm strategy plan --brand TENANT --days 30 [--from YYYY-MM-DD]
+  gtm campaign plan --brand TENANT --days 30 [--from YYYY-MM-DD]
+  gtm content calendar --brand TENANT --days 14 [--from YYYY-MM-DD]
+  gtm content brief --brand TENANT --topic TOPIC [--source SOURCE_ID]
   gtm x auth status --brand TENANT  (BLOCKED; no authentication probe)
 
 All commands support --json. --root PATH selects an explicit local workspace.
 Workflow artifacts are SYNTHETIC JSON contract fixtures, not completed marketing/media.
 Publication, scheduling, outreach and paid calls always fail closed. No command authorizes a write.
-Research/strategy/campaign/content/design/video/analytics/experiments/assets/benchmark
-commands are explicit later-phase blocked boundaries. Use --help with any command.
+Research uses authorized inbox files only; generated plans are hypotheses pending topic proof.
+Other campaign/content/design/video/analytics/experiments/assets/benchmark commands
+are explicit later-phase blocked boundaries. Use --help with any command.
 Exit: 0 local success; 2 invalid input; 3 permission denied; 4 capability unavailable;
       5 validation failed; 6 execution failed. --version reports this local CLI version.`;
 
@@ -92,7 +102,8 @@ function doctor(root: string) {
   return { readyForPhaseBOffline: true, node: process.version, sqlite: sqlite.version,
     skills: skills.length, workflows: workflows.length, brands, stores,
     integrations: integrationCatalog(), liveProviders: 'BLOCKED_NOT_CONNECTED',
-    missingComponents: ['Real source ingestion/strategy: Phase C', 'Real graphics/video: Phase D',
+    researchStrategy: { status: 'LOCAL_IMPLEMENTED', sourceRetrieval: 'AUTHORIZED_FILES_ONLY', liveFacts: 'NOT_ESTABLISHED' },
+    missingComponents: ['Real graphics/video: Phase D',
       'OAuth, signed owner approvals, live distribution and analytics: Phase E', 'Full campaign simulations: Phase F'],
     policy: { publishEnabled: false, externalWrites: false, paidApiEnabled: false, xMonthlyCapUsd: 0 },
     modelRouting: 'NOT_INVOKED', benchmarkSavings: 'NOT_MEASURED' };
@@ -120,7 +131,7 @@ export function main(argv: string[], defaultRoot: string): number {
       .filter(entry => entry.isDirectory()).map(entry => ({ id: entry.name, path: `agents/roles/${entry.name}/ROLE.md`, runtimeAgent: false })).sort((a, b) => a.id.localeCompare(b.id));
     else if (key === 'workflow list') data = listWorkflows(root).map(w => ({ id: w.definition.id, owner: w.definition.owner,
       description: w.definition.description, stages: w.definition.stages.length, definitionSha256: w.sha256, execution: 'OFFLINE_SYNTHETIC' }));
-    else if (key === 'install audit') data = { upstreamSkills: readStructured(root, '.agents/vendor/manifest.lock.yaml'),
+    else if (key === 'install audit') data = { upstreamSkills: auditReferences(root),
       projectDependencies: parseWith(z.object({ dependencies: z.record(z.string(), z.string()), devDependencies: z.record(z.string(), z.string()) }),
         readStructured(root, 'package.json'), 'project package manifest'), activatedProviderConnections: 0, note: 'Local inventory only; no registry or dependency audit request was made.' };
     else if (key === 'brand show' || key === 'brand validate') {
@@ -156,6 +167,35 @@ export function main(argv: string[], defaultRoot: string): number {
       if (!audit.valid) throw new GtmError('AUDIT_INVALID', 'Audit chain verification failed');
       data = { tenant, job, audit, events: store.audit().filter(e => e.jobId === jobId), sourceIds: job.sourceIds,
         sources: job.sourceIds.map(id => store.getSource(id)), artifacts: store.artifacts(jobId), outbox: store.outbox(jobId) };
+    } else if (['research ingest', 'research daily', 'research sources'].includes(key)) {
+      const tenant = selected(values);
+      if (!values.offline) throw new GtmError('OFFLINE_REQUIRED', 'Research requires explicit --offline; runtime URL retrieval is unavailable', 3);
+      if (words.length !== 2) throw new GtmError('INVALID_ARGUMENTS', 'Unexpected research arguments', 2);
+      if (key === 'research ingest') {
+        if (!values.source) throw new GtmError('SOURCE_REQUIRED', 'Provide --source with a selected tenant inbox JSON path', 2);
+        const result = ingestSource(root, tenant, values.source);
+        data = { tenant, sourceId: result.source.id, contentSha256: result.source.contentSha256,
+          verification: result.card.verification, evidenceScope: result.card.evidenceScope, publicationAuthorized: false };
+      } else {
+        data = researchReport(root, tenant);
+        status = (data as ReturnType<typeof researchReport>).cards.length ? 'PASS' : 'NO_DATA';
+      }
+    } else if (['strategy icp', 'strategy plan', 'campaign plan', 'content calendar', 'content brief'].includes(key)) {
+      const tenant = selected(values);
+      if (words.length !== 2) throw new GtmError('INVALID_ARGUMENTS', 'Unexpected planning arguments', 2);
+      const days = values.days === undefined ? undefined : Number(values.days);
+      if (days !== undefined && !Number.isSafeInteger(days)) throw new GtmError('INVALID_DAYS', '--days must be an integer', 2);
+      const options = { ...(days === undefined ? {} : { days }), ...(values.from ? { start: values.from } : {}) };
+      let document: unknown;
+      if (key === 'content calendar') document = contentCalendar(root, tenant, options);
+      else if (key === 'strategy plan' || key === 'campaign plan') document = strategyPlan(root, tenant, options);
+      else if (key === 'strategy icp') document = icpHypothesis(root, tenant);
+      else {
+        if (!values.topic) throw new GtmError('TOPIC_REQUIRED', 'Provide --topic for a content brief', 2);
+        document = contentBrief(root, tenant, values.topic, values.source);
+      }
+      data = saveResearchOutput(root, tenant, key.replace(' ', '-'), document);
+      status = 'LOCAL_DRAFT_REQUIRES_REVIEW';
     } else if (words.join(' ') === 'x auth status') {
       const tenant = selected(values); const identity = unavailableAdapter('x-official').identity(tenant);
       emit(json, 'BLOCKED', { identity, reason: 'No authenticated connection; no credential file or identity endpoint was inspected.' }); return 4;

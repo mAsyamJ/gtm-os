@@ -12,7 +12,15 @@ coverage/
 *.wav
 *.mov
 *.webm
-output/
+output/*
+!output/sample-plans/
+!output/sample-calendars/
+output/sample-plans/*
+output/sample-calendars/*
+!output/sample-plans/phase-c-*.json
+!output/sample-plans/phase-c-*.md
+!output/sample-calendars/phase-c-*.json
+!output/sample-calendars/phase-c-*.md
 
 # Beads / Dolt files (added by bd init)
 .dolt/

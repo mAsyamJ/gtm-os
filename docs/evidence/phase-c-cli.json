@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "args": [
+        "doctor"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "19f1aab4da4ce0681941d4fcd276166e2e6acab2e3928473b8e2d661b48ffaeb"
+    },
+    {
+      "args": [
+        "install",
+        "audit"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "d0dc6ef7bd830d2231937c2e261abf6934dd0c2b0c4777b5523d7fd5bd12a113"
+    },
+    {
+      "args": [
+        "skills",
+        "list"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "b5c3814781bcf2dabec82b12aeaffa8b9114b4ed3c1009fe213eddaf6970036a"
+    },
+    {
+      "args": [
+        "research",
+        "ingest",
+        "--brand",
+        "retropick",
+        "--source",
+        "research/inbox/retropick/voice.json",
+        "--offline"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "1d7d5ae60dea79d4b5230c4b9d98decd2d2592aea09058bb950bfb6348934b8d"
+    },
+    {
+      "args": [
+        "research",
+        "daily",
+        "--brand",
+        "retropick",
+        "--offline"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "7991770f727a0143d324d0fa4225ed437dcca236e215bef845d6907d41ad7525"
+    },
+    {
+      "args": [
+        "strategy",
+        "icp",
+        "--brand",
+        "retropick"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "9b9ce0f9de80d9fd0e8154ee386f8530296116c5ef37f1f4000d22a204ad8955"
+    },
+    {
+      "args": [
+        "campaign",
+        "plan",
+        "--brand",
+        "retropick",
+        "--days",
+        "30"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "cd1f578db55149df0976ce8d71dde189ac3dcfa2d61b61b11e798319ec538007"
+    },
+    {
+      "args": [
+        "content",
+        "calendar",
+        "--brand",
+        "retropick",
+        "--days",
+        "14"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "8572dff2c2775aaef88fcda641de87ba7eabcbb932f6b9bdacb067caee343fb2"
+    },
+    {
+      "args": [
+        "content",
+        "brief",
+        "--brand",
+        "retropick",
+        "--topic",
+        "Inspect one source-aware example"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "8e0b45127cba212e8619d6f5fd298ae7f2c97b6accf7f957de97e68c11c6b6fe"
+    },
+    {
+      "args": [
+        "publish",
+        "run",
+        "--brand",
+        "retropick"
+      ],
+      "exit": 3,
+      "expected_exit": 3,
+      "status": "BLOCKED",
+      "output_sha256": "d20bed777c3961d1648ddb5ba4ecba1ace2e64277eb6949856b5c402642a0aed"
+    },
+    {
+      "args": [
+        "x",
+        "auth",
+        "status",
+        "--brand",
+        "retropick"
+      ],
+      "exit": 4,
+      "expected_exit": 4,
+      "status": "BLOCKED",
+      "output_sha256": "29b82676ead728d4e4bdc9e7b4ef534a0b7e8f91c857527c5c0b11ff7c5a40e0"
+    },
+    {
+      "args": [
+        "research",
+        "ingest",
+        "--brand",
+        "founder",
+        "--source",
+        "research/inbox/founder/voice.json",
+        "--offline"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "46a167bbdec83bb36dcdf8e195b9f0890962b3427857c84d0a30e594f4845331"
+    },
+    {
+      "args": [
+        "research",
+        "daily",
+        "--brand",
+        "founder",
+        "--offline"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "PASS",
+      "output_sha256": "6e7d8a87ab159b906ceb1b267b76b22c1bc2463fdff1d2eb005a8bbbdd18e69f"
+    },
+    {
+      "args": [
+        "strategy",
+        "icp",
+        "--brand",
+        "founder"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "2e0aedb8d5524a36641bf29d571b87641b11782c5bf798563faec5355d94f21f"
+    },
+    {
+      "args": [
+        "campaign",
+        "plan",
+        "--brand",
+        "founder",
+        "--days",
+        "30"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "1011cbeebfb8d17f20f34b0666bb252e588a056ccb5a4a54923f6d5c336eecf9"
+    },
+    {
+      "args": [
+        "content",
+        "calendar",
+        "--brand",
+        "founder",
+        "--days",
+        "14"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "3b71fbc379ba9ed6e426dc05877f1e91296f0d543a1710bdb1788dbf4b7a6e43"
+    },
+    {
+      "args": [
+        "content",
+        "brief",
+        "--brand",
+        "founder",
+        "--topic",
+        "Inspect one source-aware example"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "status": "LOCAL_DRAFT_REQUIRES_REVIEW",
+      "output_sha256": "60923ba3001443b471b35884ab860fb84515af71399193b3f9ba57481f38e0b7"
+    },
+    {
+      "args": [
+        "publish",
+        "run",
+        "--brand",
+        "founder"
+      ],
+      "exit": 3,
+      "expected_exit": 3,
+      "status": "BLOCKED",
+      "output_sha256": "d20bed777c3961d1648ddb5ba4ecba1ace2e64277eb6949856b5c402642a0aed"
+    },
+    {
+      "args": [
+        "x",
+        "auth",
+        "status",
+        "--brand",
+        "founder"
+      ],
+      "exit": 4,
+      "expected_exit": 4,
+      "status": "BLOCKED",
+      "output_sha256": "8adeb2993cea76aff970607dbc344e8cc652ede533ee3f0e467b0e9aa0cf3037"
+    },
+    {
+      "args": [
+        "content",
+        "calendar"
+      ],
+      "exit": 2,
+      "expected_exit": 2,
+      "status": "FAIL",
+      "output_sha256": "8aeddbe219bea95aa1eb2c9d6077c89388fd64ef33e748f130f0b4cc5e1cd9d2"
+    },
+    {
+      "args": [
+        "research",
+        "daily",
+        "--brand",
+        "founder"
+      ],
+      "exit": 3,
+      "expected_exit": 3,
+      "status": "BLOCKED",
+      "output_sha256": "f7deef3b0317e53f7d0573938385ebdac151e8c6e63c719d3900c2b076df4f88"
+    },
+    {
+      "args": [
+        "content",
+        "calendar",
+        "--brand",
+        "founder",
+        "--days",
+        "0"
+      ],
+      "exit": 2,
+      "expected_exit": 2,
+      "status": "FAIL",
+      "output_sha256": "63f34dda3d560f223fcae94aff57a75e41cb0661f17c116f2ae7e4b4d17c8515"
+    }
+  ],
+  "provider_calls": 0
+}

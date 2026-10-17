@@ -23,7 +23,7 @@ Hashes identify local bytes, not publisher signatures. Full distribution/license
 
 ## Deferred candidates
 
-Marketing Skills, Social Media Skills and Awesome GTM Skills remain AVAILABLE_LATER / UNAUDITED. No upstream commit, license or installation was invented. The unchanged .agents/vendor/manifest.lock.yaml has an empty installed-and-verified list. Phase C must inspect actual names, provenance, scripts, licenses and scoped triggers.
+At the Phase A snapshot, Marketing Skills, Social Media Skills and Awesome GTM Skills were AVAILABLE_LATER / UNAUDITED. The Phase C audit below supersedes that status; historical A receipts remain unchanged.
 
 Satori/Sharp/Lucide, Playwright, Motion Canvas and optional video-shotcraft remain planned project capabilities. No render or media-license success is claimed. X official APIs/MCP/xurl are BLOCKED_AUTH for this project; pricing/scopes are unverified and paid ceiling is zero. Postiz, Buffer, Activepieces, analytics services and optional AI media tools remain disabled candidates requiring later checks.
 
@@ -37,3 +37,7 @@ Revision: phase-b-r1. The owner subsequently authorized Phase B. Project depende
 The SQLite archive's SHA512 matched registry integrity; the official source package has no install hook and includes the Linux native binary. A real in-memory round trip passed. The installed tree has 44 packages, zero install lifecycle hooks, and metadata declaring MIT, ISC, BSD-3-Clause, Apache-2.0 or MPL-2.0. See evidence/phase-b-dependencies.json for every installed package, integrity, manifest/native hashes and limits; this is not a complete vulnerability/legal audit.
 
 The working runtime/CLI and mock boundaries are verified by PHASE_B_QA.md, not by the older version-only probes above. All actual provider connections, renderers and analytics remain blocked/unimplemented. No upstream skill installation or plugin activation occurred.
+
+## Phase C curated references
+
+Three inert MIT bodies are INSTALLED_VERIFIED_REFERENCE_ONLY: marketingskills content-strategy 2.1.3 at 365b412152b9542499ca1439426f7fc3cc92bb65; social-media-skills content-calendar/thread-writer 1.0.0 at f28cef2b7067ec64e79c9d85421c022c06659e03. Exact body/license hashes, scoped triggers and excluded dependencies are in .agents/vendor/manifest.lock.yaml; actual-name/script/plugin inventories are in evidence/phase-c-upstream.json. No executable code, hook, sibling skill, WoopSocial or global configuration is activated. Composio snapshot 8c5f5794eb06dad32cc46811677142fbc8a15f4f is BLOCKED_LICENSE (README MIT assertion without full notice); x-growth is REJECTED for unsupported algorithm multipliers and paid assumptions. Existing B dependency pins remain unchanged. Local evidence-aware research/planning passes PHASE_C_QA.md; live retrieval and public facts are not established.

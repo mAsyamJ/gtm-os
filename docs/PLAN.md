@@ -1,6 +1,6 @@
 # Phased implementation contract
 
-Revision: phase-b-r1. Audience: owner/local implementers. Inputs: MASTER_EXECUTION_PROMPT_V2.md and PHASED_EXECUTION.md. Owner approved Phase A and subsequently requested Phase B implementation. Beads is the durable task tracker; this document defines gates, not a parallel backlog. No external assets used or public action authorized.
+Revision: phase-c-r1. Audience: owner/local implementers. Inputs: MASTER_EXECUTION_PROMPT_V2.md and PHASED_EXECUTION.md. Owner approved A/B and requested the next phase. C implements curated references and authorized-file research/strategy; D–F remain. Beads is the durable task tracker; this document defines gates, not a parallel backlog. No external assets used or public action authorized.
 
 | Phase | Deliverable/dependency | Acceptance gate |
 |---|---|---|

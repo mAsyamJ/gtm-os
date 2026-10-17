@@ -10,6 +10,6 @@
 
 **Validation:** From root run `pnpm check`; use `python3 scripts/validate_scaffold.py` for governance. Require tenant, traceability, recovery/idempotency, redaction and publication-denial regressions.
 
-**Owner and approval:** Owner retains exact-action authority. Phase B authorizes local implementation and scoped dependencies only; disabled flags stay disabled.
+**Owner and approval:** Owner retains exact-action authority. The requested phases authorize the local core and Phase C authorized-file research/strategy implementation; disabled flags stay disabled. No live retrieval or public claim verification is implied.
 
 **Handoff:** Return typed artifacts, hashes and test receipts to QA/owner; missing live integrations remain BLOCKED. No agent can self-authorize an external action.

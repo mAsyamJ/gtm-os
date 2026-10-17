@@ -1,0 +1,17 @@
+{
+  "id": "retropick-messaging-89882231-47af4c01",
+  "tenant": "retropick",
+  "uri": "project:///brands/retropick/MESSAGING.md",
+  "revision": "898822316a5d98723183e9f0f1d6fd88fe40d41a4edc0b67291faf0e10ea6af0",
+  "text": "# retropick message house\n\nPrimary idea: Onchain market / token launchpad (capabilities require live code/UI verification).\n\nPillars: product walkthroughs, market mechanics with risk explanation, verified feature shipping, builder ecosystem, creator education.\n\nFor each content item provide one audience, problem, proof, differentiated insight, next logical action, risk/limitation and success measure. Never use implied verified traction without proof.\n",
+  "contentSha256": "898822316a5d98723183e9f0f1d6fd88fe40d41a4edc0b67291faf0e10ea6af0",
+  "observedAt": "2026-10-17T14:14:25.469Z",
+  "expiresAt": "2026-10-24T14:14:25.469Z",
+  "title": "retropick MESSAGING.md editorial contract",
+  "author": "Project owner contracts",
+  "contentTimestamp": null,
+  "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+  "permission": "PROJECT_LOCAL",
+  "permissionBasis": "Owner authorized local Phase C implementation and reviewable plans",
+  "license": "OWNER_PROJECT_LOCAL_ONLY"
+}
