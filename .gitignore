@@ -19,3 +19,8 @@ output/
 .beads-credential-key
 .beads/proxieddb/
 *.gate.lock*
+
+# Local validation and preserved Windows download metadata
+__pycache__/
+*.pyc
+*:Zone.Identifier

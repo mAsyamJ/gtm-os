@@ -1,0 +1,34 @@
+{
+  "command": [
+    "python3",
+    "scripts/security_audit.py",
+    "--json"
+  ],
+  "exit": 0,
+  "elapsed_seconds": 3.721,
+  "result": {
+    "scope": "phase-a-allowlisted-sources",
+    "files": 187,
+    "checks": [
+      {
+        "tool": "gitleaks",
+        "status": "PASS",
+        "findings": 0,
+        "exit": 0
+      },
+      {
+        "tool": "semgrep",
+        "status": "PASS",
+        "findings": 0,
+        "exit": 0,
+        "files_scanned": 5,
+        "scanner_errors": 0
+      }
+    ],
+    "limitations": [
+      "No credential stores, runtime logs, Git history, or Beads data scanned.",
+      "Semgrep uses local rules only; this is not a full dependency audit."
+    ],
+    "status": "PASS"
+  }
+}

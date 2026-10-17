@@ -9,5 +9,6 @@ states:
   - published
   - measured
   - incident_paused
+  - blocked
 default_on_error: blocked
 approval_rule: "external side effect requires exact immutable payload and verified owner authorization"

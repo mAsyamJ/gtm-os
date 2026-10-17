@@ -28,4 +28,6 @@ For every deliverable include inputs, evidence refs, revision, intended audience
 
 ## Local validation
 
-`python3 scripts/validate_scaffold.py` validates this source scaffold. Full runtime build/tests are subsequently required by the master prompt. If a more specific nested AGENTS.md applies, it augments but cannot relax this file.
+`python3 scripts/validate_scaffold.py` validates Phase A governance/schema contracts; use `--json` for redacted findings or `--root PATH` for isolated fixtures. Run `python3 -m unittest discover -s tests -v` and `python3 scripts/security_audit.py --json`; `python3 scripts/verify_phase_a.py` records all checks and source hashes. Missing tools/dependencies are BLOCKED. Full runtime build/tests are still required by the master prompt. If a more specific nested AGENTS.md applies, it augments but cannot relax this file.
+
+Beads is the durable local task tracker. Use `bd` for issues; no markdown task lists or ad hoc memory files. No hooks or remotes were configured in Phase A. See docs/SECURITY.md for the scoped threat model and docs/QA_REPORT.md for honest acceptance evidence.

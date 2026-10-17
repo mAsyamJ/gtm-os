@@ -11,21 +11,25 @@ inputs:
   - "approved local task request"
 stages:
   - id: step_1
+    tool: manual
     skill: claim-verification
     input: "validated output of prior step, tenant source cards and config"
     output: "claim-verification validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_2
+    tool: manual
     skill: security-compliance
     input: "validated output of prior step, tenant source cards and config"
     output: "security-compliance validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_3
+    tool: manual
     skill: release-qa
     input: "validated output of prior step, tenant source cards and config"
     output: "release-qa validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_4
+    tool: manual
     skill: social-publishing
     input: "validated output of prior step, tenant source cards and config"
     output: "social-publishing validated artifact"

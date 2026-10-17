@@ -1,0 +1,25 @@
+rules:
+  - id: phase-a-unsafe-yaml
+    languages: [python]
+    severity: ERROR
+    message: Governance must use a reviewed SafeLoader and reject aliases.
+    pattern-either:
+      - pattern: yaml.unsafe_load(...)
+      - pattern: yaml.load($INPUT)
+  - id: phase-a-shell-execution
+    languages: [python]
+    severity: ERROR
+    message: Use fixed argv without a shell for local audit commands.
+    pattern-either:
+      - pattern: subprocess.run(..., shell=True, ...)
+      - pattern: subprocess.Popen(..., shell=True, ...)
+      - pattern: os.system(...)
+  - id: phase-a-outbound-client
+    languages: [python]
+    severity: ERROR
+    message: Governance scripts must remain offline; network providers belong to later adapters.
+    pattern-either:
+      - pattern: import requests
+      - pattern: import httpx
+      - pattern: import urllib.request
+      - pattern: from urllib import request

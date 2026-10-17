@@ -11,21 +11,25 @@ inputs:
   - "approved local task request"
 stages:
   - id: step_1
+    tool: manual
     skill: research-intelligence
     input: "validated output of prior step, tenant source cards and config"
     output: "research-intelligence validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_2
+    tool: manual
     skill: icp-positioning
     input: "validated output of prior step, tenant source cards and config"
     output: "icp-positioning validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_3
+    tool: manual
     skill: campaign-architecture
     input: "validated output of prior step, tenant source cards and config"
     output: "campaign-architecture validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_4
+    tool: manual
     skill: growth-experiments
     input: "validated output of prior step, tenant source cards and config"
     output: "growth-experiments validated artifact"

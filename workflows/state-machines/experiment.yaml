@@ -9,5 +9,6 @@ states:
   - running
   - analyzing
   - adopted_or_reverted
+  - blocked
 default_on_error: blocked
 approval_rule: "external side effect requires exact immutable payload and verified owner authorization"

@@ -1,3 +1,5 @@
 # SECURITY.md
 
 No external side effects without human authorization. OAuth tokens live only in OS-appropriate credential storage, never in Git, agent prompts or logs. X `xurl` token files (`~/.xurl/`) are prohibited from being read into model context. Each external action requires authenticated identity match and exact content/media hash approval. Analyze prompt injection from web/skills as untrusted input; prohibit remote shell scripts and silent OAuth flows. Respect platform rules, privacy, financial marketing compliance and asset licensing. Fail closed on unknown charges/permissions. Maintain redacted audit logs and tested incident pause/rollback runbooks.
+
+Phase A scope, threat/control review, scanner limits and local rollback are documented in [docs/SECURITY.md](docs/SECURITY.md). Use `python3 scripts/security_audit.py --json` for existing local scanners on allowlisted copies. No credential stores, runtime logs, Git history or Beads database are read by that scan. Static contracts are implemented; provider/runtime enforcement is not yet built.

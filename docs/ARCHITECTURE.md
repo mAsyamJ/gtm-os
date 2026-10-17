@@ -16,4 +16,20 @@ External website/skill = untrusted source; output must pass evidence and injecti
 
 ## Execution note
 
-No runtime packages or integrations exist in this scaffold. Codex must implement, test and evidence them. See master prompt.
+Phase A implements Python governance validation and local evidence tooling. No GTM runtime packages or integrations exist yet. The runtime below is a Phase B–F target, not an installed service.
+
+```mermaid
+flowchart LR
+  Owner[Human owner] --> Operator[Codex operator]
+  Operator --> Contracts[Scoped instructions and brand evidence]
+  Contracts --> Validation[Implemented Python schema and policy checks]
+  Validation --> Receipts[Local QA and provenance receipts]
+  Operator -. Phase B .-> Engine[Typed jobs and workflow engine]
+  Engine -.-> Policy[Claims approval identity and cost gates]
+  Engine -.-> Storage[Separate tenant SQLite stores]
+  Policy -. Phase E .-> Adapters[Mock manual and disabled official adapters]
+```
+
+Implemented components: `scripts/validate_scaffold.py` owns parsing and declaration checks; `scripts/schemas/governance.json` owns Phase A contracts; fixture tests verify failure cases; audit/inventory scripts produce local evidence. Beads owns task tracking in separate embedded Dolt state. Codex operates these components on demand; there is no daemon or scheduled job.
+
+Planned runtime ownership: schemas define typed contracts; core owns transitions/checkpoints; storage owns transactional tenant repositories; policy owns claims/approval/spend vetoes; connectors own explicit capabilities/identity/cost/dry-run/audit boundaries. These boundaries must be tested before a runtime capability is reported as working. See ADRs 0001–0003 for accepted design decisions.

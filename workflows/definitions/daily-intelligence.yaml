@@ -2,7 +2,7 @@ id: daily-intelligence
 version: 1
 description: "read-only daily ecosystem and product shipping brief"
 trigger: "manual command or explicit authorized scheduler"
-owner: research-intelligence
+owner: market-researcher
 tenant: "REQUIRED_AT_RUNTIME"
 risk_tier: "LOW_READ_ONLY_UNTIL_ACTION_GATE"
 inputs:
@@ -11,16 +11,19 @@ inputs:
   - "approved local task request"
 stages:
   - id: step_1
+    tool: manual
     skill: research-intelligence
     input: "validated output of prior step, tenant source cards and config"
     output: "research-intelligence validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_2
+    tool: manual
     skill: claim-verification
     input: "validated output of prior step, tenant source cards and config"
     output: "claim-verification validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_3
+    tool: manual
     skill: weekly-founder-brief
     input: "validated output of prior step, tenant source cards and config"
     output: "weekly-founder-brief validated artifact"

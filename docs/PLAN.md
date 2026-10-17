@@ -1,14 +1,18 @@
-# Implementation plan — Codex acceptance gates
+# Phased implementation contract
 
-**This ZIP is a documentation scaffold only.** Codex must inspect real on-machine repo and reconcile this scaffold before implementation.
+Revision: phase-a-r1. Audience: owner/local implementers. Inputs: MASTER_EXECUTION_PROMPT_V2.md and PHASED_EXECUTION.md. Owner selected and authorized Phase A only. Beads is the durable task tracker; this document defines gates, not a parallel backlog. No external assets used or public action authorized.
 
-- P0 Discovery: current tree + software + router, existing dirty Git, secrets NOT printed; assessment and tool matrix.
-- P1 Governance: root/nested AGENTS, skills, roles, claims schema, brand profiles; structural validator passes.
-- P2 Engine: typed schemas, SQLite tenancy, event/outbox + job state, CLI doctor/commands with tests.
-- P3 Creative: 3 real working SVG/PNG templates/tenant, 15–30 sec deterministic MP4 demo with editable source and QA.
-- P4 Distribution: mock/manual publishers, official OAuth adapter behind approval; no live writes on setup.
-- P5 Analytics: synthetic reporting and first-party event audit; no invented numbers.
-- P6 Workflows: two end-to-end offline dry-runs, checkpoint/resume, receipts, provenance, current tool/license audits.
-- P7 Optional scale: Postiz/Activepieces/ComfyUI/Penpot only after cost, authorization, license and resource gate.
+| Phase | Deliverable/dependency | Acceptance gate |
+|---|---|---|
+| A — governance | Reconcile scaffold, local tracking, tools/security assessment and validation | 29 unique skills, 16 workflow contracts, distinct tenants, zero-spend disabled defaults, regression/security checks |
+| B — deterministic core | After A: TypeScript/pnpm/Zod, separate tenant SQLite databases, jobs/audit ledger, CLI and mocks | Runtime isolation, traceability, idempotent transitions, working offline CLI, blocked external actions |
+| C — research/strategy | After B: source cards/expiry, evidence briefs and curated upstream references | Pinned commits/licenses/scripts, injection negatives, distinct sourced 30-day strategies and 14-day calendars |
+| D — creative | After B and source/asset contracts: editable graphics/video | Three templates per tenant, sized exports/QC, synthetic-labeled landscape/portrait promo with probe/license receipts |
+| E — distribution/analytics | After B: mock/manual boundaries and synthetic reporting | Identity/hash/approval/budget/reconciliation tests, event dedupe, disconnected live providers |
+| F — campaign simulations | After B–E: both tenant workflows offline | Real reproducible artifacts, paused approval, safe resume/replay and honest cost/QA receipt |
 
-**Fail conditions:** cross-tenant confusion, forged evidence, unapproved external post/charge, missing asset license, invalid claims, non-idempotent replays, fake pass receipts.
+Phase A preserves `python3 scripts/validate_scaffold.py`, adding `--root` for isolated fixture audits and `--json` for value-redacted findings. Exit codes: 0 pass, 2 invalid arguments, 4 missing validation/scanner dependency, 5 contract/security failure. Existing dependency versions are recorded in scripts/requirements-validation.txt; none were installed.
+
+Tenancy, approval and storage ADRs define Phase B decisions, not built components. Preserve global Codex/router settings and existing runners. No dashboard, plugin activation, upstream catalog install or live account setup belongs to Phase A. Future capability/flag changes must update schemas and tests deliberately.
+
+Evidence: ASSESSMENT.md, GOVERNANCE_REVIEW.md, TOOLS_MATRIX.md, SECURITY.md, QA_REPORT.md and evidence/. Reproduce checks before accepting a gate; missing evidence/tools/permissions remain BLOCKED. No false claims, tenant confusion, unapproved side effect or forged receipt is acceptable.

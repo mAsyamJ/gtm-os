@@ -1,0 +1,657 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".agents/AGENTS.md",
+      "sha256": "c645ad3fe70ec3c23841be0dd8a7d5101fbd2398efa04d52bef6b10806e9617d"
+    },
+    {
+      "path": ".agents/plugins/marketplace.example.json",
+      "sha256": "7b1eb423b71ea8cc4fb37be04d3404e2c2a78ae8b6b78876c2a78744a38aa3e8"
+    },
+    {
+      "path": ".agents/product-marketing-context.md",
+      "sha256": "6a743c5c7f920d9d1961b85646b186fbdafe77d761e99c3efb81b37dddcb37af"
+    },
+    {
+      "path": ".agents/skills/analytics-attribution/SKILL.md",
+      "sha256": "24a6012232a9a73ecd878846898e8b4138f9ff77cf45cf03ee0816cbb65ec201"
+    },
+    {
+      "path": ".agents/skills/brand-voice/SKILL.md",
+      "sha256": "5e2eb53a6614753e451347166023ca872de038b68ab2a7fa5f0cff8f6150b712"
+    },
+    {
+      "path": ".agents/skills/campaign-architecture/SKILL.md",
+      "sha256": "63bf548f055478023f47a0da3436dfe9ec9e1eee0c01e2500d9cf15fcecbe4a2"
+    },
+    {
+      "path": ".agents/skills/claim-verification/SKILL.md",
+      "sha256": "a69aaed3540256833a60c40ad3fd77aa0fa30fbfb957b7b0a35496162a9d03d0"
+    },
+    {
+      "path": ".agents/skills/community-engagement/SKILL.md",
+      "sha256": "ed43896bff670efd158790dfa1c45b82731453964e46c0b1c87a1792562e7580"
+    },
+    {
+      "path": ".agents/skills/content-repurposing/SKILL.md",
+      "sha256": "2cb72d1cc9b38ef240cd7353a5a9a20b5f997f981cdc81df13e54ded2873e23c"
+    },
+    {
+      "path": ".agents/skills/cost-optimization/SKILL.md",
+      "sha256": "d09eba7121461cccf4a3cd760632f03fe17cad7498364ac48f74c6e38a6b1d12"
+    },
+    {
+      "path": ".agents/skills/creator-distribution/SKILL.md",
+      "sha256": "988c6ac56403bd5390511cd49f8a9057b6938415b6de205b6ca56019acb39685"
+    },
+    {
+      "path": ".agents/skills/customer-discovery/SKILL.md",
+      "sha256": "0a75ee095ca425c120637ef1e197e7873ab449ee0c41541f9f9ac4370367c986"
+    },
+    {
+      "path": ".agents/skills/developer-relations/SKILL.md",
+      "sha256": "eea015e94ed0a36f75d70260fd412cea9cf59502ab0f3f67f13d64f717920bc7"
+    },
+    {
+      "path": ".agents/skills/founder-led-growth/SKILL.md",
+      "sha256": "79b5c384395d4d8c2eada207f04e08286435263667f77c66d5f90506c79fa927"
+    },
+    {
+      "path": ".agents/skills/graphic-design/SKILL.md",
+      "sha256": "a5d5919beca5c8ba359e7d05b66b1c75c35e22c7585b52b231f9d925aac81129"
+    },
+    {
+      "path": ".agents/skills/growth-experiments/SKILL.md",
+      "sha256": "510a453bdba5bc46abb2965283635ceb04a542119bc891bf510603fb2d9e1d9a"
+    },
+    {
+      "path": ".agents/skills/gtm-orchestrator/SKILL.md",
+      "sha256": "13ce34dfb91330a212d695a9c4084a468683c959e3731727d0eb330c58f44e12"
+    },
+    {
+      "path": ".agents/skills/icp-positioning/SKILL.md",
+      "sha256": "75a95b573eb8c9507c59237d1b8e7daff07886657eaf2b949f6ee5e96b9ff527"
+    },
+    {
+      "path": ".agents/skills/landing-page-cro/SKILL.md",
+      "sha256": "9ec65ffad7de335167981146ce35a8ee1fbec02e5c0ff354122f5f66eaa7508c"
+    },
+    {
+      "path": ".agents/skills/launch-playbook/SKILL.md",
+      "sha256": "301172426656a7f81a80376e42df738ccb8179befbf476baea68b8327ec80d82"
+    },
+    {
+      "path": ".agents/skills/partnership-outreach/SKILL.md",
+      "sha256": "bc4fa2c1788df75c26398f87b54bfa2ec3e0d7d3d5604357977e3c20d0609f40"
+    },
+    {
+      "path": ".agents/skills/product-demo-capture/SKILL.md",
+      "sha256": "f0c43dbd074914cfe2c49b60f68d2efc3cbd36d9ac08810a8136f47ba573c3d2"
+    },
+    {
+      "path": ".agents/skills/release-qa/SKILL.md",
+      "sha256": "8265c44b0cc3325baf18a44d8823fbfb27adcb6c4cc7709bbfee84c8ce0d7cb7"
+    },
+    {
+      "path": ".agents/skills/research-intelligence/SKILL.md",
+      "sha256": "a6886c32dfe98f4b02bb8b117a99352ffd3595550ea680c6cca6de547867f7dd"
+    },
+    {
+      "path": ".agents/skills/security-compliance/SKILL.md",
+      "sha256": "3937890c7fd721d528515e8d2543112e8cbf141eba4645e509a10e4ca8f945db"
+    },
+    {
+      "path": ".agents/skills/seo-geo-content/SKILL.md",
+      "sha256": "3a3a730aaa64232ae8647b950588cfd43287b20abd8ccce2573a1644351ee15b"
+    },
+    {
+      "path": ".agents/skills/social-publishing/SKILL.md",
+      "sha256": "023a59877910cace7d7235a62d313a1c77d79a9b90bec22ef9ee76e1dc1a8223"
+    },
+    {
+      "path": ".agents/skills/tenant-router/SKILL.md",
+      "sha256": "0f79c8aa90c51e9031ff8369db24b7f892f398060966acacd18f4a6caa9c030a"
+    },
+    {
+      "path": ".agents/skills/video-editing/SKILL.md",
+      "sha256": "23785ee3e91ab2e8fbea9ec687c95eec368c4b8746d9c6bb7cc1f450288afd73"
+    },
+    {
+      "path": ".agents/skills/video-storyboard/SKILL.md",
+      "sha256": "feb69099bb573e5dc788dd829df203374323744435f483421e2593409d67a0af"
+    },
+    {
+      "path": ".agents/skills/weekly-founder-brief/SKILL.md",
+      "sha256": "8ccd2d61bfeaa7e2c79a4ab03639f57b2c9144567156ea119998e8236a38c7a9"
+    },
+    {
+      "path": ".agents/skills/x-thread-writing/SKILL.md",
+      "sha256": "76eb6ba8923025898ff57a7ed7f4acc92bf944b34d8487cdd1eb9b9df15e1e05"
+    },
+    {
+      "path": ".agents/vendor/manifest.lock.yaml",
+      "sha256": "c19293eb3bc74c67d79a33ee073fb4cd47efcae46f54c24df452836648935a65"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "716068c614848e8ca4fbbf6d898260210dcf2b25f18f795dc71208f68874b993"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "1cb46c0246149bf7e7e04ab8eb8d27f97b776a25825750ce148e5395ba373aaf"
+    },
+    {
+      "path": "CODEX_GTM_OS_V2_PHASED_EXECUTION.md",
+      "sha256": "7f140c828292e22ee975b66b09cc2dcdfca87b016ee8a38586c1495ad041a9d7"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "fb4a7e04f6884c5fbd6328d67ce7aeca5be9970e175d4f225943f25a640d1dbc"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "4d868ba8c422e2c5c84897a7e932ec390c5abc77a3bfe49faf1d7804e17ffa94"
+    },
+    {
+      "path": "FOUNDER_RETROPICK_GTM_OS_MASTER_PROMPT_V2.md",
+      "sha256": "e59477d3827864b6d96716b6ff3df83d50a8ab41802de6f35c56368852a81e18"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "sha256": "7a0474635746adee26e53a1ffbbe6fd5316c8399313db511c358a7493e999c66"
+    },
+    {
+      "path": "README.md",
+      "sha256": "291949a5b05c7823e3194ce9537c6cd906fc27cb23df4ad65a52e827b20c34e6"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "7447bda23249543ec610440b39b45b9e44dffeb76892caf46a21a7f2cf8cb192"
+    },
+    {
+      "path": "SKILLS.md",
+      "sha256": "089cfc793384be2a4863cbce8804fda6109b4818381b8bc93b3650bc9faf9899"
+    },
+    {
+      "path": "WORKFLOWS.md",
+      "sha256": "fc30dc82995a2c7a154099f6b7388cc3c16794874da31b7ed413e02670118d2c"
+    },
+    {
+      "path": "agents/AGENTS.md",
+      "sha256": "97be9419c7979cd9b9fd2d6cb51cb753938dd7a8b5e75134c86ff3b059b8d4cd"
+    },
+    {
+      "path": "agents/ORCHESTRATION.md",
+      "sha256": "b0e62f010b95aa37c1bf135b6b8fde40f215eb7a8044d8a530067a6ef01bb445"
+    },
+    {
+      "path": "agents/RACI.md",
+      "sha256": "a2539a27aaa81e74c6a445f02e6c65dbeff8e7adf78e1aee7abb3dba1e094d4d"
+    },
+    {
+      "path": "agents/handoffs/approval-to-distribution.yaml",
+      "sha256": "77a3c99538422f3387fcb6a2a8ca39de39f489cd6664dd1fe1cb3286366de266"
+    },
+    {
+      "path": "agents/handoffs/creative-to-review.yaml",
+      "sha256": "a619b993a731a63a56c753b914e11f8528a62604df132d2824cafff94a7151e0"
+    },
+    {
+      "path": "agents/handoffs/research-to-brief.yaml",
+      "sha256": "92f2f5fcb3b603fc50b9d30ef83ee6bb4c55e967db2cc99fe1968a47f9e140e3"
+    },
+    {
+      "path": "agents/roles/chief-gtm/ROLE.md",
+      "sha256": "ce57c39754ee757b376a49d0b68e6e4984c9ec52e8e34a5158353a78f1ad7b02"
+    },
+    {
+      "path": "agents/roles/compliance-officer/ROLE.md",
+      "sha256": "ab9020c7ea6656df73d56ff72b62f0d4ee9fd19f360c6770bfbecee7db7206d4"
+    },
+    {
+      "path": "agents/roles/developer-relations/ROLE.md",
+      "sha256": "45bddc57605c635a370c7e64735106b60402fc2922dedd22ae8d8ce5a2260aa5"
+    },
+    {
+      "path": "agents/roles/founder-brand/ROLE.md",
+      "sha256": "5dda874654d46953d837bd71bbfc9f48330c3b5cc6b30c1f72082e4594773643"
+    },
+    {
+      "path": "agents/roles/graphic-designer/ROLE.md",
+      "sha256": "2be185251ab3fb0d90790573ad6cfa200f81a3e9e5b0d459def6cfda22fa002b"
+    },
+    {
+      "path": "agents/roles/market-researcher/ROLE.md",
+      "sha256": "7fe14e954c2e1e31fd56afdf098a3f79f3a5bd0afd149e5c7920da87463e8fea"
+    },
+    {
+      "path": "agents/roles/marketing-analyst/ROLE.md",
+      "sha256": "a9032173d87828dbe7857b26d26af8a00eb98c806a932b0763bd9fdf93db7cec"
+    },
+    {
+      "path": "agents/roles/marketing-ops/ROLE.md",
+      "sha256": "3cf01d6453ed9d6976fe0b01da6f210dcaa052590c43629e22b6abc196ab8f7d"
+    },
+    {
+      "path": "agents/roles/motion-designer/ROLE.md",
+      "sha256": "d44a2edb87e774b7692d84d0b0fbeda338fc4ad5baf0a19917a2db8637b4a591"
+    },
+    {
+      "path": "agents/roles/partnerships/ROLE.md",
+      "sha256": "67822310afd5637936451aa3179ef13e90adb030268d6e8c8aea2a6debe275d5"
+    },
+    {
+      "path": "agents/roles/product-marketer/ROLE.md",
+      "sha256": "09eb865915f9a77cb0672c2c1a898ed2adc52e66adedc0a9b4a78aac61d48e9a"
+    },
+    {
+      "path": "agents/roles/qa-auditor/ROLE.md",
+      "sha256": "4e2ba616c45f682213780b2db7dbb37c8bd28c68321e80f6685c7d06d9c9c166"
+    },
+    {
+      "path": "agents/roles/seo-cro-engineer/ROLE.md",
+      "sha256": "3c1a93365fbe739713bb18c34764a0c339c6b11c36e3e738d77e836a8d63cb41"
+    },
+    {
+      "path": "agents/roles/social-editor/ROLE.md",
+      "sha256": "051b94e5211a8858f5e0066dd080684bc7ffcdaa8d100b205335f79dbd740865"
+    },
+    {
+      "path": "agents/roles/video-editor/ROLE.md",
+      "sha256": "23c5cd3d8599c057f3f5a8fd0c4ae3f76770fdd9a70097d4d9e804ad5835bbb4"
+    },
+    {
+      "path": "brands/AGENTS.md",
+      "sha256": "35cba7f9ca527fd9a18dbc463602e6b91218c762d94d47e2171ec637269316a8"
+    },
+    {
+      "path": "brands/founder/AGENTS.md",
+      "sha256": "268f8325efe73ca260007908025568df64a695583190cd62effcdbf2c11cc5c7"
+    },
+    {
+      "path": "brands/founder/DESIGN.md",
+      "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+    },
+    {
+      "path": "brands/founder/MESSAGING.md",
+      "sha256": "cd29a5b0f1362b3ff1956aa773e4bb6aea7bca487e7bac8b41a3b579c53d1a95"
+    },
+    {
+      "path": "brands/founder/POSITIONING.md",
+      "sha256": "7f1a5b48c98e12e95a5ea32db1fe46887c721f2e0d9aaf51c0284773c139ec25"
+    },
+    {
+      "path": "brands/founder/README.md",
+      "sha256": "8a6dc07c0c3589b7e35b265e9c2cb1c2668fa43c0e4427d64d99d5daa457620d"
+    },
+    {
+      "path": "brands/founder/VOICE.md",
+      "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+    },
+    {
+      "path": "brands/founder/channels.yaml",
+      "sha256": "550cdb8bc943c1194b0aab2c568d49424eb65bf2bfdbefb60c4f6d8db55ece25"
+    },
+    {
+      "path": "brands/founder/claims-ledger.yaml",
+      "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+    },
+    {
+      "path": "brands/founder/expertise-ledger.yaml",
+      "sha256": "0e20950cb850c19ede18ef13dd0a425324aafe9f61e8ce85e1591c0a6b0e5ad2"
+    },
+    {
+      "path": "brands/founder/pillars.yaml",
+      "sha256": "be67356a84a95571b32b6ffb76be53edaab30bc1dcf9b5d9684617445e6f3a0e"
+    },
+    {
+      "path": "brands/founder/privacy.md",
+      "sha256": "f2092317c4c455cb7ed02f4cbb1f59eeca6c893922c9984b26b7fa282cc1b7a4"
+    },
+    {
+      "path": "brands/founder/profile.json",
+      "sha256": "c4c6ab9ebe6b011b0af7f78d2084657b9260092a1a68adf9d4858c60a24a0e3c"
+    },
+    {
+      "path": "brands/founder/tokens.json",
+      "sha256": "db0430d2392ad2b73389b5952e53cbb2eaa676e15806c555d68f2047e68a8d60"
+    },
+    {
+      "path": "brands/retropick/AGENTS.md",
+      "sha256": "567774f0cad7cd4844cde979aedc658965fd290f357b2ef3c9d30bb3667077b7"
+    },
+    {
+      "path": "brands/retropick/DESIGN.md",
+      "sha256": "c141dff4489c43acf1155967a0bed2b6ed95fb18078b115633d64858504a38a0"
+    },
+    {
+      "path": "brands/retropick/MESSAGING.md",
+      "sha256": "898822316a5d98723183e9f0f1d6fd88fe40d41a4edc0b67291faf0e10ea6af0"
+    },
+    {
+      "path": "brands/retropick/POSITIONING.md",
+      "sha256": "83c578ff84d8f7b6abbaef78783e647a5fdbd37a3107ee7c62ecf9cae896c0af"
+    },
+    {
+      "path": "brands/retropick/README.md",
+      "sha256": "2b1098b18c8f8177a866d4940142c42e93a7ace56414e565a54d68f4f871c88c"
+    },
+    {
+      "path": "brands/retropick/VOICE.md",
+      "sha256": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42"
+    },
+    {
+      "path": "brands/retropick/channels.yaml",
+      "sha256": "318bd0ab0653b5b1ba46f5e153fe827be2ac1abe4d05b1b84a1b451fe6f2db53"
+    },
+    {
+      "path": "brands/retropick/claims-ledger.yaml",
+      "sha256": "d10334f9f894482f84de45f8eeb4244a44fcebdbb9d5bb42504fc15e26367bde"
+    },
+    {
+      "path": "brands/retropick/pillars.yaml",
+      "sha256": "35b4121f8cf0749c83b00847a4563fa24464e3771117fcd6c444dd8d4f43d065"
+    },
+    {
+      "path": "brands/retropick/product-facts.yaml",
+      "sha256": "d220f3a8f15f380b0c71e15cd779d780470b669b45326a95fc38b640b9753f6e"
+    },
+    {
+      "path": "brands/retropick/profile.json",
+      "sha256": "965088252e69d312eeb63c1a7a849092ced57e4a7706856c2c39d2b63371d12b"
+    },
+    {
+      "path": "brands/retropick/risk-disclosures.md",
+      "sha256": "8c513fb1b1a02f27c4029418d736033b7223b185f7adfb4eec61180e51367373"
+    },
+    {
+      "path": "brands/retropick/tokens.json",
+      "sha256": "6af04b9894b7151d4448ae8fc13eabfde6b28f0bafab6d7ece71f3e1fc2ae7f6"
+    },
+    {
+      "path": "campaigns/AGENTS.md",
+      "sha256": "4a4fa9aa252e98e6d4f757eec53ac046ccb9a25a43393879278f216a5c139767"
+    },
+    {
+      "path": "campaigns/SKILLS.md",
+      "sha256": "46fdd7fed7b589458f2bb2a4111197e510a055227f959738c8ec9ed56a712f41"
+    },
+    {
+      "path": "campaigns/WORKFLOWS.md",
+      "sha256": "45f2618dbc3e6da5768201059495a4bf87e5bbf8f949bec83c7a2dc74d725fc2"
+    },
+    {
+      "path": "campaigns/templates/campaign-brief.md",
+      "sha256": "350d0d1a37f7328ade0bd3f8431d67e39fe542794a76c8876efa413735b78f08"
+    },
+    {
+      "path": "config/accounts.example.yaml",
+      "sha256": "df50706412e9ec3bb2dfc8842e45e8ccfd81725516375160cc64448ae1039923"
+    },
+    {
+      "path": "config/defaults.yaml",
+      "sha256": "e8d68519b6b08920124e84d516508ad6cd3179224c3ce04c955640b4436cb4e8"
+    },
+    {
+      "path": "config/feature-flags.yaml",
+      "sha256": "3f22338b2a8a5f66f690e778aa56a913a29ef2545cb49faaeca70fa07acfd221"
+    },
+    {
+      "path": "config/model-routing.example.yaml",
+      "sha256": "ce97fc29c5905c19d8839c626432a3d024fbe2300f9b62192b7b4b395694eb21"
+    },
+    {
+      "path": "content/AGENTS.md",
+      "sha256": "e7de843f4a00c1a389e708f182a524e709ab7850dbdfd7edb54f92679e4e70b7"
+    },
+    {
+      "path": "content/SKILLS.md",
+      "sha256": "246469b613b3eae5ed4ebd2e5b29f56f614fe24749ead98a618bbda70d19028a"
+    },
+    {
+      "path": "content/WORKFLOWS.md",
+      "sha256": "8fd2bf6352390346572d1699c338785a3c86df14eb39c0833aec837044c1a619"
+    },
+    {
+      "path": "content/templates/content-package.yaml",
+      "sha256": "2ab51865bce6806f7967fe0340df49aab145077b95988243ca9729b29faccb6b"
+    },
+    {
+      "path": "creative/AGENTS.md",
+      "sha256": "2b7511cf52d3cf58291ccb24d4e218491c05c0ddab2926403b04631ae7a679d5"
+    },
+    {
+      "path": "creative/DESIGN.md",
+      "sha256": "afdc8f354cbc5714d1f8cf310a960c3ed50970b34c501e34a7212a7a5673c28e"
+    },
+    {
+      "path": "creative/SKILLS.md",
+      "sha256": "794e2923d49c4aaca8c9217a5d7806ec892131e552b1bb81da0ad8778a7f12e2"
+    },
+    {
+      "path": "creative/WORKFLOWS.md",
+      "sha256": "fd4b787b5e963cf78c4149db725f29c8921959cc585c276657a45f41890d4ae3"
+    },
+    {
+      "path": "creative/qa/checklists/video.md",
+      "sha256": "8de7888ed629621f81e691850a9ddab8cefaf2e46f8f83467e0aa9267c822809"
+    },
+    {
+      "path": "creative/qa/checklists/visual.md",
+      "sha256": "9051bb37250918a866751e14cbb1d04477dae08cddafd81b50acb798de9c2dbb"
+    },
+    {
+      "path": "distribution/AGENTS.md",
+      "sha256": "a758683de19b9d84428c2ca1d5aa1c403a883fbb3e2c1aa79ff7f2e17a304a17"
+    },
+    {
+      "path": "distribution/SKILLS.md",
+      "sha256": "01dc14d39178252a35d3c91101e77c6206f78fe9b42e01ec78e609bd647e50ee"
+    },
+    {
+      "path": "distribution/WORKFLOWS.md",
+      "sha256": "88018132c07f11461192a83caa31d37c014741eb325cbe9d8c64e7b5e6de2b38"
+    },
+    {
+      "path": "distribution/policies/account-isolation.md",
+      "sha256": "067590c958e5c02bae264d361cbde7b082f3cad0694b4f17549b5643f8b8f5da"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "98e8001627155988e813339059dd8d4415bcd3dd41e08da772a48f591338a677"
+    },
+    {
+      "path": "docs/COST_POLICY.md",
+      "sha256": "1d8c265db17d9334f85c382f47b9039c39ea3a1eae4ec255a72436cfe2b8b798"
+    },
+    {
+      "path": "docs/MASTER_EXECUTION_PROMPT_V2.md",
+      "sha256": "e59477d3827864b6d96716b6ff3df83d50a8ab41802de6f35c56368852a81e18"
+    },
+    {
+      "path": "docs/PHASED_EXECUTION.md",
+      "sha256": "7f140c828292e22ee975b66b09cc2dcdfca87b016ee8a38586c1495ad041a9d7"
+    },
+    {
+      "path": "docs/PLAN.md",
+      "sha256": "fdd35f2262316cf87cdfe76b26ee9ebd2a409ebbd5016604ad814514dbfc0d5d"
+    },
+    {
+      "path": "docs/PLUGIN_PACKAGING.md",
+      "sha256": "062a026d457be63525d1dd7d83e65ad9714235b7e26bdbbd17c4b153a5ba81f8"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "sha256": "45613697a35d724526413266eebdd374072dc92df9e8af5ef67844b268e656af"
+    },
+    {
+      "path": "docs/TOOLS_MATRIX.md",
+      "sha256": "d3a5894c89be5db34d524cd45a0a21079166e36f9e427668a5e2f07d6e4ae5e7"
+    },
+    {
+      "path": "growth/AGENTS.md",
+      "sha256": "dcc79daa42bc0e5368726c132f97924edeaab63aa4e698070bab70644f9a0e0f"
+    },
+    {
+      "path": "growth/SKILLS.md",
+      "sha256": "651850f568590b876b7769aacca816ece2fb37815295c4cf19f9b93378c53817"
+    },
+    {
+      "path": "growth/WORKFLOWS.md",
+      "sha256": "ab66a807311efaffc0db8b93fe63f806e1529c79303e354b4160dbd7e2150dfa"
+    },
+    {
+      "path": "growth/analytics/schemas/metric-dictionary.md",
+      "sha256": "b503e9c3b6a3e063c2afda77f0100e6a79740ee6ecf889ef8d04cfbd4818ba62"
+    },
+    {
+      "path": "plugins/gtm-os/plugin.json",
+      "sha256": "ae3eda2208b3fd84507d9be6923f2760fdf514b2e77431813308b83de69c752f"
+    },
+    {
+      "path": "plugins/gtm-os/skills/setup/SKILL.md",
+      "sha256": "4300dcf8ce798778e313e5ffb818f8d204ed9ff788ebbef323dedad5a98311b0"
+    },
+    {
+      "path": "relationships/AGENTS.md",
+      "sha256": "28530d88a38f1fe0562303b7ad9b9d902b8f1ee1d96ec1fd8c4ca6990c154b64"
+    },
+    {
+      "path": "relationships/SKILLS.md",
+      "sha256": "bf28be5d1ac49640e9524dd4478cd3853edf712ae5a08b3e3bbf78c8de75da81"
+    },
+    {
+      "path": "relationships/WORKFLOWS.md",
+      "sha256": "b5536fb554568f43cab657feca2af468f6c9182e9eeaae8b7066507c8a3f90c3"
+    },
+    {
+      "path": "relationships/templates/outreach-draft.md",
+      "sha256": "c07a9120d9b52bcff96ffa6eaed16a034faf4c695f2d17c536e61c5475ac6af3"
+    },
+    {
+      "path": "research/AGENTS.md",
+      "sha256": "ddc40941168a07c45ca1578eeca23d4d355d0aa188593934b261cecc82d215df"
+    },
+    {
+      "path": "research/SKILLS.md",
+      "sha256": "49a23d0bf003a0b2dd9d8a09b966b689e8220a0ab4a86ece4d9091fbb2f04347"
+    },
+    {
+      "path": "research/WORKFLOWS.md",
+      "sha256": "2406de017d42c5d982cd16418069e76a2d590995670d269868cb0118552ba0c9"
+    },
+    {
+      "path": "research/templates/source-card.md",
+      "sha256": "1f09e30830ffa64d2ba703c33c7463040c70fcddf903ba2f88d6db5475fd9961"
+    },
+    {
+      "path": "scripts/validate_scaffold.py",
+      "sha256": "2ccd61c027efaac868a6930d220d411c5d09b9e8a086b636f66f319feafeec3f"
+    },
+    {
+      "path": "strategy/AGENTS.md",
+      "sha256": "48bf1db607ac5ff59dd01d4a101a7ac86debe78a758480654a7d2bec91eb23eb"
+    },
+    {
+      "path": "strategy/SKILLS.md",
+      "sha256": "bd8dbbaae7f6b52f0d9125ab6e90609a95357ac6d86b6880d983c39eee93185c"
+    },
+    {
+      "path": "strategy/WORKFLOWS.md",
+      "sha256": "b67fa8f36055c00316f236d1ef35289ec0a0902d3bc88dc9cde9bdd38df00e46"
+    },
+    {
+      "path": "workflows/AGENTS.md",
+      "sha256": "b12c7a2973cf82084d276dffd5f4d2c211e2e8a4a410b9bab44801e4744c9d3d"
+    },
+    {
+      "path": "workflows/SKILLS.md",
+      "sha256": "6f70cffbfa453522610a6315e945b6e45a49fc426747b253b61a73be0731d5ae"
+    },
+    {
+      "path": "workflows/WORKFLOWS.md",
+      "sha256": "59086b2a4c61e5af71f0e75e6be742914c1035b883bcd1f28b2754b330ce397c"
+    },
+    {
+      "path": "workflows/definitions/build-in-public.yaml",
+      "sha256": "0e767438b56d96c95e432467bc718f42240a6f028d82605ee184e91b32c92bfe"
+    },
+    {
+      "path": "workflows/definitions/campaign-from-insight.yaml",
+      "sha256": "19ee893ca82668ba95cfd96cc5f62b78ab1437dbf65b909f4a99bbc334f4f49b"
+    },
+    {
+      "path": "workflows/definitions/community-relationship.yaml",
+      "sha256": "9b2162ea9ef7820da3e1313bf988e2cf5f45620334c4ae39a6ba4a45d97ac280"
+    },
+    {
+      "path": "workflows/definitions/daily-intelligence.yaml",
+      "sha256": "d657ec1a7a3f780143999c6cbd3918cb7197c6b4949c71ee5b6b30a333b93822"
+    },
+    {
+      "path": "workflows/definitions/feature-launch.yaml",
+      "sha256": "033cf77c2f6e7c8a6b9ae56fda8f5f5ff09c19bc4759105922d4b1defac52468"
+    },
+    {
+      "path": "workflows/definitions/incident-pause.yaml",
+      "sha256": "969d91e8c7a6065665126747829581335323d5c47c3956b0f10f9145ba29f13c"
+    },
+    {
+      "path": "workflows/definitions/landing-page-experiment.yaml",
+      "sha256": "a9886e4584c3afd0a0f9c6aad1562b070b7c6f6e6f36e2cc2254bc0c6c2635c8"
+    },
+    {
+      "path": "workflows/definitions/partner-outreach.yaml",
+      "sha256": "306f1f7a20aa7511db6b9af82b93339f24f49df0b742c5f03de20f9501cf8706"
+    },
+    {
+      "path": "workflows/definitions/post-performance-retro.yaml",
+      "sha256": "146affc773607defda7f0ed3e7e0ec6993b0830f1a229fa9252e8279d3cbf0f2"
+    },
+    {
+      "path": "workflows/definitions/product-to-video.yaml",
+      "sha256": "aff89a9d3736326993d0d0adb036597eceb4f339c8723f2e603dd501394f6724"
+    },
+    {
+      "path": "workflows/definitions/record-demo.yaml",
+      "sha256": "d2ddbb275ba350a2c201d754704a2b24945b96311206d76a9819a628168598e7"
+    },
+    {
+      "path": "workflows/definitions/repurpose-winners.yaml",
+      "sha256": "ddc0b6660d304cce6cb054950e106755633fbb6435695315a9d57eeb5031bd83"
+    },
+    {
+      "path": "workflows/definitions/review-and-schedule.yaml",
+      "sha256": "c0fc73e2767fc3d4901985c8bc8b3acce472611fb662f9deca8026763751395d"
+    },
+    {
+      "path": "workflows/definitions/seo-content.yaml",
+      "sha256": "cf941943249ef24d79cf0b48a52a3ee590b67343aa8739f6411267d7365ced76"
+    },
+    {
+      "path": "workflows/definitions/thread-to-graphic.yaml",
+      "sha256": "133055a69110930a0de4d35e18d25beabfaaf172efb1889e9eacca6091dbac8c"
+    },
+    {
+      "path": "workflows/definitions/weekly-founder-review.yaml",
+      "sha256": "3d1200f4daee264023e770feb0bcf8ea6495245e69bce9211b534f3c628144bc"
+    },
+    {
+      "path": "workflows/state-machines/approval.yaml",
+      "sha256": "9aa64d782df72b7f4d0ed6522f9d3c267584fdb2868eb47fb440ef5384ec062d"
+    },
+    {
+      "path": "workflows/state-machines/content.yaml",
+      "sha256": "8065e290d11a2be0bdcab23de082dc078bf15d9ba00efc26db8f1b0525f13a7f"
+    },
+    {
+      "path": "workflows/state-machines/experiment.yaml",
+      "sha256": "522a73092c1346a258b843313c2efe67f87baef394ad6916d356100c999f7a5b"
+    },
+    {
+      "path": "workflows/state-machines/release.yaml",
+      "sha256": "add9e6ad30069c0e4fed295d204a6962e0ed83d8a38eb1f42dff129bcef22f7c"
+    }
+  ]
+}

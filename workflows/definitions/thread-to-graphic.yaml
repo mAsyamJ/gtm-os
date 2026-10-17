@@ -11,16 +11,19 @@ inputs:
   - "approved local task request"
 stages:
   - id: step_1
+    tool: manual
     skill: x-thread-writing
     input: "validated output of prior step, tenant source cards and config"
     output: "x-thread-writing validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_2
+    tool: manual
     skill: graphic-design
     input: "validated output of prior step, tenant source cards and config"
     output: "graphic-design validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_3
+    tool: manual
     skill: release-qa
     input: "validated output of prior step, tenant source cards and config"
     output: "release-qa validated artifact"

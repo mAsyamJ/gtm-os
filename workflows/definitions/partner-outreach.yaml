@@ -11,16 +11,19 @@ inputs:
   - "approved local task request"
 stages:
   - id: step_1
+    tool: manual
     skill: research-intelligence
     input: "validated output of prior step, tenant source cards and config"
     output: "research-intelligence validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_2
+    tool: manual
     skill: partnership-outreach
     input: "validated output of prior step, tenant source cards and config"
     output: "partnership-outreach validated artifact"
     acceptance: "source, tenant, checksum and permission checks PASS"
   - id: step_3
+    tool: manual
     skill: security-compliance
     input: "validated output of prior step, tenant source cards and config"
     output: "security-compliance validated artifact"

@@ -1,12 +1,21 @@
-# Honest status register
+# Honest status register — Phase A
 
-- Root/dept governance: starter documentation MATERIALIZED.
-- Brand profiles/design: PROVISIONAL / first-party verification required.
-- Role specs and SKILL.md: local authoring scaffold created; skills **NOT validated in user's Codex environment**.
-- Workflow YAML: structural starter definitions; **NO workflow engine or scheduler installed**.
-- Third-party skills/MCP/FFmpeg/creative packages: NOT INSTALLED by this artifact.
-- X OAuth, Postiz, Buffer, publishing and analytics: NOT AUTHENTICATED / NO LIVE WRITE.
-- Data, unit/e2e tests, videos and social assets: NOT GENERATED; Codex master prompt requires implementation.
-- Safe local structural check: run `python3 scripts/validate_scaffold.py`.
+Revision: phase-a-r1. Owner approved local Phase A implementation only. Current results: docs/QA_REPORT.md and docs/evidence/phase-a-receipt.json. Beads issue gtm-jhh tracks this slice; this register is a capability snapshot, not a task list.
 
-- Portable plugin: minimal skills-only starter manifest; not installed, no active MCP server. Marketplace is example only.
+| Capability | Actual status |
+|---|---|
+| Root/nested governance | Reviewed/corrected in 15 scopes; authority review documented |
+| Local skill discovery | 29 project skills in supplied session catalog; metadata/layout/index validation passes; instruction-only |
+| Role/workflow contracts | 15 roles, 16 workflows, four state declarations schema/reference-validated; 62 stages explicitly manual |
+| Validator and tests | Python schema/policy checks with --root/--json; 38 offline tests; exact results in QA evidence |
+| Local tracking | Feature branch codex/gtm-phase-a; local Git commits and embedded Beads; no remote/hooks |
+| Tool inventory | Executable versions/hashes pinned; Python/scanners exercised; Node/Codex/FFmpeg presence is not runtime integration |
+| Brand truth/design | Profiles provisional, claims empty, tokens PLACEHOLDER_NOT_OFFICIAL; voices/expected handles distinct |
+| Runtime CLI/storage/engine | NOT_IMPLEMENTED; Phase B |
+| Upstream skills/project render packages | No new installs; candidate manifest remains unaudited |
+| X/OAuth/live analytics/distribution | No verified project authentication; examples NOT_AUTHENTICATED; all external writes/paid calls disabled |
+| Videos/graphics/campaign simulations | NOT_GENERATED; Phase D/F |
+| Portable plugin | Starter only; not installed/activated; no working project MCP server |
+| Measured savings/model/compute cost | NOT_MEASURED; no project provider requests or API charges |
+
+Run `python3 scripts/verify_phase_a.py` to reproduce local evidence. Passing static governance does not certify runtime isolation, publishing safety, asset rights or legal compliance. Remaining implementation follows phases B–F; no later phase was executed here.
