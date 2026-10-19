@@ -1,0 +1,63 @@
+{
+  "tenant": "founder",
+  "revision": "phase-c-r1",
+  "evaluatedAt": "2026-10-17T14:14:25.469Z",
+  "cards": [
+    {
+      "id": "founder-messaging-cd29a5b0-47af4c01",
+      "uri": "project:///brands/founder/MESSAGING.md",
+      "revision": "cd29a5b0f1362b3ff1956aa773e4bb6aea7bca487e7bac8b41a3b579c53d1a95",
+      "observedAt": "2026-10-17T14:14:25.469Z",
+      "expiresAt": "2026-10-24T14:14:25.469Z",
+      "contentSha256": "33acdd7d57906161e93ddc24864f2008673e101d7e7808207e27d8d31a1fb693",
+      "rawTextSha256": "cd29a5b0f1362b3ff1956aa773e4bb6aea7bca487e7bac8b41a3b579c53d1a95",
+      "license": "OWNER_PROJECT_LOCAL_ONLY",
+      "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+      "confidence": "HIGH_FOR_LOCAL_BYTES",
+      "verification": "LOCAL_CONTRACT_VERIFIED",
+      "evidenceScope": "GOVERNANCE_ONLY",
+      "validity": "CURRENT",
+      "usage": "LOCAL_RESEARCH_ONLY_NO_REDISTRIBUTION"
+    },
+    {
+      "id": "founder-positioning-7f1a5b48-47af4c01",
+      "uri": "project:///brands/founder/POSITIONING.md",
+      "revision": "7f1a5b48c98e12e95a5ea32db1fe46887c721f2e0d9aaf51c0284773c139ec25",
+      "observedAt": "2026-10-17T14:14:25.469Z",
+      "expiresAt": "2026-10-24T14:14:25.469Z",
+      "contentSha256": "f287e2f967732b6f727e03bf0c0ba849b4d8ba36e9f3ba9c093d3990b670a10d",
+      "rawTextSha256": "7f1a5b48c98e12e95a5ea32db1fe46887c721f2e0d9aaf51c0284773c139ec25",
+      "license": "OWNER_PROJECT_LOCAL_ONLY",
+      "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+      "confidence": "HIGH_FOR_LOCAL_BYTES",
+      "verification": "LOCAL_CONTRACT_VERIFIED",
+      "evidenceScope": "GOVERNANCE_ONLY",
+      "validity": "CURRENT",
+      "usage": "LOCAL_RESEARCH_ONLY_NO_REDISTRIBUTION"
+    },
+    {
+      "id": "founder-voice-cacae6f6-47af4c01",
+      "uri": "project:///brands/founder/VOICE.md",
+      "revision": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3",
+      "observedAt": "2026-10-17T14:14:25.469Z",
+      "expiresAt": "2026-10-24T14:14:25.469Z",
+      "contentSha256": "ebbef08d2f311c263943c0cbc0c5f3de20866e816460dbc7508807e071c733ab",
+      "rawTextSha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3",
+      "license": "OWNER_PROJECT_LOCAL_ONLY",
+      "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+      "confidence": "HIGH_FOR_LOCAL_BYTES",
+      "verification": "LOCAL_CONTRACT_VERIFIED",
+      "evidenceScope": "GOVERNANCE_ONLY",
+      "validity": "CURRENT",
+      "usage": "LOCAL_RESEARCH_ONLY_NO_REDISTRIBUTION"
+    }
+  ],
+  "expired": [],
+  "usableProductClaims": 0,
+  "usablePersonalAchievements": 0,
+  "publicationAuthorized": false,
+  "limitations": [
+    "Supplied text provenance is declared, not authenticated; no runtime network retrieval.",
+    "Local contract verification establishes governance bytes only; it does not verify product features, customer demand or personal history."
+  ]
+}

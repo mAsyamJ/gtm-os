@@ -1,0 +1,224 @@
+{
+  "label": "SYNTHETIC",
+  "scope": "SOURCE_PRESERVATION_CONTRACTS_ONLY",
+  "action": "evaluate",
+  "taskCount": 28,
+  "upstreamPin": "1cfe254e8d25b15f37048c3730134686abe60335",
+  "fixtureSha256": "d04d3769de37c63e6058923bc9a3266a00206797a789ad9359d796a3ab37b4e9",
+  "protocolCompatible": true,
+  "uid": 1000,
+  "externalModelRequests": 0,
+  "attemptedNetworkRequests": 0,
+  "executionCount": 140,
+  "proposerCalls": 112,
+  "scheduler": {
+    "domain": "gtm",
+    "n_tasks": 28,
+    "seed": 1,
+    "done": 28,
+    "failed": 0,
+    "tasks": [
+      {
+        "task": "global-01-negation",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-02-conditional",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-03-specification",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-04-citation",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-05-risk",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-06-authenticity",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-07-unicode",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-08-untrusted",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-09-unknown",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-10-owner",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-11-boundary",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "global-12-revision",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-01-negation",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-02-conditional",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-03-specification",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-04-citation",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-05-risk",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-06-authenticity",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-07-unicode",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-08-untrusted",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-09-unknown",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-10-owner",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-11-boundary",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-12-revision",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-13-numbers",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-14-scope",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-15-negation",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      },
+      {
+        "task": "gtm-16-conditional",
+        "status": "ok",
+        "library_entries_before": {
+          "seq": 0
+        }
+      }
+    ]
+  },
+  "wallSeconds": 2.747646363000058,
+  "costUsd": 0,
+  "subjectiveQuality": null,
+  "businessImpact": null,
+  "promotionAuthorized": false
+}

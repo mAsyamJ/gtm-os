@@ -36,7 +36,7 @@ def main():
                          "--max-decode-depth", "0", "--report-format", "json", "--report-path", "-"],
             "semgrep": ["semgrep", "scan", "--config", str(root / "scripts/semgrep-phase-a.yaml"),
                         "--metrics=off", "--disable-version-check", "--no-git-ignore", "--json", "--error",
-                        *[str(target / name) for name in ("scripts", "tests", "packages", "adapters") if (target / name).is_dir()]],
+                        *[str(target / name) for name in ("scripts", "tests", "packages", "adapters", "harness") if (target / name).is_dir()]],
         }
         for tool, command in commands.items():
             check = {"tool": tool, "status": "BLOCKED", "findings": None}

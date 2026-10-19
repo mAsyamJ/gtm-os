@@ -1,0 +1,25 @@
+{
+  "task_id": "gtm-09-unknown",
+  "domain": "gtm",
+  "k": 1,
+  "seed": 1,
+  "status": "partial",
+  "base": [
+    {
+      "label": "base1",
+      "run_id": "gtm-contracts-v1-gtm-deterministic-agg1-s1/gtm-09-unknown/base1",
+      "run_dir": "/work/output/executions/gtm-contracts-v1-gtm-deterministic-agg1-s1/gtm-09-unknown/base1"
+    }
+  ],
+  "modes": {
+    "seq": {
+      "ok": false,
+      "error": "ValueError: no prompt surface for 'gtm-deterministic'; known: ['codex', 'opencode']",
+      "traceback": " **kw)\n  File \"/opt/upstream/harness2/core/recursion.py\", line 485, in run_sequential\n    stages = list(\n        pool_x.map(\n    ...<25 lines>...\n        )\n    )\n  File \"/usr/local/lib/python3.13/concurrent/futures/_base.py\", line 625, in result_iterator\n    yield _result_or_cancel(fs.pop())\n          ~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/concurrent/futures/_base.py\", line 318, in _result_or_cancel\n    return fut.result(timeout)\n           ~~~~~~~~~~^^^^^^^^^\n  File \"/usr/local/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"/usr/local/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n    raise self._exception\n  File \"/usr/local/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n    result = self.fn(*self.args, **self.kwargs)\n  File \"/opt/upstream/harness2/core/recursion.py\", line 490, in <lambda>\n    job=prompts.propose(\n        ~~~~~~~~~~~~~~~^\n        benchmark_prompts,\n        ^^^^^^^^^^^^^^^^^^\n    ...<4 lines>...\n        round_t=(t if k > 1 else None),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ),\n    ^\n  File \"/opt/upstream/harness2/core/prompts.py\", line 836, in propose\n    st = _st(surface)\n  File \"/opt/upstream/harness2/core/prompts.py\", line 671, in _st\n    raise ValueError(f\"no prompt surface for {name!r}; known: {sorted(_SURFACE_TEXTS)}\")\nValueError: no prompt surface for 'gtm-deterministic'; known: ['codex', 'opencode']\n"
+    }
+  },
+  "selections": {},
+  "errors": [
+    "seq: ValueError: no prompt surface for 'gtm-deterministic'; known: ['codex', 'opencode']"
+  ]
+}

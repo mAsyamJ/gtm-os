@@ -1,0 +1,116 @@
+{
+  "task_id": "global-03-specification",
+  "domain": "gtm",
+  "k": 1,
+  "seed": 1,
+  "status": "ok",
+  "base": [
+    {
+      "label": "base1",
+      "run_id": "gtm-contracts-v1-opencode-agg1-s1/global-03-specification/base1",
+      "run_dir": "/work/output/executions/gtm-contracts-v1-opencode-agg1-s1/global-03-specification/base1"
+    }
+  ],
+  "modes": {
+    "seq": {
+      "mode": "seq",
+      "task_id": "global-03-specification",
+      "k": 1,
+      "finals": [
+        "c1"
+      ],
+      "ok": true,
+      "fell_back": [],
+      "kept_base": [],
+      "stages": [
+        {
+          "label": "inv1",
+          "dim": "INV",
+          "fell_back": false,
+          "kept_base": false,
+          "attempts": 1,
+          "usd": 0.0,
+          "cached": false,
+          "notes": "Clarify a local instruction; behavior improvement remains unproven.",
+          "error": ""
+        },
+        {
+          "label": "dom1",
+          "dim": "DOM",
+          "fell_back": false,
+          "kept_base": false,
+          "attempts": 1,
+          "usd": 0.0,
+          "cached": false,
+          "notes": "Clarify a local instruction; behavior improvement remains unproven.",
+          "error": ""
+        },
+        {
+          "label": "c1",
+          "dim": "COMPOSE",
+          "fell_back": false,
+          "kept_base": false,
+          "attempts": 1,
+          "usd": 0.0,
+          "cached": false,
+          "notes": "Clarify a local instruction; behavior improvement remains unproven.",
+          "error": ""
+        }
+      ],
+      "similarity": null,
+      "ledger": {
+        "mode": "seq",
+        "task_id": "global-03-specification",
+        "k": 1,
+        "R": 4,
+        "expected_R": 4,
+        "P": 3,
+        "session_attempts": 3,
+        "expected_P": 3,
+        "usd": 0.0,
+        "rollout_usd": 0.0,
+        "session_usd": 0.0,
+        "rollouts": [
+          "base1",
+          "inv1",
+          "dom1",
+          "c1"
+        ],
+        "sessions": [
+          "inv1",
+          "dom1",
+          "c1"
+        ]
+      },
+      "errors": []
+    }
+  },
+  "selections": {
+    "seq": {
+      "task_id": "global-03-specification",
+      "mode": "seq",
+      "k": 1,
+      "chosen_id": "A",
+      "chosen_label": "c1",
+      "chosen_run_id": "gtm-contracts-v1-opencode-seq1-s1/global-03-specification/c1",
+      "chosen_is_base": false,
+      "why": "trivial pool: single final at k=1; delivered without a selector session",
+      "id_map": {
+        "A": "c1"
+      },
+      "dropped": [],
+      "n_candidates": 1,
+      "ok": true,
+      "fallback": false,
+      "error": "",
+      "usd": 0.0,
+      "experience": {},
+      "trivial": true,
+      "evidence": "deliverable",
+      "chosen_run_dir": "/work/output/executions/gtm-contracts-v1-opencode-seq1-s1/global-03-specification/c1",
+      "chosen_tree_is_base": false,
+      "harness_fingerprint": "b404e4ef5dc00fbb"
+    }
+  },
+  "errors": []
+}

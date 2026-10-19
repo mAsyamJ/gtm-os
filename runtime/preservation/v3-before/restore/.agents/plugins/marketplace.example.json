@@ -1,0 +1,10 @@
+{
+  "name": "gtm-os-local",
+  "interface": {"displayName": "Founder & RetroPick GTM OS"},
+  "plugins": [{
+    "name": "founder-retropick-gtm-os",
+    "source": {"source": "local", "path": "./plugins/gtm-os"},
+    "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+    "category": "Productivity"
+  }]
+}

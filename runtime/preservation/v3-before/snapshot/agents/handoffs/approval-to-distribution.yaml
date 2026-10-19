@@ -1,0 +1,6 @@
+id: approval-to-distribution
+from: human-owner
+to: marketing-ops
+required: [tenant, destination, resolved_principal_id, final_payload_sha256, media_sha256, cost_limit, approved_at]
+acceptance: "exact content and account hash approval, OAuth identity and budget revalidated"
+no_external_writes_without_independent_authorization: true

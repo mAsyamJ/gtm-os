@@ -1,0 +1,4 @@
+# Do not include unapproved sensitive biography data.
+tenant: founder
+verified_public_expertise: []
+verification_status: NEEDS_FIRST_PARTY_EVIDENCE

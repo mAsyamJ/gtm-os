@@ -1,0 +1,53 @@
+# Architecture — multi-tenant GTM OS
+
+## Core boundaries
+
+Human Owner ↔ Codex Operator ↔ audited skills/role specs ↔ typed workflow engine ↔ policy/claim/approval gate ↔ adapter ↔ X / analytics / GitHub (where explicitly permitted). Research and creative jobs may operate offline with fixtures.
+
+Data: `tenant_id` required on every content object, account mapping, approval, evidence/source card, analytics event, artifact, job and audit receipt. Identity is asserted at adapter boundary, not inferred from visible browser tab. Job table + outbox + idempotency keys; local SQLite for MVP, external queues/database only if capacity justifies it.
+
+## Context model
+
+`AGENTS.md` is scoped always-on governance; `SKILLS.md` human index; actual `SKILL.md` progressive on-demand instructions; `agents/roles` are task roles (do not assume background bots); `WORKFLOWS.md` human process map; YAML definitions are machine-validated work contracts; `DESIGN.md` human creative contract; `tokens.json` validates rendered output.
+
+## Threat boundaries
+
+External website/skill = untrusted source; output must pass evidence and injection tests. Credentials = protected environment outside LLM. Public publishing = explicit human gate + verified user identity + content hash + projected spend. Marketing claims = cited and scoped to time and jurisdiction.
+
+## Implemented execution boundary — Phases B/C/D
+
+The Python governance validator and local evidence tooling remain active. Phase B adds the typed CLI/core, tenant storage and mock boundaries below. This is an on-demand local app, not a deployed service or scheduler.
+
+```mermaid
+flowchart LR
+  Owner[Human owner] --> Operator[Codex operator]
+  Operator --> CLI[Local redacted CLI]
+  Contracts[Scoped brand and workflow contracts] --> CLI
+  CLI --> Schemas[Zod and policy checks]
+  Schemas --> Engine[Deterministic offline engine]
+  Engine --> Storage[Separate tenant SQLite stores]
+  Engine --> Fixtures[Hash-linked synthetic JSON artifacts]
+  Engine --> Mocks[23 mock or unavailable surfaces]
+  Engine --> Gate[Blocked publication outbox]
+  Storage --> Receipts[Audit cost and QA receipts]
+  CLI --> Research[Authorized inbox ingestion and source cards]
+  Research --> Storage
+  CLI --> Planning[Evidence-aware strategy calendar and brief generation]
+  Planning --> Research
+  Planning --> References[Hashed inert upstream references]
+  Planning --> Text[Immutable local review artifacts]
+  CLI --> Creative[Local synthetic Satori Sharp FFmpeg renderer]
+  Creative --> Media[Editable sources media captions and QC]
+  Creative --> Assets[Hashed local fonts and notices]
+  Mocks -. Phase E to F .-> Future[Analytics and approved providers]
+```
+
+Schemas own typed contracts; core owns definition/input validation, transitions and checkpoints; storage owns transactional repositories, source links and audit/cost/outbox records; policy owns unconditional execution denial and a constraint-only approval matcher; connectors/adapters own capability, identity, cost, dry-run and audit interfaces. Operator-defined roles remain instruction contracts, not independent background processes. Beads owns task state in its separate local Dolt database.
+
+SQLite migration 1 uses WAL/FULL synchronization, per-tenant files and metadata/SQL constraints. Immutable sources, scoped input fingerprints, original audit events and artifact file digests make restart/replay inspectable. Actual synthetic API charges are zero; model/compute costs remain unmeasured. Audit chains are not externally signed or anchored against a local database owner.
+
+Phase C adds tenant-scoped authorized-file ingestion into the existing immutable source table, freshness/trust reports, current-source selection and hash-addressed local strategy/calendar/brief outputs. Governance cards prove exact local bytes only; external excerpts remain unverified. Selected MIT references are hash/license-checked data; their instructions never execute. No source text is copied into generated public claims. See PHASE_C.md for source permissions, replay clock and evidence limits.
+
+Phase D implements a separate tenant-scoped local creative adapter with immutable source-addressed media and fixed FFmpeg process boundaries. Browser QC uses local SVG only in a fresh offline profile. No live product capture or official branding is established. See PHASE_D.md.
+
+Live retrieval, authenticated accounts, signed human approvals, provider reconciliation, analytics and campaign simulations remain future work. No scheduler, model call, renderer, provider request or verified live identity is implied. See PHASE_B.md and ADRs 0001–0004 for core interfaces and tested failures.

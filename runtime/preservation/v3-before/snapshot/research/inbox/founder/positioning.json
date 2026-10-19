@@ -1,0 +1,17 @@
+{
+  "id": "founder-positioning-7f1a5b48-47af4c01",
+  "tenant": "founder",
+  "uri": "project:///brands/founder/POSITIONING.md",
+  "revision": "7f1a5b48c98e12e95a5ea32db1fe46887c721f2e0d9aaf51c0284773c139ec25",
+  "text": "# founder positioning (provisional)\n\nBuild genuine technical trust and professional relationships through repeatable proof of work and useful lessons.\n\n**Must be validated through first-party proof and owner-approved positioning before publication.**\n",
+  "contentSha256": "7f1a5b48c98e12e95a5ea32db1fe46887c721f2e0d9aaf51c0284773c139ec25",
+  "observedAt": "2026-10-17T14:14:25.469Z",
+  "expiresAt": "2026-10-24T14:14:25.469Z",
+  "title": "founder POSITIONING.md editorial contract",
+  "author": "Project owner contracts",
+  "contentTimestamp": null,
+  "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+  "permission": "PROJECT_LOCAL",
+  "permissionBasis": "Owner authorized local Phase C implementation and reviewable plans",
+  "license": "OWNER_PROJECT_LOCAL_ONLY"
+}

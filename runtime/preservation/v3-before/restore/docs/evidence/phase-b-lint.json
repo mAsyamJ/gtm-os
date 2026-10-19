@@ -1,0 +1,10 @@
+{
+  "command": [
+    "pnpm",
+    "lint"
+  ],
+  "exit": 0,
+  "elapsed_seconds": 0.589,
+  "stdout": "",
+  "stderr": "$ tsc --noEmit --noUnusedLocals --noUnusedParameters --noImplicitReturns\n"
+}

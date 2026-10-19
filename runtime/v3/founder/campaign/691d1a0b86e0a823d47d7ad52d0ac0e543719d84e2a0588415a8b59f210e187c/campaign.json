@@ -1,0 +1,905 @@
+{
+  "tenant": "founder",
+  "source": {
+    "tenant": "founder",
+    "dataset": "OBSERVED",
+    "schemaVersion": 1,
+    "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "id": "founder-source-20261019-b65dc308",
+    "title": "SQLite transaction control reference",
+    "uri": "https://www.sqlite.org/lang_transaction.html",
+    "observedAt": "2026-10-19T00:00:00.000Z",
+    "expiresAt": "2026-10-26T00:00:00.000Z",
+    "text": "No reads or writes occur except within a transaction.\nEND TRANSACTION is an alias for COMMIT.\nTransactions created using BEGIN...COMMIT do not nest.\nFor nested transactions, use the SAVEPOINT and RELEASE commands.",
+    "contentSha256": "be8bc9d1fa823325d1728a0865c7d262df6990f88e8af172f47955f4011780f3",
+    "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+    "statements": [
+      "No reads or writes occur except within a transaction.",
+      "END TRANSACTION is an alias for COMMIT.",
+      "Transactions created using BEGIN...COMMIT do not nest.",
+      "For nested transactions, use the SAVEPOINT and RELEASE commands."
+    ],
+    "label": "RETRIEVED_UNVERIFIED",
+    "origin": "AUTHORIZED_INBOX_FILE",
+    "sha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39",
+    "verification": "RETRIEVAL_OR_OWNER_SUPPLIED_BYTES_ONLY",
+    "permittedPublicClaims": []
+  },
+  "sourceReview": {
+    "tenant": "founder",
+    "dataset": "OBSERVED",
+    "schemaVersion": 1,
+    "revision": "v3-r1",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "id": "founder-review-627e63160c0e018d603f28bf",
+    "label": "REVIEWED_SOURCE",
+    "evidenceId": "founder-source-20261019-b65dc308",
+    "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39",
+    "classification": "REVIEWED_SOURCE",
+    "actor": "source-reviewer",
+    "permittedClaims": [
+      "No reads or writes occur except within a transaction.",
+      "END TRANSACTION is an alias for COMMIT.",
+      "Transactions created using BEGIN...COMMIT do not nest.",
+      "For nested transactions, use the SAVEPOINT and RELEASE commands."
+    ],
+    "authenticFirstPerson": false,
+    "authority": "LOCAL_SOURCE_REVIEW_NOT_PUBLICATION_AUTHORITY",
+    "reviewStatus": "REVIEWED",
+    "observedAt": "2026-10-19T00:00:00.000Z",
+    "expiresAt": "2026-10-26T00:00:00.000Z",
+    "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e"
+  },
+  "publicRetrieval": {
+    "name": "sqlite-transactions",
+    "uri": "https://www.sqlite.org/lang_transaction.html",
+    "path": "runtime/references/v3/sqlite-transactions.txt",
+    "sha256": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+    "authUsed": false,
+    "scope": "PUBLIC_DOCUMENT_BYTES_ONLY"
+  },
+  "posts": [
+    {
+      "id": "founder-humanized-86a54e4d00c92f1f7f2ae5e3",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "post",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "No reads or writes occur except within a transaction.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "Start with an inspectable constraint.",
+        "No reads or writes occur except within a transaction.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "No reads or writes occur except within a transaction.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-0ff31431e6be58ac23ea55f1",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    },
+    {
+      "id": "founder-humanized-d1715613958623617793831f",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "post",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "END TRANSACTION is an alias for COMMIT.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "Keep the evidence close to the decision.",
+        "END TRANSACTION is an alias for COMMIT.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "END TRANSACTION is an alias for COMMIT.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-17c9bb1b84c54f2f116b4be7",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    },
+    {
+      "id": "founder-humanized-41187aad1e4341f0f0c587a9",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "post",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "Transactions created using BEGIN...COMMIT do not nest.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "Make the failure condition explicit.",
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-16d35c03bf69086051bf2e9d",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    },
+    {
+      "id": "founder-humanized-a98a9ee0d8d3b0637f351899",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "post",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "A technical explanation needs a reproducible check.",
+        "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-b74e8f207714b9b6780b48a3",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    },
+    {
+      "id": "founder-humanized-50c84bd9c269c754fb8e454d",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "post",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "No reads or writes occur except within a transaction.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "State the limit of the example.",
+        "No reads or writes occur except within a transaction.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "No reads or writes occur except within a transaction.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-a8192bc4a4f498612e8f6af6",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    }
+  ],
+  "threads": [
+    {
+      "id": "founder-humanized-e9f4e41769739a0795750331",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "thread",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "No reads or writes occur except within a transaction.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        },
+        {
+          "statement": "END TRANSACTION is an alias for COMMIT.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        },
+        {
+          "statement": "Transactions created using BEGIN...COMMIT do not nest.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        },
+        {
+          "statement": "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "Start with an inspectable constraint.",
+        "No reads or writes occur except within a transaction.",
+        "END TRANSACTION is an alias for COMMIT.",
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "No reads or writes occur except within a transaction.",
+        "END TRANSACTION is an alias for COMMIT.",
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-8b71824acf564f6336a20130",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    },
+    {
+      "id": "founder-humanized-08c794c3e7c3d063b42f9a99",
+      "tenant": "founder",
+      "label": "REVIEWED_SOURCE",
+      "format": "thread",
+      "sourceIds": [
+        "founder-source-20261019-b65dc308"
+      ],
+      "claims": [
+        {
+          "statement": "No reads or writes occur except within a transaction.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        },
+        {
+          "statement": "END TRANSACTION is an alias for COMMIT.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        },
+        {
+          "statement": "Transactions created using BEGIN...COMMIT do not nest.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        },
+        {
+          "statement": "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+          "evidenceId": "founder-source-20261019-b65dc308",
+          "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+        }
+      ],
+      "blocks": [
+        "Keep the evidence close to the decision.",
+        "No reads or writes occur except within a transaction.",
+        "END TRANSACTION is an alias for COMMIT.",
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "protectedSegments": [
+        "No reads or writes occur except within a transaction.",
+        "END TRANSACTION is an alias for COMMIT.",
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+        "Source-supported engineering note. Personal experience is included only when owner-attested."
+      ],
+      "humanReview": "PENDING",
+      "publicationAuthorized": false,
+      "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+      "governance": [
+        {
+          "path": "brands/founder/VOICE.md",
+          "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+        },
+        {
+          "path": "brands/founder/DESIGN.md",
+          "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+        },
+        {
+          "path": "brands/founder/claims-ledger.yaml",
+          "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+        }
+      ],
+      "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+      "citations": [
+        {
+          "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+          "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+          "sourceId": "founder-source-20261019-b65dc308",
+          "uri": "https://www.sqlite.org/lang_transaction.html"
+        }
+      ],
+      "parentDraftId": "founder-draft-4e27a870d617bf3a8e5c2ad6",
+      "integrity": {
+        "status": "PASS",
+        "protectedClaimsUnchanged": true,
+        "unsupportedAdditions": 0,
+        "semanticReview": "HUMAN_REQUIRED",
+        "authenticityReview": "HUMAN_REQUIRED"
+      },
+      "hostedModelRequests": 0,
+      "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+      "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+    }
+  ],
+  "cycle": {
+    "tenant": "founder",
+    "dataset": "OBSERVED",
+    "schemaVersion": 1,
+    "revision": "v3-r1",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "cycleKey": "founder-week-20261019",
+    "label": "OWNER_ATTESTED",
+    "sequence": 1,
+    "sourceHash": "8bc95dea81d0718511a7a9a059ca57b23da39784c73ab441dbc84485780029e5",
+    "state": "AWAITING_APPROVAL",
+    "blocker": "OWNER_APPROVAL_AND_MANUAL_PUBLICATION_REQUIRED",
+    "draftId": "founder-humanized-e9f4e41769739a0795750331",
+    "packetId": "founder-packet-06a9a91ffb39c6153c8a3cbf",
+    "handoffs": [
+      {
+        "schemaVersion": 1,
+        "tenant": "founder",
+        "campaignId": "founder-week-20261019",
+        "taskId": "founder-week-20261019-research",
+        "stage": "research",
+        "primarySpecialist": "market-researcher",
+        "supportingSkills": [
+          "research-intelligence"
+        ],
+        "sourceIds": [
+          "founder-source-20261019-b65dc308"
+        ],
+        "requiredCapabilities": [
+          "research"
+        ],
+        "allowedTools": [
+          "reviewed-local-functions"
+        ],
+        "sideEffectClass": "LOCAL_ONLY",
+        "budget": {
+          "paidSocialUsd": 0,
+          "hostedModelRequests": 0
+        },
+        "modelRoute": "NOT_REQUIRED_OFFLINE",
+        "seed": 1,
+        "approvalState": "HOLD",
+        "inputSha256": "8bc95dea81d0718511a7a9a059ca57b23da39784c73ab441dbc84485780029e5",
+        "outputSha256": "fd49eb6e0952ee6c854de2a7525823622a619cb8ac12d37a4f4a52076241e01a",
+        "artifact": "runtime/v3/founder/stage-research/96ecf41b0cba85fe9ee4cd3602c87365707bbea17f69a0b568ae85a81f827199/manifest.json",
+        "nextOwner": "gtm-strategy",
+        "status": "COMPLETED_LOCAL_HUMAN_REVIEW_PENDING"
+      },
+      {
+        "schemaVersion": 1,
+        "tenant": "founder",
+        "campaignId": "founder-week-20261019",
+        "taskId": "founder-week-20261019-strategy",
+        "stage": "strategy",
+        "primarySpecialist": "gtm-strategy",
+        "supportingSkills": [
+          "icp-positioning"
+        ],
+        "sourceIds": [
+          "founder-source-20261019-b65dc308"
+        ],
+        "requiredCapabilities": [
+          "strategy"
+        ],
+        "allowedTools": [
+          "reviewed-local-functions"
+        ],
+        "sideEffectClass": "LOCAL_ONLY",
+        "budget": {
+          "paidSocialUsd": 0,
+          "hostedModelRequests": 0
+        },
+        "modelRoute": "NOT_REQUIRED_OFFLINE",
+        "seed": 1,
+        "approvalState": "HOLD",
+        "inputSha256": "fd49eb6e0952ee6c854de2a7525823622a619cb8ac12d37a4f4a52076241e01a",
+        "outputSha256": "42e9c14d6fe2c40020f176b094b5b3bcde17fbffb499d9a926916b6d4ca4bcd3",
+        "artifact": "runtime/v3/founder/stage-strategy/484a5fc5570c7aa0c214ec18547d25c122a6cd41e0b8606f6fe9f5687d535ee1/manifest.json",
+        "nextOwner": "content-copywriting",
+        "status": "COMPLETED_LOCAL_HUMAN_REVIEW_PENDING"
+      },
+      {
+        "schemaVersion": 1,
+        "tenant": "founder",
+        "campaignId": "founder-week-20261019",
+        "taskId": "founder-week-20261019-content",
+        "stage": "content",
+        "primarySpecialist": "content-copywriting",
+        "supportingSkills": [
+          "brand-voice"
+        ],
+        "sourceIds": [
+          "founder-source-20261019-b65dc308"
+        ],
+        "requiredCapabilities": [
+          "content"
+        ],
+        "allowedTools": [
+          "reviewed-local-functions"
+        ],
+        "sideEffectClass": "LOCAL_ONLY",
+        "budget": {
+          "paidSocialUsd": 0,
+          "hostedModelRequests": 0
+        },
+        "modelRoute": "NOT_REQUIRED_OFFLINE",
+        "seed": 1,
+        "approvalState": "HOLD",
+        "inputSha256": "42e9c14d6fe2c40020f176b094b5b3bcde17fbffb499d9a926916b6d4ca4bcd3",
+        "outputSha256": "fae3add3f0cafcbd5281de4105e382623d1b7fbadd26d22d18ccc66f8eb1d466",
+        "artifact": "runtime/v3/founder/stage-content/715c7f3ddd697da071efabb477128f28bfc00a76222ce4a13acfb1c87b682eac/manifest.json",
+        "nextOwner": "content-copywriting",
+        "status": "COMPLETED_LOCAL_HUMAN_REVIEW_PENDING"
+      },
+      {
+        "schemaVersion": 1,
+        "tenant": "founder",
+        "campaignId": "founder-week-20261019",
+        "taskId": "founder-week-20261019-humanization",
+        "stage": "humanization",
+        "primarySpecialist": "content-copywriting",
+        "supportingSkills": [
+          "humanizer"
+        ],
+        "sourceIds": [
+          "founder-source-20261019-b65dc308"
+        ],
+        "requiredCapabilities": [
+          "humanization"
+        ],
+        "allowedTools": [
+          "reviewed-local-functions"
+        ],
+        "sideEffectClass": "LOCAL_ONLY",
+        "budget": {
+          "paidSocialUsd": 0,
+          "hostedModelRequests": 0
+        },
+        "modelRoute": "NOT_REQUIRED_OFFLINE",
+        "seed": 1,
+        "approvalState": "HOLD",
+        "inputSha256": "fae3add3f0cafcbd5281de4105e382623d1b7fbadd26d22d18ccc66f8eb1d466",
+        "outputSha256": "a680d915609a530acc3ca2e5f6644f10d27114fc800067bf934cd9ac80c2c51b",
+        "artifact": "runtime/v3/founder/stage-humanization/07a7b6a101862d8cc8c9c23ef4c5ccdab05df9732e877120c79d2c024f20b9b0/manifest.json",
+        "nextOwner": "graphic-diagram-design",
+        "status": "COMPLETED_LOCAL_HUMAN_REVIEW_PENDING"
+      },
+      {
+        "schemaVersion": 1,
+        "tenant": "founder",
+        "campaignId": "founder-week-20261019",
+        "taskId": "founder-week-20261019-creative",
+        "stage": "creative",
+        "primarySpecialist": "graphic-diagram-design",
+        "supportingSkills": [
+          "graphic-design"
+        ],
+        "sourceIds": [
+          "founder-source-20261019-b65dc308"
+        ],
+        "requiredCapabilities": [
+          "creative"
+        ],
+        "allowedTools": [
+          "reviewed-local-functions"
+        ],
+        "sideEffectClass": "LOCAL_ONLY",
+        "budget": {
+          "paidSocialUsd": 0,
+          "hostedModelRequests": 0
+        },
+        "modelRoute": "NOT_REQUIRED_OFFLINE",
+        "seed": 1,
+        "approvalState": "HOLD",
+        "inputSha256": "a680d915609a530acc3ca2e5f6644f10d27114fc800067bf934cd9ac80c2c51b",
+        "outputSha256": "ec1e2c460d25d4b8987075f9b20340f2b9e86d7f8eb1f44d3d66322121fe03cf",
+        "artifact": "runtime/v3/founder/stage-creative/422692f959daf43e790c4de4a162b0b0e97c96e5178ef3d18763d58f30c01be4/manifest.json",
+        "nextOwner": "quality-assurance",
+        "status": "COMPLETED_LOCAL_HUMAN_REVIEW_PENDING"
+      },
+      {
+        "schemaVersion": 1,
+        "tenant": "founder",
+        "campaignId": "founder-week-20261019",
+        "taskId": "founder-week-20261019-qa",
+        "stage": "qa",
+        "primarySpecialist": "quality-assurance",
+        "supportingSkills": [
+          "release-qa"
+        ],
+        "sourceIds": [
+          "founder-source-20261019-b65dc308"
+        ],
+        "requiredCapabilities": [
+          "qa"
+        ],
+        "allowedTools": [
+          "reviewed-local-functions"
+        ],
+        "sideEffectClass": "LOCAL_ONLY",
+        "budget": {
+          "paidSocialUsd": 0,
+          "hostedModelRequests": 0
+        },
+        "modelRoute": "NOT_REQUIRED_OFFLINE",
+        "seed": 1,
+        "approvalState": "HOLD",
+        "inputSha256": "ec1e2c460d25d4b8987075f9b20340f2b9e86d7f8eb1f44d3d66322121fe03cf",
+        "outputSha256": "0a77e7cfe15538fc7474bc58ce0b79b53f7b3c0aa375ae5064228fd5c0997281",
+        "artifact": "runtime/v3/founder/stage-qa/0cf11be5bd700a27557e4ee8660f3d292694a700f919bb5e024440452ff0a21c/manifest.json",
+        "nextOwner": "owner",
+        "status": "COMPLETED_LOCAL_HUMAN_REVIEW_PENDING"
+      }
+    ],
+    "realCycleCompleted": false,
+    "id": "founder-week-20261019-v1"
+  },
+  "report": {
+    "tenant": "founder",
+    "dataset": "OBSERVED",
+    "schemaVersion": 1,
+    "revision": "v3-r1",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "period": {
+      "start": "2026-10-12T00:00:00.000Z",
+      "end": "2026-10-19T00:00:00.000Z",
+      "interval": "UTC_HALF_OPEN"
+    },
+    "engineering": {
+      "status": "RECORDED",
+      "recordedCheckpoints": 1,
+      "completedCycles": 0,
+      "externalWrites": 0,
+      "inferenceCost": null,
+      "resourceConsumption": "MEASURED_BY_ACCEPTANCE_RUNNER"
+    },
+    "business": {
+      "status": "NO_DATA",
+      "verifiedConversions": null,
+      "metrics": [],
+      "ctr": null,
+      "ctrLimitation": "Requires clicks and impressions for the same post, source and window; no inference from impressions alone",
+      "qualification": "Owner-defined relevant builder engagement, relationships, collaboration and opportunities; follower counts alone do not qualify",
+      "missingValue": "UNAVAILABLE",
+      "claimableGrowth": "NOT_ESTABLISHED",
+      "datasetSeparation": "PHYSICAL_DATABASES"
+    },
+    "retrospective": {
+      "interpretation": "Separate observations, missing data and hypotheses; no causal growth claim",
+      "nextExperiment": "Owner selects one evidence-backed hypothesis and records its denominator and guardrails"
+    }
+  },
+  "replay": {
+    "tenant": "founder",
+    "dataset": "SYNTHETIC",
+    "schemaVersion": 1,
+    "revision": "v3-r1",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "label": "SYNTHETIC",
+    "jobs": [
+      {
+        "component": "Agent Reach prescribed RSS parser; broad doctor and credential channels were not invoked",
+        "credentialsRead": false,
+        "hostedModelRequests": 0,
+        "items": [
+          {
+            "id": "fixture-one",
+            "link": "fixture-one",
+            "published": "Mon, 19 Oct 2026 00:00:00 GMT",
+            "title": "Source-backed explanation"
+          }
+        ],
+        "label": "SYNTHETIC",
+        "library": "feedparser 6.0.14",
+        "mode": "rss",
+        "networkRequests": 0,
+        "scope": "OFFLINE_COMPONENT_REPLAY_NOT_LIVE_RETRIEVAL",
+        "tenant": "founder"
+      },
+      {
+        "component": "Pinned Last30Days date utilities only",
+        "componentSha256": "d1c71ec823bf122396523b04875cdd59e169658d158b5dface574233433574c8",
+        "credentialsRead": false,
+        "hostedModelRequests": 0,
+        "label": "SYNTHETIC",
+        "mode": "dates",
+        "networkRequests": 0,
+        "range": [
+          "2026-09-19",
+          "2026-10-19"
+        ],
+        "scope": "OFFLINE_COMPONENT_REPLAY_NOT_LIVE_RETRIEVAL",
+        "tenant": "founder"
+      },
+      {
+        "component": "Existing Scrapling Selector; no Fetcher, browser or stealth mode",
+        "credentialsRead": false,
+        "hostedModelRequests": 0,
+        "label": "SYNTHETIC",
+        "library": "scrapling 0.5",
+        "mode": "html",
+        "networkRequests": 0,
+        "paragraphs": [
+          "Source scope remains explicit."
+        ],
+        "scope": "OFFLINE_COMPONENT_REPLAY_NOT_LIVE_RETRIEVAL",
+        "tenant": "founder",
+        "title": "Local review fixture"
+      }
+    ],
+    "receipt": {
+      "directory": "runtime/v3/founder/research-replay/572b1a98ecb4522f1c7c32d107f16a56d57d6d615056f2e215421ecdabdbb7d5",
+      "path": "runtime/v3/founder/research-replay/572b1a98ecb4522f1c7c32d107f16a56d57d6d615056f2e215421ecdabdbb7d5/manifest.json",
+      "sha256": "aa785e93988c1f65d9dec513d20ffe6d2e86ab98d02328177ce9b6e1c200fd6e",
+      "bytes": 1450
+    },
+    "liveRetrievalProven": false
+  },
+  "limitations": [
+    "No owner experience or voice calibration invented",
+    "Source review establishes documentary statements, not live product verification",
+    "Creative is editorial prototype geometry, not real UI footage",
+    "Owner approval, manual publication and actual measurement are pending"
+  ],
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0
+}

@@ -1,0 +1,11 @@
+Start with an inspectable constraint.
+
+No reads or writes occur except within a transaction.
+
+END TRANSACTION is an alias for COMMIT.
+
+Transactions created using BEGIN...COMMIT do not nest.
+
+For nested transactions, use the SAVEPOINT and RELEASE commands.
+
+Source-supported engineering note. Personal experience is included only when owner-attested.

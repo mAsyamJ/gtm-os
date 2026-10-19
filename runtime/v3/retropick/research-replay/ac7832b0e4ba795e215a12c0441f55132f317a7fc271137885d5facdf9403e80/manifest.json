@@ -1,0 +1,51 @@
+[
+  {
+    "component": "Agent Reach prescribed RSS parser; broad doctor and credential channels were not invoked",
+    "credentialsRead": false,
+    "hostedModelRequests": 0,
+    "items": [
+      {
+        "id": "fixture-one",
+        "link": "fixture-one",
+        "published": "Mon, 19 Oct 2026 00:00:00 GMT",
+        "title": "Source-backed explanation"
+      }
+    ],
+    "label": "SYNTHETIC",
+    "library": "feedparser 6.0.14",
+    "mode": "rss",
+    "networkRequests": 0,
+    "scope": "OFFLINE_COMPONENT_REPLAY_NOT_LIVE_RETRIEVAL",
+    "tenant": "retropick"
+  },
+  {
+    "component": "Pinned Last30Days date utilities only",
+    "componentSha256": "d1c71ec823bf122396523b04875cdd59e169658d158b5dface574233433574c8",
+    "credentialsRead": false,
+    "hostedModelRequests": 0,
+    "label": "SYNTHETIC",
+    "mode": "dates",
+    "networkRequests": 0,
+    "range": [
+      "2026-09-19",
+      "2026-10-19"
+    ],
+    "scope": "OFFLINE_COMPONENT_REPLAY_NOT_LIVE_RETRIEVAL",
+    "tenant": "retropick"
+  },
+  {
+    "component": "Existing Scrapling Selector; no Fetcher, browser or stealth mode",
+    "credentialsRead": false,
+    "hostedModelRequests": 0,
+    "label": "SYNTHETIC",
+    "library": "scrapling 0.5",
+    "mode": "html",
+    "networkRequests": 0,
+    "paragraphs": [
+      "Source scope remains explicit."
+    ],
+    "scope": "OFFLINE_COMPONENT_REPLAY_NOT_LIVE_RETRIEVAL",
+    "tenant": "retropick",
+    "title": "Local review fixture"
+  }
+]

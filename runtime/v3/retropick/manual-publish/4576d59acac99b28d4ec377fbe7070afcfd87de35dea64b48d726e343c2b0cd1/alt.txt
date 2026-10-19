@@ -1,0 +1,1 @@
+Source-supported editorial geometry; prototype styling. No actual product UI or real activity shown.

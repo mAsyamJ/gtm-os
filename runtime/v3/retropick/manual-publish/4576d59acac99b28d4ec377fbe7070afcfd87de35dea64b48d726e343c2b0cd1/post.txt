@@ -1,0 +1,9 @@
+Read the current evidence before exploring the mechanism.
+
+The market creation layer for Monad.
+
+Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.
+
+Canonical Circle-USDC live smoke: BLOCKED_FUNDING.
+
+Scope follows the cited source. No investment advice or assurance of trading outcomes.

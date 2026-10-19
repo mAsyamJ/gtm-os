@@ -1,0 +1,34 @@
+.env
+.env.*
+!.env.example
+runtime/
+node_modules/
+dist/
+coverage/
+*.log
+*.sqlite
+*.db
+*.mp4
+*.wav
+*.mov
+*.webm
+output/*
+!output/sample-plans/
+!output/sample-calendars/
+output/sample-plans/*
+output/sample-calendars/*
+!output/sample-plans/phase-c-*.json
+!output/sample-plans/phase-c-*.md
+!output/sample-calendars/phase-c-*.json
+!output/sample-calendars/phase-c-*.md
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+.beads-credential-key
+.beads/proxieddb/
+*.gate.lock*
+
+# Local validation and preserved Windows download metadata
+__pycache__/
+*.pyc
+*:Zone.Identifier

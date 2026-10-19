@@ -1,0 +1,18 @@
+id: content
+initial: idea
+states:
+  - idea
+  - sourced_brief
+  - draft
+  - evidence_checked
+  - asset_created
+  - qa_passed
+  - awaiting_owner_approval
+  - approved
+  - queued
+  - published
+  - measured
+  - retrospective
+  - blocked
+default_on_error: blocked
+approval_rule: "external side effect requires exact immutable payload and verified owner authorization"

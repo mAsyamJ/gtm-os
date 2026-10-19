@@ -1,0 +1,6 @@
+id: creative-to-review
+from: graphic-designer
+to: qa-auditor
+required: [tenant, campaign_id, source_project, asset_sha256, asset_licenses, alt_text]
+acceptance: "brand, evidence, source and accessibility tests pass"
+no_external_writes: true

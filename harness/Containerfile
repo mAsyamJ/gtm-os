@@ -1,0 +1,9 @@
+# Reuse the existing audited rootless worker image. Build performs no package install.
+FROM localhost/gtm-v3-base:audited
+COPY upstream /opt/upstream
+COPY gtm /opt/gtm
+COPY fixtures /opt/fixtures
+WORKDIR /work
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1
+USER 1000:1000
+ENTRYPOINT ["python", "-I", "-B", "/opt/gtm/worker.py"]

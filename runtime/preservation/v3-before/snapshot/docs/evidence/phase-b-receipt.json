@@ -1,0 +1,61 @@
+{
+  "revision": "phase-b-r1",
+  "observed_at": "2026-10-17T13:46:14.092296+00:00",
+  "status": "PASS",
+  "baseline_commit": "36d4a04",
+  "branch": "codex/gtm-phase-b",
+  "audience": "Owner and local implementers",
+  "approval": "Local Phase B only; no live external actions",
+  "inputs": [
+    "FOUNDER_RETROPICK_GTM_OS_MASTER_PROMPT_V2.md",
+    "CODEX_GTM_OS_V2_PHASED_EXECUTION.md",
+    "docs/adr/"
+  ],
+  "asset_source_license": "JSON synthetic fixtures only; no third-party media; dependency metadata in phase-b-dependencies.json",
+  "checks": {
+    "dependencies": {
+      "exit": 0,
+      "status": "PASS"
+    },
+    "lint": {
+      "exit": 0,
+      "status": "PASS"
+    },
+    "build": {
+      "exit": 0,
+      "status": "PASS"
+    },
+    "tests": {
+      "exit": 0,
+      "status": "PASS"
+    },
+    "governance": {
+      "exit": 0,
+      "status": "PASS"
+    },
+    "python-tests": {
+      "exit": 0,
+      "status": "PASS"
+    },
+    "cli": {
+      "status": "PASS",
+      "exit": 0,
+      "commands": 18
+    },
+    "security": {
+      "exit": 0,
+      "status": "PASS"
+    }
+  },
+  "source_manifest_sha256": "7140fa33e462a31e9c263a98e68c270f5d2a81d7306e713948a7f5dd8ec9ad3b",
+  "project_provider_calls": 0,
+  "project_api_charges_usd": 0,
+  "operator_model_compute_cost": "NOT_MEASURED",
+  "benchmark_savings": "NOT_MEASURED",
+  "limitations": [
+    "No real research, marketing copy, image/video renderer or live analytics.",
+    "No authenticated provider identity, signed owner approval or live publishing.",
+    "Audit hashes detect corruption; local database owners can rewrite storage; no external cryptographic anchor.",
+    "Synthetic source validity is 24 hours; use a new run/key when expired."
+  ]
+}

@@ -1,0 +1,1 @@
+{"id": "gtm-14-scope", "limitations": ["SYNTHETIC fixture; no real activity, achievement or verification."], "revision": "fixture-1", "statement": "A synthetic replay does not demonstrate a live connector.", "suite": "gtm", "tenant": "retropick"}

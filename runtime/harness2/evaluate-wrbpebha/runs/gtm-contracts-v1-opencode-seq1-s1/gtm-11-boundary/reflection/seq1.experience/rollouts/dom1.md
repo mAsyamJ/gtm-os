@@ -1,0 +1,3 @@
+[ACTION] Assemble source-preserving local handoff
+[OBSERVATION]
+{"hostedModelRequests": 0, "humanReview": "REQUIRED", "label": "SYNTHETIC", "limitations": ["SYNTHETIC fixture; no real activity, achievement or verification."], "platformVerified": false, "publicationAuthorized": false, "revision": "fixture-1", "sourceSha256": "be0314e3dab8b504dd1e3c0a381f3786db402e2a3cff33ee7a81c9911a3db2de", "statement": "Tenant credentials and approvals must not cross campaign boundaries.", "tenant": "founder"}

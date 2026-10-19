@@ -1,0 +1,35 @@
+{
+  "revision": "phase-c-r1",
+  "status": "PASS",
+  "checks": [
+    "lint",
+    "build",
+    "runtime-tests",
+    "governance",
+    "python-tests",
+    "byte-identical-sample-replay",
+    "cli",
+    "scoped-security"
+  ],
+  "runtime_tests": 150,
+  "cli_checks": 22,
+  "sources": {
+    "path": "docs/evidence/phase-c-sources.json",
+    "sha256": "871b07b4d1aa76b7f45d97e4277d5e54da776e73f56a759f5f2fbf6af01f646a"
+  },
+  "baseline_commit": "897aa61",
+  "historical_evidence_unchanged": true,
+  "upstream_references": 3,
+  "upstream_code_executed": false,
+  "external_writes": 0,
+  "project_provider_calls": 0,
+  "project_provider_cost_usd": 0,
+  "operator_compute_cost": "NOT_MEASURED",
+  "public_claims_promoted": 0,
+  "limitations": [
+    "Sample replay uses a recorded historical evaluation clock; live commands check actual time",
+    "No independently verified product capabilities or personal achievements; public drafts still require proof",
+    "Source ingestion is local authorized files only, not a live crawler",
+    "Static scoped security checks do not certify all dependencies, upstream code or legal compliance"
+  ]
+}

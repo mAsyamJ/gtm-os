@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md (revision 464dca136e9765d638e742a810ab58af0e911376; MIT; pinned repository LICENSE receipt)

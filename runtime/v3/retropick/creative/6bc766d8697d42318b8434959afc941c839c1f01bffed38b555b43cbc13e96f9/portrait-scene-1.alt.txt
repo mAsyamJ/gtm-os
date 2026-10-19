@@ -1,0 +1,1 @@
+The market creation layer for Monad. Editorial geometry with placeholder styling; no product UI or personal history depicted.

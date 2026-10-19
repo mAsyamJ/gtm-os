@@ -1,0 +1,3633 @@
+{
+  "label": "SYNTHETIC_WORKFLOW_DEMOS",
+  "commands": [
+    {
+      "command": [
+        "./gtm",
+        "doctor",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "readyForPhaseBOffline": true,
+          "node": "v24.11.0",
+          "sqlite": "3.53.4",
+          "skills": 29,
+          "workflows": 16,
+          "brands": [
+            {
+              "tenant": "retropick",
+              "profileValid": true,
+              "expectedHandle": "RetroPickMarket",
+              "principalVerified": false,
+              "claims": {
+                "tenant": "retropick",
+                "claims": 0,
+                "issues": [],
+                "verifiedProductClaims": "NONE_RECORDED",
+                "publicationAuthorized": false
+              }
+            },
+            {
+              "tenant": "founder",
+              "profileValid": true,
+              "expectedHandle": "iHateModelsss",
+              "principalVerified": false,
+              "claims": {
+                "tenant": "founder",
+                "claims": 0,
+                "issues": [],
+                "verifiedProductClaims": "NONE_RECORDED",
+                "publicationAuthorized": false
+              }
+            }
+          ],
+          "stores": [
+            {
+              "tenant": "retropick",
+              "status": "LOCAL_STORE_VERIFIED",
+              "audit": {
+                "valid": true,
+                "entries": 20,
+                "headHash": "1c3015ae26850fb88e253016dc76a1d4b8ce947e6f20ff1314ae5b9d1758ce9b"
+              }
+            },
+            {
+              "tenant": "founder",
+              "status": "LOCAL_STORE_VERIFIED",
+              "audit": {
+                "valid": true,
+                "entries": 18,
+                "headHash": "7aedca4ac822c063f635009229c62f30136f087a8b80b704d589c927afaf88b7"
+              }
+            }
+          ],
+          "integrations": [
+            {
+              "id": "local-fixture",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "x-official",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "x-mcp",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "manual-publisher",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "mock-publisher",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "postiz",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "buffer-manual",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "github",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "playwright",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "capture",
+                "storyboard",
+                "generateTimeline",
+                "render",
+                "generateCaptions",
+                "createThumbnail",
+                "probe",
+                "visualQA",
+                "licenseAudit"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "crawl4ai",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "rss",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "posthog",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "umami",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "search-console",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "ga4",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "satori-sharp",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "ffmpeg",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "capture",
+                "storyboard",
+                "generateTimeline",
+                "render",
+                "generateCaptions",
+                "createThumbnail",
+                "probe",
+                "visualQA",
+                "licenseAudit"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "video-shotcraft",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "capture",
+                "storyboard",
+                "generateTimeline",
+                "render",
+                "generateCaptions",
+                "createThumbnail",
+                "probe",
+                "visualQA",
+                "licenseAudit"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "motion-canvas",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "capture",
+                "storyboard",
+                "generateTimeline",
+                "render",
+                "generateCaptions",
+                "createThumbnail",
+                "probe",
+                "visualQA",
+                "licenseAudit"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "comfyui",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "whisper-local",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "piper-tts",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            },
+            {
+              "id": "model-router",
+              "status": "BLOCKED",
+              "network": false,
+              "liveImplemented": false,
+              "actions": [
+                "draft",
+                "preview",
+                "read",
+                "render"
+              ],
+              "mockAvailable": true
+            }
+          ],
+          "liveProviders": "BLOCKED_NOT_CONNECTED",
+          "missingComponents": [
+            "Real source ingestion/strategy: Phase C",
+            "Real graphics/video: Phase D",
+            "OAuth, signed owner approvals, live distribution and analytics: Phase E",
+            "Full campaign simulations: Phase F"
+          ],
+          "policy": {
+            "publishEnabled": false,
+            "externalWrites": false,
+            "paidApiEnabled": false,
+            "xMonthlyCapUsd": 0
+          },
+          "modelRouting": "NOT_INVOKED",
+          "benchmarkSavings": "NOT_MEASURED"
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "skills",
+        "list",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": [
+          {
+            "name": "analytics-attribution",
+            "description": "Use to define events, funnel dashboards, UTM links and post-campaign attribution.",
+            "path": ".agents/skills/analytics-attribution/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "brand-voice",
+            "description": "Use when adapting text to the distinct founder or RetroPick voice.",
+            "path": ".agents/skills/brand-voice/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "campaign-architecture",
+            "description": "Use to build campaign plans, messaging funnels and distribution experiments.",
+            "path": ".agents/skills/campaign-architecture/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "claim-verification",
+            "description": "Use when auditing facts, quantitative achievements, product claims or financial messages.",
+            "path": ".agents/skills/claim-verification/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "community-engagement",
+            "description": "Use for respectful public community Q&A drafts and feedback synthesis.",
+            "path": ".agents/skills/community-engagement/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "content-repurposing",
+            "description": "Use to adapt one verified source into multiple original formats and platforms.",
+            "path": ".agents/skills/content-repurposing/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "cost-optimization",
+            "description": "Use to benchmark LLM routing, deterministic tools and provider cost efficiency.",
+            "path": ".agents/skills/cost-optimization/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "creator-distribution",
+            "description": "Use for collaboration formats and creator-focused organic community plans.",
+            "path": ".agents/skills/creator-distribution/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "customer-discovery",
+            "description": "Use for jobs-to-be-done synthesis from consented interviews and feedback.",
+            "path": ".agents/skills/customer-discovery/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "developer-relations",
+            "description": "Use for OSS updates, developer tutorials, technical docs and ecosystem education.",
+            "path": ".agents/skills/developer-relations/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "founder-led-growth",
+            "description": "Use for authentic founder build-in-public and credible technical distribution.",
+            "path": ".agents/skills/founder-led-growth/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "graphic-design",
+            "description": "Use for vector social graphics, launch visuals, technical diagrams and branding.",
+            "path": ".agents/skills/graphic-design/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "growth-experiments",
+            "description": "Use to specify, rank and analyze marketing or product experiments.",
+            "path": ".agents/skills/growth-experiments/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "gtm-orchestrator",
+            "description": "Use for cross-team marketing plans, workflow sequencing and accountable handoffs.",
+            "path": ".agents/skills/gtm-orchestrator/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "icp-positioning",
+            "description": "Use for ICP definition, category design, positioning and message-house work.",
+            "path": ".agents/skills/icp-positioning/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "landing-page-cro",
+            "description": "Use to audit on-site conversion friction and propose reversible funnel experiments.",
+            "path": ".agents/skills/landing-page-cro/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "launch-playbook",
+            "description": "Use for release announcements, product launches and launch-day QA.",
+            "path": ".agents/skills/launch-playbook/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "partnership-outreach",
+            "description": "Use to research ecosystem collaborators and draft nonspam partnership proposals.",
+            "path": ".agents/skills/partnership-outreach/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "product-demo-capture",
+            "description": "Use for authorized RetroPick browser screenshots, deterministic product demos and release visual QA.",
+            "path": ".agents/skills/product-demo-capture/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "release-qa",
+            "description": "Use for final content/creative/CLI/workflow acceptance and regression checks.",
+            "path": ".agents/skills/release-qa/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "research-intelligence",
+            "description": "Use for ethical market intelligence, competitor monitoring and evidence-backed trends.",
+            "path": ".agents/skills/research-intelligence/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "security-compliance",
+            "description": "Use to review X permissions, token handling, Web3 marketing claims, source/IP licenses and privacy.",
+            "path": ".agents/skills/security-compliance/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "seo-geo-content",
+            "description": "Use for helpful SEO, structured data and AI-answer discoverability without keyword spam.",
+            "path": ".agents/skills/seo-geo-content/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "social-publishing",
+            "description": "Use for social publishing preparation, approvals, account matching, receipts and dry-run.",
+            "path": ".agents/skills/social-publishing/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "tenant-router",
+            "description": "Use whenever a task changes or chooses between RetroPick and the founder brand.",
+            "path": ".agents/skills/tenant-router/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "video-editing",
+            "description": "Use for motion video assembly, subtitle/audio edit, render and verification.",
+            "path": ".agents/skills/video-editing/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "video-storyboard",
+            "description": "Use to turn product or founder narrative into a shot list and motion timeline.",
+            "path": ".agents/skills/video-storyboard/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "weekly-founder-brief",
+            "description": "Use for weekly founder and RetroPick GTM performance planning.",
+            "path": ".agents/skills/weekly-founder-brief/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          },
+          {
+            "name": "x-thread-writing",
+            "description": "Use for X post hooks, grounded threads, captions and editorial validation.",
+            "path": ".agents/skills/x-thread-writing/SKILL.md",
+            "status": "INSTRUCTION_ONLY"
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "workflow",
+        "list",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": [
+          {
+            "id": "build-in-public",
+            "owner": "founder-brand",
+            "description": "authentic technical shipping into useful founder narrative",
+            "stages": 6,
+            "definitionSha256": "34d727bd6b30488af18229dd960ffc8c0e868b83f640751c4546ea4edbd67c6a",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "campaign-from-insight",
+            "owner": "product-marketer",
+            "description": "convert evidence into a measurable campaign",
+            "stages": 4,
+            "definitionSha256": "43bef8bb6c0f5fb7bbaa2148c0a01c44dc7fc2d382ee9f4b3d9704f0cce86dbc",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "community-relationship",
+            "owner": "partnerships",
+            "description": "respectful participation and insights",
+            "stages": 3,
+            "definitionSha256": "f4bd3de3b4d6f642c573815c8a38fbcfa32f72d87c89eb935fc4e95637ee7f78",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "daily-intelligence",
+            "owner": "market-researcher",
+            "description": "read-only daily ecosystem and product shipping brief",
+            "stages": 3,
+            "definitionSha256": "62e2ba9fd108ff4c7c25af05ab4422063efee1cf78eb3bd1af9a565928344c90",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "feature-launch",
+            "owner": "product-marketer",
+            "description": "verified RetroPick feature into launch assets",
+            "stages": 7,
+            "definitionSha256": "ef7dee4301161a605d5bea82e5cb9f3fab2c94cf9ff6e58dd515e6d0ade54fc3",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "incident-pause",
+            "owner": "compliance-officer",
+            "description": "pause affected queue on factual/auth/cost issue",
+            "stages": 3,
+            "definitionSha256": "745656f7944d53d93c4798588b5a3103d9a78322d117dcb5aee83cf0b784876d",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "landing-page-experiment",
+            "owner": "seo-cro-engineer",
+            "description": "conversion hypothesis to reviewed PR proposal",
+            "stages": 4,
+            "definitionSha256": "47053fcb164b218461030e0192cf9f14f041ff63d86d44f3e62ba5dcd563f6c9",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "partner-outreach",
+            "owner": "partnerships",
+            "description": "individual opportunity review and unsent outreach",
+            "stages": 3,
+            "definitionSha256": "37a3f90a585d382439919deda15a5753dbb837d9dd0a0da9140b76ba496d332b",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "post-performance-retro",
+            "owner": "marketing-analyst",
+            "description": "verified outcome review",
+            "stages": 3,
+            "definitionSha256": "2c4f7dbde9f3943f7b9d51d1beb709909e781cb7d5e7cdf4aa4445b83b2610a2",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "product-to-video",
+            "owner": "motion-designer",
+            "description": "verified product story into shareable video",
+            "stages": 5,
+            "definitionSha256": "71dfd27ec27e404cc183a30948f129f2f44c88a2137f9e442a3dbf4392c10443",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "record-demo",
+            "owner": "developer-relations",
+            "description": "authorized UI walkthrough capture",
+            "stages": 3,
+            "definitionSha256": "eaeeeecd07ff44078a70704e301397b708cddac6a934006e50d0633ef351483e",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "repurpose-winners",
+            "owner": "social-editor",
+            "description": "adapt validated performant content without duplicate spam",
+            "stages": 4,
+            "definitionSha256": "5edc2f8d07ff209a3a88cac65808d64406afe941e61c84476707c4e9e71b9598",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "review-and-schedule",
+            "owner": "marketing-ops",
+            "description": "review an immutable item for publication",
+            "stages": 4,
+            "definitionSha256": "75d76fc0c6e00f7f1f2e6cad157bd0c321dfccf1f0042aecea848f28b348dd80",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "seo-content",
+            "owner": "seo-cro-engineer",
+            "description": "verified educational topic into crawlable helpful content",
+            "stages": 4,
+            "definitionSha256": "f13a7a39c73d320d6abc48014bd9c0b8d6a69c7c1da76483715f97b093b1c19a",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "thread-to-graphic",
+            "owner": "graphic-designer",
+            "description": "source-backed thread expanded into edited graphic",
+            "stages": 3,
+            "definitionSha256": "737d4ee3dcdd71811175476031b74b84633048177889d2428b56166af68af110",
+            "execution": "OFFLINE_SYNTHETIC"
+          },
+          {
+            "id": "weekly-founder-review",
+            "owner": "chief-gtm",
+            "description": "weekly founder and product scorecard with decisions",
+            "stages": 3,
+            "definitionSha256": "d1647b5e1f7cf0e1e6c0f127e77d85230cc71015370251840597cd8033313d70",
+            "execution": "OFFLINE_SYNTHETIC"
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "agents",
+        "list",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": [
+          {
+            "id": "chief-gtm",
+            "path": "agents/roles/chief-gtm/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "compliance-officer",
+            "path": "agents/roles/compliance-officer/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "developer-relations",
+            "path": "agents/roles/developer-relations/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "founder-brand",
+            "path": "agents/roles/founder-brand/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "graphic-designer",
+            "path": "agents/roles/graphic-designer/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "market-researcher",
+            "path": "agents/roles/market-researcher/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "marketing-analyst",
+            "path": "agents/roles/marketing-analyst/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "marketing-ops",
+            "path": "agents/roles/marketing-ops/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "motion-designer",
+            "path": "agents/roles/motion-designer/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "partnerships",
+            "path": "agents/roles/partnerships/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "product-marketer",
+            "path": "agents/roles/product-marketer/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "qa-auditor",
+            "path": "agents/roles/qa-auditor/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "seo-cro-engineer",
+            "path": "agents/roles/seo-cro-engineer/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "social-editor",
+            "path": "agents/roles/social-editor/ROLE.md",
+            "runtimeAgent": false
+          },
+          {
+            "id": "video-editor",
+            "path": "agents/roles/video-editor/ROLE.md",
+            "runtimeAgent": false
+          }
+        ]
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "install",
+        "audit",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "upstreamSkills": {
+            "format_version": 1,
+            "installed_and_verified": [],
+            "review_candidates": [
+              "https://github.com/coreyhaines31/marketingskills",
+              "https://github.com/social-media-skills/skills",
+              "https://github.com/composio-community/awesome-gtm-skills",
+              "https://github.com/Vincentwei1021/video-shotcraft"
+            ],
+            "install_policy": "pin_and_audit_before_activation"
+          },
+          "projectDependencies": {
+            "dependencies": {
+              "better-sqlite3": "13.0.3",
+              "yaml": "2.9.1",
+              "zod": "4.6.7"
+            },
+            "devDependencies": {
+              "@types/better-sqlite3": "9.6.0",
+              "@types/node": "24.19.2",
+              "typescript": "7.0.2",
+              "vitest": "5.0.5"
+            }
+          },
+          "activatedProviderConnections": 0,
+          "note": "Local inventory only; no registry or dependency audit request was made."
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "brand",
+        "validate",
+        "--brand",
+        "retropick",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "tenant": "retropick",
+          "profileValid": true,
+          "claims": {
+            "tenant": "retropick",
+            "claims": 0,
+            "issues": [],
+            "verifiedProductClaims": "NONE_RECORDED",
+            "publicationAuthorized": false
+          },
+          "officialAssetsVerified": false,
+          "principalVerified": false,
+          "publicationAuthorized": false
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "claims",
+        "audit",
+        "--brand",
+        "retropick",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "tenant": "retropick",
+          "claims": 0,
+          "issues": [],
+          "verifiedProductClaims": "NONE_RECORDED",
+          "publicationAuthorized": false
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "workflow",
+        "run",
+        "feature-launch",
+        "--brand",
+        "retropick",
+        "--offline",
+        "--idempotency-key",
+        "demo-000002-r",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "AWAITING_APPROVAL",
+        "data": {
+          "label": "SYNTHETIC",
+          "job": {
+            "id": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+            "tenant": "retropick",
+            "workflowId": "feature-launch",
+            "definitionSha256": "ef7dee4301161a605d5bea82e5cb9f3fab2c94cf9ff6e58dd515e6d0ade54fc3",
+            "inputSha256": "836cb68015520a04a574537edbec90fd3c72f7a6e401d42b026eff84eb9b071b",
+            "idempotencyKey": "demo-000002-r",
+            "state": "AWAITING_APPROVAL",
+            "checkpoint": 6,
+            "version": 8,
+            "sourceIds": [
+              "source_4255d1a458e5394ff3ed41ac64da73a6"
+            ],
+            "createdAt": "2026-10-17T13:46:07.366Z",
+            "updatedAt": "2026-10-17T13:46:07.472Z",
+            "offline": true,
+            "synthetic": true
+          },
+          "artifacts": [
+            {
+              "id": "artifact_ce3a423c8fd68ac3580ba7113d0dd076",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_1",
+              "skill": "claim-verification",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "claim-verification validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_1.json"
+            },
+            {
+              "id": "artifact_6a522821a1aa061e45a67e5e55cceeff",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_2",
+              "skill": "campaign-architecture",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "campaign-architecture validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_2.json"
+            },
+            {
+              "id": "artifact_edddfe8ac3b93024ea96cd5d5e16c898",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_3",
+              "skill": "x-thread-writing",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "x-thread-writing validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_3.json"
+            },
+            {
+              "id": "artifact_55cabef9563e0c26f05c50a176bd7ee4",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_4",
+              "skill": "graphic-design",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "graphic-design validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "satori-sharp",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_4.json"
+            },
+            {
+              "id": "artifact_744d11e077f8127c115f9316b4bb8d70",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_5",
+              "skill": "video-storyboard",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "video-storyboard validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "ffmpeg",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                      "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_5.json"
+            },
+            {
+              "id": "artifact_f911e429819da4482df731d53d8a5f94",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_6",
+              "skill": "release-qa",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "release-qa validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                      "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                      "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "16a599786f2c3faac68c3ae05649915f7bc9b807352821edb93d5dae577ee8d7",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_6.json"
+            }
+          ],
+          "outbox": [
+            {
+              "id": "outbox_job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6_step_7",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_7",
+              "status": "BLOCKED",
+              "reason": "EXTERNAL_WRITES_DISABLED",
+              "payloadSha256": "f280828baf53597512f6f0731393c122ea5f26c2126e50eb0e7145ab36ebb2be",
+              "approval": null
+            }
+          ],
+          "audit": {
+            "valid": true,
+            "entries": 30,
+            "headHash": "6f49148d3aab9c4b8ce8284d32e88fbb0c11d6066cb1402dd838a17f1974b5b4"
+          },
+          "limitations": [
+            "JSON contract fixtures only; no completed marketing content, media, provider call or signed owner approval."
+          ]
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "workflow",
+        "resume",
+        "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+        "--brand",
+        "retropick",
+        "--offline",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "AWAITING_APPROVAL",
+        "data": {
+          "label": "SYNTHETIC",
+          "job": {
+            "id": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+            "tenant": "retropick",
+            "workflowId": "feature-launch",
+            "definitionSha256": "ef7dee4301161a605d5bea82e5cb9f3fab2c94cf9ff6e58dd515e6d0ade54fc3",
+            "inputSha256": "836cb68015520a04a574537edbec90fd3c72f7a6e401d42b026eff84eb9b071b",
+            "idempotencyKey": "demo-000002-r",
+            "state": "AWAITING_APPROVAL",
+            "checkpoint": 6,
+            "version": 8,
+            "sourceIds": [
+              "source_4255d1a458e5394ff3ed41ac64da73a6"
+            ],
+            "createdAt": "2026-10-17T13:46:07.366Z",
+            "updatedAt": "2026-10-17T13:46:07.472Z",
+            "offline": true,
+            "synthetic": true
+          },
+          "artifacts": [
+            {
+              "id": "artifact_ce3a423c8fd68ac3580ba7113d0dd076",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_1",
+              "skill": "claim-verification",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "claim-verification validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_1.json"
+            },
+            {
+              "id": "artifact_6a522821a1aa061e45a67e5e55cceeff",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_2",
+              "skill": "campaign-architecture",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "campaign-architecture validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_2.json"
+            },
+            {
+              "id": "artifact_edddfe8ac3b93024ea96cd5d5e16c898",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_3",
+              "skill": "x-thread-writing",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "x-thread-writing validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_3.json"
+            },
+            {
+              "id": "artifact_55cabef9563e0c26f05c50a176bd7ee4",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_4",
+              "skill": "graphic-design",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "graphic-design validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "satori-sharp",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_4.json"
+            },
+            {
+              "id": "artifact_744d11e077f8127c115f9316b4bb8d70",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_5",
+              "skill": "video-storyboard",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "video-storyboard validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "ffmpeg",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                      "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_5.json"
+            },
+            {
+              "id": "artifact_f911e429819da4482df731d53d8a5f94",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_6",
+              "skill": "release-qa",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "release-qa validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                      "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                      "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "16a599786f2c3faac68c3ae05649915f7bc9b807352821edb93d5dae577ee8d7",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_6.json"
+            }
+          ],
+          "outbox": [
+            {
+              "id": "outbox_job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6_step_7",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_7",
+              "status": "BLOCKED",
+              "reason": "EXTERNAL_WRITES_DISABLED",
+              "payloadSha256": "f280828baf53597512f6f0731393c122ea5f26c2126e50eb0e7145ab36ebb2be",
+              "approval": null
+            }
+          ],
+          "audit": {
+            "valid": true,
+            "entries": 30,
+            "headHash": "6f49148d3aab9c4b8ce8284d32e88fbb0c11d6066cb1402dd838a17f1974b5b4"
+          },
+          "limitations": [
+            "JSON contract fixtures only; no completed marketing content, media, provider call or signed owner approval."
+          ]
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "audit",
+        "trace",
+        "--brand",
+        "retropick",
+        "--job",
+        "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "tenant": "retropick",
+          "job": {
+            "id": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+            "tenant": "retropick",
+            "workflowId": "feature-launch",
+            "definitionSha256": "ef7dee4301161a605d5bea82e5cb9f3fab2c94cf9ff6e58dd515e6d0ade54fc3",
+            "inputSha256": "836cb68015520a04a574537edbec90fd3c72f7a6e401d42b026eff84eb9b071b",
+            "idempotencyKey": "demo-000002-r",
+            "state": "AWAITING_APPROVAL",
+            "checkpoint": 6,
+            "version": 8,
+            "sourceIds": [
+              "source_4255d1a458e5394ff3ed41ac64da73a6"
+            ],
+            "createdAt": "2026-10-17T13:46:07.366Z",
+            "updatedAt": "2026-10-17T13:46:07.472Z",
+            "offline": true,
+            "synthetic": true
+          },
+          "audit": {
+            "valid": true,
+            "entries": 30,
+            "headHash": "6f49148d3aab9c4b8ce8284d32e88fbb0c11d6066cb1402dd838a17f1974b5b4"
+          },
+          "events": [
+            {
+              "seq": 22,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "job.created",
+              "at": "2026-10-17T13:46:07.387Z",
+              "data": {
+                "inputSha256": "836cb68015520a04a574537edbec90fd3c72f7a6e401d42b026eff84eb9b071b",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "workflowId": "feature-launch"
+              },
+              "previousHash": "eca991287323811fb784c9dce2976a0090eb124deede90e761e0dbf1729f97f6",
+              "hash": "c895f057769e21b75b6803cb87cee72a3acfb4b2e27dd6cf2da50a310bb8bf91"
+            },
+            {
+              "seq": 23,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "job.transition",
+              "at": "2026-10-17T13:46:07.427Z",
+              "data": {
+                "from": "PENDING",
+                "to": "RUNNING",
+                "version": 1
+              },
+              "previousHash": "c895f057769e21b75b6803cb87cee72a3acfb4b2e27dd6cf2da50a310bb8bf91",
+              "hash": "2fb4e4b0e485517d25a35b334b77f4b78811bc824ac66fe33ceccf35d34b4218"
+            },
+            {
+              "seq": 24,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:07.435Z",
+              "data": {
+                "artifactId": "artifact_ce3a423c8fd68ac3580ba7113d0dd076",
+                "checkpoint": 1,
+                "sha256": "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "stageId": "step_1",
+                "synthetic": true
+              },
+              "previousHash": "2fb4e4b0e485517d25a35b334b77f4b78811bc824ac66fe33ceccf35d34b4218",
+              "hash": "2e6a02c18403bf15778cdc7d88b201070814f60de3ec388b58a58a610b63d616"
+            },
+            {
+              "seq": 25,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:07.440Z",
+              "data": {
+                "artifactId": "artifact_6a522821a1aa061e45a67e5e55cceeff",
+                "checkpoint": 2,
+                "sha256": "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "stageId": "step_2",
+                "synthetic": true
+              },
+              "previousHash": "2e6a02c18403bf15778cdc7d88b201070814f60de3ec388b58a58a610b63d616",
+              "hash": "90588f39edc3dff625158f44e1132821ac2326f9a2ca360888f5a7da9ff85070"
+            },
+            {
+              "seq": 26,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:07.445Z",
+              "data": {
+                "artifactId": "artifact_edddfe8ac3b93024ea96cd5d5e16c898",
+                "checkpoint": 3,
+                "sha256": "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "stageId": "step_3",
+                "synthetic": true
+              },
+              "previousHash": "90588f39edc3dff625158f44e1132821ac2326f9a2ca360888f5a7da9ff85070",
+              "hash": "69887e121886145087c66f92d1bc384c3d20ef562083eb5ddccb7c75a67e5bd8"
+            },
+            {
+              "seq": 27,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:07.451Z",
+              "data": {
+                "artifactId": "artifact_55cabef9563e0c26f05c50a176bd7ee4",
+                "checkpoint": 4,
+                "sha256": "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "stageId": "step_4",
+                "synthetic": true
+              },
+              "previousHash": "69887e121886145087c66f92d1bc384c3d20ef562083eb5ddccb7c75a67e5bd8",
+              "hash": "f9731350ab62a3fcad13fcb5740bb578c86ea41be1f163ce0c0fb6772c43340d"
+            },
+            {
+              "seq": 28,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:07.458Z",
+              "data": {
+                "artifactId": "artifact_744d11e077f8127c115f9316b4bb8d70",
+                "checkpoint": 5,
+                "sha256": "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "stageId": "step_5",
+                "synthetic": true
+              },
+              "previousHash": "f9731350ab62a3fcad13fcb5740bb578c86ea41be1f163ce0c0fb6772c43340d",
+              "hash": "1b9eb89a5cd3c574e3644c633fa2480ae632d87c3493c568f31f87357b2d5207"
+            },
+            {
+              "seq": 29,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:07.465Z",
+              "data": {
+                "artifactId": "artifact_f911e429819da4482df731d53d8a5f94",
+                "checkpoint": 6,
+                "sha256": "16a599786f2c3faac68c3ae05649915f7bc9b807352821edb93d5dae577ee8d7",
+                "sourceIds": [
+                  "source_4255d1a458e5394ff3ed41ac64da73a6"
+                ],
+                "stageId": "step_6",
+                "synthetic": true
+              },
+              "previousHash": "1b9eb89a5cd3c574e3644c633fa2480ae632d87c3493c568f31f87357b2d5207",
+              "hash": "287d3ff549fd02dd4182aa2022abb993715be26a2c26476f2cef0dcac89f8776"
+            },
+            {
+              "seq": 30,
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "kind": "approval.required",
+              "at": "2026-10-17T13:46:07.472Z",
+              "data": {
+                "externalWrites": false,
+                "payloadSha256": "f280828baf53597512f6f0731393c122ea5f26c2126e50eb0e7145ab36ebb2be",
+                "signedApproval": false,
+                "stageId": "step_7"
+              },
+              "previousHash": "287d3ff549fd02dd4182aa2022abb993715be26a2c26476f2cef0dcac89f8776",
+              "hash": "6f49148d3aab9c4b8ce8284d32e88fbb0c11d6066cb1402dd838a17f1974b5b4"
+            }
+          ],
+          "sourceIds": [
+            "source_4255d1a458e5394ff3ed41ac64da73a6"
+          ],
+          "sources": [
+            {
+              "id": "source_4255d1a458e5394ff3ed41ac64da73a6",
+              "tenant": "retropick",
+              "uri": "fixture://retropick/phase-b/source_4255d1a458e5394ff3ed41ac64da73a6",
+              "revision": "phase-b-fixture-r1",
+              "observedAt": "2026-10-17T13:46:07.366Z",
+              "expiresAt": "2026-10-18T13:46:07.366Z",
+              "contentSha256": "52a9057efa100195b5d73eb373a8d2123bd585052ae83817fde1556a3738241b",
+              "classification": "SYNTHETIC",
+              "license": "NO_EXTERNAL_ASSETS",
+              "body": {
+                "statement": "SYNTHETIC illustrative workflow input. No product feature, user metric or founder achievement is asserted.",
+                "tenant": "retropick",
+                "workflowId": "feature-launch"
+              }
+            }
+          ],
+          "artifacts": [
+            {
+              "id": "artifact_ce3a423c8fd68ac3580ba7113d0dd076",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_1",
+              "skill": "claim-verification",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "claim-verification validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_1.json"
+            },
+            {
+              "id": "artifact_6a522821a1aa061e45a67e5e55cceeff",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_2",
+              "skill": "campaign-architecture",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "campaign-architecture validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_2.json"
+            },
+            {
+              "id": "artifact_edddfe8ac3b93024ea96cd5d5e16c898",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_3",
+              "skill": "x-thread-writing",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "x-thread-writing validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_3.json"
+            },
+            {
+              "id": "artifact_55cabef9563e0c26f05c50a176bd7ee4",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_4",
+              "skill": "graphic-design",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "graphic-design validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "satori-sharp",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_4.json"
+            },
+            {
+              "id": "artifact_744d11e077f8127c115f9316b4bb8d70",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_5",
+              "skill": "video-storyboard",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "video-storyboard validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "ffmpeg",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                      "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_5.json"
+            },
+            {
+              "id": "artifact_f911e429819da4482df731d53d8a5f94",
+              "revision": "phase-b-r1",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_6",
+              "skill": "release-qa",
+              "sourceIds": [
+                "source_4255d1a458e5394ff3ed41ac64da73a6"
+              ],
+              "inputArtifactHashes": [
+                "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef"
+              ],
+              "createdAt": "2026-10-17T13:46:07.366Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "release-qa validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "99c56ebc8a923aa68d17a480f0357c85e5cf2e357078fef634425dbe2f4cfa74",
+                      "6465fa5fa568cdf3e41dcd099bf975442003191cf375dab2a8f4ce935082cd23",
+                      "8863bab4aedfc78711dad9982e20979018593d86685163807d9053384027ab63",
+                      "1109625816cf72ef343fc47ecdecd4b02405609354d485100813227c2e4b313c",
+                      "4abed7b915d24eae04a42f5bffb49cbe35fa45b96c29420f3e97e49934573cef"
+                    ],
+                    "sourceIds": [
+                      "source_4255d1a458e5394ff3ed41ac64da73a6"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "retropick"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "16a599786f2c3faac68c3ae05649915f7bc9b807352821edb93d5dae577ee8d7",
+              "relativePath": "runtime/artifacts/retropick/job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6/step_6.json"
+            }
+          ],
+          "outbox": [
+            {
+              "id": "outbox_job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6_step_7",
+              "tenant": "retropick",
+              "jobId": "job_7b6fe38d-4029-44f0-98b7-a8ac9664dfe6",
+              "stageId": "step_7",
+              "status": "BLOCKED",
+              "reason": "EXTERNAL_WRITES_DISABLED",
+              "payloadSha256": "f280828baf53597512f6f0731393c122ea5f26c2126e50eb0e7145ab36ebb2be",
+              "approval": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "brand",
+        "validate",
+        "--brand",
+        "founder",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "tenant": "founder",
+          "profileValid": true,
+          "claims": {
+            "tenant": "founder",
+            "claims": 0,
+            "issues": [],
+            "verifiedProductClaims": "NONE_RECORDED",
+            "publicationAuthorized": false
+          },
+          "officialAssetsVerified": false,
+          "principalVerified": false,
+          "publicationAuthorized": false
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "claims",
+        "audit",
+        "--brand",
+        "founder",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "tenant": "founder",
+          "claims": 0,
+          "issues": [],
+          "verifiedProductClaims": "NONE_RECORDED",
+          "publicationAuthorized": false
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "workflow",
+        "run",
+        "build-in-public",
+        "--brand",
+        "founder",
+        "--offline",
+        "--idempotency-key",
+        "demo-000002-f",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "AWAITING_APPROVAL",
+        "data": {
+          "label": "SYNTHETIC",
+          "job": {
+            "id": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+            "tenant": "founder",
+            "workflowId": "build-in-public",
+            "definitionSha256": "34d727bd6b30488af18229dd960ffc8c0e868b83f640751c4546ea4edbd67c6a",
+            "inputSha256": "d1ef40c61a4cf3632bd70cbba7db5cffe5e1c9d9928bda549b06c3d53d532028",
+            "idempotencyKey": "demo-000002-f",
+            "state": "AWAITING_APPROVAL",
+            "checkpoint": 5,
+            "version": 7,
+            "sourceIds": [
+              "source_c6f414834c376ee4615a40535f960dff"
+            ],
+            "createdAt": "2026-10-17T13:46:08.609Z",
+            "updatedAt": "2026-10-17T13:46:08.709Z",
+            "offline": true,
+            "synthetic": true
+          },
+          "artifacts": [
+            {
+              "id": "artifact_fd07d95152b45752e50022948a8eaaab",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_1",
+              "skill": "claim-verification",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "claim-verification validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_1.json"
+            },
+            {
+              "id": "artifact_80b9a10f2a3dbe962a79179aef11ca13",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_2",
+              "skill": "founder-led-growth",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "founder-led-growth validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_2.json"
+            },
+            {
+              "id": "artifact_1f61506165bd57df5fcb1ff11561d053",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_3",
+              "skill": "x-thread-writing",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "x-thread-writing validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_3.json"
+            },
+            {
+              "id": "artifact_53f07da50bf9ef00014fdd522920c9fb",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_4",
+              "skill": "graphic-design",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "graphic-design validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "satori-sharp",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                      "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_4.json"
+            },
+            {
+              "id": "artifact_7bbd9c7b2f37c4fd88ce7ff2e2a6836f",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_5",
+              "skill": "release-qa",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "release-qa validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                      "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                      "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "dd640f65329a96b7179667abbb4bcae0c0ce9a0531697277888d5bb488a21abb",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_5.json"
+            }
+          ],
+          "outbox": [
+            {
+              "id": "outbox_job_0e0440b0-dd1a-458a-a612-db4b11bcaf80_step_6",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_6",
+              "status": "BLOCKED",
+              "reason": "EXTERNAL_WRITES_DISABLED",
+              "payloadSha256": "e02945c4837522d1e10654e445b6c355f9bbee58401f5eb0214ffce2390859af",
+              "approval": null
+            }
+          ],
+          "audit": {
+            "valid": true,
+            "entries": 27,
+            "headHash": "cb600672822dcb26862c5c6906340a256564f5e9c5ccba7b8cd0f4bd00748acb"
+          },
+          "limitations": [
+            "JSON contract fixtures only; no completed marketing content, media, provider call or signed owner approval."
+          ]
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "workflow",
+        "resume",
+        "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+        "--brand",
+        "founder",
+        "--offline",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "AWAITING_APPROVAL",
+        "data": {
+          "label": "SYNTHETIC",
+          "job": {
+            "id": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+            "tenant": "founder",
+            "workflowId": "build-in-public",
+            "definitionSha256": "34d727bd6b30488af18229dd960ffc8c0e868b83f640751c4546ea4edbd67c6a",
+            "inputSha256": "d1ef40c61a4cf3632bd70cbba7db5cffe5e1c9d9928bda549b06c3d53d532028",
+            "idempotencyKey": "demo-000002-f",
+            "state": "AWAITING_APPROVAL",
+            "checkpoint": 5,
+            "version": 7,
+            "sourceIds": [
+              "source_c6f414834c376ee4615a40535f960dff"
+            ],
+            "createdAt": "2026-10-17T13:46:08.609Z",
+            "updatedAt": "2026-10-17T13:46:08.709Z",
+            "offline": true,
+            "synthetic": true
+          },
+          "artifacts": [
+            {
+              "id": "artifact_fd07d95152b45752e50022948a8eaaab",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_1",
+              "skill": "claim-verification",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "claim-verification validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_1.json"
+            },
+            {
+              "id": "artifact_80b9a10f2a3dbe962a79179aef11ca13",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_2",
+              "skill": "founder-led-growth",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "founder-led-growth validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_2.json"
+            },
+            {
+              "id": "artifact_1f61506165bd57df5fcb1ff11561d053",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_3",
+              "skill": "x-thread-writing",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "x-thread-writing validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_3.json"
+            },
+            {
+              "id": "artifact_53f07da50bf9ef00014fdd522920c9fb",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_4",
+              "skill": "graphic-design",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "graphic-design validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "satori-sharp",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                      "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_4.json"
+            },
+            {
+              "id": "artifact_7bbd9c7b2f37c4fd88ce7ff2e2a6836f",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_5",
+              "skill": "release-qa",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "release-qa validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                      "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                      "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "dd640f65329a96b7179667abbb4bcae0c0ce9a0531697277888d5bb488a21abb",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_5.json"
+            }
+          ],
+          "outbox": [
+            {
+              "id": "outbox_job_0e0440b0-dd1a-458a-a612-db4b11bcaf80_step_6",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_6",
+              "status": "BLOCKED",
+              "reason": "EXTERNAL_WRITES_DISABLED",
+              "payloadSha256": "e02945c4837522d1e10654e445b6c355f9bbee58401f5eb0214ffce2390859af",
+              "approval": null
+            }
+          ],
+          "audit": {
+            "valid": true,
+            "entries": 27,
+            "headHash": "cb600672822dcb26862c5c6906340a256564f5e9c5ccba7b8cd0f4bd00748acb"
+          },
+          "limitations": [
+            "JSON contract fixtures only; no completed marketing content, media, provider call or signed owner approval."
+          ]
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "audit",
+        "trace",
+        "--brand",
+        "founder",
+        "--job",
+        "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "tenant": "founder",
+          "job": {
+            "id": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+            "tenant": "founder",
+            "workflowId": "build-in-public",
+            "definitionSha256": "34d727bd6b30488af18229dd960ffc8c0e868b83f640751c4546ea4edbd67c6a",
+            "inputSha256": "d1ef40c61a4cf3632bd70cbba7db5cffe5e1c9d9928bda549b06c3d53d532028",
+            "idempotencyKey": "demo-000002-f",
+            "state": "AWAITING_APPROVAL",
+            "checkpoint": 5,
+            "version": 7,
+            "sourceIds": [
+              "source_c6f414834c376ee4615a40535f960dff"
+            ],
+            "createdAt": "2026-10-17T13:46:08.609Z",
+            "updatedAt": "2026-10-17T13:46:08.709Z",
+            "offline": true,
+            "synthetic": true
+          },
+          "audit": {
+            "valid": true,
+            "entries": 27,
+            "headHash": "cb600672822dcb26862c5c6906340a256564f5e9c5ccba7b8cd0f4bd00748acb"
+          },
+          "events": [
+            {
+              "seq": 20,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "job.created",
+              "at": "2026-10-17T13:46:08.631Z",
+              "data": {
+                "inputSha256": "d1ef40c61a4cf3632bd70cbba7db5cffe5e1c9d9928bda549b06c3d53d532028",
+                "sourceIds": [
+                  "source_c6f414834c376ee4615a40535f960dff"
+                ],
+                "workflowId": "build-in-public"
+              },
+              "previousHash": "1471b140c2332c8d5e0aa65ad80588c90faeee2013092077cfa0f7acad344650",
+              "hash": "9a17c9856d148052521bb064237bf9e3b24d25cb5b8ec42409b6528a5cdc91d9"
+            },
+            {
+              "seq": 21,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "job.transition",
+              "at": "2026-10-17T13:46:08.679Z",
+              "data": {
+                "from": "PENDING",
+                "to": "RUNNING",
+                "version": 1
+              },
+              "previousHash": "9a17c9856d148052521bb064237bf9e3b24d25cb5b8ec42409b6528a5cdc91d9",
+              "hash": "b3ae5f0d3c2fcc0dd1d547f8d780d175385228e55105844e0b0d351063d89188"
+            },
+            {
+              "seq": 22,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:08.688Z",
+              "data": {
+                "artifactId": "artifact_fd07d95152b45752e50022948a8eaaab",
+                "checkpoint": 1,
+                "sha256": "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "sourceIds": [
+                  "source_c6f414834c376ee4615a40535f960dff"
+                ],
+                "stageId": "step_1",
+                "synthetic": true
+              },
+              "previousHash": "b3ae5f0d3c2fcc0dd1d547f8d780d175385228e55105844e0b0d351063d89188",
+              "hash": "60a46fd965ea624d624b6881abd8884a155bbb86c4f3f999ef23d7222e1974df"
+            },
+            {
+              "seq": 23,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:08.692Z",
+              "data": {
+                "artifactId": "artifact_80b9a10f2a3dbe962a79179aef11ca13",
+                "checkpoint": 2,
+                "sha256": "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "sourceIds": [
+                  "source_c6f414834c376ee4615a40535f960dff"
+                ],
+                "stageId": "step_2",
+                "synthetic": true
+              },
+              "previousHash": "60a46fd965ea624d624b6881abd8884a155bbb86c4f3f999ef23d7222e1974df",
+              "hash": "a6796dafc741a761bab370b219894477ceabb9fed5cd072942a7c445990a7242"
+            },
+            {
+              "seq": 24,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:08.697Z",
+              "data": {
+                "artifactId": "artifact_1f61506165bd57df5fcb1ff11561d053",
+                "checkpoint": 3,
+                "sha256": "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                "sourceIds": [
+                  "source_c6f414834c376ee4615a40535f960dff"
+                ],
+                "stageId": "step_3",
+                "synthetic": true
+              },
+              "previousHash": "a6796dafc741a761bab370b219894477ceabb9fed5cd072942a7c445990a7242",
+              "hash": "22aa594a38e827238b7ab85faca49ac4f3d8e98a3fb326eb92de3f6306a38602"
+            },
+            {
+              "seq": 25,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:08.701Z",
+              "data": {
+                "artifactId": "artifact_53f07da50bf9ef00014fdd522920c9fb",
+                "checkpoint": 4,
+                "sha256": "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd",
+                "sourceIds": [
+                  "source_c6f414834c376ee4615a40535f960dff"
+                ],
+                "stageId": "step_4",
+                "synthetic": true
+              },
+              "previousHash": "22aa594a38e827238b7ab85faca49ac4f3d8e98a3fb326eb92de3f6306a38602",
+              "hash": "647cc371df6a8a520b2d7b41adbe5a8d1219b2d12ac69e010453411c9785eebf"
+            },
+            {
+              "seq": 26,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "stage.completed",
+              "at": "2026-10-17T13:46:08.705Z",
+              "data": {
+                "artifactId": "artifact_7bbd9c7b2f37c4fd88ce7ff2e2a6836f",
+                "checkpoint": 5,
+                "sha256": "dd640f65329a96b7179667abbb4bcae0c0ce9a0531697277888d5bb488a21abb",
+                "sourceIds": [
+                  "source_c6f414834c376ee4615a40535f960dff"
+                ],
+                "stageId": "step_5",
+                "synthetic": true
+              },
+              "previousHash": "647cc371df6a8a520b2d7b41adbe5a8d1219b2d12ac69e010453411c9785eebf",
+              "hash": "cc73a1841e35ec917cf286b602104351364d1dac85e9b272210f8600a604162f"
+            },
+            {
+              "seq": 27,
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "kind": "approval.required",
+              "at": "2026-10-17T13:46:08.709Z",
+              "data": {
+                "externalWrites": false,
+                "payloadSha256": "e02945c4837522d1e10654e445b6c355f9bbee58401f5eb0214ffce2390859af",
+                "signedApproval": false,
+                "stageId": "step_6"
+              },
+              "previousHash": "cc73a1841e35ec917cf286b602104351364d1dac85e9b272210f8600a604162f",
+              "hash": "cb600672822dcb26862c5c6906340a256564f5e9c5ccba7b8cd0f4bd00748acb"
+            }
+          ],
+          "sourceIds": [
+            "source_c6f414834c376ee4615a40535f960dff"
+          ],
+          "sources": [
+            {
+              "id": "source_c6f414834c376ee4615a40535f960dff",
+              "tenant": "founder",
+              "uri": "fixture://founder/phase-b/source_c6f414834c376ee4615a40535f960dff",
+              "revision": "phase-b-fixture-r1",
+              "observedAt": "2026-10-17T13:46:08.609Z",
+              "expiresAt": "2026-10-18T13:46:08.609Z",
+              "contentSha256": "c1e13a827978af212825b2af415d3c748f426273e062d74b54b3a99edb37758e",
+              "classification": "SYNTHETIC",
+              "license": "NO_EXTERNAL_ASSETS",
+              "body": {
+                "statement": "SYNTHETIC illustrative workflow input. No product feature, user metric or founder achievement is asserted.",
+                "tenant": "founder",
+                "workflowId": "build-in-public"
+              }
+            }
+          ],
+          "artifacts": [
+            {
+              "id": "artifact_fd07d95152b45752e50022948a8eaaab",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_1",
+              "skill": "claim-verification",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "claim-verification validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_1.json"
+            },
+            {
+              "id": "artifact_80b9a10f2a3dbe962a79179aef11ca13",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_2",
+              "skill": "founder-led-growth",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "founder-led-growth validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_2.json"
+            },
+            {
+              "id": "artifact_1f61506165bd57df5fcb1ff11561d053",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_3",
+              "skill": "x-thread-writing",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "x-thread-writing validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_3.json"
+            },
+            {
+              "id": "artifact_53f07da50bf9ef00014fdd522920c9fb",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_4",
+              "skill": "graphic-design",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "graphic-design validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "satori-sharp",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                      "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_4.json"
+            },
+            {
+              "id": "artifact_7bbd9c7b2f37c4fd88ce7ff2e2a6836f",
+              "revision": "phase-b-r1",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_5",
+              "skill": "release-qa",
+              "sourceIds": [
+                "source_c6f414834c376ee4615a40535f960dff"
+              ],
+              "inputArtifactHashes": [
+                "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd"
+              ],
+              "createdAt": "2026-10-17T13:46:08.609Z",
+              "label": "SYNTHETIC",
+              "format": "application/json",
+              "approvalStatus": "NOT_APPROVED",
+              "audience": "Owner and local runtime reviewers",
+              "assetLicense": "NO_EXTERNAL_ASSETS",
+              "data": {
+                "mode": "MOCK",
+                "proposedOutput": "release-qa validated artifact",
+                "receipt": {
+                  "action": "draft",
+                  "adapterId": "local-fixture",
+                  "data": {
+                    "actualProviderConnected": false,
+                    "inputHashes": [
+                      "e2a863c960b5e3f1a3362814e22a4eba022132da9c47d6282baf4f064f5594d1",
+                      "60b48d8ac635abe779b215962d8dd85fcf5703e421f22458b7e88b695d194d2b",
+                      "d4f188e37b75d02abd03c6ffa8319852f9c9407a4ec74668d54a9c644b383fb1",
+                      "d52e245b702389b633be9a4f10438a0a7253cce7f70079ece4e37ce2917d46fd"
+                    ],
+                    "sourceIds": [
+                      "source_c6f414834c376ee4615a40535f960dff"
+                    ],
+                    "summary": "Phase B contract fixture only; no real content, media, account or analytics result."
+                  },
+                  "estimate": {
+                    "basis": "OFFLINE_NO_PROVIDER_CALL",
+                    "currency": "USD",
+                    "estimatedUsd": 0,
+                    "known": true
+                  },
+                  "externalSideEffects": false,
+                  "label": "SYNTHETIC",
+                  "status": "SYNTHETIC",
+                  "tenant": "founder"
+                }
+              },
+              "limitations": [
+                "Phase B deterministic contract fixture; not a completed marketing deliverable.",
+                "No real media, product verification, analytics, account access or publication."
+              ],
+              "sha256": "dd640f65329a96b7179667abbb4bcae0c0ce9a0531697277888d5bb488a21abb",
+              "relativePath": "runtime/artifacts/founder/job_0e0440b0-dd1a-458a-a612-db4b11bcaf80/step_5.json"
+            }
+          ],
+          "outbox": [
+            {
+              "id": "outbox_job_0e0440b0-dd1a-458a-a612-db4b11bcaf80_step_6",
+              "tenant": "founder",
+              "jobId": "job_0e0440b0-dd1a-458a-a612-db4b11bcaf80",
+              "stageId": "step_6",
+              "status": "BLOCKED",
+              "reason": "EXTERNAL_WRITES_DISABLED",
+              "payloadSha256": "e02945c4837522d1e10654e445b6c355f9bbee58401f5eb0214ffce2390859af",
+              "approval": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "costs",
+        "report",
+        "--json"
+      ],
+      "expected_exit": 0,
+      "exit": 0,
+      "passed": true,
+      "result": {
+        "status": "PASS",
+        "data": {
+          "reports": [
+            {
+              "tenant": "retropick",
+              "status": "OFFLINE_SYNTHETIC_WORK",
+              "entries": 18,
+              "actualUsd": 0,
+              "estimatedUsd": 0,
+              "computeCost": "NOT_MEASURED",
+              "modelTokens": null
+            },
+            {
+              "tenant": "founder",
+              "status": "OFFLINE_SYNTHETIC_WORK",
+              "entries": 15,
+              "actualUsd": 0,
+              "estimatedUsd": 0,
+              "computeCost": "NOT_MEASURED",
+              "modelTokens": null
+            }
+          ],
+          "currency": "USD",
+          "attribution": "Recorded project provider calls only; no real-user metrics",
+          "operatorModelCost": "NOT_MEASURED"
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "publish",
+        "dry-run",
+        "--brand",
+        "retropick",
+        "--json"
+      ],
+      "expected_exit": 3,
+      "exit": 3,
+      "passed": true,
+      "result": {
+        "status": "BLOCKED",
+        "data": {
+          "error": {
+            "code": "EXTERNAL_WRITES_DISABLED",
+            "message": "External publication, scheduling, outreach and paid provider calls are disabled"
+          }
+        }
+      }
+    },
+    {
+      "command": [
+        "./gtm",
+        "x",
+        "auth",
+        "status",
+        "--brand",
+        "founder",
+        "--json"
+      ],
+      "expected_exit": 4,
+      "exit": 4,
+      "passed": true,
+      "result": {
+        "status": "BLOCKED",
+        "data": {
+          "identity": {
+            "tenant": "founder",
+            "expectedHandle": "iHateModelsss",
+            "principalId": null,
+            "authenticated": false,
+            "status": "NOT_AUTHENTICATED"
+          },
+          "reason": "No authenticated connection; no credential file or identity endpoint was inspected."
+        }
+      }
+    }
+  ]
+}

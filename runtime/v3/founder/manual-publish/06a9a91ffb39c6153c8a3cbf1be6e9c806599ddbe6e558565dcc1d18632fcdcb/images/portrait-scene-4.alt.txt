@@ -1,0 +1,1 @@
+For nested transactions, use the SAVEPOINT and RELEASE commands. Editorial geometry with placeholder styling; no product UI or personal history depicted.

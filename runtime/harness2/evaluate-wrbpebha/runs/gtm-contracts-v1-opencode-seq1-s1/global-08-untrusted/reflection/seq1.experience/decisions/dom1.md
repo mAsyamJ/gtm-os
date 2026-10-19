@@ -1,0 +1,1 @@
+Clarify a local instruction; behavior improvement remains unproven.

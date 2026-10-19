@@ -13,3 +13,5 @@
 **Owner and approval:** Owner retains exact-action authority. The requested phases authorize the local core, C authorized-file research/strategy and D synthetic local media implementation; disabled flags stay disabled. No live retrieval or public claim verification is implied.
 
 **Handoff:** Return typed artifacts, hashes and test receipts to QA/owner; missing live integrations remain BLOCKED. No agent can self-authorize an external action.
+
+**V3 authorization:** The owner's final amendments authorize project-local V3 implementation, explicit reviewed keyless public-source reads, and reuse of existing protected router admission. Credentials are handled only inside established routing mechanisms; this package never imports their values. V3 source-reviewed editorial geometry may use licensed existing renderers without claiming product UI footage. All external account writes remain disabled. See packages/v3/AGENTS.md for evidence, manual state and dataset contracts.

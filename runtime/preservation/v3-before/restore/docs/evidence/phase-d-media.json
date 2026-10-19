@@ -1,0 +1,1230 @@
+{
+  "revision": "phase-d-r1",
+  "status": "PASS",
+  "graphics": [
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "landscape",
+      "directory": "runtime/creative/retropick/graphics/eca7c97a5bac4a355e311d044517c95d108216c0d9437279c8b6228df05d1892",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/eca7c97a5bac4a355e311d044517c95d108216c0d9437279c8b6228df05d1892/manifest.json",
+        "sha256": "15714d742d5af46ea8a0d2638d1627d152911db43d3b5eea82e6fe657f6de1d8",
+        "bytes": 6415
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1200,
+        "height": 675,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 78,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "wide",
+      "directory": "runtime/creative/retropick/graphics/d5b27d4581a328d8ac397e71eb01b1bd3bfb044c866a5c91fa0fa1238e2a87f9",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/d5b27d4581a328d8ac397e71eb01b1bd3bfb044c866a5c91fa0fa1238e2a87f9/manifest.json",
+        "sha256": "65c32d9cec71fb6f22cc10706b79f866d8c7deebadea2df7680b6782421102fd",
+        "bytes": 6412
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1600,
+        "height": 900,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 104,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "square",
+      "directory": "runtime/creative/retropick/graphics/c7d729107ad2078d4cb35bce57737700d4599828e6d6e1f09e744337d5a74de6",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/c7d729107ad2078d4cb35bce57737700d4599828e6d6e1f09e744337d5a74de6/manifest.json",
+        "sha256": "676809dfc76811792237f1bacacacd3d227b4a6f5460872cef2040da7f2ef7ee",
+        "bytes": 6413
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1080,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "portrait",
+      "directory": "runtime/creative/retropick/graphics/0bcf8ab9e472569f525fbd96e267a715a1da9abe032ceb96bf675663cc56dd5d",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/0bcf8ab9e472569f525fbd96e267a715a1da9abe032ceb96bf675663cc56dd5d/manifest.json",
+        "sha256": "d4c6cfbd21ae65c66721ef4980a27865975393369e341548b98223375f133e12",
+        "bytes": 6416
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "landscape",
+      "directory": "runtime/creative/retropick/graphics/5b76d4bfa063e4066b0ef9df051cb21309624106b1a016d2ff23fd73e8ce410f",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/5b76d4bfa063e4066b0ef9df051cb21309624106b1a016d2ff23fd73e8ce410f/manifest.json",
+        "sha256": "18f31d11f1cedd765b8f2d5b08311e8d71ad5e0b9bed95200e4bd3fa735491fd",
+        "bytes": 6418
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1200,
+        "height": 675,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 78,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "wide",
+      "directory": "runtime/creative/retropick/graphics/6a28b3537abef0e75c5d7475a48dbe561048bda7d455183b142a928973f6e5a3",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/6a28b3537abef0e75c5d7475a48dbe561048bda7d455183b142a928973f6e5a3/manifest.json",
+        "sha256": "78f0baa8c11edf85ca93a3087fdb0a1d721cc0862503f9dc312e633c7728f5d1",
+        "bytes": 6415
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1600,
+        "height": 900,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 104,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "square",
+      "directory": "runtime/creative/retropick/graphics/33ee2bc5e4f205ba687726135d3d2bcf8c333e13fd14f7b0f4e4efa8a29249ee",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/33ee2bc5e4f205ba687726135d3d2bcf8c333e13fd14f7b0f4e4efa8a29249ee/manifest.json",
+        "sha256": "5b07bfb1b62dcb91625431f750c21002e1f5beac806790edd1a1c32dc4825d3c",
+        "bytes": 6416
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1080,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "portrait",
+      "directory": "runtime/creative/retropick/graphics/8cd643ce66ee2d1d34652986ae476eda9478a693151c9599aa4f991aec44f9e5",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/8cd643ce66ee2d1d34652986ae476eda9478a693151c9599aa4f991aec44f9e5/manifest.json",
+        "sha256": "e611a0e5196fd0d7d785f02a14cb75fd6a994d642f5bbd3b04737a389e49f6f6",
+        "bytes": 6419
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "landscape",
+      "directory": "runtime/creative/retropick/graphics/8519c04488d564c0b97de0c30cbdcbb167918ba9d9ec9a7411bc3ef0ef90599b",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/8519c04488d564c0b97de0c30cbdcbb167918ba9d9ec9a7411bc3ef0ef90599b/manifest.json",
+        "sha256": "18c36a60a807bf5dbb1bb72d0a79e4b99ea69dbddfc966b1e7086991d7ba71c1",
+        "bytes": 6421
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1200,
+        "height": 675,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 78,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "wide",
+      "directory": "runtime/creative/retropick/graphics/b4849e352ac45c4c8309137770489672a79e86a9413defc8e10fba20b10dfd44",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/b4849e352ac45c4c8309137770489672a79e86a9413defc8e10fba20b10dfd44/manifest.json",
+        "sha256": "064f5e48deb777d31ef81dbbb995025b3808936de268d137c0a26d90d49e71e5",
+        "bytes": 6418
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1600,
+        "height": 900,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 104,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "square",
+      "directory": "runtime/creative/retropick/graphics/62b2fee07eb55e6149e0ef13f45679681eb57b3e0e4da3de11185b6191cfc4a3",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/62b2fee07eb55e6149e0ef13f45679681eb57b3e0e4da3de11185b6191cfc4a3/manifest.json",
+        "sha256": "a3d647377de074ad60059200929c06b6164452bd53af3cf64bc601c8bfd5d148",
+        "bytes": 6419
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1080,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "portrait",
+      "directory": "runtime/creative/retropick/graphics/b24f7d2ec7db5ea95d947dd1536b30c3f3cacad92abffca6a5648b7dba7d79e4",
+      "receipt": {
+        "path": "runtime/creative/retropick/graphics/b24f7d2ec7db5ea95d947dd1536b30c3f3cacad92abffca6a5648b7dba7d79e4/manifest.json",
+        "sha256": "655e44282bf5518da8c73d9702c04a9d7f1f027c9c698228a48b4540c6de2022",
+        "bytes": 6422
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 8.202057283384613,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "landscape",
+      "directory": "runtime/creative/founder/graphics/30952ea58726833f19a79b1cc50980c03ae9b3987a401d3e938a3c45fe205c65",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/30952ea58726833f19a79b1cc50980c03ae9b3987a401d3e938a3c45fe205c65/manifest.json",
+        "sha256": "1701be3bebb243183d8847401a6d5e77b834ea6276318bca3cd19ff095616a69",
+        "bytes": 6390
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1200,
+        "height": 675,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 78,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "wide",
+      "directory": "runtime/creative/founder/graphics/cb7b166fa9792d56f4c1e27f76602bb10e70dc63ce64f0bd279af42a817f0678",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/cb7b166fa9792d56f4c1e27f76602bb10e70dc63ce64f0bd279af42a817f0678/manifest.json",
+        "sha256": "9cd60c460e13876ec5c612b0fc0f8ddc288a0633c66bac8c75adeab38e23c008",
+        "bytes": 6387
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1600,
+        "height": 900,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 104,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "square",
+      "directory": "runtime/creative/founder/graphics/19239de05b5ee827408c3045d83b07d162b184a56c841e4ca51ca47ca49f4248",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/19239de05b5ee827408c3045d83b07d162b184a56c841e4ca51ca47ca49f4248/manifest.json",
+        "sha256": "1a32c62842f8ec664f0a7398456a7a6027fc8e587036d23222a24231fcfe70ee",
+        "bytes": 6388
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1080,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "portrait",
+      "directory": "runtime/creative/founder/graphics/59c09eec7af8fdbec4de38217f2d549a724fdbdf473660b2458d0979da673e9c",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/59c09eec7af8fdbec4de38217f2d549a724fdbdf473660b2458d0979da673e9c/manifest.json",
+        "sha256": "7a4a6d8645540d7824631a61a48541be997848392c2f37c081da98de6ba5ae25",
+        "bytes": 6391
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "nodesMeasured": 20,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "landscape",
+      "directory": "runtime/creative/founder/graphics/48e7540b669562c56b6e092c513798ab06da036d605cef18174ea984f5345e3b",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/48e7540b669562c56b6e092c513798ab06da036d605cef18174ea984f5345e3b/manifest.json",
+        "sha256": "35c35d2ef2d83d6fa5d48bea84454d9b573a1552b2d8ab9797ae5d4a6fe6960d",
+        "bytes": 6394
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1200,
+        "height": 675,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 78,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "wide",
+      "directory": "runtime/creative/founder/graphics/f061ffe46fa3e6730343ebbfa6977fec570e9cd65ac7de29a819e58c361d033e",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/f061ffe46fa3e6730343ebbfa6977fec570e9cd65ac7de29a819e58c361d033e/manifest.json",
+        "sha256": "3fb8a8a18b335e7bcd9ec9cf40c4597f214de2637dc92431d498e8f5b5db9828",
+        "bytes": 6391
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1600,
+        "height": 900,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 104,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "square",
+      "directory": "runtime/creative/founder/graphics/578193c91ca75b2af46e4edb3ca2a3a133799a237c43bb426b69d2a1535309c7",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/578193c91ca75b2af46e4edb3ca2a3a133799a237c43bb426b69d2a1535309c7/manifest.json",
+        "sha256": "4cd322316a307518f0acd08ff68ac389dc71fcb1ccba1ff7eaff375a25d768c6",
+        "bytes": 6392
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1080,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "portrait",
+      "directory": "runtime/creative/founder/graphics/95a34db6e87a9b724bc6fbcaaddada46cb42d4ef51ee6be87d5fec289fec1d98",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/95a34db6e87a9b724bc6fbcaaddada46cb42d4ef51ee6be87d5fec289fec1d98/manifest.json",
+        "sha256": "3e6e1e12a63c64df665062594f6adaedc350665924c044aae19c667bf7d33e32",
+        "bytes": 6395
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "landscape",
+      "directory": "runtime/creative/founder/graphics/8d990628de468ee1e6312b9911964c19a4ae964ecb2c225dce42ff760e099e0b",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/8d990628de468ee1e6312b9911964c19a4ae964ecb2c225dce42ff760e099e0b/manifest.json",
+        "sha256": "626b1d6b88e8f8a225499077b523b02224afb3aa21033818dc0b5c3e49e9d95a",
+        "bytes": 6389
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1200,
+        "height": 675,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 78,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "wide",
+      "directory": "runtime/creative/founder/graphics/f0d42e0ebd240558fef97509346bb0179504d5696536c2d91cbeb7b75334deff",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/f0d42e0ebd240558fef97509346bb0179504d5696536c2d91cbeb7b75334deff/manifest.json",
+        "sha256": "a26839f0b5e4b22fe5e534af9187c0f2c98b62fa27bce1d36493648733ec65dc",
+        "bytes": 6386
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1600,
+        "height": 900,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 104,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "square",
+      "directory": "runtime/creative/founder/graphics/216c52eb48d74392d1993080ff40267756eee880a6f507ed8f92be658c3e3031",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/216c52eb48d74392d1993080ff40267756eee880a6f507ed8f92be658c3e3031/manifest.json",
+        "sha256": "6bf2c47802b2a17b709d8a8cb8f954f96ccb5e6d1b5eab41f3ab44d0611f4542",
+        "bytes": 6387
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1080,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "portrait",
+      "directory": "runtime/creative/founder/graphics/0e0dcaddf30c69f1ccd2c86ddc85f5aa86e6bfa8d29a0b70588f9a979954bf5e",
+      "receipt": {
+        "path": "runtime/creative/founder/graphics/0e0dcaddf30c69f1ccd2c86ddc85f5aa86e6bfa8d29a0b70588f9a979954bf5e/manifest.json",
+        "sha256": "924ae36621f92abd603bd6fdb3b4a90f5c88cdf40860916e12b791b99c75ce69",
+        "bytes": 6390
+      },
+      "qc": {
+        "status": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "nodesMeasured": 24,
+        "outsideCanvas": 0,
+        "minimumTextContrast": 6.053134262540163,
+        "altTextPresent": true,
+        "externalAssets": 0,
+        "safeMarginPixels": 70,
+        "styleErrors": 0,
+        "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "tenant": "retropick",
+      "aspect": "landscape",
+      "directory": "runtime/creative/retropick/video/17ea1d788019c9366ff304e8aede09eabd03a8696d3793fb0cb51cf8cb986b26",
+      "qc": {
+        "status": "PASS",
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "frames": 600,
+        "durationSeconds": 20,
+        "audio": {
+          "present": false,
+          "expected": false,
+          "peak": "NOT_APPLICABLE",
+          "silence": "INTENTIONALLY_SILENT"
+        },
+        "faststart": true,
+        "blackIntervalsAtLeastPointTwoSeconds": 0,
+        "decodedSceneChecks": [
+          {
+            "sceneId": "scene-1",
+            "atSeconds": 2.5,
+            "averageChannelLevel": 32.49864502957819,
+            "channelDeviation": [
+              34.54174325108825,
+              34.32489641393524,
+              34.03971406948765
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "sceneId": "scene-2",
+            "atSeconds": 7.5,
+            "averageChannelLevel": 33.15277842078189,
+            "channelDeviation": [
+              36.54180545671071,
+              36.26295959630816,
+              35.88477796733397
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "sceneId": "scene-3",
+            "atSeconds": 12.5,
+            "averageChannelLevel": 33.242153581532925,
+            "channelDeviation": [
+              36.72425507373327,
+              36.441455732699424,
+              36.06966549922337
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "sceneId": "scene-4",
+            "atSeconds": 17.5,
+            "averageChannelLevel": 33.15322563014403,
+            "channelDeviation": [
+              36.54769004984686,
+              36.26841812450444,
+              35.88961467217826
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          }
+        ],
+        "motionMeanPixelDifference": 6.679356995884774,
+        "motionSampleSeconds": [
+          0.5,
+          4.5
+        ],
+        "captionCues": 4,
+        "captionTiming": "Four five-second cues match timeline and visible scene footer text",
+        "captionBurnIn": true,
+        "automatedSceneGeometry": [
+          {
+            "status": "PASS",
+            "width": 1920,
+            "height": 1080,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 125,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "status": "PASS",
+            "width": 1920,
+            "height": 1080,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 125,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "status": "PASS",
+            "width": 1920,
+            "height": 1080,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 125,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "status": "PASS",
+            "width": 1920,
+            "height": 1080,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 125,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          }
+        ],
+        "ownerCreativeReview": "REQUIRED_NOT_APPROVED"
+      },
+      "receipt": {
+        "path": "runtime/creative/retropick/video/17ea1d788019c9366ff304e8aede09eabd03a8696d3793fb0cb51cf8cb986b26/manifest.json",
+        "sha256": "41b374e7a402c795ccd3f633db8bc83149ef186d4a7c025a8d580d423a0088ea"
+      }
+    },
+    {
+      "tenant": "retropick",
+      "aspect": "portrait",
+      "directory": "runtime/creative/retropick/video/c21cafd92d2cb1408d1da8b756439ddfb87adc7bd84cb4467bdc303ce26a84dc",
+      "qc": {
+        "status": "PASS",
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "frames": 600,
+        "durationSeconds": 20,
+        "audio": {
+          "present": false,
+          "expected": false,
+          "peak": "NOT_APPLICABLE",
+          "silence": "INTENTIONALLY_SILENT"
+        },
+        "faststart": true,
+        "blackIntervalsAtLeastPointTwoSeconds": 0,
+        "decodedSceneChecks": [
+          {
+            "sceneId": "scene-1",
+            "atSeconds": 2.5,
+            "averageChannelLevel": 31.62234809027778,
+            "channelDeviation": [
+              33.12064921044234,
+              32.855541449105644,
+              32.510819931789136
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "sceneId": "scene-2",
+            "atSeconds": 7.5,
+            "averageChannelLevel": 32.31718669624485,
+            "channelDeviation": [
+              35.36646620841073,
+              35.024204636600494,
+              34.59628789087433
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "sceneId": "scene-3",
+            "atSeconds": 12.5,
+            "averageChannelLevel": 32.384148180298354,
+            "channelDeviation": [
+              35.513788377287725,
+              35.168133645816724,
+              34.73674222829322
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "sceneId": "scene-4",
+            "atSeconds": 17.5,
+            "averageChannelLevel": 32.3215128279321,
+            "channelDeviation": [
+              35.392454163311825,
+              35.047580692792344,
+              34.61839713263279
+            ],
+            "label": "DECODED_SCENE_FRAME_OWNER_REVIEW_REQUIRED"
+          }
+        ],
+        "motionMeanPixelDifference": 7.2156677413051975,
+        "motionSampleSeconds": [
+          0.5,
+          4.5
+        ],
+        "captionCues": 4,
+        "captionTiming": "Four five-second cues match timeline and visible scene footer text",
+        "captionBurnIn": true,
+        "automatedSceneGeometry": [
+          {
+            "status": "PASS",
+            "width": 1080,
+            "height": 1920,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 70,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "status": "PASS",
+            "width": 1080,
+            "height": 1920,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 70,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "status": "PASS",
+            "width": 1080,
+            "height": 1920,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 70,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          },
+          {
+            "status": "PASS",
+            "width": 1080,
+            "height": 1920,
+            "nodesMeasured": 20,
+            "outsideCanvas": 0,
+            "minimumTextContrast": 8.202057283384613,
+            "altTextPresent": true,
+            "externalAssets": 0,
+            "safeMarginPixels": 70,
+            "styleErrors": 0,
+            "textLegibility": "AUTOMATED_GEOMETRY_AND_CONTRAST_ONLY_OWNER_REVIEW_REQUIRED"
+          }
+        ],
+        "ownerCreativeReview": "REQUIRED_NOT_APPROVED"
+      },
+      "receipt": {
+        "path": "runtime/creative/retropick/video/c21cafd92d2cb1408d1da8b756439ddfb87adc7bd84cb4467bdc303ce26a84dc/manifest.json",
+        "sha256": "c8fe384233961bed116e0bc964ddbf05d82668d5c7b61a5f4d7c23be09f63965"
+      }
+    }
+  ],
+  "browserChecks": [
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "landscape",
+      "width": 1200,
+      "height": 675,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.1756185185185185,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/eca7c97a5bac4a355e311d044517c95d108216c0d9437279c8b6228df05d1892/browser-qc.png",
+        "sha256": "166c9172d85b2027a632c208a7fb33f8a77b3ad70f034f3add7123d3c583a2ec"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "wide",
+      "width": 1600,
+      "height": 900,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.14908842592592592,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/d5b27d4581a328d8ac397e71eb01b1bd3bfb044c866a5c91fa0fa1238e2a87f9/browser-qc.png",
+        "sha256": "973f5f339dbdd93bb7bcbdfbf6e0ef70a211dbf571c257135e7010c7fa09ccef"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "square",
+      "width": 1080,
+      "height": 1080,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.12200531550068587,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/c7d729107ad2078d4cb35bce57737700d4599828e6d6e1f09e744337d5a74de6/browser-qc.png",
+        "sha256": "942e78135bf67be4cad93c376a184a2ff7a9795ca9f24232133e2dd90cecfb38"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "feature-hero",
+      "size": "portrait",
+      "width": 1080,
+      "height": 1920,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.12203285751028807,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/0bcf8ab9e472569f525fbd96e267a715a1da9abe032ceb96bf675663cc56dd5d/browser-qc.png",
+        "sha256": "2dbb6d2358aaab51fe2f4b0cc9d2c0901b481be7c5517a53e7eec580ca1f6fbb"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "landscape",
+      "width": 1200,
+      "height": 675,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.18540576131687242,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/5b76d4bfa063e4066b0ef9df051cb21309624106b1a016d2ff23fd73e8ce410f/browser-qc.png",
+        "sha256": "02bfa8b363ce309f6bc2a38d19db58f71b4baad8e3363fe9478a0f31f72accaf"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "wide",
+      "width": 1600,
+      "height": 900,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.15813425925925925,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/6a28b3537abef0e75c5d7475a48dbe561048bda7d455183b142a928973f6e5a3/browser-qc.png",
+        "sha256": "d218ca1a72d54d2a5238f0caa395b484a89dd4d374a562f6313301b42b668f42"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "square",
+      "width": 1080,
+      "height": 1080,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.1302374828532236,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/33ee2bc5e4f205ba687726135d3d2bcf8c333e13fd14f7b0f4e4efa8a29249ee/browser-qc.png",
+        "sha256": "67e00d0ea43dbad04e2787b351556c30b43fbfa517a1ae7f08277feb2578149c"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "mechanism-notes",
+      "size": "portrait",
+      "width": 1080,
+      "height": 1920,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.12624356995884772,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/8cd643ce66ee2d1d34652986ae476eda9478a693151c9599aa4f991aec44f9e5/browser-qc.png",
+        "sha256": "dbabfd705144b54cd06008010f7eaeb52cc98541f5b917a197b362f90787448d"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "landscape",
+      "width": 1200,
+      "height": 675,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.16336543209876545,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/8519c04488d564c0b97de0c30cbdcbb167918ba9d9ec9a7411bc3ef0ef90599b/browser-qc.png",
+        "sha256": "9e92e6c6a510d115973b9138f6df037de5ac5fddb635677ee2805cecdd8d4ccd"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "wide",
+      "width": 1600,
+      "height": 900,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.1381023148148148,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/b4849e352ac45c4c8309137770489672a79e86a9413defc8e10fba20b10dfd44/browser-qc.png",
+        "sha256": "8bf9c003734eb08f7c721de1eadc7d6891ac5510da44c717f1769cc48fac007c"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "square",
+      "width": 1080,
+      "height": 1080,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.11042495427526292,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/62b2fee07eb55e6149e0ef13f45679681eb57b3e0e4da3de11185b6191cfc4a3/browser-qc.png",
+        "sha256": "4e632731b7740a1e95102e237c1e7b358fa7c543a901202d2434b40d4859d4d0"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "retropick",
+      "template": "evidence-checklist",
+      "size": "portrait",
+      "width": 1080,
+      "height": 1920,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.10976257073045267,
+      "screenshot": {
+        "path": "runtime/creative/retropick/graphics/b24f7d2ec7db5ea95d947dd1536b30c3f3cacad92abffca6a5648b7dba7d79e4/browser-qc.png",
+        "sha256": "08b66eeff4b63f0d3623789d4a7ab28800a037cc5062728f74bfde94ff008a0b"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "landscape",
+      "width": 1200,
+      "height": 675,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.15172263374485598,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/30952ea58726833f19a79b1cc50980c03ae9b3987a401d3e938a3c45fe205c65/browser-qc.png",
+        "sha256": "1adafec1da3951244b7b2eae845b850d02913d52fb284f2a414b019d5921daee"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "wide",
+      "width": 1600,
+      "height": 900,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.12806458333333334,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/cb7b166fa9792d56f4c1e27f76602bb10e70dc63ce64f0bd279af42a817f0678/browser-qc.png",
+        "sha256": "3eeab03d8d1ec6b79213b3e22deae1de4a9c00c025daf359339458218531b584"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "square",
+      "width": 1080,
+      "height": 1080,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.10496427754915409,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/19239de05b5ee827408c3045d83b07d162b184a56c841e4ca51ca47ca49f4248/browser-qc.png",
+        "sha256": "62fc22f778d2a98bec36baa07e966d8dd1b61f7e1c43faf66d5b916aa167d496"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "decision-note",
+      "size": "portrait",
+      "width": 1080,
+      "height": 1920,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.10490467463991769,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/59c09eec7af8fdbec4de38217f2d549a724fdbdf473660b2458d0979da673e9c/browser-qc.png",
+        "sha256": "591c708728021cd7c3606409a29a8e7e041d536dc0d39a26c6e09dea469d31a3"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "landscape",
+      "width": 1200,
+      "height": 675,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.16206954732510287,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/48e7540b669562c56b6e092c513798ab06da036d605cef18174ea984f5345e3b/browser-qc.png",
+        "sha256": "4a09cb8b594eaa8568f626b801ef9b4889901aafafdbfa6c80f46fe58b9a7161"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "wide",
+      "width": 1600,
+      "height": 900,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.13883356481481482,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/f061ffe46fa3e6730343ebbfa6977fec570e9cd65ac7de29a819e58c361d033e/browser-qc.png",
+        "sha256": "6cf0dedb449683d0c24f912fb45d385c7f57b5832c203f685a9d26ab2a55d0e7"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "square",
+      "width": 1080,
+      "height": 1080,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.11094850251486053,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/578193c91ca75b2af46e4edb3ca2a3a133799a237c43bb426b69d2a1535309c7/browser-qc.png",
+        "sha256": "bc5ec743347cd61aa3d973ccdac11b03e45d9b3f56c0caadf7f678f9f093498a"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "reliability-check",
+      "size": "portrait",
+      "width": 1080,
+      "height": 1920,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.11238924254115226,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/95a34db6e87a9b724bc6fbcaaddada46cb42d4ef51ee6be87d5fec289fec1d98/browser-qc.png",
+        "sha256": "f2f43908d515b91cf5c63638a7471f67a0eb3cf639c0de9cce4a888230692609"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "landscape",
+      "width": 1200,
+      "height": 675,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.16176008230452674,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/8d990628de468ee1e6312b9911964c19a4ae964ecb2c225dce42ff760e099e0b/browser-qc.png",
+        "sha256": "44991217f674b2de31027d911a0ee9865a2093489691a67231fb4cc851d199b9"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "wide",
+      "width": 1600,
+      "height": 900,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.13559976851851852,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/f0d42e0ebd240558fef97509346bb0179504d5696536c2d91cbeb7b75334deff/browser-qc.png",
+        "sha256": "4f41cf81f9c701f37171c5fd954871b06fa83e046c49d48a5440059af39e3962"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "square",
+      "width": 1080,
+      "height": 1080,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.11206161408321902,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/216c52eb48d74392d1993080ff40267756eee880a6f507ed8f92be658c3e3031/browser-qc.png",
+        "sha256": "241fdb4925ff476893e4bab0a2d776331a6139a07929efa6bbd1b44eb96666b7"
+      },
+      "status": "PASS"
+    },
+    {
+      "tenant": "founder",
+      "template": "learning-map",
+      "size": "portrait",
+      "width": 1080,
+      "height": 1920,
+      "overflowingPrimitives": 0,
+      "documentOverflow": false,
+      "meanAbsolutePixelDifference": 0.11142216435185186,
+      "screenshot": {
+        "path": "runtime/creative/founder/graphics/0e0dcaddf30c69f1ccd2c86ddc85f5aa86e6bfa8d29a0b70588f9a979954bf5e/browser-qc.png",
+        "sha256": "5f17b080a890b763eb5a9431430d85b553ce8c7dca9d8c80f0c4e97c6cbce8d6"
+      },
+      "status": "PASS"
+    }
+  ],
+  "browser": {
+    "executable": "/usr/bin/google-chrome",
+    "version": "155.0.8059.39",
+    "network": "OFFLINE_CONTEXT_ALL_REQUESTS_ABORTED",
+    "attemptedRequests": 0
+  },
+  "ownerReview": "REQUIRED_NOT_APPROVED",
+  "providerCalls": 0,
+  "limitations": [
+    "Browser/Sharp pixel comparison tolerates edge antialiasing; it is not semantic fact verification.",
+    "SYNTHETIC editorial concepts only. No real product capture, official brand palette, audio, likeness or measured product outcome."
+  ]
+}

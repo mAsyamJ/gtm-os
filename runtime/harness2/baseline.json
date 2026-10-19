@@ -1,0 +1,173 @@
+{
+  "receipt": "runtime/harness2/baseline-tzb9a5n0/acceptance.json",
+  "schemaVersion": 1,
+  "status": "PASS_CONTRACTS_ONLY",
+  "label": "SYNTHETIC",
+  "upstreamPin": "1cfe254e8d25b15f37048c3730134686abe60335",
+  "upstreamModified": false,
+  "image": "localhost/gtm-harness-v3:78eb76970aff9855bc74",
+  "worker": {
+    "label": "SYNTHETIC",
+    "scope": "SOURCE_PRESERVATION_CONTRACTS_ONLY",
+    "action": "baseline",
+    "taskCount": 28,
+    "upstreamPin": "1cfe254e8d25b15f37048c3730134686abe60335",
+    "fixtureSha256": "d04d3769de37c63e6058923bc9a3266a00206797a789ad9359d796a3ab37b4e9",
+    "protocolCompatible": true,
+    "uid": 1000,
+    "externalModelRequests": 0,
+    "attemptedNetworkRequests": 0,
+    "executionCount": 28,
+    "proposerCalls": 0,
+    "scheduler": null,
+    "wallSeconds": 0.03741777100003674,
+    "negativeTests": {
+      "kernelNetworkDenied": true,
+      "rootFilesystemWriteDenied": true,
+      "scriptInjectionDenied": true,
+      "boundaryRemovalDenied": true,
+      "credentialEnvironmentAbsent": true
+    },
+    "costUsd": 0,
+    "subjectiveQuality": null,
+    "businessImpact": null,
+    "promotionAuthorized": false
+  },
+  "independentParentChecks": [
+    {
+      "path": "executions/baseline-global-01-negation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-02-conditional/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-03-specification/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-04-citation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-05-risk/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-06-authenticity/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-07-unicode/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-08-untrusted/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-09-unknown/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-10-owner/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-11-boundary/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-12-revision/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-01-negation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-02-conditional/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-03-specification/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-04-citation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-05-risk/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-06-authenticity/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-07-unicode/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-08-untrusted/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-09-unknown/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-10-owner/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-11-boundary/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-12-revision/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-13-numbers/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-14-scope/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-15-negation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-16-conditional/handoff.json",
+      "pass": true
+    }
+  ],
+  "wallSeconds": 6.006572799999958,
+  "resourceLimits": {
+    "memoryMiB": 1024,
+    "cpus": 2,
+    "pids": 128,
+    "timeoutSeconds": 300
+  },
+  "mounts": [
+    "Dedicated empty run output only"
+  ],
+  "network": "NONE",
+  "rootless": true,
+  "hostCredentialsMounted": false,
+  "paidModelRequests": 0,
+  "costUsd": 0,
+  "sealedHoldoutStatus": "NOT_RUN",
+  "observedImprovement": null,
+  "promotionAuthorized": false,
+  "limitations": [
+    "Deterministic source-preservation contracts only; no model or creative quality claim.",
+    "No sealed answers, private scoring rubrics or privileged memory entered the worker.",
+    "Actual memory and CPU consumption are not instrumented; limits and wall time are recorded."
+  ]
+}

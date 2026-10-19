@@ -1,0 +1,10 @@
+{
+  "automatedIntegrity": {
+    "status": "PASS",
+    "protectedClaimsUnchanged": true,
+    "unsupportedAdditions": 0,
+    "semanticReview": "HUMAN_REQUIRED",
+    "authenticityReview": "HUMAN_REQUIRED"
+  },
+  "humanReview": "PENDING"
+}

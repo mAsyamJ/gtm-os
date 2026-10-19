@@ -1,0 +1,476 @@
+{
+  "tenant": "founder",
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "Bitstream-Vera (DejaVu changes public domain)",
+  "id": "founder-creative-559b42a4c8e51caf429e341f",
+  "label": "REVIEWED_SOURCE",
+  "draftId": "founder-humanized-e9f4e41769739a0795750331",
+  "directory": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306",
+  "files": [
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-one.svg",
+      "sha256": "ae78d6b6f48ae6807dfbdb2daa605a097ff784fa3ce0d97306ec83dc7740f0b0",
+      "bytes": 120837
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-one.png",
+      "sha256": "7ed2f3c3382c519ced47ddecd72eb6bb22e8fa3e6024230982d2b2b87660fbc8",
+      "bytes": 74798
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-one.webp",
+      "sha256": "745c292983499fdf6ce6921b3270d0da9973d42b597bcf717f30f9329f379961",
+      "bytes": 30460
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-one.json",
+      "sha256": "10c44379294228d89696d703416b9c3c628c2fb645a13f7d6c6c46afbf733394",
+      "bytes": 5806
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-one.alt.txt",
+      "sha256": "202a3702c931519f8b429c9525dc6b7598fa8e680a07fe0a1399dd20048cbba4",
+      "bytes": 142
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-two.svg",
+      "sha256": "f7daacdc12c4ff120264c61c9bd1b552bcbb6aed953c157a24f82c2acc9eb903",
+      "bytes": 112206
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-two.png",
+      "sha256": "a7086ebcf103877f65b806f36d016fbb6b7a277ce6ca7530697220237ab32087",
+      "bytes": 77591
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-two.webp",
+      "sha256": "272331b722fd092f17ac93a9ec8942b122f78abb9019c2677f28997b8a17a156",
+      "bytes": 28242
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-two.json",
+      "sha256": "91ebfbb5194e4495428f51424d5017be06de7d4f5ad93e67e772f63589f429a1",
+      "bytes": 5857
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/cover-two.alt.txt",
+      "sha256": "98be6ad614a82318233d117a5d4c1f56ca0d9f154bfbb8ad76e8fbefded51c39",
+      "bytes": 128
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-1.svg",
+      "sha256": "08690799917135eedfc3aaa3da24579a566a50f9641bde7f9998fc791353dfa5",
+      "bytes": 126157
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-1.png",
+      "sha256": "a92fb19794d031267a92fbd403c0b480e4d4c329a18ce03124297db85ca84271",
+      "bytes": 137599
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-1.webp",
+      "sha256": "a4588eb8ccb5865af70862efe4a6ba2012794c2bdd633aa6b4f774bcdf897993",
+      "bytes": 48518
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-1.json",
+      "sha256": "3b93db60c021132a810deb9ab1c43b38034d3aa2f4df77a755393f17bdf87806",
+      "bytes": 6029
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-1.alt.txt",
+      "sha256": "202a3702c931519f8b429c9525dc6b7598fa8e680a07fe0a1399dd20048cbba4",
+      "bytes": 142
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-2.svg",
+      "sha256": "5d580e7a9b7c969d0702ee9c245d5a410e76812237ddfa60eee0c20ed2b9e366",
+      "bytes": 118677
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-2.png",
+      "sha256": "28cdd5e754da1bdcfc4110a15c7ab89789cb340fbd49b2793c17aee85e7719cb",
+      "bytes": 134846
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-2.webp",
+      "sha256": "2949fa138e15f8a7ef653845906ce5d1250cfb51ae2e6c2a35affe15f6ea489a",
+      "bytes": 47002
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-2.json",
+      "sha256": "9ec8e4f12b7cea931ee6e62808f93b73d83f24e0aaa7d99159fdc62b1310bae6",
+      "bytes": 6001
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-2.alt.txt",
+      "sha256": "98be6ad614a82318233d117a5d4c1f56ca0d9f154bfbb8ad76e8fbefded51c39",
+      "bytes": 128
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-3.svg",
+      "sha256": "1687ae1d8ff33f28184f1017ba6284072b6d76298faba0a48956f05459c10994",
+      "bytes": 126577
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-3.png",
+      "sha256": "2a64f68ed3e8a42aba5395f5f7f23d79e194b43a408f71166747e279481ebbd8",
+      "bytes": 138386
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-3.webp",
+      "sha256": "d057e38f69dd9160b23840c62ba3e8d6e929b50525c029b50be487784b4f1138",
+      "bytes": 52016
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-3.json",
+      "sha256": "d58a4ed3bfef7821714118dae64f01ff0f721ab7604082ecc18f28af4197d0ef",
+      "bytes": 6031
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-3.alt.txt",
+      "sha256": "e73a8cb16412400eccbd04a5d1263be954ba6001549e7d583511fce57a60296d",
+      "bytes": 143
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-4.svg",
+      "sha256": "ccc9b53453970c4078a3dc2b8f2dc1e12766e19def8a30e9dff2d91b79b390d2",
+      "bytes": 130965
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-4.png",
+      "sha256": "e02c6066e66dc93b1b1d91bc24033deb3f5f9f63a0e1fa979ea7c79096b17b5d",
+      "bytes": 140965
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-4.webp",
+      "sha256": "fe0f8c8ec10cf8363e31a58c4f468c66da90a0fff93bb65f7cc1e8896afa0af6",
+      "bytes": 53710
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-4.json",
+      "sha256": "29b0aed34f73dd7e91266e8ae72bda96b082e41b1b85d177ba7f799f635bbb8b",
+      "bytes": 6051
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape-scene-4.alt.txt",
+      "sha256": "556b450f6528a8d1d48fa8dc6e8f333278333e5e3c67965c1331915e92ff60fd",
+      "bytes": 153
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/segments.txt",
+      "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/video.mp4",
+      "sha256": "b0050311670c8727daae5f9f2f7ef78e63fe3d459e7ffb1e0e14e5dbd94a9b5d",
+      "bytes": 10265026
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/captions.srt",
+      "sha256": "ecbfba5864de954766137501841516d9ef001c3b42b4e036f7924e62f61732fb",
+      "bytes": 359
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/captions.vtt",
+      "sha256": "a37b8970208a80860cda9b24359052897247ccdcc4098f408ab113b8b80d8423",
+      "bytes": 359
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/timeline.json",
+      "sha256": "76e3c18adf53858a638c6cf2076e1d118c55f413dbf2ea68bcd510e8dfaabb0a",
+      "bytes": 582
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/ffprobe.json",
+      "sha256": "49e98676e6ac58002dc10ac9f164fdbbc8f2ff7e603cf757bdfdfba07b9a53fc",
+      "bytes": 2592
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/landscape/poster.png",
+      "sha256": "548821b414cd6c7828e2b9cee6e1e575f86be596d1ebd6d2242fe9826817895a",
+      "bytes": 404882
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-1.svg",
+      "sha256": "067581332fd0322604e352b65b05664954e37ce01aab55e1663e28234901ae2f",
+      "bytes": 121282
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-1.png",
+      "sha256": "0e5a78b648540ee5b23cfc865d4389b1cb968aac53ef614173af01d59c1f3a82",
+      "bytes": 128601
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-1.webp",
+      "sha256": "ccebe615820a464d2fa7162d78a329e9c6d7e8d3955aa441f7844fcd3c8d0418",
+      "bytes": 43668
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-1.json",
+      "sha256": "414df2b02a1aa0c792cd0a095b80c876f1bf78f3ff8deb6e9dcd2ad784001a40",
+      "bytes": 5930
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-1.alt.txt",
+      "sha256": "202a3702c931519f8b429c9525dc6b7598fa8e680a07fe0a1399dd20048cbba4",
+      "bytes": 142
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-2.svg",
+      "sha256": "0385571da4dfefe70a91999aa2fec1484c16b412436948f80525674a7991ddc3",
+      "bytes": 113865
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-2.png",
+      "sha256": "63eed4dde584a95888cf68d9360f587ea75ed5c81279d86261b79e18cf9dab55",
+      "bytes": 127252
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-2.webp",
+      "sha256": "9d635ed7e72bed3828739c32093ce318d56d876c78eb703dad719428b890606a",
+      "bytes": 42452
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-2.json",
+      "sha256": "060340a8bb410e6bf7a4bba04852c5c0893deacd1d539685712d3d83f86249b1",
+      "bytes": 5902
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-2.alt.txt",
+      "sha256": "98be6ad614a82318233d117a5d4c1f56ca0d9f154bfbb8ad76e8fbefded51c39",
+      "bytes": 128
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-3.svg",
+      "sha256": "d2612c5f71dd0a77e5f1cc6849db74319e2298fdca36a99a3f1ca7eb4aa50fec",
+      "bytes": 121737
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-3.png",
+      "sha256": "72652694a07483cf29b60aedc0ef2e4cf9b721a73647699b88487b5731c019d0",
+      "bytes": 128988
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-3.webp",
+      "sha256": "ac2183a9fdfb0b93419fa672612a30b95144fe9e3643e5c6397d3cede6a35531",
+      "bytes": 43848
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-3.json",
+      "sha256": "a532171acb4b048904ef1fbb3a6cd6596682dacc9e34db5b9f35dfbbc8297c49",
+      "bytes": 5932
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-3.alt.txt",
+      "sha256": "e73a8cb16412400eccbd04a5d1263be954ba6001549e7d583511fce57a60296d",
+      "bytes": 143
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-4.svg",
+      "sha256": "4437e193ec8379903bc3ea96adb7da552ea10be971ec8db78ad2e6bb192677f1",
+      "bytes": 125980
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-4.png",
+      "sha256": "c3ad1746c2c04e77ac4520c06b04bd716b1f278e739c4a067c2aaee3767f559b",
+      "bytes": 130541
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-4.webp",
+      "sha256": "95c41ed7063dc157925d580f38d6987a21bd81a129dca4a9cdd84bacbfd94730",
+      "bytes": 44110
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-4.json",
+      "sha256": "e02b20db9660e480f107885e5c387c6da20a3c851e7dfe547cdc6749fb6d1290",
+      "bytes": 5952
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait-scene-4.alt.txt",
+      "sha256": "556b450f6528a8d1d48fa8dc6e8f333278333e5e3c67965c1331915e92ff60fd",
+      "bytes": 153
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/segments.txt",
+      "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/video.mp4",
+      "sha256": "a68bfc0cb7201044b6bb49611eb43d764ec153ab2f2be78b8b1de27be60f45a6",
+      "bytes": 8298956
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/captions.srt",
+      "sha256": "ecbfba5864de954766137501841516d9ef001c3b42b4e036f7924e62f61732fb",
+      "bytes": 359
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/captions.vtt",
+      "sha256": "a37b8970208a80860cda9b24359052897247ccdcc4098f408ab113b8b80d8423",
+      "bytes": 359
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/timeline.json",
+      "sha256": "a5f98254e9f6b4f976d6aa280eda8e9e2c431e8fdc7228efa45114ca7c66a055",
+      "bytes": 581
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/ffprobe.json",
+      "sha256": "90254c2d32c2514c489b14c616eb60ae02fe3ffc562e78fdba70232b4d25a47c",
+      "bytes": 2591
+    },
+    {
+      "path": "runtime/v3/founder/creative/559b42a4c8e51caf429e341f3e0643647c1bd5dd24d99535e00599121aed7306/portrait/poster.png",
+      "sha256": "8e0882a6bf7570c2c5dc8b7fea7dbc853f03d59e10e4deeac784fbc6cf7c3811",
+      "bytes": 350305
+    }
+  ],
+  "videos": [
+    {
+      "aspect": "landscape",
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "frames": 600,
+      "durationSeconds": 20,
+      "audio": {
+        "present": false,
+        "expected": false,
+        "peak": "NOT_APPLICABLE",
+        "silence": "INTENTIONALLY_SILENT"
+      },
+      "captionCues": 4,
+      "faststart": true
+    },
+    {
+      "aspect": "portrait",
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 600,
+      "durationSeconds": 20,
+      "audio": {
+        "present": false,
+        "expected": false,
+        "peak": "NOT_APPLICABLE",
+        "silence": "INTENTIONALLY_SILENT"
+      },
+      "captionCues": 4,
+      "faststart": true
+    }
+  ],
+  "inputs": {
+    "draft": "07a7b6a101862d8cc8c9c23ef4c5ccdab05df9732e877120c79d2c024f20b9b0",
+    "assets": {
+      "fonts": {
+        "revision": "phase-d-r1",
+        "font_family": "DejaVu Sans",
+        "license": "Bitstream-Vera (DejaVu changes public domain)",
+        "unmodified": true,
+        "files": [
+          {
+            "path": "creative/assets/fonts/DejaVuSans-Bold.ttf",
+            "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+          },
+          {
+            "path": "creative/assets/fonts/DejaVuSans.ttf",
+            "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+          },
+          {
+            "path": "creative/assets/fonts/LICENSE.txt",
+            "sha256": "fc463256681f48646f3ef169eccde23125a7bf1e63c425c54c27973d197e7b40"
+          }
+        ]
+      },
+      "tools": {
+        "notices": [
+          {
+            "tool": "satori",
+            "license": "MPL-2.0",
+            "path": "creative/assets/licenses/satori-LICENSE.txt",
+            "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+            "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+          },
+          {
+            "tool": "sharp",
+            "license": "Apache-2.0",
+            "path": "creative/assets/licenses/sharp-LICENSE.txt",
+            "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+            "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+          },
+          {
+            "tool": "playwright-core",
+            "license": "Apache-2.0",
+            "path": "creative/assets/licenses/playwright-core-LICENSE.txt",
+            "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+            "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+          }
+        ]
+      },
+      "artwork": "ORIGINAL_LOCAL_GEOMETRY",
+      "footage": "NONE",
+      "music": "NONE",
+      "voice": "NONE",
+      "likeness": "NONE"
+    },
+    "renderer": "v3-editorial-r1",
+    "pipeline": "85dc376ae821af5261697739daeced1f0df06672d64cc3934125b70dfb9e9087",
+    "layout": "6111701ea74330b237169dd69e7daa06b8434188a739ba2c1dac469b9872a3e4",
+    "native": {
+      "aom": "3.15.1",
+      "archive": "3.8.9",
+      "cairo": "1.18.6",
+      "cgif": "0.5.4",
+      "exif": "0.6.26",
+      "expat": "2.8.5",
+      "ffi": "3.8.0",
+      "fontconfig": "2.18.3",
+      "freetype": "2.14.3",
+      "fribidi": "1.0.17",
+      "glib": "2.90.0",
+      "harfbuzz": "14.5.0",
+      "heif": "1.23.5",
+      "highway": "1.4.0",
+      "imagequant": "2.4.1",
+      "lcms": "2.19.1",
+      "mozjpeg": "0826579",
+      "pango": "1.58.2",
+      "pixman": "0.46.4",
+      "png": "1.6.58",
+      "proxy-libintl": "0.5",
+      "rsvg": "2.63.2",
+      "tiff": "4.7.2",
+      "uhdr": "2.0.2",
+      "vips": "8.18.7",
+      "webp": "1.6.0",
+      "xml2": "2.15.4",
+      "zlib-ng": "2.3.3",
+      "sharp": "0.35.5"
+    },
+    "ffmpeg": "ed16af623947494a72e284b6eb8ff225f2da22b38b5d5069c2fd4b4ba3384e41"
+  },
+  "assetSource": "ORIGINAL_EDITORIAL_GEOMETRY_AND_LICENSED_DEJAVU_FONT",
+  "actualProductFootage": false,
+  "styling": "PROVISIONAL",
+  "qc": {
+    "status": "PASS",
+    "decodedPoster": true,
+    "geometry": "BOUNDS_CHECKED",
+    "humanReview": "PENDING"
+  }
+}

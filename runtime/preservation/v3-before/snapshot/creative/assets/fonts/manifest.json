@@ -1,0 +1,22 @@
+{
+  "revision": "phase-d-r1",
+  "font_family": "DejaVu Sans",
+  "license": "Bitstream-Vera (DejaVu changes public domain)",
+  "commercial_use": "PERMITTED_WITH_NOTICE_AND_FONT_NAME_CONDITIONS",
+  "files": [
+    {
+      "path": "creative/assets/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+    },
+    {
+      "path": "creative/assets/fonts/DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    {
+      "path": "creative/assets/fonts/LICENSE.txt",
+      "sha256": "fc463256681f48646f3ef169eccde23125a7bf1e63c425c54c27973d197e7b40"
+    }
+  ],
+  "source": "System distribution fonts-dejavu-core; notices preserved",
+  "unmodified": true
+}

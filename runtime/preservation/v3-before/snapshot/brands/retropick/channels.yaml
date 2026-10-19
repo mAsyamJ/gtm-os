@@ -1,0 +1,6 @@
+tenant: retropick
+channels:
+  x:
+    expected_handle: RetroPickMarket
+    status: NOT_AUTHENTICATED
+    allow_external_writes: false

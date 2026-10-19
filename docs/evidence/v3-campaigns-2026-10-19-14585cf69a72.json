@@ -1,0 +1,36 @@
+{
+  "revision": "v3-r1",
+  "status": "OWNER_REVIEW_REQUIRED",
+  "campaigns": [
+    {
+      "tenant": "retropick",
+      "sourceId": "retropick-source-20261019-ec75cad0",
+      "posts": 5,
+      "threads": 2,
+      "cycleState": "AWAITING_APPROVAL",
+      "packetId": "retropick-packet-4576d59acac99b28d4ec377f",
+      "draftId": "retropick-humanized-26fc0c584c88964eb8d44ec8",
+      "campaign": "runtime/v3/retropick/campaign/e2a7612efb6fd2db0eba706fc2bffe26c011540e17b8cf424b6c35a93ddd4652/campaign.json",
+      "campaignSha256": "e2a7612efb6fd2db0eba706fc2bffe26c011540e17b8cf424b6c35a93ddd4652",
+      "replayJobs": 3,
+      "actualPublications": 0,
+      "observedBusinessOutcomes": "UNAVAILABLE"
+    },
+    {
+      "tenant": "founder",
+      "sourceId": "founder-source-20261019-b65dc308",
+      "posts": 5,
+      "threads": 2,
+      "cycleState": "AWAITING_APPROVAL",
+      "packetId": "founder-packet-06a9a91ffb39c6153c8a3cbf",
+      "draftId": "founder-humanized-e9f4e41769739a0795750331",
+      "campaign": "runtime/v3/founder/campaign/691d1a0b86e0a823d47d7ad52d0ac0e543719d84e2a0588415a8b59f210e187c/campaign.json",
+      "campaignSha256": "691d1a0b86e0a823d47d7ad52d0ac0e543719d84e2a0588415a8b59f210e187c",
+      "replayJobs": 3,
+      "actualPublications": 0,
+      "observedBusinessOutcomes": "UNAVAILABLE"
+    }
+  ],
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0
+}

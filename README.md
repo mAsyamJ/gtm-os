@@ -1,4 +1,20 @@
-# Asyam × RetroPick Founder-Led GTM OS — Phase D
+# Asyam × RetroPick Founder-Led GTM OS
+
+## Start with V3
+
+The current local implementation adds reviewed evidence, protected-claim editorial work,
+creative packages, owner-only manual publication records, weekly scorecards and isolated
+Harness² contract evaluation. Read the [detailed user manual](docs/V3_USER_MANUAL.md),
+run the [complete synthetic example for both brands](docs/examples/V3_SYNTHETIC_WALKTHROUGH.md),
+and keep the [CLI reference](docs/V3_CLI_REFERENCE.md) nearby. The
+[acceptance report](docs/V3_ACCEPTANCE.md) states the remaining owner and evaluation gates.
+Nothing publishes automatically. Existing authorized credentials remain in protected routing.
+
+## Historical Phase D guide
+
+The material below describes the earlier Phase D implementation. Use the V3 guides above
+for current workflow routing: some V3 names overlap older definitions, and staged V3 names
+take precedence rather than falling through to the legacy engine.
 
 The local CLI supports authorized-file source cards, expiry, evidence-aware strategy/ICP/calendar/brief generation and three curated, licensed reference skills. Separate tenant SQLite stores preserve immutable sources and audit history. The workflow engine still executes its 16 definitions as synthetic JSON fixtures; Phase D adds local synthetic graphics/video rendering; OAuth, live analytics and publication remain later-phase work. The specification is `docs/MASTER_EXECUTION_PROMPT_V2.md`; gates are in `docs/PHASED_EXECUTION.md`.
 

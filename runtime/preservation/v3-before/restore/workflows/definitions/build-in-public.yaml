@@ -1,0 +1,58 @@
+id: build-in-public
+version: 1
+description: "authentic technical shipping into useful founder narrative"
+trigger: "manual command or explicit authorized scheduler"
+owner: founder-brand
+tenant: "REQUIRED_AT_RUNTIME"
+risk_tier: "LOW_READ_ONLY_UNTIL_ACTION_GATE"
+inputs:
+  - "tenant profile and scoped AGENTS.md"
+  - "source IDs or declared synthetic fixture"
+  - "approved local task request"
+stages:
+  - id: step_1
+    tool: manual
+    skill: claim-verification
+    input: "validated output of prior step, tenant source cards and config"
+    output: "claim-verification validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_2
+    tool: manual
+    skill: founder-led-growth
+    input: "validated output of prior step, tenant source cards and config"
+    output: "founder-led-growth validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_3
+    tool: manual
+    skill: x-thread-writing
+    input: "validated output of prior step, tenant source cards and config"
+    output: "x-thread-writing validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_4
+    tool: manual
+    skill: graphic-design
+    input: "validated output of prior step, tenant source cards and config"
+    output: "graphic-design validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_5
+    tool: manual
+    skill: release-qa
+    input: "validated output of prior step, tenant source cards and config"
+    output: "release-qa validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+  - id: step_6
+    tool: manual
+    skill: social-publishing
+    input: "validated output of prior step, tenant source cards and config"
+    output: "social-publishing validated artifact"
+    acceptance: "source, tenant, checksum and permission checks PASS"
+outputs: "technical_source_card,founder_thread,architecture_card,approval_preview"
+approval_gate: "HUMAN_APPROVAL_REQUIRED_PER_EXTERNAL_ACTION"
+cost_policy: "DEFAULT_ZERO_PAID_API_SPEND"
+retry_policy: "bounded exponential backoff, reconcile ambiguous external write"
+resume_checkpoint: "durable local job ID after each validated stage"
+compensation: "pause affected queue; invalidate approval if payload changed"
+metrics:
+  - "artifact quality and review failure count"
+  - "verified useful outcome, not vanity traffic alone"
+terminal_states: [COMPLETED_LOCAL, AWAITING_APPROVAL, BLOCKED, FAILED, CANCELLED]

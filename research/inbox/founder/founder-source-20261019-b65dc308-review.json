@@ -1,0 +1,13 @@
+{
+  "evidenceId": "founder-source-20261019-b65dc308",
+  "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "No reads or writes occur except within a transaction.",
+    "END TRANSACTION is an alias for COMMIT.",
+    "Transactions created using BEGIN...COMMIT do not nest.",
+    "For nested transactions, use the SAVEPOINT and RELEASE commands."
+  ],
+  "authenticFirstPerson": false
+}

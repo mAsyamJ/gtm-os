@@ -1,0 +1,3 @@
+# Observed pre-existing environment; Phase A installs nothing.
+PyYAML==6.0.1
+jsonschema==4.10.3

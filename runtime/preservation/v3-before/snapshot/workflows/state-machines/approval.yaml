@@ -1,0 +1,13 @@
+id: approval
+initial: not_requested
+states:
+  - not_requested
+  - prepared
+  - identity_verified
+  - owner_approved
+  - executing
+  - receipt_verified
+  - expired
+  - blocked
+default_on_error: blocked
+approval_rule: "external side effect requires exact immutable payload and verified owner authorization"

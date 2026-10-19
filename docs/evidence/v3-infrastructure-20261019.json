@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "scope": "Existing approved local infrastructure; no credential/configuration migration",
+  "controlPlane": {
+    "repository": "/home/ubuntu/agent-control-plane",
+    "command": "python -B -m pytest -q -p no:cacheprovider tests --basetemp=PROJECT/runtime/cp-v3",
+    "exit": 0,
+    "passed": 73,
+    "wallSeconds": 42.34,
+    "changesToSourceOrConfiguration": 0
+  },
+  "modelRouter": {
+    "repository": "/home/ubuntu/codex-model-router",
+    "command": "python -B -m pytest -q -p no:cacheprovider tests/unit tests/integration --basetemp=PROJECT/runtime/router-v3",
+    "exit": 0,
+    "passed": 40,
+    "warnings": 5,
+    "warningSummary": "aiohttp recommends AppKey instead of string application keys",
+    "wallSeconds": 2.35,
+    "changesToSourceOrConfiguration": 0
+  },
+  "authorizedConnectivity": {
+    "mechanism": "Existing router scripts/validate_provider.py; protected credentials remain internal",
+    "receipt": "/home/ubuntu/codex-model-router/evidence/provider-check-81607ce3.json",
+    "status": "PASS",
+    "httpStatus": 200,
+    "actualModel": "gpt-6-luna",
+    "inputTokens": 22,
+    "outputTokens": 5,
+    "totalTokens": 27,
+    "subscriptionCostUsd": null,
+    "interpretation": "Connectivity only; no quality, savings or quota claim"
+  },
+  "glm": {
+    "configuration": "Existing ZAI Coding subscription models retained",
+    "routerMetadataVerified": true,
+    "enabled": false,
+    "changed": false,
+    "currentLiveAvailability": "NOT_PROBED_WHILE_DISABLED"
+  },
+  "credentialsPrintedOrStored": false,
+  "credentialRotationRequired": false,
+  "credentialMigrationRequired": false,
+  "socialApiCalls": 0,
+  "publicationActions": 0,
+  "limitations": [
+    "Infrastructure test counts were observed from scoped command results; source repositories were not modified or committed.",
+    "Subscription consumption cost and remaining quota are unknown.",
+    "No GLM fallback or alternate provider was enabled."
+  ]
+}

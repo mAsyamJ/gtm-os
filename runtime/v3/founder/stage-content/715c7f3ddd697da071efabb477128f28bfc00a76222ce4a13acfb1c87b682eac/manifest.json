@@ -1,0 +1,73 @@
+{
+  "id": "founder-draft-8b71824acf564f6336a20130",
+  "tenant": "founder",
+  "label": "REVIEWED_SOURCE",
+  "format": "thread",
+  "sourceIds": [
+    "founder-source-20261019-b65dc308"
+  ],
+  "claims": [
+    {
+      "statement": "No reads or writes occur except within a transaction.",
+      "evidenceId": "founder-source-20261019-b65dc308",
+      "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+    },
+    {
+      "statement": "END TRANSACTION is an alias for COMMIT.",
+      "evidenceId": "founder-source-20261019-b65dc308",
+      "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+    },
+    {
+      "statement": "Transactions created using BEGIN...COMMIT do not nest.",
+      "evidenceId": "founder-source-20261019-b65dc308",
+      "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+    },
+    {
+      "statement": "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+      "evidenceId": "founder-source-20261019-b65dc308",
+      "evidenceSha256": "b154cf20cd43f3f0a501f1693959b200f83f5ed775f444b63b3e7e01be73ef39"
+    }
+  ],
+  "blocks": [
+    "Start with an inspectable constraint.",
+    "No reads or writes occur except within a transaction.",
+    "END TRANSACTION is an alias for COMMIT.",
+    "Transactions created using BEGIN...COMMIT do not nest.",
+    "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+    "Source-supported engineering note. Personal experience is included only when owner-attested."
+  ],
+  "protectedSegments": [
+    "No reads or writes occur except within a transaction.",
+    "END TRANSACTION is an alias for COMMIT.",
+    "Transactions created using BEGIN...COMMIT do not nest.",
+    "For nested transactions, use the SAVEPOINT and RELEASE commands.",
+    "Source-supported engineering note. Personal experience is included only when owner-attested."
+  ],
+  "humanReview": "PENDING",
+  "publicationAuthorized": false,
+  "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+  "governance": [
+    {
+      "path": "brands/founder/VOICE.md",
+      "sha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3"
+    },
+    {
+      "path": "brands/founder/DESIGN.md",
+      "sha256": "ec5448ad3aad3b8bfff4e10ae9374e538d5c42539cc6725d6cb880bd65864778"
+    },
+    {
+      "path": "brands/founder/claims-ledger.yaml",
+      "sha256": "5bdc2a041284cd52f4d39110210ef8203f13887740f84baa5ebe3ef54a8954a5"
+    }
+  ],
+  "sourceRevision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+  "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+  "citations": [
+    {
+      "uri": "https://www.sqlite.org/lang_transaction.html",
+      "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+      "sourceId": "founder-source-20261019-b65dc308"
+    }
+  ]
+}

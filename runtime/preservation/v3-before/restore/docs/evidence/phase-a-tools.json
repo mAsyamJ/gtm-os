@@ -1,0 +1,224 @@
+{
+  "observed_at": "2026-10-17T12:52:16.705806+00:00",
+  "revision": "phase-a-r1",
+  "scope": "local executable metadata; no provider connectivity",
+  "tools": {
+    "python3": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "python3",
+        "--version"
+      ],
+      "path": "/usr/bin/python3",
+      "resolved_path": "/usr/bin/python3.12",
+      "sha256": "e50d468e8b0adfb05733f5b87b3cff34829c4a8c1aea50c865aa8bdfe4bb150f",
+      "exit": 0,
+      "version": "Python 3.12.3"
+    },
+    "git": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "git",
+        "--version"
+      ],
+      "path": "/usr/bin/git",
+      "resolved_path": "/usr/bin/git",
+      "sha256": "2a8c18fbf43da9f692d75474c72bea9dfd796c260b0f3dfe456376abc3bbd668",
+      "exit": 0,
+      "version": "git version 2.43.0"
+    },
+    "node": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "node",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/node",
+      "resolved_path": "/home/ubuntu/.local/node-v24.11.0/bin/node",
+      "sha256": "d918479037f14dc30c8d21df3767a010fe710685373baec7edf680ca8c3edbee",
+      "exit": 0,
+      "version": "v24.11.0"
+    },
+    "pnpm": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "pnpm",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/pnpm",
+      "resolved_path": "/home/ubuntu/.local/lib/node_modules/pnpm/pnpm",
+      "sha256": "df602b81c2e2f75c72904664cf2ee2ce50e1394bef1cb2a153ed4c08d99bc6e4",
+      "exit": 0,
+      "version": "12.4.2"
+    },
+    "npm": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "npm",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/npm",
+      "resolved_path": "/home/ubuntu/.local/node-v24.11.0/lib/node_modules/npm/bin/npm-cli.js",
+      "sha256": "8e5f6f3429f8cdbe693cdc29904e9d5a7b127a494bd15c804bd54c7403bfcbe7",
+      "exit": 0,
+      "version": "11.6.1"
+    },
+    "codex": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "codex",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/codex",
+      "resolved_path": "/home/ubuntu/.codex/packages/standalone/releases/0.162.1-x86_64-unknown-linux-musl/bin/codex",
+      "sha256": "628e35487d888a28f0427fc37501da529dd3d81fcbad7a2c3421c1e8670d92e1",
+      "exit": 0,
+      "version": "codex-cli 0.162.1"
+    },
+    "ffmpeg": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "ffmpeg",
+        "-version"
+      ],
+      "path": "/usr/bin/ffmpeg",
+      "resolved_path": "/usr/bin/ffmpeg",
+      "sha256": "ed16af623947494a72e284b6eb8ff225f2da22b38b5d5069c2fd4b4ba3384e41",
+      "exit": 0,
+      "version": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers"
+    },
+    "ffprobe": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "ffprobe",
+        "-version"
+      ],
+      "path": "/usr/bin/ffprobe",
+      "resolved_path": "/usr/bin/ffprobe",
+      "sha256": "272f6ebc634a63d9c8b4ca68e964119d980f25154e5aa2c35e5487da48e9a58f",
+      "exit": 0,
+      "version": "ffprobe version 6.1.1-3ubuntu5 Copyright (c) 2007-2023 the FFmpeg developers"
+    },
+    "gitleaks": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "gitleaks",
+        "version"
+      ],
+      "path": "/home/ubuntu/.local/bin/gitleaks",
+      "resolved_path": "/home/ubuntu/.local/bin/gitleaks",
+      "sha256": "88f91962aa2f93ac6ab281d553b9e125f5197bbbce38f9f2437f7299c32e5509",
+      "exit": 0,
+      "version": "8.30.1"
+    },
+    "semgrep": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "semgrep",
+        "--version",
+        "--disable-version-check"
+      ],
+      "path": "/home/ubuntu/.local/bin/semgrep",
+      "resolved_path": "/home/ubuntu/.local/share/uv/tools/semgrep/bin/semgrep",
+      "sha256": "d376335ef5aef5be93a68c7c100be715ac39ee388729d7b18cd939357cfbcf42",
+      "exit": 0,
+      "version": "1.177.0"
+    },
+    "trivy": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "trivy",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/trivy",
+      "resolved_path": "/home/ubuntu/.local/bin/trivy",
+      "sha256": "93f9da8e4ba5e0c1c76d8234ed2494cf9afb0a96fd21953e424bb795f3299b8e",
+      "exit": 0,
+      "version": "Version: 0.75.0"
+    },
+    "bd": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "bd",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/bd",
+      "resolved_path": "/home/ubuntu/.local/node-v24.11.0/lib/node_modules/@beads/bd/bin/bd.js",
+      "sha256": "7a6f18e903f84420f36bf14fef3192dcced76f0ac688ff6a1efa903fceadabc1",
+      "exit": 0,
+      "version": "bd version 1.3.1 (c1c4b642a)"
+    },
+    "rtk": {
+      "status": "VERSION_VERIFIED",
+      "command": [
+        "rtk",
+        "--version"
+      ],
+      "path": "/home/ubuntu/.local/bin/rtk",
+      "resolved_path": "/home/ubuntu/.local/bin/rtk",
+      "sha256": "64c01578fec180a1b1f093e882bc8a673f0a3bf7ecf7094950fec6d897872e01",
+      "exit": 0,
+      "version": "rtk 0.48.0"
+    },
+    "codex-auto": {
+      "status": "PRESENT_NOT_EXECUTED",
+      "path": "/home/ubuntu/.local/bin/codex-auto",
+      "sha256": "21a5d30af9768376a40ec17be6fb7c0f9eec42529fb0f65af1e60f1f14b97094"
+    },
+    "codex-router": {
+      "status": "PRESENT_NOT_EXECUTED",
+      "path": "/home/ubuntu/.local/bin/codex-router",
+      "sha256": "9f5556d630f55f92db00c55692243c54453b85305e127af7942a5b896606c085"
+    },
+    "zodex": {
+      "status": "NOT_ON_PATH"
+    },
+    "glm": {
+      "status": "NOT_ON_PATH"
+    },
+    "tsc": {
+      "status": "NOT_ON_PATH"
+    },
+    "xerj-project": {
+      "status": "PRESENT_NOT_EXECUTED",
+      "path": "/home/ubuntu/.local/bin/xerj-project",
+      "sha256": "226f22f8063c4103ee829468d5c1ac2085040bda401c40951aa3362da9b42874"
+    }
+  },
+  "packages": {
+    "PyYAML": {
+      "version": "6.0.1",
+      "license_metadata": "MIT"
+    },
+    "jsonschema": {
+      "version": "4.10.3",
+      "license_metadata": "MIT"
+    }
+  },
+  "limitations": [
+    "Presence/version/hash does not verify integrations, account access or commercial asset rights.",
+    "No credential files or router configuration read; no external executables installed."
+  ],
+  "router_capabilities": {
+    "source": "/home/ubuntu/codex-model-router/router/dispatch/cli.py",
+    "sha256": "d45ee81c4cb8ab10159b145b0820938029ec3234a08f69fd1251aea1b809bd68",
+    "declared_flags": [
+      "--category",
+      "--check",
+      "--components",
+      "--max-calls",
+      "--max-usd",
+      "--model",
+      "--no-escalate",
+      "--repo",
+      "--resume-task",
+      "--reviewed",
+      "--risk",
+      "--runtime",
+      "--show-toplevel",
+      "--stat",
+      "--tier"
+    ],
+    "connectivity": "NOT_TESTED"
+  }
+}

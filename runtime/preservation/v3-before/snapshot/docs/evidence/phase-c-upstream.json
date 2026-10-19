@@ -1,0 +1,3719 @@
+{
+  "revision": "phase-c-r1",
+  "observed_at": "2026-10-17",
+  "repositories": [
+    {
+      "id": "marketingskills",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "365b412152b9542499ca1439426f7fc3cc92bb65",
+      "commit_date": "2026-10-15T11:35:07-07:00",
+      "license": "MIT",
+      "license_note": "Full MIT notice preserved",
+      "skills": [
+        "skills/ab-testing/SKILL.md",
+        "skills/ad-creative/SKILL.md",
+        "skills/ads/SKILL.md",
+        "skills/ai-seo/SKILL.md",
+        "skills/analytics/SKILL.md",
+        "skills/aso/SKILL.md",
+        "skills/attribution/SKILL.md",
+        "skills/churn-prevention/SKILL.md",
+        "skills/co-marketing/SKILL.md",
+        "skills/cold-email/SKILL.md",
+        "skills/community-marketing/SKILL.md",
+        "skills/competitor-profiling/SKILL.md",
+        "skills/competitors/SKILL.md",
+        "skills/content-strategy/SKILL.md",
+        "skills/copy-editing/SKILL.md",
+        "skills/copywriting/SKILL.md",
+        "skills/cro/SKILL.md",
+        "skills/customer-research/SKILL.md",
+        "skills/directory-submissions/SKILL.md",
+        "skills/emails/SKILL.md",
+        "skills/events/SKILL.md",
+        "skills/free-tools/SKILL.md",
+        "skills/image/SKILL.md",
+        "skills/influencer-marketing/SKILL.md",
+        "skills/launch/SKILL.md",
+        "skills/lead-magnets/SKILL.md",
+        "skills/marketing-council/SKILL.md",
+        "skills/marketing-ideas/SKILL.md",
+        "skills/marketing-loops/SKILL.md",
+        "skills/marketing-plan/SKILL.md",
+        "skills/marketing-psychology/SKILL.md",
+        "skills/offers/SKILL.md",
+        "skills/onboarding/SKILL.md",
+        "skills/paywalls/SKILL.md",
+        "skills/popups/SKILL.md",
+        "skills/pricing/SKILL.md",
+        "skills/product-marketing/SKILL.md",
+        "skills/programmatic-seo/SKILL.md",
+        "skills/prospecting/SKILL.md",
+        "skills/public-relations/SKILL.md",
+        "skills/referrals/SKILL.md",
+        "skills/revops/SKILL.md",
+        "skills/sales-enablement/SKILL.md",
+        "skills/schema/SKILL.md",
+        "skills/seo-audit/SKILL.md",
+        "skills/signup/SKILL.md",
+        "skills/site-architecture/SKILL.md",
+        "skills/sms/SKILL.md",
+        "skills/social/SKILL.md",
+        "skills/video/SKILL.md"
+      ],
+      "name_collisions": [],
+      "executable_inventory": [
+        {
+          "path": ".github/scripts/sync-skills.js",
+          "sha256": "57afeba5ae1a3d39691a2859966b4b79e82d4df6f2ad3f550a3090bef04244d4"
+        },
+        {
+          "path": "scripts/check-versions.mjs",
+          "sha256": "588b740f1625516d3d2e86574e36d23faa34bd08d67dfbf1033c6112e74bffc0"
+        },
+        {
+          "path": "scripts/package_skills.py",
+          "sha256": "d586f48b18feba4b8dab65e44b1f264d167a9b0b7b06047b2d911d783d58278c"
+        },
+        {
+          "path": "scripts/sync-partners.mjs",
+          "sha256": "bc7162f60e6c6e3847e1cdd4ec7279186e1e18b5d583036ab3647e9d5f2c7fb0"
+        },
+        {
+          "path": "tests/assets/creative-review-images.test.cjs",
+          "sha256": "3027a6527b9860dfb4a2bd6bd41ea9bbb0bd3bb0b6a3a60db43b6cdc03fd01d3"
+        },
+        {
+          "path": "tests/clis/activecampaign-contact-fields.test.cjs",
+          "sha256": "96ea74c95e1f9b4d1cee4b0f81f58e4544c0147b04d0235e1aba9914b131b85b"
+        },
+        {
+          "path": "tests/clis/adobe-report-suites.test.cjs",
+          "sha256": "4233de7254129918fb29d8a8373c5607bc4268e63071cb3106981c71f474c8d5"
+        },
+        {
+          "path": "tests/clis/ahrefs-link-reports.test.cjs",
+          "sha256": "04daaba6e106c5b37c778f7e548a04ee4bf0d87ed977dcca039790a75d2ae57f"
+        },
+        {
+          "path": "tests/clis/ahrefs-reports.test.cjs",
+          "sha256": "44650b13594b3e076b9e5a3bab945c144ef289184452f623b19b89ea0bebe14e"
+        },
+        {
+          "path": "tests/clis/airops-public-api.test.cjs",
+          "sha256": "64c1119bf4893ea6bbe2289145fc37d2cdfec34f4078bb4cd96c1dcd16629056"
+        },
+        {
+          "path": "tests/clis/amplitude-device-identity.test.cjs",
+          "sha256": "f5e253248098941722e972123783bde2706a4624a73ac81732afbf958205a795"
+        },
+        {
+          "path": "tests/clis/amplitude-export.test.cjs",
+          "sha256": "f7c163cbc7dbfa9cc7754a8268f666e88a2549b17dea3e3adab62588a910507f"
+        },
+        {
+          "path": "tests/clis/amplitude-json-shapes.test.cjs",
+          "sha256": "6cea523767b05336cc9cecc2c878a0405461d0a54a263c1a5197587bf8eb8a48"
+        },
+        {
+          "path": "tests/clis/amplitude-retention-events.test.cjs",
+          "sha256": "d78df853b62f02e1749bd1232aef2dec82a901f8351ac60512c81ae21bf32dae"
+        },
+        {
+          "path": "tests/clis/amplitude-user-activity.test.cjs",
+          "sha256": "b97f456084d3c223f36594c48106701654e6a22212128838ab023df86d75b42c"
+        },
+        {
+          "path": "tests/clis/apollo-employee-ranges.test.cjs",
+          "sha256": "a54407d1f13495d1bf0ae0d4ba9dc28ffe79bd5a5c2ec592737607b16fb3b4e5"
+        },
+        {
+          "path": "tests/clis/apollo-enrichment.test.cjs",
+          "sha256": "38ccdf2e6c6bc4809b56a008f14b3cb373ea7c61c14323d5e82dd4eef8cd953e"
+        },
+        {
+          "path": "tests/clis/beehiiv-post-content.test.cjs",
+          "sha256": "5c36be78f1f99d90b4bdf9a51d173403381a5079d548383ae5d3b3f81e94a7ba"
+        },
+        {
+          "path": "tests/clis/beehiiv-update.test.cjs",
+          "sha256": "10f52908b22027ae9965367c80ce42abc75d1cdac3b70449d5a71b9d45805ca6"
+        },
+        {
+          "path": "tests/clis/brevo-contact-suppression.test.cjs",
+          "sha256": "8e81b45d84330ec097c025bae9333839087211589c999364c73375dfdbb8d414"
+        },
+        {
+          "path": "tests/clis/buffer-publish-flags.test.cjs",
+          "sha256": "710a4129adfb470fc8861f378f8d7731c3121fb88eaa473910682050cf7fbcfd"
+        },
+        {
+          "path": "tests/clis/calendly-webhooks.test.cjs",
+          "sha256": "6580c1b34bf183e6362a46914e22279d053813be4792b3cdbe938c83598ec735"
+        },
+        {
+          "path": "tests/clis/close-collection-pagination.test.cjs",
+          "sha256": "47ea1cd56cd795fc34e9cda0ec5de1da051848a5f7d8419f61accd2379ab47b7"
+        },
+        {
+          "path": "tests/clis/close-opportunity-status.test.cjs",
+          "sha256": "3e9c14b279ffc33154434de4f4fc0253297c52fcfda70f50b475b5f93729c972"
+        },
+        {
+          "path": "tests/clis/close-opportunity-value.test.cjs",
+          "sha256": "6e2906fbebbaa9cf1e60f31bf5ec2894321e0f6d4f2385b7a224fd95b9279983"
+        },
+        {
+          "path": "tests/clis/crossbeam-overlaps.test.cjs",
+          "sha256": "ffc6a5cd5679dc3e3a9d6b285880ad14e4ebd56a99ac11f9e1a867052436ef27"
+        },
+        {
+          "path": "tests/clis/customer-io-suppression.test.cjs",
+          "sha256": "e24059ec5c04c7701ee00b2f320894501300ad693b3c1be4153ac90548c2e730"
+        },
+        {
+          "path": "tests/clis/customerio-identifiers.test.cjs",
+          "sha256": "55935408e31be9c27b4441fccd23b2ba5fef6e9a39cb55227fd3326ac830f6c7"
+        },
+        {
+          "path": "tests/clis/customerio-json-data.test.cjs",
+          "sha256": "f82bec25ce200567419373d16b0e4a703f554f3c2e2a3923d9a2ad7249cb57fc"
+        },
+        {
+          "path": "tests/clis/customerio-region.test.cjs",
+          "sha256": "ae19a61d4a4c15a82590fa18a3f3df7517aa7b3a56b019477fd292b219f63a65"
+        },
+        {
+          "path": "tests/clis/dataforseo-market.test.cjs",
+          "sha256": "24e6fdd6ee5312c8142504c07763637df372157bb5b94ab473cf3dee5e4799f9"
+        },
+        {
+          "path": "tests/clis/dataforseo-status.test.cjs",
+          "sha256": "195034bff57476af011d70594eab1d51b6bad2af9460e46d7034a54f30e3973d"
+        },
+        {
+          "path": "tests/clis/demio-participant-route.test.cjs",
+          "sha256": "d29fadee2a87a8d995a0b8404e9c906fdb458650f3a73416caca8897b8b9cfb2"
+        },
+        {
+          "path": "tests/clis/dub-breakdowns.test.cjs",
+          "sha256": "823f1ee6da02fa2d367e5b5e3588b28f3bfb391d0679c387a475bef6fa9187ef"
+        },
+        {
+          "path": "tests/clis/dub-bulk-container.test.cjs",
+          "sha256": "f813805f76e90a791104e40c3ddd4603f3f3a429f7aaf482bc14e94c74c78076"
+        },
+        {
+          "path": "tests/clis/dub-link-tags.test.cjs",
+          "sha256": "9d82f263fbc63aab21f18f58547d10b7cb04a576074af066d766426508b21528"
+        },
+        {
+          "path": "tests/clis/email-boolean-states.test.cjs",
+          "sha256": "7f025ebc62112cd29ea9863e21e549220bc28db2793d8ae0e4fbb25c3346e4d0"
+        },
+        {
+          "path": "tests/clis/email-colon-values.test.cjs",
+          "sha256": "b6bb7dd1b7d20f1277baea7502d19c02d514d21bbe4b6d2d1ff1fa868700a758"
+        },
+        {
+          "path": "tests/clis/exa-answer.test.cjs",
+          "sha256": "e546788493a7ecacf853757732a1dff6b18889ca38bdff644c2de8e8fd3dd170"
+        },
+        {
+          "path": "tests/clis/exa-structured-search.test.cjs",
+          "sha256": "8d9316cc0521572cb767f2ba738fa7c210224cd3345e4859487be686b173288c"
+        },
+        {
+          "path": "tests/clis/firecrawl-crawl-inspection.test.cjs",
+          "sha256": "d009b6e45e6d64e6b2c67d0d47018abbe54495856b0268608ba5461142960052"
+        },
+        {
+          "path": "tests/clis/ga4-event-params.test.cjs",
+          "sha256": "7973b9c8c8aa5b30004c58017eb1820a07cedf5aa45acedc93c8da5e84aeed33"
+        },
+        {
+          "path": "tests/clis/ga4-mp-auth.test.cjs",
+          "sha256": "e201a0b67ffdfc3bc3fc0661c34708e4e790a894b8bf89e87c1a11ab6285648e"
+        },
+        {
+          "path": "tests/clis/ga4-report-pagination.test.cjs",
+          "sha256": "41e054c3a98555160e5b8f87dbfc6d7c6fd3fe2722ef2de8ea347f13c1733acc"
+        },
+        {
+          "path": "tests/clis/github-enrichment.test.cjs",
+          "sha256": "51965423bb6487bc7a1110cf542ba71d493248a0cffa7e81ba461c806797bd53"
+        },
+        {
+          "path": "tests/clis/github-http-status.test.cjs",
+          "sha256": "5837eaff0a297a8755c027e6ea7c364e5d2b386742196d238727e568f8f46298"
+        },
+        {
+          "path": "tests/clis/google-ads-manager.test.cjs",
+          "sha256": "c57667faf04ea4316c69d406cf5246aa89442b4e6dd842760bcf64052da03646"
+        },
+        {
+          "path": "tests/clis/google-ads-project-auth.test.cjs",
+          "sha256": "fb6cfac3e839e74f9dcdc2e7c084cd4f5ecc9130a4b8f1128f59897756d81db5"
+        },
+        {
+          "path": "tests/clis/google-ads-query.test.cjs",
+          "sha256": "fa4e91c87f2ed6c04c635436d5522c2811d2de2b512726ddb54d7b2217cef522"
+        },
+        {
+          "path": "tests/clis/gsc-query-pagination.test.cjs",
+          "sha256": "b40995792521ab76f081ecee2587ecff97e56d4d227736b2522cdff2e2587de6"
+        },
+        {
+          "path": "tests/clis/gsc-sitemap-result.test.cjs",
+          "sha256": "12481523bd59f715a9752f0f5c2da7b943b90021abd0ef6eb6c2ee7d716c4445"
+        },
+        {
+          "path": "tests/clis/hotjar-surveys.test.cjs",
+          "sha256": "7c7d9848b4187eb9984cd4a81eb21a206e405bec0f1e35769f0cfb077fe3a3d2"
+        },
+        {
+          "path": "tests/clis/http-rejection-status.test.cjs",
+          "sha256": "577854c83579389e661d7e95430f743f02fe425d386e0c4a67f596458dad36e0"
+        },
+        {
+          "path": "tests/clis/hunter-auth-query.test.cjs",
+          "sha256": "ebdcaf3f33da0cacb6d650ab6c35d6fa12d7b16e129369f61baa02c42a8d4740"
+        },
+        {
+          "path": "tests/clis/hunter-domain-pagination.test.cjs",
+          "sha256": "24b74f3ac3169cb3896269b3f348578b03b3192c80d90451f8308f4c6446f7cd"
+        },
+        {
+          "path": "tests/clis/instantly-v2.test.cjs",
+          "sha256": "8e23c681b3586b52ec41aa900a8dd44f330d3aa654467ff373e6dccc37f5dcb1"
+        },
+        {
+          "path": "tests/clis/intercom-event-metadata.test.cjs",
+          "sha256": "7e82a0a8879ca34ce5ad3f11fa936b8ef6b5037b851af27417b8597f65ec4e9f"
+        },
+        {
+          "path": "tests/clis/intercom-messages.test.cjs",
+          "sha256": "0916886bc54c88eff355a2012f9212bb853a52a4e82b5c9dbd1b1a3717c0cb8c"
+        },
+        {
+          "path": "tests/clis/intercom-metadata-container.test.cjs",
+          "sha256": "c0bfc2255243a7719566cfc2ba87c3abb73c0bbcbd1ebc5c63096b9c7be398cb"
+        },
+        {
+          "path": "tests/clis/intercom-search.test.cjs",
+          "sha256": "e1e08ab0b2c622a105cce4764e3dd2b5c1008f9e5cbbf2d82b0b946018a029a3"
+        },
+        {
+          "path": "tests/clis/keywords-seed-suggestions.test.cjs",
+          "sha256": "854038dbc0344817bfa52aea680b8459e9f8c933a452fadf2f83880d7ac985ae"
+        },
+        {
+          "path": "tests/clis/kit-field-objects.test.cjs",
+          "sha256": "193d6db0be0405fe75742b3a1f9c9af54548db77b9247781b28ec5f6c4e19118"
+        },
+        {
+          "path": "tests/clis/kit-preview-redaction.test.cjs",
+          "sha256": "078ebcf85802ee89b57efce7c31166bafc6b5906ebf3502c8f11e65db4bf272d"
+        },
+        {
+          "path": "tests/clis/klaviyo-cursors.test.cjs",
+          "sha256": "af4a9bd326dd369666ac16a1df60fe81826f5dfd7ff5b8687599aa74750488af"
+        },
+        {
+          "path": "tests/clis/klaviyo-event-value.test.cjs",
+          "sha256": "b475373a6edce3eb5cc569d1569c1c123ceb7e981896d6ca391d7cb79752e42b"
+        },
+        {
+          "path": "tests/clis/klaviyo-properties-json.test.cjs",
+          "sha256": "ba75be4f6d27feb309219c36245d9257a6a7790641e99d680956af93fb5fbd5b"
+        },
+        {
+          "path": "tests/clis/lemlist-webhook-type.test.cjs",
+          "sha256": "e5423721935979ac10a2ec96ed786dbdcb0f3fd5c5dcf630bb6e303c0fbfb598"
+        },
+        {
+          "path": "tests/clis/linkedin-ads-rest.test.cjs",
+          "sha256": "1e1ca10f0c3e8becc90162f0c4ee737e289a12c3a48ed27ce107622bc2619e71"
+        },
+        {
+          "path": "tests/clis/livestorm-registration.test.cjs",
+          "sha256": "a88444bebc2d7ec25a38dc03721d529cc14d3d57054b3b47014c429a1097e254"
+        },
+        {
+          "path": "tests/clis/local-validation-status.test.cjs",
+          "sha256": "29c722fe05f03374d4255d17572948adf1759a40220a2925ee9d06da3e7b1e03"
+        },
+        {
+          "path": "tests/clis/mailchimp-members.test.cjs",
+          "sha256": "5d3f68858d6e4d1ee2353964f9f35d02f70c24ab56f69bcf0345d33caff320b9"
+        },
+        {
+          "path": "tests/clis/mailchimp-update-tags.test.cjs",
+          "sha256": "fcde7e6674dd3ae2d760afd139f48b678d3c53c2f2f41f6f7fcd2bc6e740fc46"
+        },
+        {
+          "path": "tests/clis/meta-account-ids.test.cjs",
+          "sha256": "429ac152b1e34ec663123a53a092e78545e8abd596ac00ed3b99cdb86f68cecd"
+        },
+        {
+          "path": "tests/clis/mixpanel-ingestion-status.test.cjs",
+          "sha256": "9d51a87976f492378088786a57998d75e94b72e96e5ed90d6757ea288aa8670a"
+        },
+        {
+          "path": "tests/clis/mixpanel-property-objects.test.cjs",
+          "sha256": "c6f5f6fa4121e670e86e919a49a8b5b6b097c265d884d2870851e8f72ee13de9"
+        },
+        {
+          "path": "tests/clis/mixpanel-region.test.cjs",
+          "sha256": "82972fa022263cb8959cb7df89f1c80baf62807f2ed4b014c9bfb8a943458108"
+        },
+        {
+          "path": "tests/clis/mixpanel-service-first.test.cjs",
+          "sha256": "fd43140532a4fd2455918745818d514699b408b1083e58e7915c365a2260f769"
+        },
+        {
+          "path": "tests/clis/onesignal-send.test.cjs",
+          "sha256": "a06b3d1bd6d8d2ba952e3e0a9b94e5a8f12c9f1b565778e27ff0a9bd22581829"
+        },
+        {
+          "path": "tests/clis/onesignal-targeting-conflicts.test.cjs",
+          "sha256": "ebbde002c13a19bbe2e98db4d28a18a09a75bd46e90ad37e3d6787a90f655df1"
+        },
+        {
+          "path": "tests/clis/onesignal-users.test.cjs",
+          "sha256": "dca95c68ca5a0cc49584a7b4aaabdac8022b50fb38c932cf94b0f94e034edc8f"
+        },
+        {
+          "path": "tests/clis/optimizely-archive.test.cjs",
+          "sha256": "9c7c864b962f5dbb0806cc44c0068ab3d56b15003b1077784effe28c8ee74147"
+        },
+        {
+          "path": "tests/clis/outreach-mailbox.test.cjs",
+          "sha256": "c21cfb7312a7844580148f09b48db802e63ecc288716275974c6ebb5044c7dce"
+        },
+        {
+          "path": "tests/clis/outreach-pagination.test.cjs",
+          "sha256": "1c81d495efb87c88237cb75b59a387054e83c23cca38fad4615fa96e5763c930"
+        },
+        {
+          "path": "tests/clis/outreach-task-state.test.cjs",
+          "sha256": "6d4b9e711163794415d236bd7e8699a54fd99904d36af555d038d0439ca3045c"
+        },
+        {
+          "path": "tests/clis/paddle-discount-limit.test.cjs",
+          "sha256": "e00e5798a47f6c840a73c29742c56d9542964c5fb663384b148ccec77b4b0d0b"
+        },
+        {
+          "path": "tests/clis/paddle-subscription-updates.test.cjs",
+          "sha256": "61c9564b0abb740f849c2a75321404fb8cd18ea2c415526a5b09a70c17ca4b82"
+        },
+        {
+          "path": "tests/clis/partnerstack-actions.test.cjs",
+          "sha256": "632051d890901e581a6175ac476d2080404b06d7370d61cc18e43c8ed8745665"
+        },
+        {
+          "path": "tests/clis/partnerstack-transactions.test.cjs",
+          "sha256": "ea60e59985ff634860a37ad34a62a2025fbce78f34a95903b3cb90324b943310"
+        },
+        {
+          "path": "tests/clis/partnerstack-webhooks.test.cjs",
+          "sha256": "5ec8d5058dc014c6a6824dd6c5eaad53f1a6ff88358eebe036228bbaa2b54b33"
+        },
+        {
+          "path": "tests/clis/pendo-identifiers.test.cjs",
+          "sha256": "f11ece34084aaa7722576c3a87e8a21917b4f4992721543c8051cd91800f5dae"
+        },
+        {
+          "path": "tests/clis/pendo-pipeline-envelope.test.cjs",
+          "sha256": "6c174cf70046a46692abde0c1c0573f0c2790882cb2e7793055162e12fe69bac"
+        },
+        {
+          "path": "tests/clis/pendo-search-query-shape.test.cjs",
+          "sha256": "5a624a05daf5db443f967efff1aff910bfbd8843a55aa3093eabd4a79462e1e0"
+        },
+        {
+          "path": "tests/clis/plausible-dates.test.cjs",
+          "sha256": "a7dbaef09b32874bce88400c544924e0d8fcf85f0aa16971846671dda391658f"
+        },
+        {
+          "path": "tests/clis/plausible-pagination.test.cjs",
+          "sha256": "c4c6657fdea1e5ab0b7177188ca12bcb47d505ff1a6598501f753e86227f5851"
+        },
+        {
+          "path": "tests/clis/postmark-batch-status.test.cjs",
+          "sha256": "2c6b20cfa7813adf8bd7214ead0eda6be0d31a91b2c8d837b650a04cd8b9f2e9"
+        },
+        {
+          "path": "tests/clis/postmark-layout-template.test.cjs",
+          "sha256": "0f236f53ccb31204c6574f040e513a9d9e0cb5abecadacc9a8fd9fabeafc2802"
+        },
+        {
+          "path": "tests/clis/postmark-model-json.test.cjs",
+          "sha256": "e8eebaa89fce75fd3ed531a77e5e6231181154d9bc522e3916de5a9ca6aa5105"
+        },
+        {
+          "path": "tests/clis/prospect-csv.test.cjs",
+          "sha256": "cf839e977233d1f052a6d0e6044294c52caf1834c7c3ee3dea8d32ff6f0dc5f6"
+        },
+        {
+          "path": "tests/clis/prospect-truncation.test.cjs",
+          "sha256": "92a31cbff6a57e341bb471acaa2e858702c9ca7ae04fe7b7dc5ac239e3366cac"
+        },
+        {
+          "path": "tests/clis/request-deadlines.test.cjs",
+          "sha256": "08f75420ea0020138914915b12691edfbe7dac815098fa28ff0a4ff56c8420c2"
+        },
+        {
+          "path": "tests/clis/resend-batch-shape.test.cjs",
+          "sha256": "2684fd4b37d052c1d2dca0fc4f8d438c560a99bc3ad0e76c063d5059fac7be60"
+        },
+        {
+          "path": "tests/clis/resend-error-exit.test.cjs",
+          "sha256": "8d20f41adb7342c506886a79422a7a56d81403b814f57500694062cfd7b79192"
+        },
+        {
+          "path": "tests/clis/resend-idempotency.test.cjs",
+          "sha256": "775daf3a6772432aad0b398783d2017bd54753135797f6540968b1e0c43e67d0"
+        },
+        {
+          "path": "tests/clis/resend-list-cursors.test.cjs",
+          "sha256": "142aca4b0d3b1f200f6c4b86219582b2baeeffe43677cc2e0e48eb0023d962d7"
+        },
+        {
+          "path": "tests/clis/resend-template-variables.test.cjs",
+          "sha256": "a4b1ba68eb492640770ac1c1e857c7c27aedede2055954a31f77fc01b551922c"
+        },
+        {
+          "path": "tests/clis/resend-webhook-endpoint.test.cjs",
+          "sha256": "9dd977e19e6fc8e0bb9c75c59c8e2b3db086c8537abcbcc25db0df1baf44682d"
+        },
+        {
+          "path": "tests/clis/rewardful-mutations.test.cjs",
+          "sha256": "790ce3d3e0c711dbdda73ded47472ffe4ff8a377ada7f47e0e962cd91b3b53ac"
+        },
+        {
+          "path": "tests/clis/rewardful-pagination.test.cjs",
+          "sha256": "e185b735fcc333b54baabc164c92fb3aa946f16a7350f8661439b554f2367496"
+        },
+        {
+          "path": "tests/clis/rewardful-update-id.test.cjs",
+          "sha256": "b15c7e8861082cb19a0f09e984673c1a7fa6583d6a7ebe84e1edd4f43213db98"
+        },
+        {
+          "path": "tests/clis/savvycal-booking.test.cjs",
+          "sha256": "2e216797e8b9cf4b12f434cad8346c3e53adad50aedf09f946ed22260545bd9d"
+        },
+        {
+          "path": "tests/clis/savvycal-link-resource.test.cjs",
+          "sha256": "7d6d1a8595e8b0233eaa16ea24bbb72413d57d0b92a47df17945f68c6b10bec2"
+        },
+        {
+          "path": "tests/clis/segment-anonymous-identity.test.cjs",
+          "sha256": "b97c9896f809f97b221968bbdf63aa1bcddf7e04018167c8e5e42347824ff6cc"
+        },
+        {
+          "path": "tests/clis/segment-delivery-metadata.test.cjs",
+          "sha256": "7edd1503fab5e53ffe77bd23954a24aaa9ae821135d19b299c54ff4deb4169c7"
+        },
+        {
+          "path": "tests/clis/segment-json-objects.test.cjs",
+          "sha256": "9ae0014082b81692a5b13b32646a3bceb81b54f159a9b3eb1ad0c1d9712cf251"
+        },
+        {
+          "path": "tests/clis/segment-profile-identifiers.test.cjs",
+          "sha256": "4f6011e8ab5d0c2807f19ef2194a2065235361596eeb9cb8158c5257715aeccf"
+        },
+        {
+          "path": "tests/clis/semrush-backlinks-route.test.cjs",
+          "sha256": "1234ad8bafe7327bb0418257ad5fe34f32df3d847e53e05bea9e5d40334aa4f0"
+        },
+        {
+          "path": "tests/clis/semrush-csv.test.cjs",
+          "sha256": "ad8c2c8d4deb74fe7e50ed303e6be83087ba462db4e6f3d68656553b01f2887d"
+        },
+        {
+          "path": "tests/clis/semrush-status.test.cjs",
+          "sha256": "5626e8373ca7e99c6048a10479b01e7166c429a29782a788eb19ac421a50ad64"
+        },
+        {
+          "path": "tests/clis/sendgrid-campaign-routes.test.cjs",
+          "sha256": "d9e21b16f0654f6a0cd60895cb1c059e84b7e62714b23923b98a0500d4fed5c3"
+        },
+        {
+          "path": "tests/clis/sendgrid-dynamic-template.test.cjs",
+          "sha256": "d236d20bbd7d3212d7bed50e94eb2b0aaf7d8c70a1fe7d5a41a49ab3b075e0bd"
+        },
+        {
+          "path": "tests/clis/sendgrid-template-data-object.test.cjs",
+          "sha256": "4b5e5c030e147091f1b99c0057fba0cdf68553c31729aef4d0024942d0ac0dfc"
+        },
+        {
+          "path": "tests/clis/similarweb-referrals.test.cjs",
+          "sha256": "94d826c8ec317be4f5fd30efce4df8db0258e3136f3f0c9596eabe65111c83bf"
+        },
+        {
+          "path": "tests/clis/snov-domain-tasks.test.cjs",
+          "sha256": "1149769d2d0918e5716a28c17e7ff284064c6ba7dc49efaa89f53277c2b09f11"
+        },
+        {
+          "path": "tests/clis/snov-prospect-search.test.cjs",
+          "sha256": "20c5de046ded44dbf0f12f473d2d2e02b46b2c5949b86e3318bafd573313e2e3"
+        },
+        {
+          "path": "tests/clis/supermetrics-contract.test.cjs",
+          "sha256": "e60156b4baf28342170bb6c7210b105fe292974cfa3b1096162a528240b63c32"
+        },
+        {
+          "path": "tests/clis/sync-literal-text.test.cjs",
+          "sha256": "c818250880e4de2e0f0b25abb88bc6c49a6d45a37359a7b5a965bd255abf0a3b"
+        },
+        {
+          "path": "tests/clis/sync-metadata-scope.test.cjs",
+          "sha256": "a2fe0872ded8f95eb111b16feee4a02610ffb67d0d52df06b1735bd411cd5d0e"
+        },
+        {
+          "path": "tests/clis/sync-readme-line-endings.test.cjs",
+          "sha256": "4ba1325ce9bd8d0c23321eb41971ff906b5934da71b43e1c806917c5da38c2b7"
+        },
+        {
+          "path": "tests/clis/sync-skills-frontmatter.test.cjs",
+          "sha256": "93653ede88c6b6dddb406ad0072e55341294b789409125d750ea4f4a95c3c0b0"
+        },
+        {
+          "path": "tests/clis/tiktok-error-exit.test.cjs",
+          "sha256": "f42d47112950b4f58655ea6745619ad231439e6a676bf3f5a83c331d3c0f24c0"
+        },
+        {
+          "path": "tests/clis/tiktok-read-contracts.test.cjs",
+          "sha256": "87af6de23fd85259692d99d45e5da4e255cc6bb1c7ca0f024bdad0106abd06a5"
+        },
+        {
+          "path": "tests/clis/tolt-public-api.test.cjs",
+          "sha256": "c48afb0972509cb6ea2800ac874d8780485a337204e1029459705d503ce3ce44"
+        },
+        {
+          "path": "tests/clis/truelist.test.cjs",
+          "sha256": "5683ae921472380173926f931f146f4b69ab62c5dee65a45f22e4c66f9f1018e"
+        },
+        {
+          "path": "tests/clis/trustpilot-invitations.test.cjs",
+          "sha256": "0a1f72312de968622555de4bf9ef53d1e9e689766a316bf062184a0fb02b640f"
+        },
+        {
+          "path": "tests/clis/typeform-update.test.cjs",
+          "sha256": "77a58b4b8a2840cf6874cae46ccc304c9ef3db18696553f8dd36011a3353fd69"
+        },
+        {
+          "path": "tests/clis/version-nested-references.test.cjs",
+          "sha256": "be306fbae5e5922193971cf3ffc2ee417b5de4f1f4d62a80562bcdcfd57735c0"
+        },
+        {
+          "path": "tests/clis/wistia-auth.test.cjs",
+          "sha256": "788bee568cbb290ad583f29386dd10ebeef64da41a4f693ad4269c8217b9ebb7"
+        },
+        {
+          "path": "tests/clis/zapier-webhook.test.cjs",
+          "sha256": "8ab4116f8b139ab2d8ef6d9859ea5e8067b66fccaa45922704369c7c1bd6b36b"
+        },
+        {
+          "path": "tests/clis/zoominfo-auth.test.cjs",
+          "sha256": "0febeeeca056bbfac5eba3a834d9d12f62368ba665f46f91d6d79ec77d45bda5"
+        },
+        {
+          "path": "tests/run-regression.sh",
+          "sha256": "9642a0c9657f0740882a4a73838c95beab17b34130b78e11b19bb635a86e6e35"
+        },
+        {
+          "path": "tests/test_skill_packaging.py",
+          "sha256": "c089edf2fe9888bfb888dfbcf170668ca05ec85287a0d7038c365260161711cc"
+        },
+        {
+          "path": "tools/clis/activecampaign.js",
+          "sha256": "685b82aec4ab82940aaaff29e90113ee973a1d08c1fce11a258ff4c9322a6be2"
+        },
+        {
+          "path": "tools/clis/adobe-analytics.js",
+          "sha256": "bcc37a856ac8dc45660c54534a078461dcd427472381041ca4cd752bf573f572"
+        },
+        {
+          "path": "tools/clis/ahrefs.js",
+          "sha256": "447e96cc55a0851406ad4943847b752646ca2b671583265c288008455d83c5ca"
+        },
+        {
+          "path": "tools/clis/airops.js",
+          "sha256": "b1b13ebc117a1dd69b5bd5ec9630adab58ee9c13e4da04e05ed82b0453acd412"
+        },
+        {
+          "path": "tools/clis/amplitude.js",
+          "sha256": "0222d9037ca3ca36f3a01a67c757678eeebe0c1603a5e15ae92e8d4b96adf54f"
+        },
+        {
+          "path": "tools/clis/apollo.js",
+          "sha256": "bec094308835f4c4de3b8084502bc80ddca6b03ea540c9ffcad971141f3dfc5e"
+        },
+        {
+          "path": "tools/clis/beehiiv.js",
+          "sha256": "9ae4989a62b80f28775fa5993a92506fc695f0d3444411de914be9b2ff457c82"
+        },
+        {
+          "path": "tools/clis/brevo.js",
+          "sha256": "fbaeb522d76e672dee55b2eaf2640e505fc175e2dfa8cee5ba650a01aa018ff6"
+        },
+        {
+          "path": "tools/clis/buffer.js",
+          "sha256": "243bc6320c741fd278285fb4cc2d2a3fbe1b5ab24190f4b245d2abe1630ceb89"
+        },
+        {
+          "path": "tools/clis/calendly.js",
+          "sha256": "7caab7a5b569a78507486b39a50a4a651901ff193f31fdc75d9faa3a6682d10d"
+        },
+        {
+          "path": "tools/clis/clay.js",
+          "sha256": "9d7a2d34dca3a32079e2b63998f1733c8dfde65d7885d85d8036dd02f309fd03"
+        },
+        {
+          "path": "tools/clis/clearbit.js",
+          "sha256": "555aa1ed2329130346541470a41eacb5b102fd7f8dd8859621dd5809fda6e612"
+        },
+        {
+          "path": "tools/clis/close.js",
+          "sha256": "3d7455f5bbaf9ba81a0cba5db219ebae9d9cd82f3f4f38ed1b352016e542e4c1"
+        },
+        {
+          "path": "tools/clis/coupler.js",
+          "sha256": "9a9138a43cf163427e6e08bc23e1c655b956d935bb2a0f69dbe84c582bbdf3e8"
+        },
+        {
+          "path": "tools/clis/crossbeam.js",
+          "sha256": "5be995631b3177ed6e4e3c9d096218fa6630fe4fc9cdda868c1ad12da1235f35"
+        },
+        {
+          "path": "tools/clis/customer-io.js",
+          "sha256": "cc83043b5c022b7b90ed817f833cdf14c82fb7e4e891e04e5e5ad48a987de819"
+        },
+        {
+          "path": "tools/clis/dataforseo.js",
+          "sha256": "28e34faf33f148ce733b5958223fd48cb05462b2806ddb465af51ed48b090772"
+        },
+        {
+          "path": "tools/clis/demio.js",
+          "sha256": "de923868c18e147d640fdca0890e98597a5e0e00cf60e8e72a7d4ff2a327ad40"
+        },
+        {
+          "path": "tools/clis/dub.js",
+          "sha256": "c7d07ccdae48a21af95eea7b5bfaf606cf38b1e2e2d05b799cbc0f5eec76ccd1"
+        },
+        {
+          "path": "tools/clis/exa.js",
+          "sha256": "df84cf8a7a5671909c664387057051cfaa2eb6c37e6dcc5e01bf928869168cf8"
+        },
+        {
+          "path": "tools/clis/firecrawl.js",
+          "sha256": "0a398ce97095de330d1cc00e46e4d0e59fab26ed1e24200bd3761f90c9b2f453"
+        },
+        {
+          "path": "tools/clis/g2.js",
+          "sha256": "7a101f7e797efe0a47b54da7e26be975291d3fc4e8b399c98c9449ba402f20b6"
+        },
+        {
+          "path": "tools/clis/ga4.js",
+          "sha256": "84d65b5cb349059fc4a0e66019b9bf013deff6291275063b5e07122f688ce7c9"
+        },
+        {
+          "path": "tools/clis/github-prospects.js",
+          "sha256": "5864d8795df4df20f9715555eb201b201fed4463d667867f48bdd1b96f7bdaf3"
+        },
+        {
+          "path": "tools/clis/google-ads.js",
+          "sha256": "dc12a6f2938bc3b92b9ca00b213a7092194425a83b8fe2ee0ecd39271cee3c02"
+        },
+        {
+          "path": "tools/clis/google-search-console.js",
+          "sha256": "cc70d0269785dbddb3f4d63c36a6f21a7a7f1d33d7bd748dc2f23106c7087a61"
+        },
+        {
+          "path": "tools/clis/hotjar.js",
+          "sha256": "8ed8a902b19b8cb314b4b93a4ff780c7fb37305c8839c6994085b6c74e4d9a86"
+        },
+        {
+          "path": "tools/clis/hunter.js",
+          "sha256": "76fea8ead6c9bdcc4ea3af7f7707d4e1891146c3aa7535d11c1f3b8333b2c551"
+        },
+        {
+          "path": "tools/clis/instantly.js",
+          "sha256": "25272d63c974d1c165fa5f7cba811f60aa01ae893658e9d241f018ae8a3c077e"
+        },
+        {
+          "path": "tools/clis/intercom.js",
+          "sha256": "6918822ca27d1b31e2f5813782f889311b11ac67afa99fad32316457606c546e"
+        },
+        {
+          "path": "tools/clis/keywords-everywhere.js",
+          "sha256": "574af9b2d647e351fa2dad5d0d3e27efc0c62ef962891188c34a42789304ba31"
+        },
+        {
+          "path": "tools/clis/kit.js",
+          "sha256": "f29a81702043d016ea224455aca20ee27d8ec6e58d3cde1ec509dacbf088c3ea"
+        },
+        {
+          "path": "tools/clis/klaviyo.js",
+          "sha256": "ab6403bf06332ffcf27c1202deee2e0fbb14c8459ee0bd2d351b16a5ed9eb2c2"
+        },
+        {
+          "path": "tools/clis/lemlist.js",
+          "sha256": "641a58e73cbf496e3514759f2b3197678d7e300f35254684852630f8660b3ed0"
+        },
+        {
+          "path": "tools/clis/linkedin-ads.js",
+          "sha256": "51b35803cb0bb193800335f95b7659f3270932f2aa38e31d7bb311622c463529"
+        },
+        {
+          "path": "tools/clis/livestorm.js",
+          "sha256": "b28679d3b81ad5086e5b873566c3623fc67861b4631bc5e30aa15f8a96a829b7"
+        },
+        {
+          "path": "tools/clis/mailchimp.js",
+          "sha256": "751719b937a6a18438a5dd60e0b1d6139e9a5ed4ee7a238771270063e937cdfc"
+        },
+        {
+          "path": "tools/clis/mention-me.js",
+          "sha256": "e3f18ea5e3f1c7f54cc0267c7fb4561f3dac5940f5c0463ae777fb2d84d3a2b3"
+        },
+        {
+          "path": "tools/clis/meta-ads.js",
+          "sha256": "be7f940aee43d8467fc53827e511d32930af47a79fca4265524dffc6e00f2220"
+        },
+        {
+          "path": "tools/clis/mixpanel.js",
+          "sha256": "9e4615cd67da612684f7aac9b2be5686e318e5db272db5f3c87cab82a14e8fdd"
+        },
+        {
+          "path": "tools/clis/onesignal.js",
+          "sha256": "2d2ecc1ce7fa31de939a0e4c7eca6b376878e4763d4bfad3d106b4fe3c2bb428"
+        },
+        {
+          "path": "tools/clis/optimizely.js",
+          "sha256": "64964a1080daf7f4229fafd2bf3b4b82162c3b89415487450cf4abc873651f61"
+        },
+        {
+          "path": "tools/clis/outreach.js",
+          "sha256": "c8d579d6bb2f569a45cbc4dcd152053be33021e822c7173ea0e0fbb10bb0fc58"
+        },
+        {
+          "path": "tools/clis/paddle.js",
+          "sha256": "fb000e0a3c5a14ebb981afde6f4d594ed81fac63e9b51f97252a39847f1f10a8"
+        },
+        {
+          "path": "tools/clis/partnerstack.js",
+          "sha256": "2de77a1d0048995bd7222ce13077f2636103f299627b498439d03b11cd721ca8"
+        },
+        {
+          "path": "tools/clis/pendo.js",
+          "sha256": "c8c641a2f6b897033d1a789d95198a54344745d0890db7932d38c956daa7ca95"
+        },
+        {
+          "path": "tools/clis/plausible.js",
+          "sha256": "c7ccdfd3ce90172f8afdb698360bba5dbed38a44f99b8f477289a6afc92aa2ed"
+        },
+        {
+          "path": "tools/clis/postmark.js",
+          "sha256": "335e3336781dabc862ddc5f4bdc6d11203157200274a39c65a87d6d61f90dcec"
+        },
+        {
+          "path": "tools/clis/rankparse.js",
+          "sha256": "3df2526a98872d5ce6d14c436a0751f4dba7451173862f0c6f67efd02e0d6490"
+        },
+        {
+          "path": "tools/clis/resend.js",
+          "sha256": "7e0b0fa3b79693a011bf9533845639533f33428ae2879eacb801b3551e1c0fa3"
+        },
+        {
+          "path": "tools/clis/rewardful.js",
+          "sha256": "afbf9b8c5232ad50252a292451971609a7358f1b3ca522c36bed3a458deb1240"
+        },
+        {
+          "path": "tools/clis/savvycal.js",
+          "sha256": "692b55fbbc9d1c61a347442d8a6fdbb477fbf288ed404d6890dcab54c7e9debf"
+        },
+        {
+          "path": "tools/clis/segment.js",
+          "sha256": "54a98d433b4a7b705bf43c45cf8a70da4904cabb196fdf7ee4f99a51cb276d09"
+        },
+        {
+          "path": "tools/clis/semrush.js",
+          "sha256": "11e81b555794ccbcdebb54049917a3573cd18da18b1ac03256cd731daaaaf999"
+        },
+        {
+          "path": "tools/clis/sendgrid.js",
+          "sha256": "22685defe4e99a090b1a9fb83a3d04554285da2d2824ff503e32d6936db6e188"
+        },
+        {
+          "path": "tools/clis/similarweb.js",
+          "sha256": "ad2bc72928774357283be489f97f2359b2776882ac1e2428e88794fbd76bf563"
+        },
+        {
+          "path": "tools/clis/snov.js",
+          "sha256": "f036ae5fbe3df83025cda12544ccc2e03caec92fd8c2fd89a45ac72204f715b1"
+        },
+        {
+          "path": "tools/clis/supermetrics.js",
+          "sha256": "770f00e8de91d78eca4fbf0cf29c41c695455f99d4df317effe098bd814edc9d"
+        },
+        {
+          "path": "tools/clis/tiktok-ads.js",
+          "sha256": "2bb350a64f59d4bdafb88642be336abedb4cadff6215fe62e995f97dc7395fca"
+        },
+        {
+          "path": "tools/clis/tolt.js",
+          "sha256": "8c74de2f0e78ebfa631bbbdc665ea980fa822cbda82c0d5c7df1412058c371a3"
+        },
+        {
+          "path": "tools/clis/truelist.js",
+          "sha256": "024672397f8ddb833827e907d25d946208461df2182ff44b8d3e3021231c565a"
+        },
+        {
+          "path": "tools/clis/trustpilot.js",
+          "sha256": "036d23ef1bd3177c88e67357332cd04a151ce8df72fd62fa05ac833d92967f21"
+        },
+        {
+          "path": "tools/clis/typeform.js",
+          "sha256": "71b746814ab4311386713a5c9190e12456bc06f252de74fbfebf116b6005dd6b"
+        },
+        {
+          "path": "tools/clis/wistia.js",
+          "sha256": "0e4b04a15c282bd6572189c958828bc08f1ad041df9b7d605c0fe72f7b2a9111"
+        },
+        {
+          "path": "tools/clis/zapier.js",
+          "sha256": "efe8bd41f896ec2780fa55cdf803f40937cbaba6ebd8434836a1b60048f8dff9"
+        },
+        {
+          "path": "tools/clis/zoominfo.js",
+          "sha256": "aaf7f3b35adaea0fdd5639819b18b10a0d48785ad86d9b6a2ad9d8a3f1d4b6ee"
+        },
+        {
+          "path": "validate-skills-official.sh",
+          "sha256": "0c647bc96c9918b38a7fea88fe2b4a6cc99ab526cdcfdb01e39075fe91159867"
+        },
+        {
+          "path": "validate-skills.sh",
+          "sha256": "f2ada67a8c4a06ed13bdfa65a17dba9f1250fcff93604400008382897395f886"
+        }
+      ],
+      "dependency_manifest_inventory": [
+        {
+          "path": ".claude-plugin/plugin.json",
+          "sha256": "660d51deb14113a9340c61237dfc21324cc5ca3b7aa876518d7f4331ef93733b"
+        },
+        {
+          "path": ".codex-plugin/plugin.json",
+          "sha256": "d5118d75eb603989a37be6033b48a87ac29ecc4d7c8742c88e78976aaaa65b68"
+        }
+      ],
+      "signals": [
+        {
+          "path": "skills/ab-testing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/ad-creative/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ads/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/ai-seo/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/analytics/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/aso/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/attribution/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/churn-prevention/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/co-marketing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/cold-email/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/community-marketing/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/competitors/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/content-strategy/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/copy-editing/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/copywriting/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/cro/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/customer-research/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/directory-submissions/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/emails/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/events/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/image/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/influencer-marketing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/launch/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/marketing-council/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/marketing-loops/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/marketing-plan/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/marketing-psychology/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/offers/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/onboarding/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/product-marketing/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/prospecting/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/public-relations/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/referrals/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/revops/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/sales-enablement/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/schema/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/seo-audit/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/signup/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/sms/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/social/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/video/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "scripts/check-versions.mjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "scripts/package_skills.py",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "scripts/sync-partners.mjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tests/assets/creative-review-images.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tests/clis/activecampaign-contact-fields.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/adobe-report-suites.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/ahrefs-link-reports.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/ahrefs-reports.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/airops-public-api.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/amplitude-device-identity.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/amplitude-export.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/amplitude-json-shapes.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/amplitude-retention-events.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/amplitude-user-activity.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/apollo-employee-ranges.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/apollo-enrichment.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/beehiiv-post-content.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/beehiiv-update.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/brevo-contact-suppression.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/buffer-publish-flags.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/calendly-webhooks.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/close-collection-pagination.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/close-opportunity-status.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/close-opportunity-value.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/crossbeam-overlaps.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/customer-io-suppression.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/customerio-identifiers.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/customerio-json-data.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/customerio-region.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/dataforseo-market.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/dataforseo-status.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/demio-participant-route.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/dub-breakdowns.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/dub-bulk-container.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/dub-link-tags.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/email-boolean-states.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/email-colon-values.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/exa-answer.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/exa-structured-search.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/firecrawl-crawl-inspection.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/ga4-event-params.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/ga4-mp-auth.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/ga4-report-pagination.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/github-enrichment.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/github-http-status.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/google-ads-manager.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/google-ads-project-auth.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/google-ads-query.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/gsc-query-pagination.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/gsc-sitemap-result.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/hotjar-surveys.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/http-rejection-status.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/hunter-auth-query.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/hunter-domain-pagination.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/instantly-v2.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/intercom-event-metadata.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/intercom-messages.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/intercom-metadata-container.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/intercom-search.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/keywords-seed-suggestions.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/kit-field-objects.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/kit-preview-redaction.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/klaviyo-cursors.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/klaviyo-event-value.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/klaviyo-properties-json.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/lemlist-webhook-type.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/linkedin-ads-rest.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/livestorm-registration.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/local-validation-status.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/mailchimp-members.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/mailchimp-update-tags.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/meta-account-ids.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/mixpanel-ingestion-status.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/mixpanel-property-objects.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/mixpanel-region.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/mixpanel-service-first.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/onesignal-send.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/onesignal-targeting-conflicts.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/onesignal-users.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/optimizely-archive.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/outreach-mailbox.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/outreach-pagination.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/outreach-task-state.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/paddle-discount-limit.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/paddle-subscription-updates.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/partnerstack-actions.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/partnerstack-transactions.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/partnerstack-webhooks.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/pendo-identifiers.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/pendo-pipeline-envelope.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/pendo-search-query-shape.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/plausible-dates.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/plausible-pagination.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/postmark-batch-status.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/postmark-layout-template.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/postmark-model-json.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/prospect-csv.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/prospect-truncation.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/request-deadlines.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/resend-batch-shape.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/resend-error-exit.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/resend-idempotency.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/resend-list-cursors.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/resend-template-variables.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/resend-webhook-endpoint.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/rewardful-mutations.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/rewardful-pagination.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/rewardful-update-id.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/savvycal-booking.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/savvycal-link-resource.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/segment-anonymous-identity.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/segment-delivery-metadata.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/segment-json-objects.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/segment-profile-identifiers.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/semrush-backlinks-route.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/semrush-csv.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/semrush-status.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/sendgrid-campaign-routes.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/sendgrid-dynamic-template.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/sendgrid-template-data-object.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/similarweb-referrals.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/snov-domain-tasks.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/snov-prospect-search.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/supermetrics-contract.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/sync-literal-text.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/sync-metadata-scope.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/sync-readme-line-endings.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/sync-skills-frontmatter.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/tiktok-error-exit.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/tiktok-read-contracts.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/tolt-public-api.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/truelist.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/trustpilot-invitations.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/typeform-update.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/version-nested-references.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/clis/wistia-auth.test.cjs",
+          "signals": [
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/zapier-webhook.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/clis/zoominfo-auth.test.cjs",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tests/run-regression.sh",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tests/test_skill_packaging.py",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "tools/clis/activecampaign.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/adobe-analytics.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/ahrefs.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/airops.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/amplitude.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/apollo.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/beehiiv.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/brevo.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/buffer.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/calendly.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/clay.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/clearbit.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/close.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/coupler.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/crossbeam.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/customer-io.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/dataforseo.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/demio.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/dub.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/exa.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/firecrawl.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/g2.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/ga4.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/github-prospects.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/google-ads.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/google-search-console.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/hotjar.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/hunter.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/instantly.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/intercom.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/keywords-everywhere.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/kit.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/klaviyo.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/lemlist.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/linkedin-ads.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/livestorm.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/mailchimp.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/mention-me.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/meta-ads.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/mixpanel.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/onesignal.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/optimizely.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/outreach.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/paddle.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/partnerstack.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/pendo.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/plausible.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/postmark.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/rankparse.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/resend.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/rewardful.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/savvycal.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/segment.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/semrush.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/sendgrid.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/similarweb.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/snov.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/supermetrics.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/tiktok-ads.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "tools/clis/tolt.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/truelist.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/trustpilot.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/typeform.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/wistia.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/zapier.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "tools/clis/zoominfo.js",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "validate-skills-official.sh",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "validate-skills.sh",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": ".claude-plugin/plugin.json",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": ".codex-plugin/plugin.json",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        }
+      ],
+      "selected": [
+        "content-strategy"
+      ],
+      "upstream_code_executed": false,
+      "activity_status": "PINNED_SNAPSHOT_ONLY_NOT_A_MAINTENANCE_GUARANTEE"
+    },
+    {
+      "id": "social-media-skills",
+      "repository": "https://github.com/social-media-skills/skills",
+      "commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "commit_date": "2026-10-15T16:55:19+02:00",
+      "license": "MIT",
+      "license_note": "Full MIT notice preserved",
+      "skills": [
+        "skills/ai-image-editing/SKILL.md",
+        "skills/ai-music-and-sound/SKILL.md",
+        "skills/ai-search-optimization/SKILL.md",
+        "skills/ai-video/SKILL.md",
+        "skills/ai-voiceover/SKILL.md",
+        "skills/analytics-and-reporting/SKILL.md",
+        "skills/audience-research/SKILL.md",
+        "skills/batch-content-plan/SKILL.md",
+        "skills/before-after-and-transformation/SKILL.md",
+        "skills/behind-the-scenes-and-founder/SKILL.md",
+        "skills/brand-profile/SKILL.md",
+        "skills/campaign-and-launch-planning/SKILL.md",
+        "skills/canva/SKILL.md",
+        "skills/capcut/SKILL.md",
+        "skills/caption-writer/SKILL.md",
+        "skills/captions-and-clipping/SKILL.md",
+        "skills/carousel-writer/SKILL.md",
+        "skills/collabs-and-cross-promotion/SKILL.md",
+        "skills/community-management/SKILL.md",
+        "skills/competitor-analysis/SKILL.md",
+        "skills/content-audit/SKILL.md",
+        "skills/content-calendar/SKILL.md",
+        "skills/content-pillars/SKILL.md",
+        "skills/content-recycling/SKILL.md",
+        "skills/content-research-and-sourcing/SKILL.md",
+        "skills/contrarian-and-opinion/SKILL.md",
+        "skills/creator-monetization/SKILL.md",
+        "skills/crisis-and-moderation/SKILL.md",
+        "skills/cross-platform-repurposing/SKILL.md",
+        "skills/data-and-original-research/SKILL.md",
+        "skills/descript/SKILL.md",
+        "skills/design-and-templates/SKILL.md",
+        "skills/educational-content-and-how-to/SKILL.md",
+        "skills/email-and-newsletter/SKILL.md",
+        "skills/engagement-routine/SKILL.md",
+        "skills/experimentation-and-ab-testing/SKILL.md",
+        "skills/facebook-groups/SKILL.md",
+        "skills/facebook-strategy/SKILL.md",
+        "skills/flux/SKILL.md",
+        "skills/goals-and-kpis/SKILL.md",
+        "skills/hashtag-strategy/SKILL.md",
+        "skills/heygen/SKILL.md",
+        "skills/hook-writer/SKILL.md",
+        "skills/idea-generation-and-ideation/SKILL.md",
+        "skills/ideogram/SKILL.md",
+        "skills/image-prompt/SKILL.md",
+        "skills/infographic-and-data-viz/SKILL.md",
+        "skills/instagram-growth/SKILL.md",
+        "skills/instagram-reels-publishing/SKILL.md",
+        "skills/instagram-seo/SKILL.md",
+        "skills/interactive-content/SKILL.md",
+        "skills/kling/SKILL.md",
+        "skills/lead-magnets-and-funnels/SKILL.md",
+        "skills/link-in-bio-and-traffic/SKILL.md",
+        "skills/linkedin-company-pages/SKILL.md",
+        "skills/linkedin-growth/SKILL.md",
+        "skills/linkedin-post-writer/SKILL.md",
+        "skills/listicle-and-roundup/SKILL.md",
+        "skills/livestream-and-realtime/SKILL.md",
+        "skills/luma/SKILL.md",
+        "skills/meme-and-culture/SKILL.md",
+        "skills/nano-banana/SKILL.md",
+        "skills/opus-clip/SKILL.md",
+        "skills/pinterest-growth/SKILL.md",
+        "skills/pinterest-pin-design/SKILL.md",
+        "skills/pinterest-seo/SKILL.md",
+        "skills/platform-specs-and-validation/SKILL.md",
+        "skills/podcast-and-audiograms/SKILL.md",
+        "skills/profile-optimization/SKILL.md",
+        "skills/quote-cards-and-text-graphics/SKILL.md",
+        "skills/reddit-marketing/SKILL.md",
+        "skills/reels-script/SKILL.md",
+        "skills/reply-and-comment-writer/SKILL.md",
+        "skills/runway/SKILL.md",
+        "skills/scheduling-and-queue/SKILL.md",
+        "skills/scripting-and-storyboarding/SKILL.md",
+        "skills/seasonal-and-moment-marketing/SKILL.md",
+        "skills/short-form-video-script/SKILL.md",
+        "skills/social-proof-and-testimonials/SKILL.md",
+        "skills/social-selling-and-dm/SKILL.md",
+        "skills/social-seo/SKILL.md",
+        "skills/social-strategy/SKILL.md",
+        "skills/story-writer/SKILL.md",
+        "skills/storytelling-and-narrative/SKILL.md",
+        "skills/suno/SKILL.md",
+        "skills/synthesia/SKILL.md",
+        "skills/talking-head-and-piece-to-camera/SKILL.md",
+        "skills/text-post-and-microblog/SKILL.md",
+        "skills/thread-writer/SKILL.md",
+        "skills/threads-growth/SKILL.md",
+        "skills/threads-post/SKILL.md",
+        "skills/thumbnail-design/SKILL.md",
+        "skills/tiktok-growth/SKILL.md",
+        "skills/tiktok-photo-mode/SKILL.md",
+        "skills/tiktok-script/SKILL.md",
+        "skills/tiktok-video-publishing/SKILL.md",
+        "skills/trend-jacking/SKILL.md",
+        "skills/ugc-and-influencer/SKILL.md",
+        "skills/veo-3/SKILL.md",
+        "skills/viral-reverse-engineering/SKILL.md",
+        "skills/voice-builder/SKILL.md",
+        "skills/writing-style-and-tone/SKILL.md",
+        "skills/x-growth/SKILL.md",
+        "skills/youtube-long-form/SKILL.md",
+        "skills/youtube-publishing-and-metadata/SKILL.md",
+        "skills/youtube-shorts/SKILL.md"
+      ],
+      "name_collisions": [],
+      "executable_inventory": [
+        {
+          "path": "scripts/build-packs.sh",
+          "sha256": "7bc1eb2f7d97bf3c6c4b1e6ebb497baab2e985c20e71409300bf6bd6edf5dbda"
+        },
+        {
+          "path": "scripts/build-skill-zips.sh",
+          "sha256": "4d54f25744a07460684457ca175ce83ca56b9fe1f86eb0bb6ef93789bd23bee9"
+        },
+        {
+          "path": "scripts/validate-skills.sh",
+          "sha256": "4256b765e8fd5b704ac842a0360f88cd935fc4992d2745f4e2fecd47af4f0cae"
+        }
+      ],
+      "dependency_manifest_inventory": [
+        {
+          "path": ".claude-plugin/plugin.json",
+          "sha256": "0783264280e753cf33b2af06d503159fc6c99b5cea06c9af63095c2c1ed99e67"
+        }
+      ],
+      "signals": [
+        {
+          "path": "skills/ai-image-editing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ai-music-and-sound/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ai-search-optimization/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ai-video/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ai-voiceover/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/analytics-and-reporting/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/batch-content-plan/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/before-after-and-transformation/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/behind-the-scenes-and-founder/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/brand-profile/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/campaign-and-launch-planning/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/canva/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/capcut/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/caption-writer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/captions-and-clipping/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/collabs-and-cross-promotion/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/community-management/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/competitor-analysis/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/content-audit/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/content-calendar/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/content-recycling/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/content-research-and-sourcing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/contrarian-and-opinion/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/creator-monetization/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/crisis-and-moderation/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/cross-platform-repurposing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/data-and-original-research/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/descript/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/design-and-templates/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/educational-content-and-how-to/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/email-and-newsletter/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/engagement-routine/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/experimentation-and-ab-testing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/facebook-groups/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/facebook-strategy/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/flux/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/goals-and-kpis/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/hashtag-strategy/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/heygen/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/idea-generation-and-ideation/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ideogram/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/image-prompt/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/infographic-and-data-viz/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/instagram-growth/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/instagram-reels-publishing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/instagram-seo/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/interactive-content/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/kling/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/lead-magnets-and-funnels/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/link-in-bio-and-traffic/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/linkedin-company-pages/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/linkedin-growth/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/listicle-and-roundup/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/livestream-and-realtime/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/luma/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/meme-and-culture/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/nano-banana/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/opus-clip/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/pinterest-growth/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/pinterest-pin-design/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/pinterest-seo/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/platform-specs-and-validation/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/podcast-and-audiograms/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/profile-optimization/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/quote-cards-and-text-graphics/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/reddit-marketing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/reels-script/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/reply-and-comment-writer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/runway/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/scheduling-and-queue/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/scripting-and-storyboarding/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/seasonal-and-moment-marketing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/short-form-video-script/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/social-proof-and-testimonials/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/social-selling-and-dm/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/social-seo/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/social-strategy/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/story-writer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/storytelling-and-narrative/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/suno/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/synthesia/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/talking-head-and-piece-to-camera/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/text-post-and-microblog/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/thread-writer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/threads-growth/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/threads-post/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/thumbnail-design/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/tiktok-growth/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/tiktok-photo-mode/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/tiktok-script/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/tiktok-video-publishing/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/trend-jacking/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/ugc-and-influencer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/veo-3/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/viral-reverse-engineering/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER"
+          ]
+        },
+        {
+          "path": "skills/writing-style-and-tone/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/x-growth/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/youtube-long-form/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/youtube-publishing-and-metadata/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "skills/youtube-shorts/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "scripts/build-packs.sh",
+          "signals": [
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "scripts/build-skill-zips.sh",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "scripts/validate-skills.sh",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": ".claude-plugin/plugin.json",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        }
+      ],
+      "selected": [
+        "content-calendar",
+        "thread-writer"
+      ],
+      "upstream_code_executed": false,
+      "activity_status": "PINNED_SNAPSHOT_ONLY_NOT_A_MAINTENANCE_GUARANTEE"
+    },
+    {
+      "id": "awesome-gtm-skills",
+      "repository": "https://github.com/composio-community/awesome-gtm-skills",
+      "commit": "8c5f5794eb06dad32cc46811677142fbc8a15f4f",
+      "commit_date": "2026-04-21T15:20:30+05:30",
+      "license": "BLOCKED_LICENSE",
+      "license_note": "README says MIT but no complete license notice found; no content copied",
+      "skills": [
+        "apollo-lead-gen/SKILL.md",
+        "battlecard-creator/SKILL.md",
+        "calendar-meeting-booker/SKILL.md",
+        "cold-email-copywriter/SKILL.md",
+        "cold-email-outreach/SKILL.md",
+        "discovery-call-prep/SKILL.md",
+        "gmail-follow-up-sequencer/SKILL.md",
+        "gtm-launch-plan/SKILL.md",
+        "hubspot-lead-enrichment/SKILL.md",
+        "icp-definition/SKILL.md",
+        "intercom-support-triage/SKILL.md",
+        "linkedin-prospect-research/SKILL.md",
+        "mailchimp-drip-campaign/SKILL.md",
+        "meddic-qualification/SKILL.md",
+        "messaging-positioning/SKILL.md",
+        "notion-sales-pipeline/SKILL.md",
+        "persona-builder/SKILL.md",
+        "sales-call-script/SKILL.md",
+        "sales-pipeline-analysis/SKILL.md",
+        "salesforce-pipeline-update/SKILL.md",
+        "sheets-crm-sync/SKILL.md",
+        "slack-deal-alerts/SKILL.md",
+        "stripe-revenue-report/SKILL.md",
+        "twitter-social-selling/SKILL.md",
+        "zoom-meeting-summarizer/SKILL.md"
+      ],
+      "name_collisions": [],
+      "executable_inventory": [],
+      "dependency_manifest_inventory": [],
+      "signals": [
+        {
+          "path": "apollo-lead-gen/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "battlecard-creator/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "calendar-meeting-booker/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "cold-email-outreach/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "gmail-follow-up-sequencer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "gtm-launch-plan/SKILL.md",
+          "signals": [
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "hubspot-lead-enrichment/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "intercom-support-triage/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "linkedin-prospect-research/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL",
+            "CREDENTIAL_OR_WRITE"
+          ]
+        },
+        {
+          "path": "mailchimp-drip-campaign/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "notion-sales-pipeline/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "salesforce-pipeline-update/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "sheets-crm-sync/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "slack-deal-alerts/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "stripe-revenue-report/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "twitter-social-selling/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        },
+        {
+          "path": "zoom-meeting-summarizer/SKILL.md",
+          "signals": [
+            "NETWORK_OR_PROVIDER",
+            "INSTALL_OR_SHELL"
+          ]
+        }
+      ],
+      "selected": [],
+      "upstream_code_executed": false,
+      "activity_status": "PINNED_SNAPSHOT_ONLY_NOT_A_MAINTENANCE_GUARANTEE"
+    }
+  ],
+  "audit_scope": "Tracked names, full executable/manifest hashes, text risk signals, selected bodies and root license notices; no execution or remote provider probe",
+  "limitations": [
+    "Static audit is not a vulnerability guarantee or independent verification of upstream marketing/platform claims",
+    "No upstream hooks, scripts, sibling skills, linked references or provider dependencies activated"
+  ]
+}

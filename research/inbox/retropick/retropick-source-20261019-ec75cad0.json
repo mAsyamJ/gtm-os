@@ -1,0 +1,17 @@
+{
+  "id": "retropick-source-20261019-ec75cad0",
+  "tenant": "retropick",
+  "title": "Pinned RetroPick repository scope",
+  "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+  "revision": "464dca136e9765d638e742a810ab58af0e911376",
+  "observedAt": "2026-10-19T00:00:00.000Z",
+  "expiresAt": "2026-10-26T00:00:00.000Z",
+  "text": "The market creation layer for Monad.\nCurrent scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.\nCanonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+  "contentSha256": "2fe692a2af56bbe4f5156b5a405e60f90068b6ac8a22ac7e1662181768852200",
+  "license": "MIT; pinned repository LICENSE receipt",
+  "statements": [
+    "The market creation layer for Monad.",
+    "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+    "Canonical Circle-USDC live smoke: BLOCKED_FUNDING."
+  ]
+}

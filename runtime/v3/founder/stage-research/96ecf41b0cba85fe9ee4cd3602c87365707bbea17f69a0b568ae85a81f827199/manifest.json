@@ -1,0 +1,42 @@
+{
+  "tenant": "founder",
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+  "status": "REVIEWED_INPUTS_AVAILABLE",
+  "days": 30,
+  "cards": [
+    {
+      "id": "founder-source-20261019-b65dc308",
+      "label": "RETRIEVED_UNVERIFIED",
+      "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "uri": "https://www.sqlite.org/lang_transaction.html",
+      "expiresAt": "2026-10-26T00:00:00.000Z",
+      "current": true,
+      "inWindow": true
+    }
+  ],
+  "themes": [
+    {
+      "sourceId": "founder-source-20261019-b65dc308",
+      "title": "SQLite transaction control reference",
+      "claims": [
+        "No reads or writes occur except within a transaction.",
+        "END TRANSACTION is an alias for COMMIT.",
+        "Transactions created using BEGIN...COMMIT do not nest.",
+        "For nested transactions, use the SAVEPOINT and RELEASE commands."
+      ],
+      "classification": "REVIEWED_SOURCE"
+    }
+  ],
+  "opposingViews": "NOT_ESTABLISHED_FROM_CURRENT_SOURCE_SET",
+  "networkRequests": 0,
+  "hostedModelRequests": 0
+}

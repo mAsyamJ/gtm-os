@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "scripts/validate_scaffold.py",
+    "--json"
+  ],
+  "exit": 0,
+  "elapsed_seconds": 0.388,
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"phase-a-governance\",\n  \"counts\": {\n    \"skills\": 29,\n    \"roles\": 15,\n    \"workflows\": 16,\n    \"state_machines\": 4\n  },\n  \"findings\": [],\n  \"limitations\": [\n    \"Static contracts only; runtime integration NOT TESTED.\",\n    \"Instruction authority requires documented human/operator review.\"\n  ]\n}\n",
+  "stderr": ""
+}

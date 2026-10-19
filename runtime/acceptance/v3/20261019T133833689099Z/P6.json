@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "20261019T133833689099Z",
+  "checks": {
+    "status": "PASS",
+    "exit": 0,
+    "log": "runtime/acceptance/v3/20261019T133833689099Z/checks.log",
+    "logSha256": "2e1b0a9ad1fd709ddc1385921a037f42ef43c7a751f31f5d8f6cff5360b8dc1a"
+  },
+  "costs": {
+    "paidSocialApiCalls": 0,
+    "offlineHostedModelRequests": 0,
+    "offlineInferenceUsd": 0,
+    "approvedRouterConnectivityTokens": 27,
+    "subscriptionCostUsd": null
+  },
+  "resourceConsumption": {
+    "wallSeconds": 76.71573552100017,
+    "childUserCpuSeconds": 82.590136,
+    "childSystemCpuSeconds": 19.838805,
+    "childPeakRssKiB": 454456,
+    "interpretation": "OS child usage, not exact cumulative container memory consumption"
+  },
+  "securityFindings": "See scoped Gitleaks/Semgrep summary in checks log; not a full dependency audit",
+  "rollback": "docs/V3_OPERATIONS.md#validation-and-rollback",
+  "approvalStatus": "OWNER_HOLD_FOR_PUBLICATION_AND_PROMOTION",
+  "milestone": "P6",
+  "status": "BLOCKED",
+  "implementedCapabilities": [
+    "Promotion disabled and acceptance gates visible"
+  ],
+  "verifiedIntegrations": {
+    "localChecks": "PASS"
+  },
+  "producedArtifacts": [],
+  "knownLimitations": [
+    "No global instructions, skills, plugins or agents modified"
+  ],
+  "outstandingBlockers": [
+    "Observed cycle for each brand",
+    "Sealed holdouts",
+    "Security and rollback validation",
+    "Independent review",
+    "Exact owner promotion authorization"
+  ]
+}

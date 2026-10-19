@@ -1,0 +1,6 @@
+# Only suggested roles; existing Codex/Zodex router must not be modified.
+roles:
+  deterministic: "local code or templates, no LLM"
+  cheap: "use already approved low-cost route if healthy"
+  synthesis: "approved capable reasoning route"
+  high_risk: "approved strongest route AND independent human review"

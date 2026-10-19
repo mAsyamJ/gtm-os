@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "sources": [
+    {
+      "id": "agent-reach",
+      "canonical_repo": "https://github.com/Panniantong/Agent-Reach",
+      "local_path": "/home/ubuntu/agent-control-plane/sources/agent-reach",
+      "git_commit": "94f06c1969dfc1834001269d79d3ad0972d9dee6",
+      "archive_sha256": "d608cc619e460ca982dc11ab72897677837c8d73ea23851026c6374cff864f93",
+      "license": "MIT",
+      "license_path": "/home/ubuntu/agent-control-plane/sources/agent-reach/LICENSE",
+      "license_sha256": "e94c131ac1c2f78cfd8f7e69da354c0ff58e4e54071697703d56856c036de402",
+      "status": "REFERENCE_ONLY",
+      "capabilities": "existing Git-based installation reused; no cookie extraction",
+      "installed_version": "existing Git installation; preserved",
+      "authentication_path": "EXISTING_ROUTER_ONLY_FOR_MODELS; NONE_FOR_OFFLINE_PARSING",
+      "billing_path": "NO_PAID_PLATFORM_PROVIDER",
+      "tenant_allowlist": [
+        "founder",
+        "retropick"
+      ],
+      "limitations": [
+        "Installation is not working integration evidence",
+        "No broad bootstrap, credentials, cookies or X backends"
+      ],
+      "executable_commands": [],
+      "last_audit_at": "2026-10-19",
+      "duplicate_of": null,
+      "trust_state": "REVIEWED_REFERENCE",
+      "recommendation": "Reuse through bounded project adapter"
+    },
+    {
+      "id": "humanizer",
+      "canonical_repo": "https://github.com/blader/humanizer",
+      "local_path": "/home/ubuntu/agent-control-plane/sources/humanizer",
+      "git_commit": "8c307f367c91bd974002f10f2be2965d642c13df",
+      "archive_sha256": "6a5c336d52a41589a034ab76f6a3638453cca754a13f0680a6a75e41a0d5aba8",
+      "license": "MIT",
+      "license_path": "/home/ubuntu/agent-control-plane/sources/humanizer/LICENSE",
+      "license_sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+      "status": "REFERENCE_ONLY",
+      "capabilities": "existing installation reused; explicit writing requests only",
+      "installed_version": "8c307f367c91",
+      "authentication_path": "EXISTING_ROUTER_ONLY_FOR_MODELS; NONE_FOR_OFFLINE_PARSING",
+      "billing_path": "NO_PAID_PLATFORM_PROVIDER",
+      "tenant_allowlist": [
+        "founder",
+        "retropick"
+      ],
+      "limitations": [
+        "Installation is not working integration evidence",
+        "No broad bootstrap, credentials, cookies or X backends"
+      ],
+      "executable_commands": [],
+      "last_audit_at": "2026-10-19",
+      "duplicate_of": null,
+      "trust_state": "REVIEWED_REFERENCE",
+      "recommendation": "Reuse through bounded project adapter"
+    },
+    {
+      "id": "last30days",
+      "canonical_repo": "https://github.com/mvanhorn/last30days-skill",
+      "local_path": "/home/ubuntu/agent-control-plane/sources/last30days",
+      "git_commit": "0341304f8ecb307ca0a939e48ecd002761ef23b2",
+      "archive_sha256": "64e13bf2d048949beff5e51dde432f09bc4bc760573da9047afc2bdf2efaec39",
+      "license": "MIT",
+      "license_path": "/home/ubuntu/agent-control-plane/sources/last30days/LICENSE",
+      "license_sha256": "31803213a789825dc419de43542381e1d570b4408cf2bcf2e8a9947a6d3fd2ab",
+      "status": "REFERENCE_ONLY",
+      "capabilities": "research guidance; platform bootstrap and login inactive",
+      "installed_version": "0341304f8ecb",
+      "authentication_path": "EXISTING_ROUTER_ONLY_FOR_MODELS; NONE_FOR_OFFLINE_PARSING",
+      "billing_path": "NO_PAID_PLATFORM_PROVIDER",
+      "tenant_allowlist": [
+        "founder",
+        "retropick"
+      ],
+      "limitations": [
+        "Installation is not working integration evidence",
+        "No broad bootstrap, credentials, cookies or X backends"
+      ],
+      "executable_commands": [],
+      "last_audit_at": "2026-10-19",
+      "duplicate_of": null,
+      "trust_state": "REVIEWED_REFERENCE",
+      "recommendation": "Reuse through bounded project adapter"
+    },
+    {
+      "id": "marketingskills",
+      "canonical_repo": "https://github.com/coreyhaines31/marketingskills",
+      "local_path": "/home/ubuntu/agent-control-plane/sources/marketingskills",
+      "git_commit": "365b412152b9542499ca1439426f7fc3cc92bb65",
+      "archive_sha256": "99df4a775edae744a4a9de93e231e90dec4d805c005d9f7e9639c7a6da3a98ef",
+      "license": "MIT",
+      "license_path": "/home/ubuntu/agent-control-plane/sources/marketingskills/LICENSE",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+      "status": "REFERENCE_ONLY",
+      "capabilities": "global instruction-only adaptations",
+      "installed_version": "365b412152b9",
+      "authentication_path": "EXISTING_ROUTER_ONLY_FOR_MODELS; NONE_FOR_OFFLINE_PARSING",
+      "billing_path": "NO_PAID_PLATFORM_PROVIDER",
+      "tenant_allowlist": [
+        "founder",
+        "retropick"
+      ],
+      "limitations": [
+        "Installation is not working integration evidence",
+        "No broad bootstrap, credentials, cookies or X backends"
+      ],
+      "executable_commands": [],
+      "last_audit_at": "2026-10-19",
+      "duplicate_of": null,
+      "trust_state": "REVIEWED_REFERENCE",
+      "recommendation": "Reuse through bounded project adapter"
+    },
+    {
+      "id": "mcptoon",
+      "canonical_repo": "https://github.com/activeing123/mcptoon",
+      "local_path": "/home/ubuntu/agent-control-plane/sources/mcptoon",
+      "git_commit": "1a0282957522cfb90c910fe59f1f55f559cedae9",
+      "archive_sha256": "34e63098fbe43ff1ad7794fdde598b2c2d9539ae04589d3a42348052a41ef1d4",
+      "license": "Apache-2.0",
+      "license_path": "/home/ubuntu/agent-control-plane/sources/mcptoon/LICENSE",
+      "license_sha256": "ae99b36e8e246ee87a9bf6460f0e54dbf1be0e431fda325e5f7cf2730947f046",
+      "status": "REFERENCE_ONLY",
+      "capabilities": "0.8.22 authoritative lazy discovery backend",
+      "installed_version": "0.8.22",
+      "authentication_path": "EXISTING_ROUTER_ONLY_FOR_MODELS; NONE_FOR_OFFLINE_PARSING",
+      "billing_path": "NO_PAID_PLATFORM_PROVIDER",
+      "tenant_allowlist": [
+        "founder",
+        "retropick"
+      ],
+      "limitations": [
+        "Installation is not working integration evidence",
+        "No broad bootstrap, credentials, cookies or X backends"
+      ],
+      "executable_commands": [],
+      "last_audit_at": "2026-10-19",
+      "duplicate_of": null,
+      "trust_state": "REVIEWED_REFERENCE",
+      "recommendation": "Reuse through bounded project adapter"
+    },
+    {
+      "id": "scrapling",
+      "canonical_repo": "https://github.com/D4Vinci/Scrapling",
+      "local_path": "/home/ubuntu/agent-control-plane/sources/scrapling",
+      "git_commit": "3a8bf4e4d3ed91257ba0aa5b7dc66241d1e23840",
+      "archive_sha256": "c23eedf55340937780ad05dbe9dcdbdae5f6a96f230c72ce2ae5b435a430149d",
+      "license": "BSD-3-Clause",
+      "license_path": "/home/ubuntu/agent-control-plane/sources/scrapling/LICENSE",
+      "license_sha256": "5c782ef0346e4fbfe0dc76fd435f181a0f1e4a1a7a6b13c169c6e74314ff5964",
+      "status": "INSTALLED_NOT_VERIFIED",
+      "capabilities": "isolated 0.5 parser via agentctl web fetch",
+      "installed_version": "0.5",
+      "authentication_path": "EXISTING_ROUTER_ONLY_FOR_MODELS; NONE_FOR_OFFLINE_PARSING",
+      "billing_path": "NO_PAID_PLATFORM_PROVIDER",
+      "tenant_allowlist": [
+        "founder",
+        "retropick"
+      ],
+      "limitations": [
+        "Installation is not working integration evidence",
+        "No broad bootstrap, credentials, cookies or X backends"
+      ],
+      "executable_commands": [],
+      "last_audit_at": "2026-10-19",
+      "duplicate_of": null,
+      "trust_state": "REVIEWED_REFERENCE",
+      "recommendation": "Reuse through bounded project adapter"
+    }
+  ],
+  "globalCounts": {
+    "capabilities": 131,
+    "installedEntries": 114,
+    "pinnedSources": 17
+  }
+}

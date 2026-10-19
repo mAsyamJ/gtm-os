@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "scripts/security_audit.py",
+    "--json"
+  ],
+  "exit": 0,
+  "elapsed_seconds": 4.303,
+  "stdout": "{\n  \"scope\": \"local-governance-runtime-sources\",\n  \"files\": 225,\n  \"checks\": [\n    {\n      \"tool\": \"gitleaks\",\n      \"status\": \"PASS\",\n      \"findings\": 0,\n      \"exit\": 0\n    },\n    {\n      \"tool\": \"semgrep\",\n      \"status\": \"PASS\",\n      \"findings\": 0,\n      \"exit\": 0,\n      \"files_scanned\": 18,\n      \"scanner_errors\": 0\n    }\n  ],\n  \"limitations\": [\n    \"No credential stores, runtime logs, Git history, or Beads data scanned.\",\n    \"Semgrep uses local rules only; this is not a full dependency audit.\"\n  ],\n  \"status\": \"PASS\"\n}\n",
+  "stderr": ""
+}

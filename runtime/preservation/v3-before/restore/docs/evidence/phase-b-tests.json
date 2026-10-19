@@ -1,0 +1,17 @@
+{
+  "command": [
+    "pnpm",
+    "exec",
+    "vitest",
+    "run",
+    "--reporter=json",
+    "--outputFile=runtime/phase-b-vitest.json"
+  ],
+  "exit": 0,
+  "summary": {
+    "numTotalTests": 103,
+    "numPassedTests": 103,
+    "numFailedTests": 0,
+    "success": true
+  }
+}

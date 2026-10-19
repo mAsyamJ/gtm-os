@@ -1,0 +1,70 @@
+{
+  "revision": "phase-d-r1",
+  "fonts": {
+    "revision": "phase-d-r1",
+    "font_family": "DejaVu Sans",
+    "license": "Bitstream-Vera (DejaVu changes public domain)",
+    "commercial_use": "PERMITTED_WITH_NOTICE_AND_FONT_NAME_CONDITIONS",
+    "files": [
+      {
+        "path": "creative/assets/fonts/DejaVuSans-Bold.ttf",
+        "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+      },
+      {
+        "path": "creative/assets/fonts/DejaVuSans.ttf",
+        "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+      },
+      {
+        "path": "creative/assets/fonts/LICENSE.txt",
+        "sha256": "fc463256681f48646f3ef169eccde23125a7bf1e63c425c54c27973d197e7b40"
+      }
+    ],
+    "source": "System distribution fonts-dejavu-core; notices preserved",
+    "unmodified": true
+  },
+  "tools": {
+    "revision": "phase-d-r1",
+    "notices": [
+      {
+        "tool": "satori",
+        "license": "MPL-2.0",
+        "path": "creative/assets/licenses/satori-LICENSE.txt",
+        "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+        "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+      },
+      {
+        "tool": "sharp",
+        "license": "Apache-2.0",
+        "path": "creative/assets/licenses/sharp-LICENSE.txt",
+        "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+        "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+      },
+      {
+        "tool": "playwright-core",
+        "license": "Apache-2.0",
+        "path": "creative/assets/licenses/playwright-core-LICENSE.txt",
+        "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+        "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+      }
+    ],
+    "font_notice": "creative/assets/fonts/LICENSE.txt",
+    "ffmpeg": "Existing system binary GPL-2.0-or-later build; exact -L output in phase-d-tools.json; not redistributed",
+    "media_assets": {
+      "footage": "NONE",
+      "music": "NONE",
+      "voice": "NONE",
+      "likeness": "NONE",
+      "geometry": "ORIGINAL_LOCAL_DEMO"
+    },
+    "production_publication": "NOT_APPROVED"
+  },
+  "native_libvips_license_metadata": "LGPL-3.0-or-later",
+  "ffmpeg_build_license": "GPL-2.0-or-later",
+  "video_shotcraft": "NOT_INSTALLED_OR_USED; FFmpeg selected, no Remotion/asset eligibility inferred",
+  "actual_product_capture": "NOT_PERFORMED_UNVERIFIED_SCOPE",
+  "limitations": [
+    "Not a complete transitive legal/patent audit",
+    "No stock assets, music, footage, voice model, likeness or official brand artwork",
+    "No system tool binaries redistributed"
+  ]
+}

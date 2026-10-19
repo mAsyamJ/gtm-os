@@ -1,0 +1,1 @@
+Prepare a local handoff preserving source text, tenant, revision and limitations. Do not publish.

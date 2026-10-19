@@ -1,0 +1,5 @@
+--- current/guardrails.md
++++ inv1/guardrails.md
+@@ -1 +1,2 @@
+ Preserve source text and tenant. No publication or verification upgrade.
++Keep source revision visible in the handoff.

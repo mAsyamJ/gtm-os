@@ -1,0 +1,1 @@
+Transactions created using BEGIN...COMMIT do not nest. Editorial geometry with placeholder styling; no product UI or personal history depicted.

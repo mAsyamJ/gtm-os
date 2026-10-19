@@ -1,0 +1,3 @@
+# Portable GTM OS Codex plugin distribution (future)
+
+A portable plugin can combine a root `plugin.json`, `skills/` and optional `mcp.json` when a secure live server actually exists. See https://developers.openai.com/plugins/build/plugins. A scaffold manifest does not install the plugin, launch MCP, authenticate X or authorize outbound writes. No public plugin distribution without explicit owner review. `plugins/gtm-os/` contains a minimal skills-only starter package for eventual local testing; implement audited integration before adding MCP. The `.agents/plugins/marketplace.json` file is intentionally not installed automatically. Never embed OAuth secrets in portable plugin packages.

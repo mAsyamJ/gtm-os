@@ -1,0 +1,12 @@
+{
+  "evidenceId": "retropick-source-20261019-ec75cad0",
+  "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "The market creation layer for Monad.",
+    "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+    "Canonical Circle-USDC live smoke: BLOCKED_FUNDING."
+  ],
+  "authenticFirstPerson": false
+}

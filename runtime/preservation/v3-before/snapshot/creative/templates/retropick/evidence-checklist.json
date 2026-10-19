@@ -1,0 +1,23 @@
+{
+  "id": "evidence-checklist",
+  "tenant": "retropick",
+  "revision": "phase-d-r1",
+  "variant": "decision",
+  "label": "SYNTHETIC DEMO / PLACEHOLDER",
+  "eyebrow": "Review notebook",
+  "title": "A source is a starting point.",
+  "body": "A local review card for separating a draft idea from a supported statement.",
+  "panels": [
+    {
+      "heading": "Supported",
+      "text": "Current evidence and its exact scope."
+    },
+    {
+      "heading": "Still unknown",
+      "text": "Missing proof stays visible in the draft."
+    }
+  ],
+  "footer": "Illustrative concept. Topic proof and owner review are still required.",
+  "alt": "Synthetic retropick concept card: A source is a starting point. A local review card for separating a draft idea from a supported statement. Neutral placeholder styling; no actual product UI or personal achievement shown.",
+  "contentMode": "ILLUSTRATIVE_NO_PRODUCT_OR_PERSONAL_FACTS"
+}

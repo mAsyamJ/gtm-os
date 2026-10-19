@@ -1,0 +1,3 @@
+[ACTION] Assemble source-preserving local handoff
+[OBSERVATION]
+{"hostedModelRequests": 0, "humanReview": "REQUIRED", "label": "SYNTHETIC", "limitations": ["SYNTHETIC fixture; no real activity, achievement or verification."], "platformVerified": false, "publicationAuthorized": false, "revision": "fixture-1", "sourceSha256": "febcafd2dd6ebc32c7376e66b4751e74021dddfddcfb510a9e730980540f8dd3", "statement": "A synthetic replay does not demonstrate a live connector.", "tenant": "retropick"}

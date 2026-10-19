@@ -28,7 +28,7 @@ export function templateList(root: string, selected: unknown) {
   return TEMPLATE_IDS[tenant].map(id => loadTemplate(root, tenant, id));
 }
 
-export function buildTree(template: Template, size: Size) {
+export function buildTree(template: Pick<Template, 'tenant' | 'variant' | 'panels' | 'eyebrow' | 'title' | 'body' | 'footer'> & { label: string }, size: Size) {
   const [width, height] = SIZES[size]; const portrait = height >= width;
   const factor = width / 1200; const pad = Math.round(width * 0.065);
   const fontFactor = factor * (height > width ? 1.5 : 1);

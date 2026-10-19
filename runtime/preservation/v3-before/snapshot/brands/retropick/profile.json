@@ -1,0 +1,8 @@
+{
+  "id": "retropick",
+  "display_name": "RetroPick",
+  "expected_x_handle": "RetroPickMarket",
+  "source_of_truth": "https://github.com/RetroPick/retropick-protocol",
+  "status": "provisional_requires_first_party_verification",
+  "publication_enabled": false
+}

@@ -1,0 +1,9 @@
+publish_enabled: false
+external_writes: false
+paid_api_enabled: false
+x_monthly_hard_cap_usd: 0
+ads_enabled: false
+auto_reply_enabled: false
+auto_dm_enabled: false
+auto_follow_enabled: false
+mock_mode: true

@@ -1,0 +1,8 @@
+tenant: retropick
+status: hypothesis
+pillars:
+  - "product walkthroughs"
+  - "market mechanics with risk explanation"
+  - "verified feature shipping"
+  - "builder ecosystem"
+  - "creator education"

@@ -1,0 +1,18 @@
+{
+  "id": "founder-source-20261019-b65dc308",
+  "tenant": "founder",
+  "title": "SQLite transaction control reference",
+  "uri": "https://www.sqlite.org/lang_transaction.html",
+  "revision": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+  "observedAt": "2026-10-19T00:00:00.000Z",
+  "expiresAt": "2026-10-26T00:00:00.000Z",
+  "text": "No reads or writes occur except within a transaction.\nEND TRANSACTION is an alias for COMMIT.\nTransactions created using BEGIN...COMMIT do not nest.\nFor nested transactions, use the SAVEPOINT and RELEASE commands.",
+  "contentSha256": "be8bc9d1fa823325d1728a0865c7d262df6990f88e8af172f47955f4011780f3",
+  "license": "PUBLIC_DOMAIN; SQLite copyright.html receipt",
+  "statements": [
+    "No reads or writes occur except within a transaction.",
+    "END TRANSACTION is an alias for COMMIT.",
+    "Transactions created using BEGIN...COMMIT do not nest.",
+    "For nested transactions, use the SAVEPOINT and RELEASE commands."
+  ]
+}

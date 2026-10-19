@@ -1,0 +1,17 @@
+{
+  "id": "retropick-voice-bdbedbe8-47af4c01",
+  "tenant": "retropick",
+  "uri": "project:///brands/retropick/VOICE.md",
+  "revision": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42",
+  "text": "# retropick voice and editorial policy\n\nClear, technically fluent, evidence-first. No exaggerated financial upside, fake urgency or unverified trading metrics.\n\nUse strong hooks only when supported by real evidence. All claims must link to current source cards; do not invent public metrics, investor/creator testimonials or founder experiences. Write useful technical content, avoid generic AI filler.\n",
+  "contentSha256": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42",
+  "observedAt": "2026-10-17T14:14:25.469Z",
+  "expiresAt": "2026-10-24T14:14:25.469Z",
+  "title": "retropick VOICE.md editorial contract",
+  "author": "Project owner contracts",
+  "contentTimestamp": null,
+  "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+  "permission": "PROJECT_LOCAL",
+  "permissionBasis": "Owner authorized local Phase C implementation and reviewable plans",
+  "license": "OWNER_PROJECT_LOCAL_ONLY"
+}

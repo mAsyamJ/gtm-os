@@ -1,0 +1,8 @@
+{
+  "command": [
+    "pnpm",
+    "lint"
+  ],
+  "status": "PASS",
+  "exit": 0
+}

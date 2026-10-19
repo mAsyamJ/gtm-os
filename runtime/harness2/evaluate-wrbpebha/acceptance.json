@@ -1,0 +1,817 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_CONTRACTS_ONLY",
+  "label": "SYNTHETIC",
+  "upstreamPin": "1cfe254e8d25b15f37048c3730134686abe60335",
+  "upstreamModified": false,
+  "image": "localhost/gtm-harness-v3:db2f036f3de7c8e377b6",
+  "worker": {
+    "label": "SYNTHETIC",
+    "scope": "SOURCE_PRESERVATION_CONTRACTS_ONLY",
+    "action": "evaluate",
+    "taskCount": 28,
+    "upstreamPin": "1cfe254e8d25b15f37048c3730134686abe60335",
+    "fixtureSha256": "d04d3769de37c63e6058923bc9a3266a00206797a789ad9359d796a3ab37b4e9",
+    "protocolCompatible": true,
+    "uid": 1000,
+    "externalModelRequests": 0,
+    "attemptedNetworkRequests": 0,
+    "executionCount": 140,
+    "proposerCalls": 112,
+    "scheduler": {
+      "domain": "gtm",
+      "n_tasks": 28,
+      "seed": 1,
+      "done": 28,
+      "failed": 0,
+      "tasks": [
+        {
+          "task": "global-01-negation",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-02-conditional",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-03-specification",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-04-citation",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-05-risk",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-06-authenticity",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-07-unicode",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-08-untrusted",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-09-unknown",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-10-owner",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-11-boundary",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "global-12-revision",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-01-negation",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-02-conditional",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-03-specification",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-04-citation",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-05-risk",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-06-authenticity",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-07-unicode",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-08-untrusted",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-09-unknown",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-10-owner",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-11-boundary",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-12-revision",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-13-numbers",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-14-scope",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-15-negation",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        },
+        {
+          "task": "gtm-16-conditional",
+          "status": "ok",
+          "library_entries_before": {
+            "seq": 0
+          }
+        }
+      ]
+    },
+    "wallSeconds": 2.747646363000058,
+    "costUsd": 0,
+    "subjectiveQuality": null,
+    "businessImpact": null,
+    "promotionAuthorized": false
+  },
+  "independentParentChecks": [
+    {
+      "path": "executions/baseline-global-01-negation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-02-conditional/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-03-specification/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-04-citation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-05-risk/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-06-authenticity/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-07-unicode/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-08-untrusted/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-09-unknown/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-10-owner/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-11-boundary/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-global-12-revision/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-01-negation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-02-conditional/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-03-specification/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-04-citation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-05-risk/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-06-authenticity/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-07-unicode/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-08-untrusted/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-09-unknown/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-10-owner/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-11-boundary/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-12-revision/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-13-numbers/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-14-scope/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-15-negation/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/baseline-gtm-16-conditional/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-01-negation/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-02-conditional/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-03-specification/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-04-citation/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-05-risk/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-06-authenticity/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-07-unicode/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-08-untrusted/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-09-unknown/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-10-owner/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-11-boundary/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/global-12-revision/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-01-negation/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-02-conditional/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-03-specification/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-04-citation/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-05-risk/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-06-authenticity/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-07-unicode/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-08-untrusted/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-09-unknown/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-10-owner/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-11-boundary/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-12-revision/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-13-numbers/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-14-scope/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-15-negation/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-agg1-s1/gtm-16-conditional/base1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-01-negation/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-01-negation/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-01-negation/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-02-conditional/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-02-conditional/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-02-conditional/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-03-specification/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-03-specification/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-03-specification/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-04-citation/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-04-citation/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-04-citation/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-05-risk/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-05-risk/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-05-risk/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-06-authenticity/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-06-authenticity/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-06-authenticity/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-07-unicode/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-07-unicode/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-07-unicode/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-08-untrusted/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-08-untrusted/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-08-untrusted/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-09-unknown/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-09-unknown/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-09-unknown/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-10-owner/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-10-owner/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-10-owner/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-11-boundary/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-11-boundary/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-11-boundary/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-12-revision/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-12-revision/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/global-12-revision/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-01-negation/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-01-negation/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-01-negation/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-02-conditional/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-02-conditional/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-02-conditional/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-03-specification/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-03-specification/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-03-specification/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-04-citation/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-04-citation/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-04-citation/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-05-risk/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-05-risk/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-05-risk/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-06-authenticity/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-06-authenticity/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-06-authenticity/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-07-unicode/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-07-unicode/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-07-unicode/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-08-untrusted/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-08-untrusted/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-08-untrusted/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-09-unknown/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-09-unknown/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-09-unknown/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-10-owner/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-10-owner/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-10-owner/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-11-boundary/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-11-boundary/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-11-boundary/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-12-revision/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-12-revision/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-12-revision/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-13-numbers/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-13-numbers/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-13-numbers/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-14-scope/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-14-scope/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-14-scope/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-15-negation/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-15-negation/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-15-negation/inv1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-16-conditional/c1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-16-conditional/dom1/handoff.json",
+      "pass": true
+    },
+    {
+      "path": "executions/gtm-contracts-v1-opencode-seq1-s1/gtm-16-conditional/inv1/handoff.json",
+      "pass": true
+    }
+  ],
+  "wallSeconds": 9.69862615000011,
+  "resourceLimits": {
+    "memoryMiB": 1024,
+    "cpus": 2,
+    "pids": 128,
+    "timeoutSeconds": 300
+  },
+  "mounts": [
+    "Dedicated empty run output only"
+  ],
+  "network": "NONE",
+  "rootless": true,
+  "hostCredentialsMounted": false,
+  "paidModelRequests": 0,
+  "costUsd": 0,
+  "sealedHoldoutStatus": "NOT_RUN",
+  "observedImprovement": null,
+  "promotionAuthorized": false,
+  "limitations": [
+    "Deterministic source-preservation contracts only; no model or creative quality claim.",
+    "No sealed answers, private scoring rubrics or privileged memory entered the worker.",
+    "Actual memory and CPU consumption are not instrumented; limits and wall time are recorded."
+  ]
+}

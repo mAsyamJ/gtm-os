@@ -1,0 +1,36 @@
+{
+  "revision": "phase-d-r1",
+  "notices": [
+    {
+      "tool": "satori",
+      "license": "MPL-2.0",
+      "path": "creative/assets/licenses/satori-LICENSE.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+    },
+    {
+      "tool": "sharp",
+      "license": "Apache-2.0",
+      "path": "creative/assets/licenses/sharp-LICENSE.txt",
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+    },
+    {
+      "tool": "playwright-core",
+      "license": "Apache-2.0",
+      "path": "creative/assets/licenses/playwright-core-LICENSE.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "scope": "TOOL_NOTICE_NOT_A_MEDIA_ASSET"
+    }
+  ],
+  "font_notice": "creative/assets/fonts/LICENSE.txt",
+  "ffmpeg": "Existing system binary GPL-2.0-or-later build; exact -L output in phase-d-tools.json; not redistributed",
+  "media_assets": {
+    "footage": "NONE",
+    "music": "NONE",
+    "voice": "NONE",
+    "likeness": "NONE",
+    "geometry": "ORIGINAL_LOCAL_DEMO"
+  },
+  "production_publication": "NOT_APPROVED"
+}

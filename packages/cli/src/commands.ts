@@ -14,8 +14,9 @@ import { auditReferences, ingestSource, researchReport, saveResearchOutput } fro
 import { contentBrief, contentCalendar, icpHypothesis, strategyPlan } from '../../strategy/src/index.js';
 import { renderTemplate, templateList } from '../../creative/src/graphics.js';
 import { localVideoAdapter } from '../../creative/src/adapter.js';
+import { routeV3 } from '../../v3/src/cli.js';
 
-const HELP = `GTM OS 0.2.0 — Phase D local/offline CLI
+const HELP = `GTM OS V3 — local evidence and manual GTM workflows
 
 Working commands:
   gtm doctor [--json]
@@ -38,13 +39,29 @@ Working commands:
   gtm video storyboard --brand TENANT --fixture synthetic
   gtm video render --brand TENANT --fixture synthetic [--size landscape|portrait]
   gtm x auth status --brand TENANT  (BLOCKED; no authentication probe)
+  gtm evidence ingest|review --brand TENANT --file research/inbox/TENANT/FILE.json
+  gtm research trends --brand TENANT --offline
+  gtm research replay --brand TENANT --offline
+  gtm content pack --brand TENANT --source-card SOURCE_ID
+  gtm content humanize --brand TENANT --draft ID --preserve-claims
+  gtm creative pack --brand TENANT --draft ID
+  gtm distribution manual-pack --brand TENANT --draft ID
+  gtm distribution decision import --brand TENANT --file distribution/inbox/TENANT/FILE.json
+  gtm metrics import --brand TENANT --from growth/inbox/TENANT/FILE.csv
+  gtm analytics weekly --brand TENANT --offline
+  gtm cycle run|resume --brand TENANT --idempotency-key TENANT-KEY --offline
+  gtm capabilities plan --brand TENANT --stage STAGE --task TEXT
+  gtm harness baseline|evaluate|propose --suite all|global|gtm --offline
+  gtm harness promotions status
+  gtm verify --all --offline
 
 All commands support --json. --root PATH selects an explicit local workspace.
-Workflow artifacts are SYNTHETIC JSON contract fixtures, not completed marketing/media.
+Legacy workflow fixtures remain SYNTHETIC. V3 evidence classes and datasets are explicit.
 Publication, scheduling, outreach and paid calls always fail closed. No command authorizes a write.
-Research uses authorized inbox files only; generated plans are hypotheses pending topic proof.
-Other campaign/content/analytics/experiments/assets/benchmark commands
-are explicit later-phase blocked boundaries. Use --help with any command.
+Research uses authorized inbox files or explicitly approved keyless public reads.
+Owner-ready packages require exact-hash editorial, authenticity and creative approval.
+Harness suites are administrative synthetic contract checks; no marketing-quality claim.
+Unimplemented capabilities report blockers. Use --help with any command.
 Exit: 0 local success; 2 invalid input; 3 permission denied; 4 capability unavailable;
       5 validation failed; 6 execution failed. --version reports this local CLI version.`;
 
@@ -56,6 +73,12 @@ const OPTIONS = {
   topic: { type: 'string' }, type: { type: 'string' }, days: { type: 'string' }, from: { type: 'string' },
   template: { type: 'string' }, fixture: { type: 'string' }, period: { type: 'string' },
   size: { type: 'string' },
+  task: { type: 'string' }, stage: { type: 'string' }, file: { type: 'string' }, format: { type: 'string' },
+  'source-card': { type: 'string' }, 'preserve-claims': { type: 'boolean' }, dataset: { type: 'string' },
+  campaign: { type: 'string' }, network: { type: 'string' }, url: { type: 'string' },
+  suite: { type: 'string' }, k: { type: 'string' }, mode: { type: 'string' }, seed: { type: 'string' },
+  target: { type: 'string' }, 'baseline-ref': { type: 'string' }, all: { type: 'boolean' },
+  media: { type: 'string' }, scenario: { type: 'string' },
 } as const;
 type Values = ReturnType<typeof parseOptions>['values'];
 function parseOptions(args: string[]) { return parseArgs({ args, options: OPTIONS, allowPositionals: true, strict: true }); }
@@ -131,6 +154,8 @@ export async function main(argv: string[], defaultRoot: string): Promise<number>
     readText(root, 'AGENTS.md');
     if (values.brand !== undefined) selected(values);
     const key = words.slice(0, 2).join(' ');
+    const v3 = await routeV3(root, words, values);
+    if (v3) { emit(json, v3.status, v3.data); return 0; }
     let data: unknown;
     let status = 'PASS';
     if (key === 'doctor') data = doctor(root);
@@ -225,7 +250,7 @@ export async function main(argv: string[], defaultRoot: string): Promise<number>
     else throw new GtmError('UNKNOWN_COMMAND', 'Unknown command; run gtm --help', 2);
     emit(json, status, data); return 0;
   } catch (error) {
-    const failure = publicError(error);
+    const failure = publicError(error instanceof z.ZodError ? new GtmError('SCHEMA_INVALID', 'Typed input validation failed') : error);
     emit(json, failure.exitCode === 3 || failure.exitCode === 4 ? 'BLOCKED' : 'FAIL', { error: { code: failure.code, message: failure.message } });
     return failure.exitCode;
   }

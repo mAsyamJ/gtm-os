@@ -1,0 +1,12 @@
+content_id: ""
+tenant: REQUIRED
+platform: x
+type: post
+source_ids: []
+claim_ids: []
+copy: ""
+media: []
+alt_text: ""
+publication_status: DRAFT_ONLY
+approval_id: null
+content_sha256: null

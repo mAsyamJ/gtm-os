@@ -1,0 +1,1093 @@
+{
+  "id": "retropick-packet-4576d59acac99b28d4ec377f",
+  "tenant": "retropick",
+  "label": "REVIEWED_SOURCE",
+  "draftId": "retropick-humanized-26fc0c584c88964eb8d44ec8",
+  "account": "RetroPickMarket",
+  "payloadSha256": "4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1",
+  "files": [
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/post.txt",
+      "sha256": "84c2f125c10268ee89f5ec3efeb1c67cd03c726a65273a4fc6f32e9c59d65883",
+      "bytes": 340
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/thread.md",
+      "sha256": "9b8def1ed1ad07b1ea0cb4052d07087e9b0cbe315c5a6fe3aa4ad3d53fd581f8",
+      "bytes": 356
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/alt.txt",
+      "sha256": "57151aa408cdaef2a4daa211d82f596aec12b257a896124fa66b419f9e5eb2e0",
+      "bytes": 101
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/sources.md",
+      "sha256": "ad156c4b2db2ddfda972ebb090fb926c2b461d3d288cc59c4134975d5bf7f842",
+      "bytes": 206
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/preview.html",
+      "sha256": "82f73270b02c7d27c7ce6bef734351736abf7b075720b0588f3d836be78f460d",
+      "bytes": 401
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/instructions.md",
+      "sha256": "e6ab55604aff6b8e38b17e14bec247558214481e2523ba6eeae7b9ef152253e1",
+      "bytes": 549
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-one.svg",
+      "sha256": "711213fb5ddf3aba883303e87fda8ccd15aa572504473e16f833d80f9d39840f",
+      "bytes": 120806
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-one.png",
+      "sha256": "37d451f78482a995036415121ce422906f3a8569ddda8f3db566963c1a90a510",
+      "bytes": 74022
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-one.webp",
+      "sha256": "a2aeaff7062b1d1be77b0dd3621accf2b853a507ee5effedf3ee71eb6478de1c",
+      "bytes": 29186
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-one.json",
+      "sha256": "51cdd69c7d094ea215480917d98e16e7fdb9a021b993279ea252ef083e3ace6f",
+      "bytes": 5776
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-one.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-two.svg",
+      "sha256": "2d6510b3c2be8a298b4b560a2e747447f8f43d75118af116bb2e350f0339ac08",
+      "bytes": 147051
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-two.png",
+      "sha256": "0a128b20e15b86f4bbf592cb4298d5cebd5f047d780b304715d9061a3671a289",
+      "bytes": 85947
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-two.webp",
+      "sha256": "b41bf333490ac6ff3c68ac27542b53c1d9a13330d3a80bb0c59c7b6f5d210523",
+      "bytes": 30804
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-two.json",
+      "sha256": "2a09d2e0d3df22c5e664986ac6337ebb7211916d43aa72f167fb7ecbb4bda7b9",
+      "bytes": 5989
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/cover-two.alt.txt",
+      "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+      "bytes": 192
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-1.svg",
+      "sha256": "2b72032782bfaec217e2344d8e0a9ce94dbf62b4e26e6e239b7ef0410ef23fc5",
+      "bytes": 126399
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-1.png",
+      "sha256": "49acbd2664144e434954e4fe01d485d3d528fb908f03494094c1cd43b8d9007a",
+      "bytes": 136888
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-1.webp",
+      "sha256": "f7b1192ad942a3ef718de6a1b1a805b9efccfd008b33f4e1afd64e11d74f30d3",
+      "bytes": 48936
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-1.json",
+      "sha256": "78b73df76860401077aeebb26de6e2e95589190892afa0c20a8b3dbd184fda89",
+      "bytes": 5999
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-1.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-2.svg",
+      "sha256": "a3733af4ad7bc1be208759455d0210fbb03cda520e118a440f7a1834473f21f1",
+      "bytes": 154094
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-2.png",
+      "sha256": "61878b9eb033fa01bee6ebe336325d52963ea529493f67f6da532192f9043e83",
+      "bytes": 151141
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-2.webp",
+      "sha256": "eab837507351e6d0348fd4a64b5f56ad9b4858aaf75727dc425ae054254c69e0",
+      "bytes": 53612
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-2.json",
+      "sha256": "1321eb0466a97cf26e8b443aea3c101371642f106cf1bbc2a28577644ceb7f2d",
+      "bytes": 6133
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-2.alt.txt",
+      "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+      "bytes": 192
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-3.svg",
+      "sha256": "f62372a910b58246047c047e57ee2c6253cd022bbc354bc970d151bbeb91e073",
+      "bytes": 129540
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-3.png",
+      "sha256": "a1813552b9de07ffbb35146f1f16759666984f2903188c8b10783fc1b9e965de",
+      "bytes": 141423
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-3.webp",
+      "sha256": "bf63c16c8367751cb5ecaf0c93facde90bfe0888f3535244ba520f9e50dd154e",
+      "bytes": 48988
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-3.json",
+      "sha256": "d30705c277155eb52036d89bd6defd650e002362d26475451954f59f685054bf",
+      "bytes": 6027
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-3.alt.txt",
+      "sha256": "74f510c42542a7f8380492b7f97a418f0dd1084ed366831c7ba3b1b5a46efbaa",
+      "bytes": 139
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-4.svg",
+      "sha256": "2b72032782bfaec217e2344d8e0a9ce94dbf62b4e26e6e239b7ef0410ef23fc5",
+      "bytes": 126399
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-4.png",
+      "sha256": "49acbd2664144e434954e4fe01d485d3d528fb908f03494094c1cd43b8d9007a",
+      "bytes": 136888
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-4.webp",
+      "sha256": "f7b1192ad942a3ef718de6a1b1a805b9efccfd008b33f4e1afd64e11d74f30d3",
+      "bytes": 48936
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-4.json",
+      "sha256": "78b73df76860401077aeebb26de6e2e95589190892afa0c20a8b3dbd184fda89",
+      "bytes": 5999
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/landscape-scene-4.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-segments.txt",
+      "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-video.mp4",
+      "sha256": "73eca367649d0289e8b3d064ea6e8d4ac0b8fe2e3e6f19e1ba45bdf2dce5fd73",
+      "bytes": 10442835
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-captions.srt",
+      "sha256": "685729474dd66a158222f81ff6f6c9801e7c322545088726037c1638d119e742",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-captions.vtt",
+      "sha256": "89f49ae2d12e47f06154915d457a07b5a7707b387e4cf4fd33f8bad7c8a8608f",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-timeline.json",
+      "sha256": "b19cdc6153c9333ffa0efd4c8b4002ab2099de80eeaa82488a2847dcd145c3e7",
+      "bytes": 588
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-ffprobe.json",
+      "sha256": "55ce697a14341dd0620eee39ab2aaf3cd2c88b2c7174d3d968ad20a39f42b7f2",
+      "bytes": 2592
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/landscape-poster.png",
+      "sha256": "bcf012ec0039df50b5bfba54c4c1ec86ece80ef8228e33f1a828d7b638785c83",
+      "bytes": 335491
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-1.svg",
+      "sha256": "0c438051ff7f6c2f532061580bbc62ae7588f7cfa91fbf89ab75256c7ba53b75",
+      "bytes": 121445
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-1.png",
+      "sha256": "37f04123486282601ab785faa92e5ec40f41d89775e25acc3797524fb2914852",
+      "bytes": 127959
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-1.webp",
+      "sha256": "52bdf9a83410f248bf2a178018df6461bd7058482c0da595192653a3d4cb445e",
+      "bytes": 42162
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-1.json",
+      "sha256": "43d5d31cf1e932a903eaf7e75f184aae96eb9428874e26bdf4a4390c738d1dbc",
+      "bytes": 5900
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-1.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-2.svg",
+      "sha256": "0f6cf65f84ec9c1a5ca1e489f8581ff2dd5b2d927c8b37624d94a06ee85590e2",
+      "bytes": 148830
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-2.png",
+      "sha256": "ee6a47e467c796298d4ced2fba83dac2a64274f3314ffa37791ab19c277c9d90",
+      "bytes": 136265
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-2.webp",
+      "sha256": "e0f8c37f3b7539d509fb74b9556b0bc39091fbade03ad2803b91d4438255938a",
+      "bytes": 47450
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-2.json",
+      "sha256": "a73581c6d1df0e47ca0435611101fe031076b4389bf0f6ae6b4eed742a742bc9",
+      "bytes": 6034
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-2.alt.txt",
+      "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+      "bytes": 192
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-3.svg",
+      "sha256": "78da8ddbf329fe1987926f57adc5b5159b25098e966898cfcf63fd5d1e301ede",
+      "bytes": 124349
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-3.png",
+      "sha256": "70426e064c77c5f0f32cefe2ea0fc6531df3216cee3f2d4bdd82d981f77e7a76",
+      "bytes": 130578
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-3.webp",
+      "sha256": "12df3648615e4c3721c1e5841146daa4e5d780e8f29952b577654dbf1efcdf0b",
+      "bytes": 43730
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-3.json",
+      "sha256": "78d30a14154365fddc95824e5a564957e834cef2501db89a8e6f5590aaa83e13",
+      "bytes": 5928
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-3.alt.txt",
+      "sha256": "74f510c42542a7f8380492b7f97a418f0dd1084ed366831c7ba3b1b5a46efbaa",
+      "bytes": 139
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-4.svg",
+      "sha256": "0c438051ff7f6c2f532061580bbc62ae7588f7cfa91fbf89ab75256c7ba53b75",
+      "bytes": 121445
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-4.png",
+      "sha256": "37f04123486282601ab785faa92e5ec40f41d89775e25acc3797524fb2914852",
+      "bytes": 127959
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-4.webp",
+      "sha256": "52bdf9a83410f248bf2a178018df6461bd7058482c0da595192653a3d4cb445e",
+      "bytes": 42162
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-4.json",
+      "sha256": "43d5d31cf1e932a903eaf7e75f184aae96eb9428874e26bdf4a4390c738d1dbc",
+      "bytes": 5900
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/images/portrait-scene-4.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-segments.txt",
+      "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-video.mp4",
+      "sha256": "3df8974e67cf11eeb2656800036acf8d8db6b126da292416d74e2b815f7e0262",
+      "bytes": 8184964
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-captions.srt",
+      "sha256": "685729474dd66a158222f81ff6f6c9801e7c322545088726037c1638d119e742",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-captions.vtt",
+      "sha256": "89f49ae2d12e47f06154915d457a07b5a7707b387e4cf4fd33f8bad7c8a8608f",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-timeline.json",
+      "sha256": "68cfbd66e77ac44c5880211781feb4bd8df85e1b05124c760e4f3f22645b105a",
+      "bytes": 587
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-ffprobe.json",
+      "sha256": "42e81b27fca16f82d93d124e82358191960ecf517177facc6a6d698171f69bc0",
+      "bytes": 2591
+    },
+    {
+      "path": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1/video/portrait-poster.png",
+      "sha256": "cf924bdadf1820831a0d46405114c469fcf360aa519af237a7717bfba0a62459",
+      "bytes": 288440
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "retropick-source-20261019-ec75cad0",
+      "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db",
+      "statement": "The market creation layer for Monad."
+    },
+    {
+      "evidenceId": "retropick-source-20261019-ec75cad0",
+      "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db",
+      "statement": "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent."
+    },
+    {
+      "evidenceId": "retropick-source-20261019-ec75cad0",
+      "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db",
+      "statement": "Canonical Circle-USDC live smoke: BLOCKED_FUNDING."
+    }
+  ],
+  "media": [
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.svg",
+      "sha256": "711213fb5ddf3aba883303e87fda8ccd15aa572504473e16f833d80f9d39840f",
+      "bytes": 120806
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.png",
+      "sha256": "37d451f78482a995036415121ce422906f3a8569ddda8f3db566963c1a90a510",
+      "bytes": 74022
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.webp",
+      "sha256": "a2aeaff7062b1d1be77b0dd3621accf2b853a507ee5effedf3ee71eb6478de1c",
+      "bytes": 29186
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.json",
+      "sha256": "51cdd69c7d094ea215480917d98e16e7fdb9a021b993279ea252ef083e3ace6f",
+      "bytes": 5776
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.svg",
+      "sha256": "2d6510b3c2be8a298b4b560a2e747447f8f43d75118af116bb2e350f0339ac08",
+      "bytes": 147051
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.png",
+      "sha256": "0a128b20e15b86f4bbf592cb4298d5cebd5f047d780b304715d9061a3671a289",
+      "bytes": 85947
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.webp",
+      "sha256": "b41bf333490ac6ff3c68ac27542b53c1d9a13330d3a80bb0c59c7b6f5d210523",
+      "bytes": 30804
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.json",
+      "sha256": "2a09d2e0d3df22c5e664986ac6337ebb7211916d43aa72f167fb7ecbb4bda7b9",
+      "bytes": 5989
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.alt.txt",
+      "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+      "bytes": 192
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.svg",
+      "sha256": "2b72032782bfaec217e2344d8e0a9ce94dbf62b4e26e6e239b7ef0410ef23fc5",
+      "bytes": 126399
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.png",
+      "sha256": "49acbd2664144e434954e4fe01d485d3d528fb908f03494094c1cd43b8d9007a",
+      "bytes": 136888
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.webp",
+      "sha256": "f7b1192ad942a3ef718de6a1b1a805b9efccfd008b33f4e1afd64e11d74f30d3",
+      "bytes": 48936
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.json",
+      "sha256": "78b73df76860401077aeebb26de6e2e95589190892afa0c20a8b3dbd184fda89",
+      "bytes": 5999
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.svg",
+      "sha256": "a3733af4ad7bc1be208759455d0210fbb03cda520e118a440f7a1834473f21f1",
+      "bytes": 154094
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.png",
+      "sha256": "61878b9eb033fa01bee6ebe336325d52963ea529493f67f6da532192f9043e83",
+      "bytes": 151141
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.webp",
+      "sha256": "eab837507351e6d0348fd4a64b5f56ad9b4858aaf75727dc425ae054254c69e0",
+      "bytes": 53612
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.json",
+      "sha256": "1321eb0466a97cf26e8b443aea3c101371642f106cf1bbc2a28577644ceb7f2d",
+      "bytes": 6133
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.alt.txt",
+      "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+      "bytes": 192
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.svg",
+      "sha256": "f62372a910b58246047c047e57ee2c6253cd022bbc354bc970d151bbeb91e073",
+      "bytes": 129540
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.png",
+      "sha256": "a1813552b9de07ffbb35146f1f16759666984f2903188c8b10783fc1b9e965de",
+      "bytes": 141423
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.webp",
+      "sha256": "bf63c16c8367751cb5ecaf0c93facde90bfe0888f3535244ba520f9e50dd154e",
+      "bytes": 48988
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.json",
+      "sha256": "d30705c277155eb52036d89bd6defd650e002362d26475451954f59f685054bf",
+      "bytes": 6027
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.alt.txt",
+      "sha256": "74f510c42542a7f8380492b7f97a418f0dd1084ed366831c7ba3b1b5a46efbaa",
+      "bytes": 139
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.svg",
+      "sha256": "2b72032782bfaec217e2344d8e0a9ce94dbf62b4e26e6e239b7ef0410ef23fc5",
+      "bytes": 126399
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.png",
+      "sha256": "49acbd2664144e434954e4fe01d485d3d528fb908f03494094c1cd43b8d9007a",
+      "bytes": 136888
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.webp",
+      "sha256": "f7b1192ad942a3ef718de6a1b1a805b9efccfd008b33f4e1afd64e11d74f30d3",
+      "bytes": 48936
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.json",
+      "sha256": "78b73df76860401077aeebb26de6e2e95589190892afa0c20a8b3dbd184fda89",
+      "bytes": 5999
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/segments.txt",
+      "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/video.mp4",
+      "sha256": "73eca367649d0289e8b3d064ea6e8d4ac0b8fe2e3e6f19e1ba45bdf2dce5fd73",
+      "bytes": 10442835
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/captions.srt",
+      "sha256": "685729474dd66a158222f81ff6f6c9801e7c322545088726037c1638d119e742",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/captions.vtt",
+      "sha256": "89f49ae2d12e47f06154915d457a07b5a7707b387e4cf4fd33f8bad7c8a8608f",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/timeline.json",
+      "sha256": "b19cdc6153c9333ffa0efd4c8b4002ab2099de80eeaa82488a2847dcd145c3e7",
+      "bytes": 588
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/ffprobe.json",
+      "sha256": "55ce697a14341dd0620eee39ab2aaf3cd2c88b2c7174d3d968ad20a39f42b7f2",
+      "bytes": 2592
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/poster.png",
+      "sha256": "bcf012ec0039df50b5bfba54c4c1ec86ece80ef8228e33f1a828d7b638785c83",
+      "bytes": 335491
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.svg",
+      "sha256": "0c438051ff7f6c2f532061580bbc62ae7588f7cfa91fbf89ab75256c7ba53b75",
+      "bytes": 121445
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.png",
+      "sha256": "37f04123486282601ab785faa92e5ec40f41d89775e25acc3797524fb2914852",
+      "bytes": 127959
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.webp",
+      "sha256": "52bdf9a83410f248bf2a178018df6461bd7058482c0da595192653a3d4cb445e",
+      "bytes": 42162
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.json",
+      "sha256": "43d5d31cf1e932a903eaf7e75f184aae96eb9428874e26bdf4a4390c738d1dbc",
+      "bytes": 5900
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.svg",
+      "sha256": "0f6cf65f84ec9c1a5ca1e489f8581ff2dd5b2d927c8b37624d94a06ee85590e2",
+      "bytes": 148830
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.png",
+      "sha256": "ee6a47e467c796298d4ced2fba83dac2a64274f3314ffa37791ab19c277c9d90",
+      "bytes": 136265
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.webp",
+      "sha256": "e0f8c37f3b7539d509fb74b9556b0bc39091fbade03ad2803b91d4438255938a",
+      "bytes": 47450
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.json",
+      "sha256": "a73581c6d1df0e47ca0435611101fe031076b4389bf0f6ae6b4eed742a742bc9",
+      "bytes": 6034
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.alt.txt",
+      "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+      "bytes": 192
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.svg",
+      "sha256": "78da8ddbf329fe1987926f57adc5b5159b25098e966898cfcf63fd5d1e301ede",
+      "bytes": 124349
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.png",
+      "sha256": "70426e064c77c5f0f32cefe2ea0fc6531df3216cee3f2d4bdd82d981f77e7a76",
+      "bytes": 130578
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.webp",
+      "sha256": "12df3648615e4c3721c1e5841146daa4e5d780e8f29952b577654dbf1efcdf0b",
+      "bytes": 43730
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.json",
+      "sha256": "78d30a14154365fddc95824e5a564957e834cef2501db89a8e6f5590aaa83e13",
+      "bytes": 5928
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.alt.txt",
+      "sha256": "74f510c42542a7f8380492b7f97a418f0dd1084ed366831c7ba3b1b5a46efbaa",
+      "bytes": 139
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.svg",
+      "sha256": "0c438051ff7f6c2f532061580bbc62ae7588f7cfa91fbf89ab75256c7ba53b75",
+      "bytes": 121445
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.png",
+      "sha256": "37f04123486282601ab785faa92e5ec40f41d89775e25acc3797524fb2914852",
+      "bytes": 127959
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.webp",
+      "sha256": "52bdf9a83410f248bf2a178018df6461bd7058482c0da595192653a3d4cb445e",
+      "bytes": 42162
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.json",
+      "sha256": "43d5d31cf1e932a903eaf7e75f184aae96eb9428874e26bdf4a4390c738d1dbc",
+      "bytes": 5900
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.alt.txt",
+      "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+      "bytes": 125
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/segments.txt",
+      "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+      "bytes": 84
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/video.mp4",
+      "sha256": "3df8974e67cf11eeb2656800036acf8d8db6b126da292416d74e2b815f7e0262",
+      "bytes": 8184964
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/captions.srt",
+      "sha256": "685729474dd66a158222f81ff6f6c9801e7c322545088726037c1638d119e742",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/captions.vtt",
+      "sha256": "89f49ae2d12e47f06154915d457a07b5a7707b387e4cf4fd33f8bad7c8a8608f",
+      "bytes": 363
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/timeline.json",
+      "sha256": "68cfbd66e77ac44c5880211781feb4bd8df85e1b05124c760e4f3f22645b105a",
+      "bytes": 587
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/ffprobe.json",
+      "sha256": "42e81b27fca16f82d93d124e82358191960ecf517177facc6a6d698171f69bc0",
+      "bytes": 2591
+    },
+    {
+      "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/poster.png",
+      "sha256": "cf924bdadf1820831a0d46405114c469fcf360aa519af237a7717bfba0a62459",
+      "bytes": 288440
+    }
+  ],
+  "creativeReady": true,
+  "immutablePayload": {
+    "tenant": "retropick",
+    "account": "RetroPickMarket",
+    "draftId": "retropick-humanized-26fc0c584c88964eb8d44ec8",
+    "blocks": [
+      "Read the current evidence before exploring the mechanism.",
+      "The market creation layer for Monad.",
+      "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+      "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+      "Scope follows the cited source. No investment advice or assurance of trading outcomes."
+    ],
+    "claims": [
+      {
+        "statement": "The market creation layer for Monad.",
+        "evidenceId": "retropick-source-20261019-ec75cad0",
+        "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db"
+      },
+      {
+        "statement": "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "evidenceId": "retropick-source-20261019-ec75cad0",
+        "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db"
+      },
+      {
+        "statement": "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+        "evidenceId": "retropick-source-20261019-ec75cad0",
+        "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db"
+      }
+    ],
+    "governance": [
+      {
+        "path": "brands/retropick/VOICE.md",
+        "sha256": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42"
+      },
+      {
+        "path": "brands/retropick/DESIGN.md",
+        "sha256": "c141dff4489c43acf1155967a0bed2b6ed95fb18078b115633d64858504a38a0"
+      },
+      {
+        "path": "brands/retropick/claims-ledger.yaml",
+        "sha256": "d10334f9f894482f84de45f8eeb4244a44fcebdbb9d5bb42504fc15e26367bde"
+      }
+    ],
+    "media": [
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.svg",
+        "sha256": "711213fb5ddf3aba883303e87fda8ccd15aa572504473e16f833d80f9d39840f",
+        "bytes": 120806
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.png",
+        "sha256": "37d451f78482a995036415121ce422906f3a8569ddda8f3db566963c1a90a510",
+        "bytes": 74022
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.webp",
+        "sha256": "a2aeaff7062b1d1be77b0dd3621accf2b853a507ee5effedf3ee71eb6478de1c",
+        "bytes": 29186
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.json",
+        "sha256": "51cdd69c7d094ea215480917d98e16e7fdb9a021b993279ea252ef083e3ace6f",
+        "bytes": 5776
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-one.alt.txt",
+        "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+        "bytes": 125
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.svg",
+        "sha256": "2d6510b3c2be8a298b4b560a2e747447f8f43d75118af116bb2e350f0339ac08",
+        "bytes": 147051
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.png",
+        "sha256": "0a128b20e15b86f4bbf592cb4298d5cebd5f047d780b304715d9061a3671a289",
+        "bytes": 85947
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.webp",
+        "sha256": "b41bf333490ac6ff3c68ac27542b53c1d9a13330d3a80bb0c59c7b6f5d210523",
+        "bytes": 30804
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.json",
+        "sha256": "2a09d2e0d3df22c5e664986ac6337ebb7211916d43aa72f167fb7ecbb4bda7b9",
+        "bytes": 5989
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/cover-two.alt.txt",
+        "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+        "bytes": 192
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.svg",
+        "sha256": "2b72032782bfaec217e2344d8e0a9ce94dbf62b4e26e6e239b7ef0410ef23fc5",
+        "bytes": 126399
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.png",
+        "sha256": "49acbd2664144e434954e4fe01d485d3d528fb908f03494094c1cd43b8d9007a",
+        "bytes": 136888
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.webp",
+        "sha256": "f7b1192ad942a3ef718de6a1b1a805b9efccfd008b33f4e1afd64e11d74f30d3",
+        "bytes": 48936
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.json",
+        "sha256": "78b73df76860401077aeebb26de6e2e95589190892afa0c20a8b3dbd184fda89",
+        "bytes": 5999
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-1.alt.txt",
+        "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+        "bytes": 125
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.svg",
+        "sha256": "a3733af4ad7bc1be208759455d0210fbb03cda520e118a440f7a1834473f21f1",
+        "bytes": 154094
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.png",
+        "sha256": "61878b9eb033fa01bee6ebe336325d52963ea529493f67f6da532192f9043e83",
+        "bytes": 151141
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.webp",
+        "sha256": "eab837507351e6d0348fd4a64b5f56ad9b4858aaf75727dc425ae054254c69e0",
+        "bytes": 53612
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.json",
+        "sha256": "1321eb0466a97cf26e8b443aea3c101371642f106cf1bbc2a28577644ceb7f2d",
+        "bytes": 6133
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-2.alt.txt",
+        "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+        "bytes": 192
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.svg",
+        "sha256": "f62372a910b58246047c047e57ee2c6253cd022bbc354bc970d151bbeb91e073",
+        "bytes": 129540
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.png",
+        "sha256": "a1813552b9de07ffbb35146f1f16759666984f2903188c8b10783fc1b9e965de",
+        "bytes": 141423
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.webp",
+        "sha256": "bf63c16c8367751cb5ecaf0c93facde90bfe0888f3535244ba520f9e50dd154e",
+        "bytes": 48988
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.json",
+        "sha256": "d30705c277155eb52036d89bd6defd650e002362d26475451954f59f685054bf",
+        "bytes": 6027
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-3.alt.txt",
+        "sha256": "74f510c42542a7f8380492b7f97a418f0dd1084ed366831c7ba3b1b5a46efbaa",
+        "bytes": 139
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.svg",
+        "sha256": "2b72032782bfaec217e2344d8e0a9ce94dbf62b4e26e6e239b7ef0410ef23fc5",
+        "bytes": 126399
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.png",
+        "sha256": "49acbd2664144e434954e4fe01d485d3d528fb908f03494094c1cd43b8d9007a",
+        "bytes": 136888
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.webp",
+        "sha256": "f7b1192ad942a3ef718de6a1b1a805b9efccfd008b33f4e1afd64e11d74f30d3",
+        "bytes": 48936
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.json",
+        "sha256": "78b73df76860401077aeebb26de6e2e95589190892afa0c20a8b3dbd184fda89",
+        "bytes": 5999
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape-scene-4.alt.txt",
+        "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+        "bytes": 125
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/segments.txt",
+        "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+        "bytes": 84
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/video.mp4",
+        "sha256": "73eca367649d0289e8b3d064ea6e8d4ac0b8fe2e3e6f19e1ba45bdf2dce5fd73",
+        "bytes": 10442835
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/captions.srt",
+        "sha256": "685729474dd66a158222f81ff6f6c9801e7c322545088726037c1638d119e742",
+        "bytes": 363
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/captions.vtt",
+        "sha256": "89f49ae2d12e47f06154915d457a07b5a7707b387e4cf4fd33f8bad7c8a8608f",
+        "bytes": 363
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/timeline.json",
+        "sha256": "b19cdc6153c9333ffa0efd4c8b4002ab2099de80eeaa82488a2847dcd145c3e7",
+        "bytes": 588
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/ffprobe.json",
+        "sha256": "55ce697a14341dd0620eee39ab2aaf3cd2c88b2c7174d3d968ad20a39f42b7f2",
+        "bytes": 2592
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/landscape/poster.png",
+        "sha256": "bcf012ec0039df50b5bfba54c4c1ec86ece80ef8228e33f1a828d7b638785c83",
+        "bytes": 335491
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.svg",
+        "sha256": "0c438051ff7f6c2f532061580bbc62ae7588f7cfa91fbf89ab75256c7ba53b75",
+        "bytes": 121445
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.png",
+        "sha256": "37f04123486282601ab785faa92e5ec40f41d89775e25acc3797524fb2914852",
+        "bytes": 127959
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.webp",
+        "sha256": "52bdf9a83410f248bf2a178018df6461bd7058482c0da595192653a3d4cb445e",
+        "bytes": 42162
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.json",
+        "sha256": "43d5d31cf1e932a903eaf7e75f184aae96eb9428874e26bdf4a4390c738d1dbc",
+        "bytes": 5900
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-1.alt.txt",
+        "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+        "bytes": 125
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.svg",
+        "sha256": "0f6cf65f84ec9c1a5ca1e489f8581ff2dd5b2d927c8b37624d94a06ee85590e2",
+        "bytes": 148830
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.png",
+        "sha256": "ee6a47e467c796298d4ced2fba83dac2a64274f3314ffa37791ab19c277c9d90",
+        "bytes": 136265
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.webp",
+        "sha256": "e0f8c37f3b7539d509fb74b9556b0bc39091fbade03ad2803b91d4438255938a",
+        "bytes": 47450
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.json",
+        "sha256": "a73581c6d1df0e47ca0435611101fe031076b4389bf0f6ae6b4eed742a742bc9",
+        "bytes": 6034
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-2.alt.txt",
+        "sha256": "06292f40b67fd09d0cbc1516a8ba9e7304cec9a697e5899445ce0cd055165438",
+        "bytes": 192
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.svg",
+        "sha256": "78da8ddbf329fe1987926f57adc5b5159b25098e966898cfcf63fd5d1e301ede",
+        "bytes": 124349
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.png",
+        "sha256": "70426e064c77c5f0f32cefe2ea0fc6531df3216cee3f2d4bdd82d981f77e7a76",
+        "bytes": 130578
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.webp",
+        "sha256": "12df3648615e4c3721c1e5841146daa4e5d780e8f29952b577654dbf1efcdf0b",
+        "bytes": 43730
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.json",
+        "sha256": "78d30a14154365fddc95824e5a564957e834cef2501db89a8e6f5590aaa83e13",
+        "bytes": 5928
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-3.alt.txt",
+        "sha256": "74f510c42542a7f8380492b7f97a418f0dd1084ed366831c7ba3b1b5a46efbaa",
+        "bytes": 139
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.svg",
+        "sha256": "0c438051ff7f6c2f532061580bbc62ae7588f7cfa91fbf89ab75256c7ba53b75",
+        "bytes": 121445
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.png",
+        "sha256": "37f04123486282601ab785faa92e5ec40f41d89775e25acc3797524fb2914852",
+        "bytes": 127959
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.webp",
+        "sha256": "52bdf9a83410f248bf2a178018df6461bd7058482c0da595192653a3d4cb445e",
+        "bytes": 42162
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.json",
+        "sha256": "43d5d31cf1e932a903eaf7e75f184aae96eb9428874e26bdf4a4390c738d1dbc",
+        "bytes": 5900
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait-scene-4.alt.txt",
+        "sha256": "db72328f373c18e57c37b817c50db4547f3b92ad421585a3a1629210666961d6",
+        "bytes": 125
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/segments.txt",
+        "sha256": "00918f4336af4e2d6eff12184330c1455d7b1b9339cecfb2bd7c9e62e8212e23",
+        "bytes": 84
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/video.mp4",
+        "sha256": "3df8974e67cf11eeb2656800036acf8d8db6b126da292416d74e2b815f7e0262",
+        "bytes": 8184964
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/captions.srt",
+        "sha256": "685729474dd66a158222f81ff6f6c9801e7c322545088726037c1638d119e742",
+        "bytes": 363
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/captions.vtt",
+        "sha256": "89f49ae2d12e47f06154915d457a07b5a7707b387e4cf4fd33f8bad7c8a8608f",
+        "bytes": 363
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/timeline.json",
+        "sha256": "68cfbd66e77ac44c5880211781feb4bd8df85e1b05124c760e4f3f22645b105a",
+        "bytes": 587
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/ffprobe.json",
+        "sha256": "42e81b27fca16f82d93d124e82358191960ecf517177facc6a6d698171f69bc0",
+        "bytes": 2591
+      },
+      {
+        "path": "runtime/v3/retropick/creative/6bc766d8697d42318b8434959afc941c839c1f01bffed38b555b43cbc13e96f9/portrait/poster.png",
+        "sha256": "cf924bdadf1820831a0d46405114c469fcf360aa519af237a7717bfba0a62459",
+        "bytes": 288440
+      }
+    ],
+    "citations": [
+      {
+        "license": "MIT; pinned repository LICENSE receipt",
+        "revision": "464dca136e9765d638e742a810ab58af0e911376",
+        "sourceId": "retropick-source-20261019-ec75cad0",
+        "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md"
+      }
+    ],
+    "riskDisclosures": [
+      "The market creation layer for Monad.",
+      "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+      "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+      "Scope follows the cited source. No investment advice or assurance of trading outcomes."
+    ],
+    "publicationMethod": "OWNER_NATIVE_UI_ONLY"
+  },
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+  "state": "AWAITING_OWNER_APPROVAL",
+  "humanReview": "PENDING",
+  "directory": "runtime/v3/retropick/manual-publish/4576d59acac99b28d4ec377fbe7070afcfd87de35dea64b48d726e343c2b0cd1"
+}

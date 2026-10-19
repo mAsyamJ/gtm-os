@@ -1,0 +1,77 @@
+{
+  "id": "retropick-humanized-26fc0c584c88964eb8d44ec8",
+  "tenant": "retropick",
+  "label": "REVIEWED_SOURCE",
+  "format": "thread",
+  "sourceIds": [
+    "retropick-source-20261019-ec75cad0"
+  ],
+  "claims": [
+    {
+      "statement": "The market creation layer for Monad.",
+      "evidenceId": "retropick-source-20261019-ec75cad0",
+      "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db"
+    },
+    {
+      "statement": "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+      "evidenceId": "retropick-source-20261019-ec75cad0",
+      "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db"
+    },
+    {
+      "statement": "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+      "evidenceId": "retropick-source-20261019-ec75cad0",
+      "evidenceSha256": "40dd8ac6e6945af2d1d28cefd74b18159c2db33bdcf83cb20d3ec147255b79db"
+    }
+  ],
+  "blocks": [
+    "Read the current evidence before exploring the mechanism.",
+    "The market creation layer for Monad.",
+    "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+    "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+    "Scope follows the cited source. No investment advice or assurance of trading outcomes."
+  ],
+  "protectedSegments": [
+    "The market creation layer for Monad.",
+    "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+    "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+    "Scope follows the cited source. No investment advice or assurance of trading outcomes."
+  ],
+  "humanReview": "PENDING",
+  "publicationAuthorized": false,
+  "authoringMode": "DETERMINISTIC_SOURCE_ASSEMBLY",
+  "governance": [
+    {
+      "path": "brands/retropick/VOICE.md",
+      "sha256": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42"
+    },
+    {
+      "path": "brands/retropick/DESIGN.md",
+      "sha256": "c141dff4489c43acf1155967a0bed2b6ed95fb18078b115633d64858504a38a0"
+    },
+    {
+      "path": "brands/retropick/claims-ledger.yaml",
+      "sha256": "d10334f9f894482f84de45f8eeb4244a44fcebdbb9d5bb42504fc15e26367bde"
+    }
+  ],
+  "sourceRevision": "464dca136e9765d638e742a810ab58af0e911376",
+  "authenticity": "NO_PERSONAL_ACHIEVEMENT_ASSERTED",
+  "citations": [
+    {
+      "license": "MIT; pinned repository LICENSE receipt",
+      "revision": "464dca136e9765d638e742a810ab58af0e911376",
+      "sourceId": "retropick-source-20261019-ec75cad0",
+      "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md"
+    }
+  ],
+  "parentDraftId": "retropick-draft-564ca78f6dc831c4f64e65b2",
+  "integrity": {
+    "status": "PASS",
+    "protectedClaimsUnchanged": true,
+    "unsupportedAdditions": 0,
+    "semanticReview": "HUMAN_REQUIRED",
+    "authenticityReview": "HUMAN_REQUIRED"
+  },
+  "hostedModelRequests": 0,
+  "humanizerMode": "CONSERVATIVE_LOCAL_RULES_WITH_PROTECTED_CLAIM_BLOCKS",
+  "editorialSkill": "Audited installed Humanizer guidance; semantic and voice quality are not automatically established"
+}

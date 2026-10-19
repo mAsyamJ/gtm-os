@@ -1,0 +1,3 @@
+[ACTION] Assemble source-preserving local handoff
+[OBSERVATION]
+{"hostedModelRequests": 0, "humanReview": "REQUIRED", "label": "SYNTHETIC", "limitations": ["SYNTHETIC fixture; no real activity, achievement or verification."], "platformVerified": false, "publicationAuthorized": false, "revision": "fixture-1", "sourceSha256": "99f1cc213a08d420db4abc2ba3ebd63527f8b78730d656cc7fb061f720da9a34", "statement": "Conversion outcomes are UNAVAILABLE until supported by product evidence.", "tenant": "founder"}

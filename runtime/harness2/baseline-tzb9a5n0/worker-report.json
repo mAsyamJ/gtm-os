@@ -1,0 +1,27 @@
+{
+  "label": "SYNTHETIC",
+  "scope": "SOURCE_PRESERVATION_CONTRACTS_ONLY",
+  "action": "baseline",
+  "taskCount": 28,
+  "upstreamPin": "1cfe254e8d25b15f37048c3730134686abe60335",
+  "fixtureSha256": "d04d3769de37c63e6058923bc9a3266a00206797a789ad9359d796a3ab37b4e9",
+  "protocolCompatible": true,
+  "uid": 1000,
+  "externalModelRequests": 0,
+  "attemptedNetworkRequests": 0,
+  "executionCount": 28,
+  "proposerCalls": 0,
+  "scheduler": null,
+  "wallSeconds": 0.03741777100003674,
+  "negativeTests": {
+    "kernelNetworkDenied": true,
+    "rootFilesystemWriteDenied": true,
+    "scriptInjectionDenied": true,
+    "boundaryRemovalDenied": true,
+    "credentialEnvironmentAbsent": true
+  },
+  "costUsd": 0,
+  "subjectiveQuality": null,
+  "businessImpact": null,
+  "promotionAuthorized": false
+}

@@ -1,0 +1,8 @@
+{
+  "command": [
+    "pnpm",
+    "build"
+  ],
+  "status": "PASS",
+  "exit": 0
+}

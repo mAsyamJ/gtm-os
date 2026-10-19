@@ -1,0 +1,17 @@
+{
+  "id": "founder-messaging-cd29a5b0-47af4c01",
+  "tenant": "founder",
+  "uri": "project:///brands/founder/MESSAGING.md",
+  "revision": "cd29a5b0f1362b3ff1956aa773e4bb6aea7bca487e7bac8b41a3b579c53d1a95",
+  "text": "# founder message house\n\nPrimary idea: Founder/operator building verifiable Web3, backend and AI agent systems (verify biography and credentials).\n\nPillars: engineering architecture, security and reliable systems, build in public, open-source learning, founder engineering lessons.\n\nFor each content item provide one audience, problem, proof, differentiated insight, next logical action, risk/limitation and success measure. Never use implied verified traction without proof.\n",
+  "contentSha256": "cd29a5b0f1362b3ff1956aa773e4bb6aea7bca487e7bac8b41a3b579c53d1a95",
+  "observedAt": "2026-10-17T14:14:25.469Z",
+  "expiresAt": "2026-10-24T14:14:25.469Z",
+  "title": "founder MESSAGING.md editorial contract",
+  "author": "Project owner contracts",
+  "contentTimestamp": null,
+  "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+  "permission": "PROJECT_LOCAL",
+  "permissionBasis": "Owner authorized local Phase C implementation and reviewable plans",
+  "license": "OWNER_PROJECT_LOCAL_ONLY"
+}

@@ -1,0 +1,34 @@
+{
+  "revision": "phase-d-r1",
+  "status": "PASS",
+  "baseline_commit": "d2962c1",
+  "runtime_tests": 168,
+  "python_tests": 38,
+  "cli_checks": 16,
+  "graphics": 24,
+  "editable_templates": 6,
+  "browser_pixel_checks": 24,
+  "videos": 2,
+  "video_seconds_each": 20,
+  "video_sizes": [
+    "1920x1080",
+    "1080x1920"
+  ],
+  "media_replay": "FRESH_REENCODE_WITH_IDENTICAL_INPUT_MANIFESTS_AND_BYTE_HASHES_VERIFIED",
+  "sources": {
+    "path": "docs/evidence/phase-d-sources.json",
+    "sha256": "d3d83936c403cc467ea808372658684b01fbc091d95dec6f076c9f485d921549"
+  },
+  "historical_evidence_unchanged": true,
+  "provider_calls": 0,
+  "provider_cost_usd": 0,
+  "operator_compute_cost": "NOT_MEASURED",
+  "publication_authorized": false,
+  "limitations": [
+    "Synthetic editorial concept, not verified product demo; official tokens and live UI remain unverified",
+    "Silent by design; no audio assets or voice model",
+    "Owner creative/publication review required",
+    "Exact rendering reproduction requires recorded native/browser/font/FFmpeg toolchain; no cross-platform bit equality promised",
+    "Security uses scoped local rules, not a complete dependency vulnerability or legal audit"
+  ]
+}

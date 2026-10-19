@@ -1,0 +1,41 @@
+{
+  "tenant": "retropick",
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+  "status": "REVIEWED_INPUTS_AVAILABLE",
+  "days": 30,
+  "cards": [
+    {
+      "id": "retropick-source-20261019-ec75cad0",
+      "label": "RETRIEVED_UNVERIFIED",
+      "revision": "464dca136e9765d638e742a810ab58af0e911376",
+      "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+      "expiresAt": "2026-10-26T00:00:00.000Z",
+      "current": true,
+      "inWindow": true
+    }
+  ],
+  "themes": [
+    {
+      "sourceId": "retropick-source-20261019-ec75cad0",
+      "title": "Pinned RetroPick repository scope",
+      "claims": [
+        "The market creation layer for Monad.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Canonical Circle-USDC live smoke: BLOCKED_FUNDING."
+      ],
+      "classification": "REVIEWED_SOURCE"
+    }
+  ],
+  "opposingViews": "NOT_ESTABLISHED_FROM_CURRENT_SOURCE_SET",
+  "networkRequests": 0,
+  "hostedModelRequests": 0
+}

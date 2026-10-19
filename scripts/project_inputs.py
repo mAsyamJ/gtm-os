@@ -4,7 +4,7 @@ from pathlib import Path
 
 DIRECTORIES = (".agents", "agents", "brands", "campaigns", "config", "content", "creative",
                "distribution", "docs", "growth", "plugins", "relationships", "research", "scripts",
-               "strategy", "tests", "workflows", "packages", "adapters", "data",
+               "strategy", "tests", "workflows", "packages", "adapters", "harness", "data",
                "output/sample-plans", "output/sample-calendars")
 SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql", ".ttf"}
 
@@ -34,6 +34,6 @@ def project_inputs(root):
             for filename in names:
                 p = Path(directory) / filename
                 if (not filename.startswith(".") and not sensitive_name(filename) and
-                        p.suffix in SUFFIXES and not p.is_symlink()):
+                        (p.suffix in SUFFIXES or p.name == "Containerfile") and not p.is_symlink()):
                     files.add(p)
     return sorted(files)

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "milestone": "P0",
+  "status": "PARTIAL",
+  "baselineCommit": "1840d49",
+  "branch": "codex/gtm-phase-e",
+  "preservation": {
+    "files": 852,
+    "restorationVerified": true,
+    "receipt": "runtime/preservation/v3-before/receipt.json",
+    "sha256": "050a025785f4ef24de3911323b5a3393f4a597457510d7158cb5c516f39738b1"
+  },
+  "credentialRotationRequired": false,
+  "credentialMigrationRequired": false,
+  "GLM": "CONFIGURED_SUBSCRIPTION_VERIFIED_BUT_DISABLED_BY_EXISTING_ROUTER",
+  "historicalEvidencePreserved": true,
+  "pending": [
+    "Fresh full regression run and model connectivity through admitted existing routes"
+  ],
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0
+}

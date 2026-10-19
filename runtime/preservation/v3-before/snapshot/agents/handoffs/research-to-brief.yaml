@@ -1,0 +1,6 @@
+id: research-to-brief
+from: market-researcher
+to: product-marketer
+required: [tenant, dated_source_ids, confidence, caveats, source_hashes]
+acceptance: "evidence references resolve and identity is explicit"
+no_external_writes: true

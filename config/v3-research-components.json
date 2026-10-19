@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "last30days_commit": "0341304f8ecb307ca0a939e48ecd002761ef23b2",
+  "last30days_dates_sha256": "d1c71ec823bf122396523b04875cdd59e169658d158b5dface574233433574c8",
+  "license": "MIT",
+  "audit": "Pure stdlib date utilities read in full; no bootstrap, config, auth or network imports"
+}

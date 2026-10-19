@@ -1,0 +1,10 @@
+# No OAuth material here.
+accounts:
+  retropick:
+    platform: x
+    expected_handle: RetroPickMarket
+    status: NOT_AUTHENTICATED
+  founder:
+    platform: x
+    expected_handle: iHateModelsss
+    status: NOT_AUTHENTICATED

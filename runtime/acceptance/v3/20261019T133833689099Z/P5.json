@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "20261019T133833689099Z",
+  "checks": {
+    "status": "PASS",
+    "exit": 0,
+    "log": "runtime/acceptance/v3/20261019T133833689099Z/checks.log",
+    "logSha256": "2e1b0a9ad1fd709ddc1385921a037f42ef43c7a751f31f5d8f6cff5360b8dc1a"
+  },
+  "costs": {
+    "paidSocialApiCalls": 0,
+    "offlineHostedModelRequests": 0,
+    "offlineInferenceUsd": 0,
+    "approvedRouterConnectivityTokens": 27,
+    "subscriptionCostUsd": null
+  },
+  "resourceConsumption": {
+    "wallSeconds": 76.71573552100017,
+    "childUserCpuSeconds": 82.590136,
+    "childSystemCpuSeconds": 19.838805,
+    "childPeakRssKiB": 454456,
+    "interpretation": "OS child usage, not exact cumulative container memory consumption"
+  },
+  "securityFindings": "See scoped Gitleaks/Semgrep summary in checks log; not a full dependency audit",
+  "rollback": "docs/V3_OPERATIONS.md#validation-and-rollback",
+  "approvalStatus": "OWNER_HOLD_FOR_PUBLICATION_AND_PROMOTION",
+  "milestone": "P5",
+  "status": "BLOCKED_OBSERVED_CYCLES",
+  "implementedCapabilities": [
+    "Replayable ten-stage cycles for both brands",
+    "Separate engineering and business scorecards",
+    "Atomic owner-export import and latest snapshot reports"
+  ],
+  "verifiedIntegrations": {
+    "localChecks": "PASS"
+  },
+  "producedArtifacts": [
+    {
+      "tenant": "retropick",
+      "sourceId": "retropick-source-20261019-ec75cad0",
+      "posts": 5,
+      "threads": 2,
+      "cycleState": "AWAITING_APPROVAL",
+      "packetId": "retropick-packet-4576d59acac99b28d4ec377f",
+      "draftId": "retropick-humanized-26fc0c584c88964eb8d44ec8",
+      "campaign": "runtime/v3/retropick/campaign/e2a7612efb6fd2db0eba706fc2bffe26c011540e17b8cf424b6c35a93ddd4652/campaign.json",
+      "campaignSha256": "e2a7612efb6fd2db0eba706fc2bffe26c011540e17b8cf424b6c35a93ddd4652",
+      "replayJobs": 3,
+      "actualPublications": 0,
+      "observedBusinessOutcomes": "UNAVAILABLE",
+      "campaignFileSha256": "c6de1ad11871b7ca57e0e31dfaae9b20d0c1d2bcbc3bd3da713d9a6b6fb37ae4",
+      "campaignHashMethod": "SORTED_COMPACT_UTF8_JSON"
+    },
+    {
+      "tenant": "founder",
+      "sourceId": "founder-source-20261019-b65dc308",
+      "posts": 5,
+      "threads": 2,
+      "cycleState": "AWAITING_APPROVAL",
+      "packetId": "founder-packet-06a9a91ffb39c6153c8a3cbf",
+      "draftId": "founder-humanized-e9f4e41769739a0795750331",
+      "campaign": "runtime/v3/founder/campaign/691d1a0b86e0a823d47d7ad52d0ac0e543719d84e2a0588415a8b59f210e187c/campaign.json",
+      "campaignSha256": "691d1a0b86e0a823d47d7ad52d0ac0e543719d84e2a0588415a8b59f210e187c",
+      "replayJobs": 3,
+      "actualPublications": 0,
+      "observedBusinessOutcomes": "UNAVAILABLE",
+      "campaignFileSha256": "636b2523a60b08921e0622a6a79641774b4e92d0c777cb5c09c11f15b331970d",
+      "campaignHashMethod": "SORTED_COMPACT_UTF8_JSON"
+    }
+  ],
+  "knownLimitations": [
+    "Synthetic cycle tests do not establish real campaign completion",
+    "No verified acquisition, activation, retention or professional outcome yet"
+  ],
+  "outstandingBlockers": [
+    "Observed owner-approved weekly cycle for each brand",
+    "Publication receipts and owned performance observations"
+  ]
+}

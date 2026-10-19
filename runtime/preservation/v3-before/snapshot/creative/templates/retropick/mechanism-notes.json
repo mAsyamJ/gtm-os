@@ -1,0 +1,27 @@
+{
+  "id": "mechanism-notes",
+  "tenant": "retropick",
+  "revision": "phase-d-r1",
+  "variant": "steps",
+  "label": "SYNTHETIC DEMO / PLACEHOLDER",
+  "eyebrow": "Mechanism notes",
+  "title": "Explain the mechanism. Name the risk.",
+  "body": "An illustrative editorial structure, with no live product behavior asserted.",
+  "panels": [
+    {
+      "heading": "Question",
+      "text": "What does the reader need to understand?"
+    },
+    {
+      "heading": "Mechanism",
+      "text": "Add a current, reviewed explanation."
+    },
+    {
+      "heading": "Boundary",
+      "text": "Keep outcomes separate from mechanics."
+    }
+  ],
+  "footer": "Illustrative concept. Topic proof and owner review are still required.",
+  "alt": "Synthetic retropick concept card: Explain the mechanism. Name the risk. An illustrative editorial structure, with no live product behavior asserted. Neutral placeholder styling; no actual product UI or personal achievement shown.",
+  "contentMode": "ILLUSTRATIVE_NO_PRODUCT_OR_PERSONAL_FACTS"
+}

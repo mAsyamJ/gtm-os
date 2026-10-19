@@ -1,0 +1,17 @@
+{
+  "id": "founder-voice-cacae6f6-47af4c01",
+  "tenant": "founder",
+  "uri": "project:///brands/founder/VOICE.md",
+  "revision": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3",
+  "text": "# founder voice and editorial policy\n\nFirst-person, specific, independent, reflective and technical. No invented anecdotes, achievements or credentials.\n\nUse strong hooks only when supported by real evidence. All claims must link to current source cards; do not invent public metrics, investor/creator testimonials or founder experiences. Write useful technical content, avoid generic AI filler.\n",
+  "contentSha256": "cacae6f6ba5102003a4822c26d67ce6f93af9002fddfaf86a5cc9ea0dc7c7bb3",
+  "observedAt": "2026-10-17T14:14:25.469Z",
+  "expiresAt": "2026-10-24T14:14:25.469Z",
+  "title": "founder VOICE.md editorial contract",
+  "author": "Project owner contracts",
+  "contentTimestamp": null,
+  "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+  "permission": "PROJECT_LOCAL",
+  "permissionBasis": "Owner authorized local Phase C implementation and reviewable plans",
+  "license": "OWNER_PROJECT_LOCAL_ONLY"
+}

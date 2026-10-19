@@ -1,0 +1,63 @@
+{
+  "tenant": "retropick",
+  "revision": "phase-c-r1",
+  "evaluatedAt": "2026-10-17T14:14:25.469Z",
+  "cards": [
+    {
+      "id": "retropick-messaging-89882231-47af4c01",
+      "uri": "project:///brands/retropick/MESSAGING.md",
+      "revision": "898822316a5d98723183e9f0f1d6fd88fe40d41a4edc0b67291faf0e10ea6af0",
+      "observedAt": "2026-10-17T14:14:25.469Z",
+      "expiresAt": "2026-10-24T14:14:25.469Z",
+      "contentSha256": "59cf497e407e7b09a1b78d9c9fb879a0302ef9afa747d052cc1e172be305c222",
+      "rawTextSha256": "898822316a5d98723183e9f0f1d6fd88fe40d41a4edc0b67291faf0e10ea6af0",
+      "license": "OWNER_PROJECT_LOCAL_ONLY",
+      "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+      "confidence": "HIGH_FOR_LOCAL_BYTES",
+      "verification": "LOCAL_CONTRACT_VERIFIED",
+      "evidenceScope": "GOVERNANCE_ONLY",
+      "validity": "CURRENT",
+      "usage": "LOCAL_RESEARCH_ONLY_NO_REDISTRIBUTION"
+    },
+    {
+      "id": "retropick-positioning-83c578ff-47af4c01",
+      "uri": "project:///brands/retropick/POSITIONING.md",
+      "revision": "83c578ff84d8f7b6abbaef78783e647a5fdbd37a3107ee7c62ecf9cae896c0af",
+      "observedAt": "2026-10-17T14:14:25.469Z",
+      "expiresAt": "2026-10-24T14:14:25.469Z",
+      "contentSha256": "37a0e185e035507b9f4af763b34eb28d3b795dd9ad71c97499c4da9f7663f5d6",
+      "rawTextSha256": "83c578ff84d8f7b6abbaef78783e647a5fdbd37a3107ee7c62ecf9cae896c0af",
+      "license": "OWNER_PROJECT_LOCAL_ONLY",
+      "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+      "confidence": "HIGH_FOR_LOCAL_BYTES",
+      "verification": "LOCAL_CONTRACT_VERIFIED",
+      "evidenceScope": "GOVERNANCE_ONLY",
+      "validity": "CURRENT",
+      "usage": "LOCAL_RESEARCH_ONLY_NO_REDISTRIBUTION"
+    },
+    {
+      "id": "retropick-voice-bdbedbe8-47af4c01",
+      "uri": "project:///brands/retropick/VOICE.md",
+      "revision": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42",
+      "observedAt": "2026-10-17T14:14:25.469Z",
+      "expiresAt": "2026-10-24T14:14:25.469Z",
+      "contentSha256": "728d7add9e8492e9312717f1999cc3b51d280f6f34ed3baa795b383bd34014bb",
+      "rawTextSha256": "bdbedbe80032d36f11d6980b44099636c6cfadab0474de3fe986b99e01342c42",
+      "license": "OWNER_PROJECT_LOCAL_ONLY",
+      "relevance": "Editorial constraints and provisional positioning only; not proof of product capabilities or personal achievements",
+      "confidence": "HIGH_FOR_LOCAL_BYTES",
+      "verification": "LOCAL_CONTRACT_VERIFIED",
+      "evidenceScope": "GOVERNANCE_ONLY",
+      "validity": "CURRENT",
+      "usage": "LOCAL_RESEARCH_ONLY_NO_REDISTRIBUTION"
+    }
+  ],
+  "expired": [],
+  "usableProductClaims": 0,
+  "usablePersonalAchievements": 0,
+  "publicationAuthorized": false,
+  "limitations": [
+    "Supplied text provenance is declared, not authenticated; no runtime network retrieval.",
+    "Local contract verification establishes governance bytes only; it does not verify product features, customer demand or personal history."
+  ]
+}
