@@ -1,0 +1,11 @@
+{
+  "evidenceId": "founder-v4-person-9746ada8505e",
+  "evidenceSha256": "0e4b36772f6e0cdf0b32994f2e54cfcd0ae5ef0a0d8a7fa948679446fe7a17be",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "About - haseeb qureshi",
+    "I’m a managing partner at Dragonfly , a crypto venture fund."
+  ],
+  "authenticFirstPerson": false
+}

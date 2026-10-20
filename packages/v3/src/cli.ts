@@ -12,11 +12,17 @@ import { capabilitiesPlan, skillsAudit, dedupe, fetchPublic, voiceProfile } from
 import { creativePack } from './creative.js';
 import { executeResearchWorkflow, runCycle, workflowCatalog, WORKFLOWS } from './workflows.js';
 import { researchReplay } from './replay.js';
+import { routeIntelligence } from './intelligence/cli.js';
+import { briefPack, campaign as intelligenceCampaign } from './intelligence/campaign.js';
+import { createBrief } from './intelligence/research.js';
+import { V4_WORKFLOWS, v4Catalog, executeV4Workflow } from './intelligence/workflows.js';
 import { prepareDraft, illustrativeApproval, mockIdentity, simulateDispatch, reconcileDispatch, mediaFromReceipt } from '../../distribution/src/index.js';
 import { seedAnalytics, ingestEventFile, analyticsReport, metricDictionary } from '../../growth/src/analytics.js';
 import { croProposal, experimentsList } from '../../growth/src/reports.js';
 
 export async function routeV3(root: string, words: string[], values: Record<string, unknown>): Promise<{ status: string; data: unknown } | undefined> {
+  if(values.offline===true&&values['model-mode']==='router')throw new GtmError('OFFLINE_REQUIRED','Offline operations cannot call hosted models',3);
+  const intelligence=await routeIntelligence(root,words,values);if(intelligence)return intelligence;
   const key = words.join(' '); const pair = words.slice(0, 2).join(' ');
   const str = (name: string, fallback?: string): string => {
     const value = values[name] ?? fallback;
@@ -27,6 +33,17 @@ export async function routeV3(root: string, words: string[], values: Record<stri
     if (typeof values.brand !== 'string' || !values.brand) throw new GtmError('BRAND_REQUIRED', 'Explicit --brand founder|retropick is required', 2);
     return context(root, values.brand, ds()).tenant;
   };
+  if(values['brief-id']&&values['topic-id']||values['source-card']&&(values['brief-id']||values['topic-id']))throw new GtmError('SELECTION_CONFLICT','Choose only one source-card, brief-id or topic-id',2);
+  if(key==='content pack'&&(values['brief-id']||values['topic-id'])){
+    const brand=tenant(),briefId=typeof values['brief-id']==='string'?values['brief-id']:createBrief(root,brand,str('topic-id'),ds()).id;
+    return {status:'LOCAL_RESULT',data:await briefPack(root,brand,briefId,ds(),values['model-mode']??'offline',values['budget-id'])};
+  }
+  if(['cycle run','cycle resume'].includes(key)&&(values['brief-id']||values['topic-id'])){
+    if(!values.offline&&values['model-mode']!=='router')throw new GtmError('OFFLINE_REQUIRED','Local cycles require --offline; routed execution requires explicit model mode',3);
+    return {status:'LOCAL_RESULT',data:await intelligenceCampaign(root,tenant(),{key:str('idempotency-key'),dataset:ds(),
+      ...(typeof values['brief-id']==='string'?{briefId:values['brief-id']}:{}),...(typeof values['topic-id']==='string'?{topicId:values['topic-id']}:{}),modelMode:values['model-mode']??'offline',budgetId:values['budget-id']})};
+  }
+  if(pair==='workflow run'&&V4_WORKFLOWS.includes(words[2] as typeof V4_WORKFLOWS[number]))return {status:'LOCAL_RESULT',data:await executeV4Workflow(root,tenant(),words[2]!,values,ds())};
   let data: unknown;
   if (key === 'verify') {
     if (!values.all || !values.offline) throw new GtmError('OFFLINE_REQUIRED', 'Acceptance requires --all --offline', 3);
@@ -90,7 +107,7 @@ export async function routeV3(root: string, words: string[], values: Record<stri
   else if (key === 'distribution status') data = { ...context(root, tenant(), ds()), account: HANDLES[tenant()], packets: records(root, tenant(), 'packet', ds()), history: records(root, tenant(), 'publication', ds()) };
   else if (key === 'metrics import') data = importMetrics(root, tenant(), str('from', typeof values.file === 'string' ? values.file : undefined), ds());
   else if (['analytics weekly', 'weekly recap'].includes(key)) data = scorecards(root, tenant(), ds(), Number(values.days ?? 7));
-  else if (key === 'workflow catalog') data = workflowCatalog();
+  else if (key === 'workflow catalog') data = [...workflowCatalog(),...v4Catalog()];
   else if (pair === 'workflow run' && WORKFLOWS.includes(words[2] as typeof WORKFLOWS[number])) {
     const brand = tenant(); if (!values.offline) throw new GtmError('OFFLINE_REQUIRED', 'Use explicit --offline', 3);
     if (['founder-tech-thread', 'retropick-feature-launch'].includes(words[2]!)) {

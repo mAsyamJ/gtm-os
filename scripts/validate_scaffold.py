@@ -14,7 +14,9 @@ video-storyboard weekly-founder-brief x-thread-writing""".split())
 EXPECTED_WORKFLOWS = set("""build-in-public campaign-from-insight community-relationship daily-intelligence
 feature-launch incident-pause landing-page-experiment partner-outreach post-performance-retro
 product-to-video record-demo repurpose-winners review-and-schedule seo-content thread-to-graphic
-weekly-founder-review""".split())
+weekly-founder-review crypto-daily-radar crypto-weekly-synthesis influencer-expert-watchlist
+launchpad-competitor-intel retropick-market-structure-series founder-engineering-research
+research-to-manual-packet weekly-gtm-learning""".split())
 EXPECTED_ROLES = set("""chief-gtm compliance-officer developer-relations founder-brand graphic-designer
 market-researcher marketing-analyst marketing-ops motion-designer partnerships product-marketer
 qa-auditor seo-cro-engineer social-editor video-editor""".split())
@@ -228,8 +230,8 @@ class Audit:
                 stages.add(stage["id"])
                 if stage["skill"] not in {p.parent.name for p in skills}:
                     self.error("workflow.skill", rel, "stage references unknown project skill")
-                if stage["tool"] != "manual":
-                    self.error("workflow.tool", rel, "Phase A stages must remain instruction-only/manual")
+                if stage["tool"] != "manual" and not (data["version"] == 4 and stage["tool"] == "project_adapter"):
+                    self.error("workflow.tool", rel, "Only V4 permits scoped project adapter stages")
 
         machines = self.inventory("workflows/state-machines", "*.yaml",
                                   {"approval", "content", "experiment", "release"}, "state.inventory")

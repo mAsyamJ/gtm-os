@@ -1,0 +1,13 @@
+{
+  "evidenceId": "retropick-v4-kuru-docs-23dbfa467c1d",
+  "evidenceSha256": "b541ea0ec677d6f5d3d64e3dbfc341321efb2e2755ccb234e287027df3dc234a",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "Kuru is a decentralized spot exchange built on Monad.",
+    "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+    "Orders match against available liquidity, with better prices executing first.",
+    "Your order’s settings determine whether an unfilled amount stays open or is canceled."
+  ],
+  "authenticFirstPerson": false
+}

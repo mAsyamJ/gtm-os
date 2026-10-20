@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 4,
+  "at": "2026-10-19T17:05:30.261Z",
+  "tenantReports": [
+    {
+      "tenant": "retropick",
+      "reviewedSources": 6,
+      "realCoreSources": 2,
+      "collectedObservations": 10,
+      "domainFiles": [
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/launchpads.md",
+          "sha256": "5512ddcc28f266a4aedbc985a22d0d3c4f8b04c051691bf1e07889a6fe2a07b2"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/prediction.md",
+          "sha256": "b4f986c7a8bb91427420e46bfc300deb68f21145799540c8f887d8d6052e9500"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/orderbooks.md",
+          "sha256": "f7a751dca78110936d335c6d13dc48feda64d5ae0d11660f057ce6056506513b"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/liquidity.md",
+          "sha256": "7e2d532bdc644302f69e85cf084882bf78b9fa9ca800ad58feaa5bf88c8cab35"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/rwa.md",
+          "sha256": "a81ec344879b68d5c0ac668448a9e78501009ea28ea67e2fffbdb3d857dc5a20"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/infrastructure.md",
+          "sha256": "fcb6b56e6321a558066ab63f61e00da8d692283263cfc8eb111c92b6dc0cdddd"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/security.md",
+          "sha256": "acaaf2a0d22852a64a6f888e957aa9dafe68ce956d4b970c3c2f21a781c8746f"
+        },
+        {
+          "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/engineering.md",
+          "sha256": "17fcabb08e6aa764d5b5aeb7aeec4501f0cbcc80458c15b1e57f7a196c3f0f79"
+        }
+      ],
+      "synthesis": {
+        "path": "research/trends/retropick/2026-10-19T17-05-28-197Z/synthesis.json",
+        "sha256": "ba0237ed55c2ba7c2088c661e719255bf78df4da424a454a6bb52c226ba2420d"
+      },
+      "watchlist": {
+        "path": "research/registry/retropick-watchlist-2026-10-19T17-05-28-197Z.json",
+        "sha256": "b58dbb6c87fad9f2ce8e322a24dcae839dd0ed6ee1e9058259a11d361297946f"
+      },
+      "competitorFile": {
+        "path": "research/competitors/retropick/2026-10-19T17-05-28-197Z.json",
+        "sha256": "05d610eeae161bf2769af7b63c60358290f23bb2e9a7e21c59033be6704d8fce"
+      },
+      "editorial": {
+        "path": "strategy/editorial/retropick/2026-10-19T17-05-28-197Z.json",
+        "sha256": "72d622e62f65f1610afad602d7e3493bed5ce17e4f27cc06c2d27aa070030e2e"
+      },
+      "bundle": {
+        "path": "runtime/v4/retropick/sprint-2026-10-19T17-05-28-197Z/bundle.json",
+        "sha256": "7c68b5ab32502144baa1d6ee7ecd3bbbc11bb47edfba37cda42da2a4a152ed7d"
+      },
+      "campaignId": "retropick-campaign-55988c2bc0140c06f6a960fc",
+      "briefId": "retropick-brief-c45b55c0c262d66a48bbf31c",
+      "packetId": "retropick-packet-e673a96c95b29a38f56086e6",
+      "payloadSha256": "e673a96c95b29a38f56086e60e6bd97759d632f1c6447d5743e26e31d9f37b66",
+      "manualDirectory": "runtime/v3/retropick/manual-publish/e673a96c95b29a38f56086e60e6bd97759d632f1c6447d5743e26e31d9f37b66",
+      "posts": 5,
+      "threads": 2,
+      "postCharacterCounts": [
+        219,
+        241,
+        222,
+        229,
+        240
+      ],
+      "verifiedPeopleCurrentRole": 1,
+      "peopleVerificationShortfall": 13,
+      "approvalStatus": "HOLD",
+      "ownerReportedPublications": 0,
+      "models": [
+        {
+          "id": "retropick-model-run-d1dafd340062d313fb31f6c8",
+          "status": "BLOCKED",
+          "routerTaskId": null,
+          "estimatedReservationUsd": 0.05,
+          "actualSubscriptionUsd": null
+        },
+        {
+          "id": "retropick-model-run-51f4ccbef4bba25c2d30a7b1",
+          "status": "COMPLETED",
+          "routerTaskId": "task-3f2abaaf450348be",
+          "estimatedReservationUsd": 0.05,
+          "actualSubscriptionUsd": null
+        }
+      ]
+    },
+    {
+      "tenant": "founder",
+      "reviewedSources": 6,
+      "realCoreSources": 2,
+      "collectedObservations": 10,
+      "domainFiles": [
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/launchpads.md",
+          "sha256": "3e19f0958accaf236c8179943b36894ae50ea1eeec55f1dbc46a53b11114ebb9"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/prediction.md",
+          "sha256": "25370bfc3911697a16c859fae42ba1ceea635ac5a15c438f9032341d17a449a1"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/orderbooks.md",
+          "sha256": "7d9f2fa16c91c346b6c01fb5401cf0511596835b1be6ca874a5890f1cb65e868"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/liquidity.md",
+          "sha256": "fb522bcb9c6233bc827e5acf08eb7e9893f52a8bfdaeb382aef9f66c233a5018"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/rwa.md",
+          "sha256": "3838e8a381b2095c593d4b0d24eba60833bc3beb9469ead236675babd541868f"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/infrastructure.md",
+          "sha256": "d8fa6ce2a2eb49ae8abf3eb6649338494b95c03f91f54d29faa85f5083d3f3c4"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/security.md",
+          "sha256": "4f059ef0f380736f8ab0b06f5b8f4486f2c2d4a95a197adc8f3d82a08e19de2f"
+        },
+        {
+          "path": "research/trends/founder/2026-10-19T17-05-28-197Z/engineering.md",
+          "sha256": "13561841acb9a6894165eb301a2f808c4fecc59e55dc13db6393749c4c2f30e4"
+        }
+      ],
+      "synthesis": {
+        "path": "research/trends/founder/2026-10-19T17-05-28-197Z/synthesis.json",
+        "sha256": "fd0564bafe4b6f076a70b70d7b8d665e51001783cdb3481d8f391b27b4ea03f9"
+      },
+      "watchlist": {
+        "path": "research/registry/founder-watchlist-2026-10-19T17-05-28-197Z.json",
+        "sha256": "a854bcc96b2ef6a996af00cd63ade8cd67d90dfb59465f0b8f125edaa17d1885"
+      },
+      "competitorFile": {
+        "path": "research/competitors/founder/2026-10-19T17-05-28-197Z.json",
+        "sha256": "8abcb66f43955b436924302973bcf00627d6658b51bab9daca7879a4245e1d6f"
+      },
+      "editorial": {
+        "path": "strategy/editorial/founder/2026-10-19T17-05-28-197Z.json",
+        "sha256": "9e1d65272d9364c20218d254951ac5200c64d79907645d56455541425e6fa4ad"
+      },
+      "bundle": {
+        "path": "runtime/v4/founder/sprint-2026-10-19T17-05-28-197Z/bundle.json",
+        "sha256": "f7bde83e646d9a1bd6f0d1cc29aa9104993e0e888d94cec9f39b75c58177fe4d"
+      },
+      "campaignId": "founder-campaign-71ada82ea66415fb960fc405",
+      "briefId": "founder-brief-11d11caf15476d3f3252d46a",
+      "packetId": "founder-packet-f6122f92f0dc2b433b95da9a",
+      "payloadSha256": "f6122f92f0dc2b433b95da9a96ea916636924570be7b108bda86ef278d2e0fbe",
+      "manualDirectory": "runtime/v3/founder/manual-publish/f6122f92f0dc2b433b95da9a96ea916636924570be7b108bda86ef278d2e0fbe",
+      "posts": 5,
+      "threads": 2,
+      "postCharacterCounts": [
+        240,
+        242,
+        239,
+        236,
+        248
+      ],
+      "verifiedPeopleCurrentRole": 1,
+      "peopleVerificationShortfall": 13,
+      "approvalStatus": "HOLD",
+      "ownerReportedPublications": 0,
+      "models": [
+        {
+          "id": "founder-model-run-1e21770e56abae0d9a32d7da",
+          "status": "BLOCKED",
+          "routerTaskId": null,
+          "estimatedReservationUsd": 0.05,
+          "actualSubscriptionUsd": null
+        },
+        {
+          "id": "founder-model-run-4b00e95a584c2195eaca329d",
+          "status": "COMPLETED",
+          "routerTaskId": "task-2bbe32250a994a5b",
+          "estimatedReservationUsd": 0.05,
+          "actualSubscriptionUsd": null
+        }
+      ]
+    }
+  ],
+  "routerTasks": [
+    {
+      "id": "task-2bbe32250a994a5b",
+      "model": "Codex API/gpt-6-luna",
+      "status": "verified",
+      "inputTokens": 53306,
+      "outputTokens": 248,
+      "requests": 3
+    },
+    {
+      "id": "task-3f2abaaf450348be",
+      "model": "Codex API/gpt-6-luna",
+      "status": "verified",
+      "inputTokens": 53322,
+      "outputTokens": 218,
+      "requests": 3
+    }
+  ],
+  "costs": {
+    "paidSocialCalls": 0,
+    "estimatedReservationCeilingUsd": 0.1,
+    "actualSubscriptionUsd": null,
+    "interpretation": "Reservations are not measured charges"
+  },
+  "actualAutomaticPublications": 0,
+  "verifiedBusinessOutcomes": "UNAVAILABLE",
+  "globalPromotionEnabled": false,
+  "remainingBlockers": [
+    "Owner editorial, authenticity, rights and creative approval",
+    "Owner-native publication and observed performance",
+    "14 fully current verified people target not met",
+    "Sealed improvement evaluation and promotion remain disabled"
+  ]
+}

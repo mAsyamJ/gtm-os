@@ -1,0 +1,25 @@
+{
+  "tenant": "retropick",
+  "topicId": "retropick-v4-day0-01070e60d8",
+  "title": "A token launch is not the end of the market",
+  "safeAngle": "Understand bonding discovery, graduation and the boundary of liquidity claims",
+  "sourceIds": [
+    "retropick-v4-retropick-product-6aae6469e075",
+    "retropick-v4-kuru-docs-23dbfa467c1d"
+  ],
+  "temporalScope": "BACKGROUND",
+  "features": {
+    "evidenceQuality": 0.9,
+    "brandFit": 1,
+    "timelyDiscussion": 0,
+    "educationalUtility": 0.95,
+    "novelty": 0.5,
+    "feasibleCta": 0.9
+  },
+  "risk": 0.3,
+  "counterEvidence": [
+    "Historical testnet receipts do not prove present depth, organic demand or mainnet readiness.",
+    "Primary documentation is not an independent security audit."
+  ],
+  "counterargument": "Mechanism correctness alone does not establish market quality or user demand."
+}

@@ -1,0 +1,328 @@
+{
+  "tenant": "retropick",
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+  "status": "PARTIAL_RESEARCH_NOT_COMPETITOR_VERIFICATION",
+  "battlecards": [
+    {
+      "project": "Kuru",
+      "sourceUrls": [
+        "https://docs.kuru.io/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Monad",
+      "sourceUrls": [
+        "https://monad.xyz/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Pump.fun",
+      "sourceUrls": [
+        "https://pump.fun/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "LetsBONK",
+      "sourceUrls": [
+        "https://bitpinas.com/cryptocurrency/letsbonk-overtakes-pump-fun/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Raydium",
+      "sourceUrls": [
+        "https://raydium.io/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Moonshot",
+      "sourceUrls": [
+        "https://moonshot.money/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Bags",
+      "sourceUrls": [
+        "https://bags.fm/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Polymarket",
+      "sourceUrls": [
+        "https://polymarket.com/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Kalshi",
+      "sourceUrls": [
+        "https://kalshi.com/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Limitless",
+      "sourceUrls": [
+        "https://limitless.exchange/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Hyperliquid",
+      "sourceUrls": [
+        "https://hyperliquid.xyz/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "dYdX",
+      "sourceUrls": [
+        "https://dydx.trade/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Drift",
+      "sourceUrls": [
+        "https://www.drift.trade/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Uniswap",
+      "sourceUrls": [
+        "https://about.uniswap.org/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Meteora",
+      "sourceUrls": [
+        "https://www.meteora.ag/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "xStocks",
+      "sourceUrls": [
+        "https://xstocks.fi/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Backed",
+      "sourceUrls": [
+        "https://backed.fi/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Ondo",
+      "sourceUrls": [
+        "https://ondo.finance/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Dinari",
+      "sourceUrls": [
+        "https://dinari.com/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "RWA.xyz",
+      "sourceUrls": [
+        "https://app.rwa.xyz/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Flashbots",
+      "sourceUrls": [
+        "https://www.flashbots.net/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "0x",
+      "sourceUrls": [
+        "https://0x.org/post/0x-101-order-books-on-monad"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Helius",
+      "sourceUrls": [
+        "https://www.helius.dev/about"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Pyth",
+      "sourceUrls": [
+        "https://www.pyth.network/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "Chainlink",
+      "sourceUrls": [
+        "https://chain.link/"
+      ],
+      "claims": [],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    },
+    {
+      "project": "RetroPick",
+      "sourceUrls": [
+        "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md"
+      ],
+      "claims": [
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "competitionDimension": null,
+      "directCompetitorVerified": false
+    }
+  ],
+  "opportunities": {
+    "tenant": "retropick",
+    "dataset": "OBSERVED",
+    "schemaVersion": 1,
+    "revision": "v3-r1",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "opportunities": [
+      {
+        "id": "retropick-opportunity-ca283f162060ef018258c1fd",
+        "tenant": "retropick",
+        "dataset": "OBSERVED",
+        "schemaVersion": 4,
+        "label": "REVIEWED_SOURCE",
+        "createdAt": "2026-10-19T16:49:41.987Z",
+        "approvalStatus": "HOLD",
+        "counterEvidence": [
+          "Historical testnet receipts do not prove present depth, organic demand or mainnet readiness.",
+          "Primary documentation is not an independent security audit."
+        ],
+        "counterargument": "Mechanism correctness alone does not establish market quality or user demand.",
+        "features": {
+          "brandFit": 1,
+          "educationalUtility": 0.95,
+          "evidenceQuality": 0.9,
+          "feasibleCta": 0.9,
+          "novelty": 0.5,
+          "timelyDiscussion": 0
+        },
+        "ranking": {
+          "engagement": "UNAVAILABLE_NOT_USED_FOR_SCORE",
+          "features": {
+            "brandFit": 1,
+            "educationalUtility": 0.95,
+            "evidenceQuality": 0.9,
+            "feasibleCta": 0.9,
+            "novelty": 0.5,
+            "timelyDiscussion": 0
+          },
+          "interpretation": "EDITORIAL_HEURISTIC_NOT_OBSERVED_INFLUENCE",
+          "risk": 0.3,
+          "score": 71.25,
+          "weights": {
+            "brandFit": 0.25,
+            "educationalUtility": 0.15,
+            "evidenceQuality": 0.25,
+            "feasibleCta": 0.1,
+            "novelty": 0.1,
+            "timelyDiscussion": 0.15
+          }
+        },
+        "reviewStatus": "SOURCE_REVIEWED_EDITORIAL_PENDING",
+        "risk": 0.3,
+        "safeAngle": "Understand bonding discovery, graduation and the boundary of liquidity claims",
+        "sourceIds": [
+          "retropick-v4-retropick-product-6aae6469e075",
+          "retropick-v4-kuru-docs-23dbfa467c1d"
+        ],
+        "temporalScope": "BACKGROUND",
+        "title": "A token launch is not the end of the market",
+        "topicId": "retropick-v4-day0-01070e60d8"
+      }
+    ],
+    "unavailableEngagement": "UNAVAILABLE",
+    "hostedModelRequests": 0
+  }
+}

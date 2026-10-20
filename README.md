@@ -1,5 +1,14 @@
 # Asyam × RetroPick Founder-Led GTM OS
 
+## Start with V4 crypto intelligence
+
+Use the [V4 operator manual and examples](docs/CRYPTO_INTELLIGENCE_OS.md),
+[first two-brand HOLD sprint](docs/FIRST_LIVE_GTM_SPRINT.md),
+[source coverage](docs/LAST30DAYS_SOURCE_COVERAGE.md) and
+[QA/remaining gates](docs/CRYPTO_GTM_V4_QA.md). V4 adds typed intelligence,
+bounded public collection and eight executable workflows on the V3 runtime.
+Publication, measured outcomes and full watchlist verification remain gated.
+
 ## Start with V3
 
 The current local implementation adds reviewed evidence, protected-claim editorial work,

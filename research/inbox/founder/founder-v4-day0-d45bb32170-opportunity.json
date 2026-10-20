@@ -1,0 +1,25 @@
+{
+  "tenant": "founder",
+  "topicId": "founder-v4-day0-d45bb32170",
+  "title": "Why graduation needs exact accounting and proof of completion",
+  "safeAngle": "Inspect accounting boundaries, completion evidence and retry constraints",
+  "sourceIds": [
+    "founder-v4-retropick-product-6ec6dda59590",
+    "founder-v4-kuru-docs-3931f35431b6"
+  ],
+  "temporalScope": "BACKGROUND",
+  "features": {
+    "evidenceQuality": 0.9,
+    "brandFit": 1,
+    "timelyDiscussion": 0,
+    "educationalUtility": 0.95,
+    "novelty": 0.5,
+    "feasibleCta": 0.9
+  },
+  "risk": 0.3,
+  "counterEvidence": [
+    "Historical testnet receipts do not prove present depth, organic demand or mainnet readiness.",
+    "Primary documentation is not an independent security audit."
+  ],
+  "counterargument": "Mechanism correctness alone does not establish market quality or user demand."
+}

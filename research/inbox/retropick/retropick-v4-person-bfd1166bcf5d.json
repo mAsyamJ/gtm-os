@@ -1,0 +1,15 @@
+{
+  "id": "retropick-v4-person-bfd1166bcf5d",
+  "tenant": "retropick",
+  "title": "Public identity evidence: Hayden Adams",
+  "uri": "https://about.uniswap.org/",
+  "revision": "94fcb1aae63b3d2319e8f114ceaf3173694e30cf45b5ccc9df2d302dc80b929f",
+  "observedAt": "2026-10-19T16:47:55.936Z",
+  "expiresAt": "2026-11-02T16:47:55.936Z",
+  "text": "In 2018, Hayden Adams created the Uniswap Protocol, a decentralized protocol that introduced a new way to exchange value online.",
+  "contentSha256": "843dd6d49967a8902ef9d626db93fe92c09100a0b111d6cc21ddd0b9a65f5afa",
+  "license": "UNDETERMINED_SHORT_EXCERPT_INTERNAL_REVIEW",
+  "statements": [
+    "In 2018, Hayden Adams created the Uniswap Protocol, a decentralized protocol that introduced a new way to exchange value online."
+  ]
+}

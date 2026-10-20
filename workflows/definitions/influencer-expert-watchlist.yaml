@@ -1,0 +1,32 @@
+id: influencer-expert-watchlist
+version: 4
+description: "Verify seeded identities, roles and public content without automated engagement"
+trigger: "manual invocation; no unattended scheduler installed"
+owner: market-researcher
+tenant: REQUIRED_AT_RUNTIME
+risk_tier: LOCAL_RESEARCH_WITH_EXPLICIT_NETWORK_AND_MODEL_GATES
+inputs:
+  - "tenant, dataset, source/review revisions and optional selected brief"
+  - "explicit collection permission or approved editorial quota when required"
+stages:
+  - id: stage_1
+    tool: project_adapter
+    skill: research-intelligence
+    input: "tenant-bound reviewed inputs and previous immutable handoff"
+    output: "hashed local artifact or explicit blocker"
+    acceptance: "evidence, tenant, license, resource and permission gates pass"
+  - id: stage_2
+    tool: project_adapter
+    skill: claim-verification
+    input: "tenant-bound reviewed inputs and previous immutable handoff"
+    output: "hashed local artifact or explicit blocker"
+    acceptance: "evidence, tenant, license, resource and permission gates pass"
+outputs: "source-qualified report or immutable manual HOLD package"
+approval_gate: HUMAN_APPROVAL_REQUIRED_PER_EXTERNAL_ACTION
+cost_policy: DEFAULT_ZERO_PAID_API_SPEND
+retry_policy: "bounded; retries consume durable quotas; no provider escalation"
+resume_checkpoint: "selected brief/source/review/governance hashes and tenant-prefixed cycle key"
+compensation: "pause affected stage; preserve receipts; changed inputs require new revision"
+metrics:
+  - "reviewed source coverage and verified useful outcomes"
+terminal_states: [COMPLETED_LOCAL, AWAITING_APPROVAL, BLOCKED, FAILED, CANCELLED]

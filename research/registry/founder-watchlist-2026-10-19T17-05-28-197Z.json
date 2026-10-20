@@ -1,0 +1,423 @@
+{
+  "tenant": "founder",
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+  "status": "BLOCKED",
+  "blocker": "PEOPLE_VERIFICATION_SHORTFALL",
+  "watchlist": [
+    {
+      "id": "founder-entity-3eca217f1d948cab64b6459a",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "REVIEWED_SOURCE",
+      "createdAt": "2026-10-19T17:05:29.621Z",
+      "canonicalId": "public-b4b62b56db37d63e304956da",
+      "types": [
+        "Person"
+      ],
+      "name": "Keone Hon",
+      "organization": "Monad",
+      "topics": [
+        "L1 performance / market infrastructure"
+      ],
+      "sourceUrls": [
+        "https://monad.xyz/blog/introducing-monad-foundation"
+      ],
+      "identityStatus": "REVIEWED_SOURCE",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "A",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "L1 latency and onchain market structure",
+        "initial_source_url": "https://monad.xyz/blog/introducing-monad-foundation",
+        "last30days_content_verified": "NO",
+        "organization": "Monad",
+        "person": "Keone Hon",
+        "subject_matter": "L1 performance / market infrastructure",
+        "verification_status": "FOUNDING_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [
+        "founder-v4-person-7160a4c75227"
+      ],
+      "reviewIds": [
+        "founder-review-080e848adae40ce75df4949d"
+      ],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "SOURCE_COVERAGE_BIAS"
+      ],
+      "verifiedAt": "2026-10-19T17:05:29.619Z"
+    },
+    {
+      "id": "founder-entity-e678cdd21bc34f0a6f12f20e",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:58.184Z",
+      "canonicalId": "public-2d8242bdbcfc196d790c44e5",
+      "types": [
+        "Person"
+      ],
+      "name": "Vaibhav Prakash",
+      "organization": "Kuru",
+      "topics": [
+        "Monad CLOB / LP / matching"
+      ],
+      "sourceUrls": [
+        "https://dealroom.co/companies/kuru/"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "CLOB interface liquidity and maker experience",
+        "initial_source_url": "https://dealroom.co/companies/kuru/",
+        "last30days_content_verified": "NO",
+        "organization": "Kuru",
+        "person": "Vaibhav Prakash",
+        "subject_matter": "Monad CLOB / LP / matching",
+        "verification_status": "SECONDARY_SOURCE_REVIEW_REQUIRED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "founder-entity-197668609a2a8bd0b91bab10",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:58.216Z",
+      "canonicalId": "public-cba8aab7a177fd50be514378",
+      "types": [
+        "Person"
+      ],
+      "name": "Jeff Yan",
+      "organization": "Hyperliquid",
+      "topics": [
+        "perpetuals / exchange architecture"
+      ],
+      "sourceUrls": [
+        "https://podcasts.apple.com/es/podcast/jeff-yan-on-hyperliquids-plan-to-bring-all-finance-onchain/id1554930038?i=1000793711552"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "market depth and onchain execution",
+        "initial_source_url": "https://podcasts.apple.com/es/podcast/jeff-yan-on-hyperliquids-plan-to-bring-all-finance-onchain/id1554930038?i=1000793711552",
+        "last30days_content_verified": "NO",
+        "organization": "Hyperliquid",
+        "person": "Jeff Yan",
+        "subject_matter": "perpetuals / exchange architecture",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "founder-entity-15611f2b47182d1b90f8dc09",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:58.247Z",
+      "canonicalId": "public-d6cfff5467897df114f59414",
+      "types": [
+        "Person"
+      ],
+      "name": "Mert Mumtaz",
+      "organization": "Helius",
+      "topics": [
+        "Solana trading/developer infrastructure"
+      ],
+      "sourceUrls": [
+        "https://www.helius.dev/about"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "developer education and infrastructure",
+        "initial_source_url": "https://www.helius.dev/about",
+        "last30days_content_verified": "NO",
+        "organization": "Helius",
+        "person": "Mert Mumtaz",
+        "subject_matter": "Solana trading/developer infrastructure",
+        "verification_status": "FIRST_PARTY_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "founder-entity-5f818b80db9e0970b247700b",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "REVIEWED_SOURCE",
+      "createdAt": "2026-10-19T17:05:29.539Z",
+      "canonicalId": "public-712455dc4d4b1f53d8726a20",
+      "types": [
+        "Person"
+      ],
+      "name": "Hayden Adams",
+      "organization": "Uniswap",
+      "topics": [
+        "AMM liquidity / DEX market structure"
+      ],
+      "sourceUrls": [
+        "https://about.uniswap.org/"
+      ],
+      "identityStatus": "REVIEWED_SOURCE",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "A",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "AMM versus orderbook education",
+        "initial_source_url": "https://about.uniswap.org/",
+        "last30days_content_verified": "NO",
+        "organization": "Uniswap",
+        "person": "Hayden Adams",
+        "subject_matter": "AMM liquidity / DEX market structure",
+        "verification_status": "FIRST_PARTY_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [
+        "founder-v4-person-bfd1166bcf5d"
+      ],
+      "reviewIds": [
+        "founder-review-109d6e566abe11edc1cd904d"
+      ],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "SOURCE_COVERAGE_BIAS"
+      ],
+      "verifiedAt": "2026-10-19T17:05:29.538Z"
+    },
+    {
+      "id": "founder-entity-445d00a629b755b6a0f9aab6",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:58.310Z",
+      "canonicalId": "public-e0897f3f34fe5e93685f8232",
+      "types": [
+        "Person"
+      ],
+      "name": "Tarun Chitra",
+      "organization": "Gauntlet",
+      "topics": [
+        "DeFi simulation / LP and risk"
+      ],
+      "sourceUrls": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3629988"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "liquidity and risk modeling",
+        "initial_source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3629988",
+        "last30days_content_verified": "NO",
+        "organization": "Gauntlet",
+        "person": "Tarun Chitra",
+        "subject_matter": "DeFi simulation / LP and risk",
+        "verification_status": "RESEARCH_IDENTITY_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "founder-entity-a2341d31bb99ce10fd775309",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "REVIEWED_SOURCE",
+      "createdAt": "2026-10-19T17:05:29.432Z",
+      "canonicalId": "public-62b9cc4e144d84cc44756d28",
+      "types": [
+        "Person"
+      ],
+      "name": "Haseeb Qureshi",
+      "organization": "Dragonfly",
+      "topics": [
+        "crypto investment / technical market analysis"
+      ],
+      "sourceUrls": [
+        "https://haseebq.com/about/"
+      ],
+      "identityStatus": "REVIEWED_SOURCE",
+      "roleStatus": "REVIEWED_SOURCE",
+      "xHandle": null,
+      "tier": "A",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "market analysis and founder insight",
+        "initial_source_url": "https://haseebq.com/about/",
+        "last30days_content_verified": "NO",
+        "organization": "Dragonfly",
+        "person": "Haseeb Qureshi",
+        "subject_matter": "crypto investment / technical market analysis",
+        "verification_status": "FIRST_PERSON_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [
+        "founder-v4-person-9746ada8505e"
+      ],
+      "reviewIds": [
+        "founder-review-66693ff496ee6e77b0093dd0"
+      ],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "SOURCE_COVERAGE_BIAS"
+      ],
+      "verifiedAt": "2026-10-19T17:05:29.430Z"
+    },
+    {
+      "id": "founder-entity-f5fd7aebb2319d8fd9940e85",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:58.356Z",
+      "canonicalId": "public-47772695286578daac0a2044",
+      "types": [
+        "Person"
+      ],
+      "name": "Austin Federa",
+      "organization": "DoubleZero",
+      "topics": [
+        "validator infra / transaction latency"
+      ],
+      "sourceUrls": [
+        "https://cfc-stmoritz.com/profiles/austin-federa"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "high-performance crypto infra",
+        "initial_source_url": "https://cfc-stmoritz.com/profiles/austin-federa",
+        "last30days_content_verified": "NO",
+        "organization": "DoubleZero",
+        "person": "Austin Federa",
+        "subject_matter": "validator infra / transaction latency",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "founder-entity-92b6d95a493cf1ac87e85536",
+      "tenant": "founder",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:58.379Z",
+      "canonicalId": "public-1a86dd9dca677c8bdb79ee42",
+      "types": [
+        "Person"
+      ],
+      "name": "Jason Yanowitz",
+      "organization": "Blockworks",
+      "topics": [
+        "crypto media / research distribution"
+      ],
+      "sourceUrls": [
+        "https://www.axios.com/2023/05/09/crypto-blockworks-raises-12m-135m-valuation"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "what research earns an expert audience",
+        "initial_source_url": "https://www.axios.com/2023/05/09/crypto-blockworks-raises-12m-135m-valuation",
+        "last30days_content_verified": "NO",
+        "organization": "Blockworks",
+        "person": "Jason Yanowitz",
+        "subject_matter": "crypto media / research distribution",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    }
+  ],
+  "verifiedPeople": 1,
+  "minimum": 14,
+  "target": 50,
+  "remaining": 13
+}

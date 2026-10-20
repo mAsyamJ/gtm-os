@@ -5,6 +5,8 @@ import { researchDigest, usable } from './evidence.js';
 import { draftContent, humanize } from './editorial.js';
 import { manualPack, publicationHistory } from './distribution.js';
 import { scorecards } from './analytics.js';
+import { selectedBrief } from './intelligence/research.js';
+import { draftById } from './editorial.js';
 
 export const WORKFLOWS = ['daily-market-intelligence', 'weekly-competitive-intelligence', 'founder-voice-calibration', 'retropick-positioning-refresh',
   'founder-tech-thread', 'retropick-feature-launch', 'build-in-public', 'educational-series', 'daily-social-editorial', 'weekly-content-batch',
@@ -25,18 +27,19 @@ export function workflowCatalog() {
     budget: { paidSocialUsd: 0, hostedModelsOffline: 0 }, recovery: 'Immutable checkpoint snapshots; changed inputs require a new run',
     approval: 'EXACT_ACCOUNT_CONTENT_MEDIA_EVIDENCE_HASH_OWNER_DECISION', evaluationFixture: `v3-${id}`, output: 'SOURCE_HASHED_LOCAL_ARTIFACT_OR_EXPLICIT_BLOCKER' }));
 }
-export async function runCycle(root: string, selected: unknown, key: string, dataset: Dataset, creative: (draftId: string) => Promise<unknown>) {
-  const c = context(root, selected, dataset); IdSchema.parse(key);
+export async function runCycle(root: string, selected: unknown, key: string, dataset: Dataset, creative: (draftId: string) => Promise<unknown>, selection?:{briefId:string;draftId:string}) {
+  const c = {...context(root, selected, dataset),...(selection?{schemaVersion:4,revision:'v4-r1'}:{})}; IdSchema.parse(key);
   if (!key.startsWith(c.tenant + '-')) throw new GtmError('CYCLE_SCOPE', 'Cycle key must be tenant-prefixed', 2);
   const history = records(root, c.tenant, 'cycle', dataset).filter(r => r.cycleKey === key).sort((a,b) => Number(a.sequence)-Number(b.sequence));
-  const latest = history.at(-1); const sources = usable(root, c.tenant, dataset);
-  const sourceHash = hashObject(sources.map(s => ({ source: hashObject(s.source), review: hashObject(s.review) })));
+  const latest = history.at(-1);const brief=selection?selectedBrief(root,c.tenant,selection.briefId,dataset):undefined;
+  const sources = usable(root, c.tenant, dataset).filter(s=>!brief||brief.sourceIds.includes(s.source.id));
+  const sourceHash = hashObject(brief?{brief:hashObject(brief),sources:sources.map(s=>({source:hashObject(s.source),review:hashObject(s.review)}))}:sources.map(s => ({ source: hashObject(s.source), review: hashObject(s.review) })));
   if (latest && latest.sourceHash !== sourceHash) throw new GtmError('INPUT_CHANGED', 'Cycle source/review changed; use a new cycle key');
   let draftId = typeof latest?.draftId === 'string' ? latest.draftId : '';
   let packetId = typeof latest?.packetId === 'string' ? latest.packetId : '';
   const handoffs = Array.isArray(latest?.handoffs) ? [...latest.handoffs] : [];
   const checkpoint = (state: string, blocker: string | null) => {
-    const base = { ...c, cycleKey: key, label: dataset === 'SYNTHETIC' ? 'SYNTHETIC' : 'OWNER_ATTESTED',
+    const base = { ...c, cycleKey: key, label: dataset === 'SYNTHETIC' ? 'SYNTHETIC' : selection?'REVIEWED_SOURCE':'OWNER_ATTESTED',
       sequence: history.length + 1, sourceHash, state, blocker, draftId, packetId, handoffs,
       realCycleCompleted: dataset === 'OBSERVED' && state === 'RETROSPECTIVE_COMPLETED' };
     const value = { ...base, id: `${key}-v${history.length + 1}` };
@@ -50,13 +53,13 @@ export async function runCycle(root: string, selected: unknown, key: string, dat
     const strategy = { audience: c.tenant === 'founder' ? 'Relevant builders evaluating inspectable technical work' : 'Eligible product explorers and creators reviewing the documented testnet scope',
       hypothesis: 'Useful source-backed explanation can encourage qualified exploration', proof: source.source.id,
       successMeasure: 'Traceable qualified observations; no growth claim before measurement', evidenceScope: source.review.classification };
-    const draft = draftContent(root, c.tenant, 'thread', source.source.id, dataset); const edited = humanize(root, c.tenant, draft.id, dataset); draftId = edited.id;
+    const draft = selection?draftById(root,c.tenant,selection.draftId,dataset):draftContent(root, c.tenant, 'thread', source.source.id, dataset); const edited = selection&&draft.integrity?draft:humanize(root, c.tenant, draft.id, dataset); draftId = edited.id;
     const rendered = await creative(draftId); const packet = manualPack(root, c.tenant, draftId, dataset); packetId = packet.id;
     const outputs = [research, strategy, draft, edited, rendered, { automatedIntegrity: edited.integrity, humanReview: 'PENDING' }];
     for (const [index, output] of outputs.entries()) {
       const stage = STAGES[index]!; const result = artifact(root, c.tenant, `stage-${stage[0]}`, output);
       handoffs.push({ schemaVersion: 1, tenant: c.tenant, campaignId: key, taskId: `${key}-${stage[0]}`, stage: stage[0],
-        primarySpecialist: stage[1], supportingSkills: [stage[2]], sourceIds: [source.source.id],
+        primarySpecialist: stage[1], supportingSkills: [stage[2]], sourceIds: brief?brief.sourceIds:[source.source.id],
         requiredCapabilities: [stage[0]], allowedTools: ['reviewed-local-functions'], sideEffectClass: 'LOCAL_ONLY',
         budget: { paidSocialUsd: 0, hostedModelRequests: 0 }, modelRoute: 'NOT_REQUIRED_OFFLINE', seed: 1,
         approvalState: 'HOLD', inputSha256: index ? (handoffs.at(-1) as { outputSha256: string }).outputSha256 : sourceHash,

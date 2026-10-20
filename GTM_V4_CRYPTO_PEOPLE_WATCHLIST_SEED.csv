@@ -1,0 +1,15 @@
+person,organization,subject_matter,initial_source_url,verification_status,brand_relevance,first_research_question,x_handle,last30days_content_verified
+Keone Hon,Monad,L1 performance / market infrastructure,https://monad.xyz/blog/introducing-monad-foundation,FOUNDING_ROLE_SUPPORTED,"founder,retropick",L1 latency and onchain market structure,,NO
+Vaibhav Prakash,Kuru,Monad CLOB / LP / matching,https://dealroom.co/companies/kuru/,SECONDARY_SOURCE_REVIEW_REQUIRED,"founder,retropick",CLOB interface liquidity and maker experience,,NO
+Jeff Yan,Hyperliquid,perpetuals / exchange architecture,https://podcasts.apple.com/es/podcast/jeff-yan-on-hyperliquids-plan-to-bring-all-finance-onchain/id1554930038?i=1000793711552,ROLE_SUPPORTED,"founder,retropick",market depth and onchain execution,,NO
+Alon Cohen,Pump.fun,memecoin launchpads / creator incentives,https://en.wikipedia.org/wiki/Pump.fun,SECONDARY_SOURCE_REVIEW_REQUIRED,retropick,launch economics and graduation,,NO
+Shayne Coplan,Polymarket,prediction market liquidity / trust,https://www.reuters.com/business/polymarket-taps-finance-veteran-warren-jenson-cfo-2026-09-10/,ROLE_SUPPORTED,retropick,market resolution and liquidity,,NO
+Tarek Mansour,Kalshi,regulated event markets,https://www.washingtonpost.com/opinions/2026/06/28/qa-with-kalshis-tarek-mansour-prediction-market-prophet/,ROLE_SUPPORTED,retropick,regulated event contract design,,NO
+Luana Lopes Lara,Kalshi,prediction markets / exchange operations,https://www.businessinsider.com/kalshi-ceo-tarek-mansour-org-structure-employees-report-to-founders-2026-7,ROLE_SUPPORTED,retropick,product and market operations,,NO
+Mert Mumtaz,Helius,Solana trading/developer infrastructure,https://www.helius.dev/about,FIRST_PARTY_ROLE_SUPPORTED,"founder,retropick",developer education and infrastructure,,NO
+Hayden Adams,Uniswap,AMM liquidity / DEX market structure,https://about.uniswap.org/,FIRST_PARTY_ROLE_SUPPORTED,"founder,retropick",AMM versus orderbook education,,NO
+Tarun Chitra,Gauntlet,DeFi simulation / LP and risk,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3629988,RESEARCH_IDENTITY_SUPPORTED,"founder,retropick",liquidity and risk modeling,,NO
+Haseeb Qureshi,Dragonfly,crypto investment / technical market analysis,https://haseebq.com/about/,FIRST_PERSON_ROLE_SUPPORTED,"founder,retropick",market analysis and founder insight,,NO
+Austin Federa,DoubleZero,validator infra / transaction latency,https://cfc-stmoritz.com/profiles/austin-federa,ROLE_SUPPORTED,"founder,retropick",high-performance crypto infra,,NO
+Adam Levi,Backed / xStocks,tokenized equity issuance,https://investors.defillama.com/rwa/platform/xstocks?view=information,SECONDARY_SOURCE_REVIEW_REQUIRED,retropick,tokenized asset legal/economic rights,,NO
+Jason Yanowitz,Blockworks,crypto media / research distribution,https://www.axios.com/2023/05/09/crypto-blockworks-raises-12m-135m-valuation,ROLE_SUPPORTED,"founder,retropick",what research earns an expert audience,,NO

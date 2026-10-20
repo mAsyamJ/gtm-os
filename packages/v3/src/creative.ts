@@ -9,7 +9,7 @@ import { GtmError, hashObject, sha256 } from '../../observability/src/index.js';
 import { context, open, records, type Dataset } from './common.js';
 import { draftById } from './editorial.js';
 
-export async function creativePack(root: string, selected: unknown, draftId: string, dataset: Dataset = 'OBSERVED') {
+export async function creativePack(root: string, selected: unknown, draftId: string, dataset: Dataset = 'OBSERVED', extraFiles:ReturnType<typeof immutableFile>[] = []) {
   const c = context(root, selected, dataset); const draft = draftById(root, c.tenant, draftId, dataset);
   const previous = records(root, c.tenant, 'creative', dataset).find(r => r.draftId === draftId);
   if (previous) {
@@ -18,12 +18,12 @@ export async function creativePack(root: string, selected: unknown, draftId: str
     return previous;
   }
   const assets = creativeContext(root, c.tenant, 'synthetic').assets;
-  const inputs = { draft: hashObject(draft), assets, renderer: 'v3-editorial-r1',
+  const inputs = { draft: hashObject(draft), assets, renderer: 'v3-editorial-r1', ...(extraFiles.length?{extraFiles}:{}),
     pipeline: sha256(readFileSync(safePath(root, 'packages/v3/src/creative.ts'))),
     layout: sha256(readFileSync(safePath(root, 'packages/creative/src/graphics.ts'))),
     native: sharp.versions, ffmpeg: sha256(readFileSync('/usr/bin/ffmpeg')) };
   const directory = `runtime/v3/${c.tenant}/creative/${hashObject(inputs)}`; safeDirectory(root, directory);
-  const files: ReturnType<typeof immutableFile>[] = [];
+  const files: ReturnType<typeof immutableFile>[] = [...extraFiles];
   async function card(name: string, size: Size, index: number) {
     const statement = draft.claims[index % draft.claims.length]!.statement;
     const layout = buildTree({ tenant: c.tenant, variant: 'decision', eyebrow: 'SOURCE-SUPPORTED EXPLANATION',

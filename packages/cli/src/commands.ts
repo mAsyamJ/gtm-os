@@ -16,9 +16,19 @@ import { renderTemplate, templateList } from '../../creative/src/graphics.js';
 import { localVideoAdapter } from '../../creative/src/adapter.js';
 import { routeV3 } from '../../v3/src/cli.js';
 
-const HELP = `GTM OS V3 — local evidence and manual GTM workflows
+const HELP = `GTM OS V4 — V3-compatible intelligence, evidence and manual GTM workflows
 
 Working commands:
+  gtm intelligence sources doctor|list --brand TENANT
+  gtm intelligence seeds import --brand TENANT --people GTM_V4_CRYPTO_PEOPLE_WATCHLIST_SEED.csv --projects GTM_V4_CRYPTO_PROJECT_RESEARCH_SEED.csv
+  gtm intelligence collect --brand TENANT --window 30d --profile crypto --network approved-read
+  gtm intelligence entities list|review --brand TENANT [--type person] [--file research/inbox/TENANT/FILE.json]
+  gtm intelligence graph export --brand TENANT
+  gtm intelligence trends|opportunities --brand TENANT --window 30d [--file research/inbox/TENANT/FILE.json]
+  gtm intelligence brief --brand TENANT --topic-id ID
+  gtm intelligence sources review-link --brand TENANT --file research/inbox/TENANT/LINK.json
+  gtm content pack --brand TENANT --brief-id ID [--model-mode offline|router] [--budget-id v4-first-sprint]
+  gtm cycle run|resume --brand TENANT --brief-id ID --idempotency-key TENANT-KEY --offline
   gtm doctor [--json]
   gtm install audit | skills list | agents list | workflow list
   gtm brand show|validate --brand retropick|founder
@@ -79,6 +89,8 @@ const OPTIONS = {
   suite: { type: 'string' }, k: { type: 'string' }, mode: { type: 'string' }, seed: { type: 'string' },
   target: { type: 'string' }, 'baseline-ref': { type: 'string' }, all: { type: 'boolean' },
   media: { type: 'string' }, scenario: { type: 'string' },
+  people: {type:'string'}, projects:{type:'string'}, window:{type:'string'}, profile:{type:'string'},
+  'topic-id':{type:'string'},'brief-id':{type:'string'},'model-mode':{type:'string'},'budget-id':{type:'string'},
 } as const;
 type Values = ReturnType<typeof parseOptions>['values'];
 function parseOptions(args: string[]) { return parseArgs({ args, options: OPTIONS, allowPositionals: true, strict: true }); }

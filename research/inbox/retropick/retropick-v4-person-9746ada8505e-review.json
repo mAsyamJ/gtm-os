@@ -1,0 +1,11 @@
+{
+  "evidenceId": "retropick-v4-person-9746ada8505e",
+  "evidenceSha256": "1f4cd5cacd9aff07d9cd6fd1f371036601d0392b13bcbce155c8e6d6864ff149",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "About - haseeb qureshi",
+    "I’m a managing partner at Dragonfly , a crypto venture fund."
+  ],
+  "authenticFirstPerson": false
+}

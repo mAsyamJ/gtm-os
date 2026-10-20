@@ -30,7 +30,7 @@ export const SkillSchema = z.object({
   description: z.string().trim().min(1).max(1024),
 });
 export const StageSchema = z.strictObject({
-  id: IdSchema, tool: z.literal('manual'), skill: IdSchema,
+  id: IdSchema, tool: z.enum(['manual','project_adapter']), skill: IdSchema,
   input: z.string().min(1), output: z.string().min(1), acceptance: z.string().min(1),
 });
 export const WorkflowSchema = z.strictObject({
@@ -41,7 +41,8 @@ export const WorkflowSchema = z.strictObject({
   cost_policy: z.literal('DEFAULT_ZERO_PAID_API_SPEND'), retry_policy: z.string().min(1),
   resume_checkpoint: z.string().min(1), compensation: z.string().min(1), metrics: z.array(z.string()).nonempty(),
   terminal_states: z.array(z.enum(['COMPLETED_LOCAL', 'AWAITING_APPROVAL', 'BLOCKED', 'FAILED', 'CANCELLED'])).nonempty(),
-}).refine(w => new Set(w.stages.map(s => s.id)).size === w.stages.length, 'Duplicate stage identifiers');
+}).refine(w => new Set(w.stages.map(s => s.id)).size === w.stages.length, 'Duplicate stage identifiers')
+  .refine(w=>w.stages.every(s=>s.tool==='manual'||w.version===4),'Project adapters require V4 workflow version');
 export type Workflow = z.infer<typeof WorkflowSchema>;
 
 export const SourceSchema = z.strictObject({

@@ -1,0 +1,19 @@
+{
+  "id": "founder-v4-retropick-product-6ec6dda59590",
+  "tenant": "founder",
+  "title": "RetroPick source-pinned testnet and engineering scope",
+  "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+  "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47",
+  "observedAt": "2026-10-19T16:44:07.892Z",
+  "expiresAt": "2026-11-02T16:44:07.892Z",
+  "text": "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.\nCurrent scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.\nHistorical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.\nFactory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.\nExact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock.",
+  "contentSha256": "de355112356539215b1ab9ee82a9c5b456a699cfea1439b4ac5c9774681e386c",
+  "license": "MIT",
+  "statements": [
+    "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+    "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+    "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+    "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+    "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+  ]
+}

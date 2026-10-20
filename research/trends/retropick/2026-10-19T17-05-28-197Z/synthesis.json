@@ -1,0 +1,1059 @@
+{
+  "tenant": "retropick",
+  "dataset": "OBSERVED",
+  "schemaVersion": 1,
+  "revision": "v3-r1",
+  "publicationAuthorized": false,
+  "intendedAudience": "Owner and relevant builders or product explorers",
+  "externalWrites": 0,
+  "paidSocialApiCalls": 0,
+  "operatorInferenceCost": "NOT_MEASURED",
+  "approvalStatus": "HOLD",
+  "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+  "status": "PARTIAL_SOURCE_COVERAGE",
+  "domains": [
+    {
+      "pillar": "launchpads",
+      "question": "launchpad bonding curve graduation",
+      "status": "REVIEWED_BACKGROUND_OR_RECENT",
+      "sources": [
+        {
+          "id": "retropick-v4-retropick-product-6aae6469e075",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47"
+        }
+      ],
+      "facts": [
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "prediction",
+      "question": "prediction market liquidity resolution trust",
+      "status": "REVIEWED_BACKGROUND_OR_RECENT",
+      "sources": [
+        {
+          "id": "retropick-source-20261019-ec75cad0",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "464dca136e9765d638e742a810ab58af0e911376"
+        },
+        {
+          "id": "retropick-v4-kuru-docs-23dbfa467c1d",
+          "uri": "https://docs.kuru.io/",
+          "revision": "5f70ff00039087e4868bb942c427126bfa773610569195b7db3814cfa6619bcc"
+        },
+        {
+          "id": "retropick-v4-retropick-product-6aae6469e075",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47"
+        }
+      ],
+      "facts": [
+        "The market creation layer for Monad.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+        "Kuru is a decentralized spot exchange built on Monad.",
+        "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+        "Orders match against available liquidity, with better prices executing first.",
+        "Your order’s settings determine whether an unfilled amount stays open or is canceled.",
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "orderbooks",
+      "question": "Kuru Monad central limit order book",
+      "status": "REVIEWED_BACKGROUND_OR_RECENT",
+      "sources": [
+        {
+          "id": "retropick-source-20261019-ec75cad0",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "464dca136e9765d638e742a810ab58af0e911376"
+        },
+        {
+          "id": "retropick-v4-kuru-docs-23dbfa467c1d",
+          "uri": "https://docs.kuru.io/",
+          "revision": "5f70ff00039087e4868bb942c427126bfa773610569195b7db3814cfa6619bcc"
+        },
+        {
+          "id": "retropick-v4-person-7160a4c75227",
+          "uri": "https://monad.xyz/blog/introducing-monad-foundation",
+          "revision": "4685bc0b2d69e75057b5c883ee33267e86afb24012b42eeb6c0277abcd52e2e0"
+        },
+        {
+          "id": "retropick-v4-person-bfd1166bcf5d",
+          "uri": "https://about.uniswap.org/",
+          "revision": "94fcb1aae63b3d2319e8f114ceaf3173694e30cf45b5ccc9df2d302dc80b929f"
+        },
+        {
+          "id": "retropick-v4-retropick-product-6aae6469e075",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47"
+        }
+      ],
+      "facts": [
+        "The market creation layer for Monad.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+        "Kuru is a decentralized spot exchange built on Monad.",
+        "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+        "Orders match against available liquidity, with better prices executing first.",
+        "Your order’s settings determine whether an unfilled amount stays open or is canceled.",
+        "Keone Hon and Eunice Giarta will be joining the Monad Foundation.",
+        "In 2018, Hayden Adams created the Uniswap Protocol, a decentralized protocol that introduced a new way to exchange value online.",
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "liquidity",
+      "question": "LP inventory orderbook AMM",
+      "status": "REVIEWED_BACKGROUND_OR_RECENT",
+      "sources": [
+        {
+          "id": "retropick-v4-kuru-docs-23dbfa467c1d",
+          "uri": "https://docs.kuru.io/",
+          "revision": "5f70ff00039087e4868bb942c427126bfa773610569195b7db3814cfa6619bcc"
+        },
+        {
+          "id": "retropick-v4-retropick-product-6aae6469e075",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47"
+        }
+      ],
+      "facts": [
+        "Kuru is a decentralized spot exchange built on Monad.",
+        "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+        "Orders match against available liquidity, with better prices executing first.",
+        "Your order’s settings determine whether an unfilled amount stays open or is canceled.",
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "rwa",
+      "question": "tokenized equities custody rights",
+      "status": "EVIDENCE_GAP",
+      "sources": [],
+      "facts": [],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "infrastructure",
+      "question": "Monad builders ecosystem",
+      "status": "REVIEWED_BACKGROUND_OR_RECENT",
+      "sources": [
+        {
+          "id": "retropick-source-20261019-ec75cad0",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "464dca136e9765d638e742a810ab58af0e911376"
+        },
+        {
+          "id": "retropick-v4-kuru-docs-23dbfa467c1d",
+          "uri": "https://docs.kuru.io/",
+          "revision": "5f70ff00039087e4868bb942c427126bfa773610569195b7db3814cfa6619bcc"
+        },
+        {
+          "id": "retropick-v4-person-7160a4c75227",
+          "uri": "https://monad.xyz/blog/introducing-monad-foundation",
+          "revision": "4685bc0b2d69e75057b5c883ee33267e86afb24012b42eeb6c0277abcd52e2e0"
+        },
+        {
+          "id": "retropick-v4-retropick-product-6aae6469e075",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47"
+        }
+      ],
+      "facts": [
+        "The market creation layer for Monad.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+        "Kuru is a decentralized spot exchange built on Monad.",
+        "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+        "Orders match against available liquidity, with better prices executing first.",
+        "Your order’s settings determine whether an unfilled amount stays open or is canceled.",
+        "Keone Hon and Eunice Giarta will be joining the Monad Foundation.",
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "security",
+      "question": "DeFi trader slippage MEV security",
+      "status": "EVIDENCE_GAP",
+      "sources": [],
+      "facts": [],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    },
+    {
+      "pillar": "engineering",
+      "question": "Solidity distributed systems exact accounting liveness",
+      "status": "REVIEWED_BACKGROUND_OR_RECENT",
+      "sources": [
+        {
+          "id": "retropick-v4-retropick-product-6aae6469e075",
+          "uri": "https://raw.githubusercontent.com/RetroPick/retropick-protocol/464dca136e9765d638e742a810ab58af0e911376/README.md",
+          "revision": "ec75cad004d9e64ea3b2de7fd0eeec6b362d4e8887c545d9c227124a63492c47"
+        }
+      ],
+      "facts": [
+        "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+        "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+        "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+        "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+        "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+      ],
+      "limitations": [
+        "Source coverage is incomplete; publication dates and contrary evidence require explicit review."
+      ]
+    }
+  ],
+  "crossDomainSynthesis": {
+    "reviewedSources": 6,
+    "rollingTopics": 0,
+    "claims": [
+      "The market creation layer for Monad.",
+      "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+      "Canonical Circle-USDC live smoke: BLOCKED_FUNDING.",
+      "Kuru is a decentralized spot exchange built on Monad.",
+      "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+      "Orders match against available liquidity, with better prices executing first.",
+      "Your order’s settings determine whether an unfilled amount stays open or is canceled.",
+      "Keone Hon and Eunice Giarta will be joining the Monad Foundation.",
+      "About - haseeb qureshi",
+      "I’m a managing partner at Dragonfly , a crypto venture fund.",
+      "In 2018, Hayden Adams created the Uniswap Protocol, a decentralized protocol that introduced a new way to exchange value online.",
+      "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+      "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+      "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+      "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+      "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+    ]
+  },
+  "questions": [
+    {
+      "question": "What evidence establishes this mechanism?",
+      "sourceIds": [
+        "retropick-source-20261019-ec75cad0"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "Which environment was tested?",
+      "sourceIds": [
+        "retropick-v4-kuru-docs-23dbfa467c1d"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What does custody protect?",
+      "sourceIds": [
+        "retropick-v4-person-7160a4c75227"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What does custody leave uncertain?",
+      "sourceIds": [
+        "retropick-v4-person-9746ada8505e"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "How is completion verified?",
+      "sourceIds": [
+        "retropick-v4-person-bfd1166bcf5d"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "Which retries are bounded?",
+      "sourceIds": [
+        "retropick-v4-retropick-product-6aae6469e075"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What makes a claim reproducible?",
+      "sourceIds": [
+        "retropick-source-20261019-ec75cad0"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "Where does price discovery end?",
+      "sourceIds": [
+        "retropick-v4-kuru-docs-23dbfa467c1d"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "Where does secondary trading begin?",
+      "sourceIds": [
+        "retropick-v4-person-7160a4c75227"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What can a receipt establish?",
+      "sourceIds": [
+        "retropick-v4-person-9746ada8505e"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What cannot a receipt establish?",
+      "sourceIds": [
+        "retropick-v4-person-bfd1166bcf5d"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "Which observations establish depth?",
+      "sourceIds": [
+        "retropick-v4-retropick-product-6aae6469e075"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What would falsify the claim?",
+      "sourceIds": [
+        "retropick-source-20261019-ec75cad0"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What is still planned?",
+      "sourceIds": [
+        "retropick-v4-kuru-docs-23dbfa467c1d"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    },
+    {
+      "question": "What structured feedback is useful?",
+      "sourceIds": [
+        "retropick-v4-person-7160a4c75227"
+      ],
+      "status": "RESEARCH_QUESTION_NOT_OBSERVED_CUSTOMER_PAIN"
+    }
+  ],
+  "counterHypeNotes": [
+    "Testnet is not mainnet.",
+    "A functional receipt is not organic adoption.",
+    "Custody does not guarantee liquidity.",
+    "Deployment does not establish security audit completion.",
+    "An integration does not establish spreads.",
+    "Followers do not establish factual authority.",
+    "Retrieved text is not reviewed evidence.",
+    "A current crawl is not a current publication.",
+    "Missing engagement is unavailable.",
+    "A HOLD packet is not a published campaign."
+  ],
+  "watchlist": [
+    {
+      "id": "retropick-entity-16d46a6fe221b746644f0a29",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "REVIEWED_SOURCE",
+      "createdAt": "2026-10-19T17:05:28.572Z",
+      "canonicalId": "public-b4b62b56db37d63e304956da",
+      "types": [
+        "Person"
+      ],
+      "name": "Keone Hon",
+      "organization": "Monad",
+      "topics": [
+        "L1 performance / market infrastructure"
+      ],
+      "sourceUrls": [
+        "https://monad.xyz/blog/introducing-monad-foundation"
+      ],
+      "identityStatus": "REVIEWED_SOURCE",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "A",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "L1 latency and onchain market structure",
+        "initial_source_url": "https://monad.xyz/blog/introducing-monad-foundation",
+        "last30days_content_verified": "NO",
+        "organization": "Monad",
+        "person": "Keone Hon",
+        "subject_matter": "L1 performance / market infrastructure",
+        "verification_status": "FOUNDING_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [
+        "retropick-v4-person-7160a4c75227"
+      ],
+      "reviewIds": [
+        "retropick-review-307c59fbb9e80caebd439b6e"
+      ],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "SOURCE_COVERAGE_BIAS"
+      ],
+      "verifiedAt": "2026-10-19T17:05:28.570Z"
+    },
+    {
+      "id": "retropick-entity-fbc7cf9a1b63384fc1fd8adc",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.145Z",
+      "canonicalId": "public-2d8242bdbcfc196d790c44e5",
+      "types": [
+        "Person"
+      ],
+      "name": "Vaibhav Prakash",
+      "organization": "Kuru",
+      "topics": [
+        "Monad CLOB / LP / matching"
+      ],
+      "sourceUrls": [
+        "https://dealroom.co/companies/kuru/"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "CLOB interface liquidity and maker experience",
+        "initial_source_url": "https://dealroom.co/companies/kuru/",
+        "last30days_content_verified": "NO",
+        "organization": "Kuru",
+        "person": "Vaibhav Prakash",
+        "subject_matter": "Monad CLOB / LP / matching",
+        "verification_status": "SECONDARY_SOURCE_REVIEW_REQUIRED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-e7c12faa79766c736a7e18cc",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.188Z",
+      "canonicalId": "public-cba8aab7a177fd50be514378",
+      "types": [
+        "Person"
+      ],
+      "name": "Jeff Yan",
+      "organization": "Hyperliquid",
+      "topics": [
+        "perpetuals / exchange architecture"
+      ],
+      "sourceUrls": [
+        "https://podcasts.apple.com/es/podcast/jeff-yan-on-hyperliquids-plan-to-bring-all-finance-onchain/id1554930038?i=1000793711552"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "market depth and onchain execution",
+        "initial_source_url": "https://podcasts.apple.com/es/podcast/jeff-yan-on-hyperliquids-plan-to-bring-all-finance-onchain/id1554930038?i=1000793711552",
+        "last30days_content_verified": "NO",
+        "organization": "Hyperliquid",
+        "person": "Jeff Yan",
+        "subject_matter": "perpetuals / exchange architecture",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-bae8d34949e72c95b33fb644",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.219Z",
+      "canonicalId": "public-f98b71b4f54c95f84b2e73b4",
+      "types": [
+        "Person"
+      ],
+      "name": "Alon Cohen",
+      "organization": "Pump.fun",
+      "topics": [
+        "memecoin launchpads / creator incentives"
+      ],
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Pump.fun"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "retropick",
+        "first_research_question": "launch economics and graduation",
+        "initial_source_url": "https://en.wikipedia.org/wiki/Pump.fun",
+        "last30days_content_verified": "NO",
+        "organization": "Pump.fun",
+        "person": "Alon Cohen",
+        "subject_matter": "memecoin launchpads / creator incentives",
+        "verification_status": "SECONDARY_SOURCE_REVIEW_REQUIRED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-8ae70e648df25ddb51c58c11",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.246Z",
+      "canonicalId": "public-d7fe7d487980a3741426a796",
+      "types": [
+        "Person"
+      ],
+      "name": "Shayne Coplan",
+      "organization": "Polymarket",
+      "topics": [
+        "prediction market liquidity / trust"
+      ],
+      "sourceUrls": [
+        "https://www.reuters.com/business/polymarket-taps-finance-veteran-warren-jenson-cfo-2026-09-10/"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "retropick",
+        "first_research_question": "market resolution and liquidity",
+        "initial_source_url": "https://www.reuters.com/business/polymarket-taps-finance-veteran-warren-jenson-cfo-2026-09-10/",
+        "last30days_content_verified": "NO",
+        "organization": "Polymarket",
+        "person": "Shayne Coplan",
+        "subject_matter": "prediction market liquidity / trust",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-56a8e6525a6ad9514ea48638",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.271Z",
+      "canonicalId": "public-e8b92848ae8c2f52afccc0af",
+      "types": [
+        "Person"
+      ],
+      "name": "Tarek Mansour",
+      "organization": "Kalshi",
+      "topics": [
+        "regulated event markets"
+      ],
+      "sourceUrls": [
+        "https://www.washingtonpost.com/opinions/2026/06/28/qa-with-kalshis-tarek-mansour-prediction-market-prophet/"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "retropick",
+        "first_research_question": "regulated event contract design",
+        "initial_source_url": "https://www.washingtonpost.com/opinions/2026/06/28/qa-with-kalshis-tarek-mansour-prediction-market-prophet/",
+        "last30days_content_verified": "NO",
+        "organization": "Kalshi",
+        "person": "Tarek Mansour",
+        "subject_matter": "regulated event markets",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-74e832941e643e629afdb53b",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.294Z",
+      "canonicalId": "public-1fc3064bee73fababa00d1bf",
+      "types": [
+        "Person"
+      ],
+      "name": "Luana Lopes Lara",
+      "organization": "Kalshi",
+      "topics": [
+        "prediction markets / exchange operations"
+      ],
+      "sourceUrls": [
+        "https://www.businessinsider.com/kalshi-ceo-tarek-mansour-org-structure-employees-report-to-founders-2026-7"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "retropick",
+        "first_research_question": "product and market operations",
+        "initial_source_url": "https://www.businessinsider.com/kalshi-ceo-tarek-mansour-org-structure-employees-report-to-founders-2026-7",
+        "last30days_content_verified": "NO",
+        "organization": "Kalshi",
+        "person": "Luana Lopes Lara",
+        "subject_matter": "prediction markets / exchange operations",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-3be5cdbc7e5b79180615353b",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.329Z",
+      "canonicalId": "public-d6cfff5467897df114f59414",
+      "types": [
+        "Person"
+      ],
+      "name": "Mert Mumtaz",
+      "organization": "Helius",
+      "topics": [
+        "Solana trading/developer infrastructure"
+      ],
+      "sourceUrls": [
+        "https://www.helius.dev/about"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "developer education and infrastructure",
+        "initial_source_url": "https://www.helius.dev/about",
+        "last30days_content_verified": "NO",
+        "organization": "Helius",
+        "person": "Mert Mumtaz",
+        "subject_matter": "Solana trading/developer infrastructure",
+        "verification_status": "FIRST_PARTY_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-0404b6ef16a3545cc86bcd6c",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "REVIEWED_SOURCE",
+      "createdAt": "2026-10-19T17:05:28.491Z",
+      "canonicalId": "public-712455dc4d4b1f53d8726a20",
+      "types": [
+        "Person"
+      ],
+      "name": "Hayden Adams",
+      "organization": "Uniswap",
+      "topics": [
+        "AMM liquidity / DEX market structure"
+      ],
+      "sourceUrls": [
+        "https://about.uniswap.org/"
+      ],
+      "identityStatus": "REVIEWED_SOURCE",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "A",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "AMM versus orderbook education",
+        "initial_source_url": "https://about.uniswap.org/",
+        "last30days_content_verified": "NO",
+        "organization": "Uniswap",
+        "person": "Hayden Adams",
+        "subject_matter": "AMM liquidity / DEX market structure",
+        "verification_status": "FIRST_PARTY_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [
+        "retropick-v4-person-bfd1166bcf5d"
+      ],
+      "reviewIds": [
+        "retropick-review-e9371d3256f87a98ac209769"
+      ],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "SOURCE_COVERAGE_BIAS"
+      ],
+      "verifiedAt": "2026-10-19T17:05:28.489Z"
+    },
+    {
+      "id": "retropick-entity-171851fdc2ab721ffebd0b5c",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.383Z",
+      "canonicalId": "public-e0897f3f34fe5e93685f8232",
+      "types": [
+        "Person"
+      ],
+      "name": "Tarun Chitra",
+      "organization": "Gauntlet",
+      "topics": [
+        "DeFi simulation / LP and risk"
+      ],
+      "sourceUrls": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3629988"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "liquidity and risk modeling",
+        "initial_source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3629988",
+        "last30days_content_verified": "NO",
+        "organization": "Gauntlet",
+        "person": "Tarun Chitra",
+        "subject_matter": "DeFi simulation / LP and risk",
+        "verification_status": "RESEARCH_IDENTITY_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-134f0065f69566dd5f5bc314",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "REVIEWED_SOURCE",
+      "createdAt": "2026-10-19T17:05:28.388Z",
+      "canonicalId": "public-62b9cc4e144d84cc44756d28",
+      "types": [
+        "Person"
+      ],
+      "name": "Haseeb Qureshi",
+      "organization": "Dragonfly",
+      "topics": [
+        "crypto investment / technical market analysis"
+      ],
+      "sourceUrls": [
+        "https://haseebq.com/about/"
+      ],
+      "identityStatus": "REVIEWED_SOURCE",
+      "roleStatus": "REVIEWED_SOURCE",
+      "xHandle": null,
+      "tier": "A",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "market analysis and founder insight",
+        "initial_source_url": "https://haseebq.com/about/",
+        "last30days_content_verified": "NO",
+        "organization": "Dragonfly",
+        "person": "Haseeb Qureshi",
+        "subject_matter": "crypto investment / technical market analysis",
+        "verification_status": "FIRST_PERSON_ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [
+        "retropick-v4-person-9746ada8505e"
+      ],
+      "reviewIds": [
+        "retropick-review-0f3f75cd4020e7913bdbea56"
+      ],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "SOURCE_COVERAGE_BIAS"
+      ],
+      "verifiedAt": "2026-10-19T17:05:28.385Z"
+    },
+    {
+      "id": "retropick-entity-5f156f70570cafe01bdb7956",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.436Z",
+      "canonicalId": "public-47772695286578daac0a2044",
+      "types": [
+        "Person"
+      ],
+      "name": "Austin Federa",
+      "organization": "DoubleZero",
+      "topics": [
+        "validator infra / transaction latency"
+      ],
+      "sourceUrls": [
+        "https://cfc-stmoritz.com/profiles/austin-federa"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "high-performance crypto infra",
+        "initial_source_url": "https://cfc-stmoritz.com/profiles/austin-federa",
+        "last30days_content_verified": "NO",
+        "organization": "DoubleZero",
+        "person": "Austin Federa",
+        "subject_matter": "validator infra / transaction latency",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-3d4017f3cf271d3b21571160",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.459Z",
+      "canonicalId": "public-7549b80f5b335bce254b25dc",
+      "types": [
+        "Person"
+      ],
+      "name": "Adam Levi",
+      "organization": "Backed / xStocks",
+      "topics": [
+        "tokenized equity issuance"
+      ],
+      "sourceUrls": [
+        "https://investors.defillama.com/rwa/platform/xstocks?view=information"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "retropick",
+        "first_research_question": "tokenized asset legal/economic rights",
+        "initial_source_url": "https://investors.defillama.com/rwa/platform/xstocks?view=information",
+        "last30days_content_verified": "NO",
+        "organization": "Backed / xStocks",
+        "person": "Adam Levi",
+        "subject_matter": "tokenized equity issuance",
+        "verification_status": "SECONDARY_SOURCE_REVIEW_REQUIRED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    },
+    {
+      "id": "retropick-entity-75718608d6bc446d071d32ba",
+      "tenant": "retropick",
+      "dataset": "OBSERVED",
+      "schemaVersion": 4,
+      "label": "RETRIEVED_UNVERIFIED",
+      "createdAt": "2026-10-19T16:40:56.506Z",
+      "canonicalId": "public-1a86dd9dca677c8bdb79ee42",
+      "types": [
+        "Person"
+      ],
+      "name": "Jason Yanowitz",
+      "organization": "Blockworks",
+      "topics": [
+        "crypto media / research distribution"
+      ],
+      "sourceUrls": [
+        "https://www.axios.com/2023/05/09/crypto-blockworks-raises-12m-135m-valuation"
+      ],
+      "identityStatus": "UNVERIFIED",
+      "roleStatus": "UNKNOWN",
+      "xHandle": null,
+      "tier": "UNCLASSIFIED",
+      "seed": {
+        "brand_relevance": "founder,retropick",
+        "first_research_question": "what research earns an expert audience",
+        "initial_source_url": "https://www.axios.com/2023/05/09/crypto-blockworks-raises-12m-135m-valuation",
+        "last30days_content_verified": "NO",
+        "organization": "Blockworks",
+        "person": "Jason Yanowitz",
+        "subject_matter": "crypto media / research distribution",
+        "verification_status": "ROLE_SUPPORTED",
+        "x_handle": ""
+      },
+      "sourceIds": [],
+      "reviewIds": [],
+      "intendedUse": "RESEARCH_AND_ATTRIBUTED_COMMENTARY",
+      "biasTags": [
+        "OWNER_SUPPLIED_SEED",
+        "SOURCE_COVERAGE_BIAS",
+        "ROLE_NOT_CURRENTLY_VERIFIED"
+      ],
+      "verifiedAt": null
+    }
+  ],
+  "scorecards": {
+    "tenant": "retropick",
+    "dataset": "OBSERVED",
+    "schemaVersion": 1,
+    "revision": "v3-r1",
+    "publicationAuthorized": false,
+    "intendedAudience": "Owner and relevant builders or product explorers",
+    "externalWrites": 0,
+    "paidSocialApiCalls": 0,
+    "operatorInferenceCost": "NOT_MEASURED",
+    "approvalStatus": "HOLD",
+    "assetLicense": "PER_ARTIFACT_PROVENANCE_REQUIRED",
+    "period": {
+      "start": "2026-10-12T00:00:00.000Z",
+      "end": "2026-10-19T00:00:00.000Z",
+      "interval": "UTC_HALF_OPEN"
+    },
+    "engineering": {
+      "status": "RECORDED",
+      "recordedCheckpoints": 4,
+      "completedCycles": 0,
+      "externalWrites": 0,
+      "inferenceCost": null,
+      "resourceConsumption": "MEASURED_BY_ACCEPTANCE_RUNNER"
+    },
+    "business": {
+      "status": "NO_DATA",
+      "verifiedConversions": null,
+      "metrics": [],
+      "ctr": null,
+      "ctrLimitation": "Requires clicks and impressions for the same post, source and window; no inference from impressions alone",
+      "qualification": "Reviewed acquisition, supported activation and retention definitions; clicks and owner estimates are not verified product outcomes",
+      "missingValue": "UNAVAILABLE",
+      "claimableGrowth": "NOT_ESTABLISHED",
+      "datasetSeparation": "PHYSICAL_DATABASES"
+    },
+    "retrospective": {
+      "interpretation": "Separate observations, missing data and hypotheses; no causal growth claim",
+      "nextExperiment": "Owner selects one evidence-backed hypothesis and records its denominator and guardrails"
+    }
+  },
+  "hostedModelRequests": 0,
+  "receipt": {
+    "directory": "runtime/v3/retropick/crypto-synthesis/2044e77dce058adae26f64130416c9394c156b6ef552006f3422ae60929cd7c9",
+    "path": "runtime/v3/retropick/crypto-synthesis/2044e77dce058adae26f64130416c9394c156b6ef552006f3422ae60929cd7c9/manifest.json",
+    "sha256": "1b80706b42b95a2471fd570537f955289e0bab560699159eeda29c03d32f1805",
+    "bytes": 33192
+  }
+}

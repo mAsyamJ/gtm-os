@@ -1,0 +1,10 @@
+{
+  "evidenceId": "founder-v4-person-7160a4c75227",
+  "evidenceSha256": "f18eb472ab29f9eef9645ddbbab718704e2c6112221d8e2a3f16ff85c7491145",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "Keone Hon and Eunice Giarta will be joining the Monad Foundation."
+  ],
+  "authenticFirstPerson": false
+}

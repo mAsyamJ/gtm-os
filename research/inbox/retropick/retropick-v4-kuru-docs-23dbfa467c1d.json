@@ -1,0 +1,18 @@
+{
+  "id": "retropick-v4-kuru-docs-23dbfa467c1d",
+  "tenant": "retropick",
+  "title": "Kuru orderbook mechanics",
+  "uri": "https://docs.kuru.io/",
+  "revision": "5f70ff00039087e4868bb942c427126bfa773610569195b7db3814cfa6619bcc",
+  "observedAt": "2026-10-19T16:47:51.946Z",
+  "expiresAt": "2026-11-02T16:47:51.946Z",
+  "text": "Kuru is a decentralized spot exchange built on Monad.\nYou can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.\nOrders match against available liquidity, with better prices executing first.\nYour order’s settings determine whether an unfilled amount stays open or is canceled.",
+  "contentSha256": "595237ae2feb12ba36061e60da64d144bfd9d2439db795e00b86cc19c7f4c5e7",
+  "license": "UNDETERMINED_SHORT_EXCERPT_INTERNAL_REVIEW",
+  "statements": [
+    "Kuru is a decentralized spot exchange built on Monad.",
+    "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+    "Orders match against available liquidity, with better prices executing first.",
+    "Your order’s settings determine whether an unfilled amount stays open or is canceled."
+  ]
+}

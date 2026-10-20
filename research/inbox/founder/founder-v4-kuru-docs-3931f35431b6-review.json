@@ -1,0 +1,13 @@
+{
+  "evidenceId": "founder-v4-kuru-docs-3931f35431b6",
+  "evidenceSha256": "61662364e8cdbae7274a1ca51b177396aeb2bae1fec066f740c1f95c4b18f16f",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "Kuru is a decentralized spot exchange built on Monad.",
+    "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade.",
+    "Orders match against available liquidity, with better prices executing first.",
+    "Your order’s settings determine whether an unfilled amount stays open or is canceled."
+  ],
+  "authenticFirstPerson": false
+}

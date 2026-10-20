@@ -1,0 +1,14 @@
+{
+  "evidenceId": "founder-v4-retropick-product-6ec6dda59590",
+  "evidenceSha256": "169f7e8b81c27dda3f830cb33821ae92effc70bba0fe1d5dc07ac3023b067363",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading.",
+    "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent.",
+    "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth.",
+    "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work.",
+    "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+  ],
+  "authenticFirstPerson": false
+}

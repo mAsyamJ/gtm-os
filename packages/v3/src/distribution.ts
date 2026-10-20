@@ -36,7 +36,7 @@ export function manualPack(root: string, selected: unknown, draftId: string, dat
   const creative = records(root, c.tenant, 'creative', dataset).find(a => a.draftId === draftId);
   const media = creative ? z.array(File).parse(creative.files) : [];
   const payload = { tenant: c.tenant, account: HANDLES[c.tenant], draftId, blocks: draft.blocks, claims: draft.claims,
-    governance: draft.governance, media, citations: draft.citations ?? [], riskDisclosures: draft.protectedSegments, publicationMethod: 'OWNER_NATIVE_UI_ONLY' };
+    governance: draft.governance, media, citations: draft.citations ?? [], riskDisclosures: draft.protectedSegments, publicationMethod: 'OWNER_NATIVE_UI_ONLY',...(draft.briefId?{rightsReview:'REQUIRED_BEFORE_PUBLICATION'}:{}) };
   const payloadSha256 = hashObject(payload); const directory = `runtime/v3/${c.tenant}/manual-publish/${payloadSha256}`;
   safeDirectory(root, directory);
   const citations = z.array(z.object({uri:z.string(),revision:z.string(),license:z.string()})).parse(draft.citations ?? []);
@@ -57,6 +57,7 @@ export function manualPack(root: string, selected: unknown, draftId: string, dat
   const packet = Packet.parse({ ...c, id: `${c.tenant}-packet-${payloadSha256.slice(0, 24)}`, label: draft.label,
     draftId, account: HANDLES[c.tenant], payloadSha256, evidence: draft.claims, files, media,
     creativeReady: media.some(m => m.path.endsWith('.mp4')) && media.some(m => m.path.endsWith('.png')),
+    ...(draft.briefId?{requiresRightsReview:true}:{}),
     immutablePayload: payload, state: 'AWAITING_OWNER_APPROVAL', humanReview: 'PENDING', directory });
   immutableFile(root, `${directory}/publishing-package.json`, JSON.stringify(packet, null, 2) + '\n');
   using store = open(root, c.tenant, dataset); store.put('packet', packet); return packet;
@@ -64,7 +65,7 @@ export function manualPack(root: string, selected: unknown, draftId: string, dat
 const Decision = z.strictObject({ tenant: TenantSchema, packetId: IdSchema, payloadSha256: HashSchema,
   account: z.string(), actor: z.literal('owner'), at: TimeSchema,
   event: z.enum(['APPROVE_MANUAL', 'REJECT', 'INVALIDATE', 'HANDOFF', 'OWNER_REPORTED_SCHEDULED', 'OWNER_REPORTED_PUBLISHED', 'PUBLICATION_UNKNOWN']),
-  editorialReviewed: z.boolean().optional(), creativeReviewed: z.boolean().optional(), authenticityReviewed: z.boolean().optional(),
+  editorialReviewed: z.boolean().optional(), creativeReviewed: z.boolean().optional(), authenticityReviewed: z.boolean().optional(),rightsReviewed:z.boolean().optional(),
   expiresAt: TimeSchema.optional(), postUrl: z.url().optional() });
 export function publicationHistory(root: string, tenant: z.infer<typeof TenantSchema>, packetId: string, dataset: Dataset = 'OBSERVED') {
   return records(root, tenant, 'publication', dataset).filter(r => r.packetId === packetId).sort((a, b) => Number(a.sequence) - Number(b.sequence));
@@ -90,7 +91,7 @@ export function importDecision(root: string, selected: unknown, path: string, da
     const approval = history.findLast(h => h.event === 'APPROVE_MANUAL');
     let next: string;
     if (d.event === 'APPROVE_MANUAL') {
-      if (!['AWAITING_OWNER_APPROVAL', 'REJECTED', 'INVALIDATED'].includes(state) || !packet.creativeReady || !d.editorialReviewed || !d.creativeReviewed || !d.authenticityReviewed ||
+      if (!['AWAITING_OWNER_APPROVAL', 'REJECTED', 'INVALIDATED'].includes(state) || !packet.creativeReady || !d.editorialReviewed || !d.creativeReviewed || !d.authenticityReviewed || (Boolean(draftById(root,c.tenant,packet.draftId,dataset).briefId)&&!d.rightsReviewed) ||
         !d.expiresAt || Date.parse(d.expiresAt) <= now.getTime() || Date.parse(d.expiresAt) - Date.parse(d.at) > 7 * 86400000)
         throw new GtmError('OWNER_REVIEW_REQUIRED', 'Current exact-hash approval, complete creative and explicit human reviews are required', 3);
       next = 'APPROVED_FOR_MANUAL';

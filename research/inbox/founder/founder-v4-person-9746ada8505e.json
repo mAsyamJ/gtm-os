@@ -1,0 +1,16 @@
+{
+  "id": "founder-v4-person-9746ada8505e",
+  "tenant": "founder",
+  "title": "Public identity evidence: Haseeb Qureshi",
+  "uri": "https://haseebq.com/about/",
+  "revision": "82059561900fe0678327a464ffe29b72593d2680a0aefd52b6276f46de86a2aa",
+  "observedAt": "2026-10-19T16:44:36.998Z",
+  "expiresAt": "2026-11-02T16:44:36.998Z",
+  "text": "About - haseeb qureshi\nI’m a managing partner at Dragonfly , a crypto venture fund.",
+  "contentSha256": "b657fa83735837ffd5beadaa71844e2c6ae38613f6413637f946e9336a173e17",
+  "license": "UNDETERMINED_SHORT_EXCERPT_INTERNAL_REVIEW",
+  "statements": [
+    "About - haseeb qureshi",
+    "I’m a managing partner at Dragonfly , a crypto venture fund."
+  ]
+}

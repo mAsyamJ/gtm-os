@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { z } from 'zod';
 import { loadBrand, loadPolicy, parseWith, readStructured, readText, safePath, safeDirectory } from '../../core/src/workspace.js';
-import { GtmError, hashObject } from '../../observability/src/index.js';
+import { canonical, GtmError, hashObject,sha256 } from '../../observability/src/index.js';
 import { TenantSchema, type Tenant } from '../../schemas/src/index.js';
 import { OperationsStore } from '../../operations/src/store.js';
 import { immutableFile } from '../../creative/src/common.js';
@@ -31,7 +31,14 @@ export function localInput(root: string, tenant: Tenant, path: string, area: 're
 export function artifact(root: string, tenant: Tenant, kind: string, document: unknown) {
   if (!/^[a-z][a-z-]+$/.test(kind)) throw new GtmError('ARTIFACT_KIND', 'Invalid artifact kind', 2);
   const directory = `runtime/v3/${tenant}/${kind}/${hashObject(document)}`; safeDirectory(root, directory);
-  const file = immutableFile(root, `${directory}/manifest.json`, JSON.stringify(document, null, 2) + '\n');
+  const path=`${directory}/manifest.json`;
+  // Preserve historical bytes while accepting the identical canonical document.
+  if(existsSync(safePath(root,path))){
+    const old=readFileSync(safePath(root,path));
+    if(hashObject(readStructured(root,path))!==hashObject(document))throw new GtmError('CREATIVE_IMMUTABLE','Existing artifact differs from canonical inputs');
+    return {directory,path,sha256:sha256(old),bytes:old.length};
+  }
+  const file = immutableFile(root, path, canonical(document) + '\n');
   return { directory, ...file };
 }
 export function scoped<T>(schema: z.ZodType<T>, raw: unknown, tenant: Tenant): T {

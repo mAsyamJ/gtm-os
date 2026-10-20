@@ -27,14 +27,17 @@ rules:
     languages: [typescript, javascript]
     severity: ERROR
     message: Phase B core/adapters must not call a live network provider.
-    pattern-either:
-      - pattern: fetch(...)
-      - pattern: import $X from "node:http"
-      - pattern: import $X from "node:https"
-      - pattern: import $X from "http"
-      - pattern: import $X from "https"
-      - pattern: import $X from "axios"
-      - pattern: import $X from "undici"
+    patterns:
+      - pattern-either:
+          - pattern: fetch(...)
+          - pattern: import $X from "node:http"
+          - pattern: import $X from "node:https"
+          - pattern: import $X from "http"
+          - pattern: import $X from "https"
+          - pattern: import $X from "axios"
+          - pattern: import $X from "undici"
+      # Approved router liveness probe only: fixed loopback endpoint, no redirects.
+      - pattern-not: fetch('http://127.0.0.1:13456/health', {signal:AbortSignal.timeout(2000),redirect:'error'})
   - id: runtime-shell-execution
     languages: [typescript, javascript]
     severity: ERROR

@@ -1,0 +1,10 @@
+{
+  "evidenceId": "retropick-v4-person-bfd1166bcf5d",
+  "evidenceSha256": "3cee104a8d145c9041a40aa216a4379a7b67370c10036841e37653bf80a5e237",
+  "classification": "REVIEWED_SOURCE",
+  "actor": "source-reviewer",
+  "permittedClaims": [
+    "In 2018, Hayden Adams created the Uniswap Protocol, a decentralized protocol that introduced a new way to exchange value online."
+  ],
+  "authenticFirstPerson": false
+}

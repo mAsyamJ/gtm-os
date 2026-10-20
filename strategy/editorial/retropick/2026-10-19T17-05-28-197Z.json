@@ -1,0 +1,73 @@
+{
+  "id": "retropick-brief-c45b55c0c262d66a48bbf31c",
+  "tenant": "retropick",
+  "dataset": "OBSERVED",
+  "schemaVersion": 4,
+  "label": "REVIEWED_SOURCE",
+  "createdAt": "2026-10-19T16:49:42.036Z",
+  "angle": "Understand bonding discovery, graduation and the boundary of liquidity claims",
+  "approvalStatus": "HOLD",
+  "audience": "Eligible creators and traders",
+  "claims": [
+    {
+      "evidenceId": "retropick-v4-kuru-docs-23dbfa467c1d",
+      "evidenceSha256": "b541ea0ec677d6f5d3d64e3dbfc341321efb2e2755ccb234e287027df3dc234a",
+      "statement": "Kuru is a decentralized spot exchange built on Monad."
+    },
+    {
+      "evidenceId": "retropick-v4-kuru-docs-23dbfa467c1d",
+      "evidenceSha256": "b541ea0ec677d6f5d3d64e3dbfc341321efb2e2755ccb234e287027df3dc234a",
+      "statement": "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade."
+    },
+    {
+      "evidenceId": "retropick-v4-kuru-docs-23dbfa467c1d",
+      "evidenceSha256": "b541ea0ec677d6f5d3d64e3dbfc341321efb2e2755ccb234e287027df3dc234a",
+      "statement": "Orders match against available liquidity, with better prices executing first."
+    },
+    {
+      "evidenceId": "retropick-v4-kuru-docs-23dbfa467c1d",
+      "evidenceSha256": "b541ea0ec677d6f5d3d64e3dbfc341321efb2e2755ccb234e287027df3dc234a",
+      "statement": "Your order’s settings determine whether an unfilled amount stays open or is canceled."
+    },
+    {
+      "evidenceId": "retropick-v4-retropick-product-6aae6469e075",
+      "evidenceSha256": "0fda41355146e16d476f32995b42831a0c14184c29dddae7e732a23eaad62131",
+      "statement": "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading."
+    },
+    {
+      "evidenceId": "retropick-v4-retropick-product-6aae6469e075",
+      "evidenceSha256": "0fda41355146e16d476f32995b42831a0c14184c29dddae7e732a23eaad62131",
+      "statement": "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent."
+    },
+    {
+      "evidenceId": "retropick-v4-retropick-product-6aae6469e075",
+      "evidenceSha256": "0fda41355146e16d476f32995b42831a0c14184c29dddae7e732a23eaad62131",
+      "statement": "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth."
+    },
+    {
+      "evidenceId": "retropick-v4-retropick-product-6aae6469e075",
+      "evidenceSha256": "0fda41355146e16d476f32995b42831a0c14184c29dddae7e732a23eaad62131",
+      "statement": "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work."
+    },
+    {
+      "evidenceId": "retropick-v4-retropick-product-6aae6469e075",
+      "evidenceSha256": "0fda41355146e16d476f32995b42831a0c14184c29dddae7e732a23eaad62131",
+      "statement": "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+    }
+  ],
+  "cta": "Inspect the testnet mechanics and provide structured feedback",
+  "humanReview": "PENDING",
+  "publicationAuthorized": false,
+  "riskNotes": [
+    "Unaudited testnet scope; historical receipts do not establish current liquidity, demand or production readiness.",
+    "Human editorial and authenticity review required."
+  ],
+  "sourceIds": [
+    "retropick-v4-retropick-product-6aae6469e075",
+    "retropick-v4-kuru-docs-23dbfa467c1d"
+  ],
+  "sourceSetSha256": "ba8f345d60636c6cb1af13620ebd306771d6bb52aeabef1bf957e32a9f4a9d50",
+  "temporalScope": "BACKGROUND",
+  "title": "A token launch is not the end of the market",
+  "topicId": "retropick-v4-day0-01070e60d8"
+}

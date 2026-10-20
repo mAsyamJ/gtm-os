@@ -1,0 +1,73 @@
+{
+  "id": "founder-brief-11d11caf15476d3f3252d46a",
+  "tenant": "founder",
+  "dataset": "OBSERVED",
+  "schemaVersion": 4,
+  "label": "REVIEWED_SOURCE",
+  "createdAt": "2026-10-19T16:49:42.281Z",
+  "angle": "Inspect accounting boundaries, completion evidence and retry constraints",
+  "approvalStatus": "HOLD",
+  "audience": "Engineers and ecosystem builders",
+  "claims": [
+    {
+      "evidenceId": "founder-v4-kuru-docs-3931f35431b6",
+      "evidenceSha256": "61662364e8cdbae7274a1ca51b177396aeb2bae1fec066f740c1f95c4b18f16f",
+      "statement": "Kuru is a decentralized spot exchange built on Monad."
+    },
+    {
+      "evidenceId": "founder-v4-kuru-docs-3931f35431b6",
+      "evidenceSha256": "61662364e8cdbae7274a1ca51b177396aeb2bae1fec066f740c1f95c4b18f16f",
+      "statement": "You can buy and sell tokens through an onchain order book, choosing the price and amount you want to trade."
+    },
+    {
+      "evidenceId": "founder-v4-kuru-docs-3931f35431b6",
+      "evidenceSha256": "61662364e8cdbae7274a1ca51b177396aeb2bae1fec066f740c1f95c4b18f16f",
+      "statement": "Orders match against available liquidity, with better prices executing first."
+    },
+    {
+      "evidenceId": "founder-v4-kuru-docs-3931f35431b6",
+      "evidenceSha256": "61662364e8cdbae7274a1ca51b177396aeb2bae1fec066f740c1f95c4b18f16f",
+      "statement": "Your order’s settings determine whether an unfilled amount stays open or is canceled."
+    },
+    {
+      "evidenceId": "founder-v4-retropick-product-6ec6dda59590",
+      "evidenceSha256": "169f7e8b81c27dda3f830cb33821ae92effc70bba0fe1d5dc07ac3023b067363",
+      "statement": "RetroPick carries community tokens through onchain bonding discovery and protected graduation into Kuru orderbook trading."
+    },
+    {
+      "evidenceId": "founder-v4-retropick-product-6ec6dda59590",
+      "evidenceSha256": "169f7e8b81c27dda3f830cb33821ae92effc70bba0fe1d5dc07ac3023b067363",
+      "statement": "Current scope is an unaudited Monad Testnet candidate; market depth and demand remain market-dependent."
+    },
+    {
+      "evidenceId": "founder-v4-retropick-product-6ec6dda59590",
+      "evidenceSha256": "169f7e8b81c27dda3f830cb33821ae92effc70bba0fe1d5dc07ac3023b067363",
+      "statement": "Historical team functional-test receipts demonstrate launch, curve trading, Kuru graduation and two-wallet order/fill/cancel; they are not organic volume or present orderbook depth."
+    },
+    {
+      "evidenceId": "founder-v4-retropick-product-6ec6dda59590",
+      "evidenceSha256": "169f7e8b81c27dda3f830cb33821ae92effc70bba0fe1d5dc07ac3023b067363",
+      "statement": "Factory → single-ledger Coordinator → venue executor keeps lifecycle authority separate from venue work."
+    },
+    {
+      "evidenceId": "founder-v4-retropick-product-6ec6dda59590",
+      "evidenceSha256": "169f7e8b81c27dda3f830cb33821ae92effc70bba0fe1d5dc07ac3023b067363",
+      "statement": "Exact integer terminal-quote constraints preserve completion liveness across valid trade histories; graduation LP/excess assets enter a permanent bound lock."
+    }
+  ],
+  "cta": "Discuss the inspectable engineering constraint",
+  "humanReview": "PENDING",
+  "publicationAuthorized": false,
+  "riskNotes": [
+    "Unaudited testnet scope; historical receipts do not establish current liquidity, demand or production readiness.",
+    "Human editorial and authenticity review required."
+  ],
+  "sourceIds": [
+    "founder-v4-retropick-product-6ec6dda59590",
+    "founder-v4-kuru-docs-3931f35431b6"
+  ],
+  "sourceSetSha256": "6ce456430f6abff48d04a4145e68e395496c78ff2d295d03f51e6672e196d190",
+  "temporalScope": "BACKGROUND",
+  "title": "Why graduation needs exact accounting and proof of completion",
+  "topicId": "founder-v4-day0-d45bb32170"
+}

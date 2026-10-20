@@ -43,7 +43,7 @@ class GovernanceTests(unittest.TestCase):
     def test_valid_workspace(self):
         report = self.run_check(0)
         self.assertEqual(report["counts"]["skills"], 29)
-        self.assertEqual(report["counts"]["workflows"], 16)
+        self.assertEqual(report["counts"]["workflows"], 24)
 
     def test_valid_folded_frontmatter(self):
         self.replace(".agents/skills/tenant-router/SKILL.md",
