@@ -6,7 +6,7 @@ DIRECTORIES = (".agents", "agents", "brands", "campaigns", "config", "content", 
                "distribution", "docs", "growth", "plugins", "relationships", "research", "scripts",
                "strategy", "tests", "workflows", "packages", "adapters", "harness", "data",
                "output/sample-plans", "output/sample-calendars")
-SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql", ".ttf"}
+SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".ts", ".js", ".mjs", ".sql", ".ttf", ".service"}
 
 
 def sensitive_name(name):
@@ -18,7 +18,7 @@ def project_inputs(root):
     """Never follow links or traverse .git, .beads, runtime, caches or secret dirs."""
     root = Path(root).resolve()
     files = {p for p in root.glob("*.md") if p.is_file() and not p.is_symlink()}
-    for name in (".gitignore", ".env.example", "package.json", "pnpm-lock.yaml", "tsconfig.json",
+    for name in (".gitignore", ".env.example", "package.json", "pnpm-lock.yaml", "pnpm-workspace.yaml", "tsconfig.json",
                  "tsconfig.build.json", "vitest.config.ts", "gtm"):
         p = root / name
         if p.is_file() and not p.is_symlink():

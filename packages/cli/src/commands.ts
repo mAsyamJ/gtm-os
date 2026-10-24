@@ -15,8 +15,26 @@ import { contentBrief, contentCalendar, icpHypothesis, strategyPlan } from '../.
 import { renderTemplate, templateList } from '../../creative/src/graphics.js';
 import { localVideoAdapter } from '../../creative/src/adapter.js';
 import { routeV3 } from '../../v3/src/cli.js';
+import { routeV5 } from '../../v5/src/cli.js';
 
 const HELP = `GTM OS V4 — V3-compatible intelligence, evidence and manual GTM workflows
+
+V5 (legacy commands retain their original offline/manual policy):
+  gtm provider doctor|channels --provider buffer --brand TENANT
+  gtm publishing packet --brand TENANT --file distribution/inbox/TENANT/FILE.json
+  gtm publishing preview --brand TENANT --packet-id ID --target-zone America/New_York --local-slot YYYY-MM-DDTHH:mm
+  gtm publishing approve --brand TENANT --file distribution/inbox/TENANT/APPROVAL.json
+  gtm publishing schedule --brand TENANT --approved-id JOB_ID --provider buffer [--dry-run|--execute]
+  gtm publishing reconcile --brand TENANT --job JOB_ID [--provider-post-id ID]
+  gtm publishing cancel|metrics --brand TENANT --job JOB_ID [--execute]
+  gtm publishing refill|tick --brand TENANT [--dry-run|--execute]
+  gtm publishing acceptance --brand TENANT [--verify --job JOB_ID]
+  gtm publishing calendar --brand TENANT [--from YYYY-MM-DD]
+  gtm daily today --brand founder [--file research/inbox/founder/FILE.json]
+  gtm research conversations|prospects --brand TENANT
+  gtm metrics product-import --brand TENANT --file growth/inbox/TENANT/FILE.json
+  gtm analytics learning --brand TENANT
+  V5 live writes require dedicated service credentials and exact hash-bound owner approval.
 
 Working commands:
   gtm intelligence sources doctor|list --brand TENANT
@@ -76,6 +94,9 @@ Exit: 0 local success; 2 invalid input; 3 permission denied; 4 capability unavai
       5 validation failed; 6 execution failed. --version reports this local CLI version.`;
 
 const OPTIONS = {
+  provider:{type:'string'},execute:{type:'boolean'},verify:{type:'boolean'},
+  'packet-id':{type:'string'},'target-zone':{type:'string'},'local-slot':{type:'string'},
+  'approved-id':{type:'string'},'provider-post-id':{type:'string'},
   brand: { type: 'string' }, root: { type: 'string' }, json: { type: 'boolean' }, offline: { type: 'boolean' },
   'dry-run': { type: 'boolean' }, synthetic: { type: 'boolean' }, help: { type: 'boolean', short: 'h' },
   version: { type: 'boolean' }, 'idempotency-key': { type: 'string' }, 'max-stages': { type: 'string' },
@@ -166,6 +187,8 @@ export async function main(argv: string[], defaultRoot: string): Promise<number>
     readText(root, 'AGENTS.md');
     if (values.brand !== undefined) selected(values);
     const key = words.slice(0, 2).join(' ');
+    const v5 = await routeV5(root, words, values);
+    if (v5) { emit(json, v5.status, v5.data); return v5.exitCode ?? 0; }
     const v3 = await routeV3(root, words, values);
     if (v3) { emit(json, v3.status, v3.data); return 0; }
     let data: unknown;

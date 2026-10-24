@@ -32,6 +32,7 @@ export function redact(value: unknown): unknown {
         ? '[REDACTED]' : redact(v)]));
   }
   if (typeof value === 'string') return value
+    .replace(/\bbuf_[a-zA-Z0-9_-]{12,}/g, '[REDACTED]')
     .replace(/\bBearer\s+\S+/gi, 'Bearer [REDACTED]')
     .replace(/([?&](?:access_token|refresh_token|api_key|token|secret|key)=)[^&\s]+/gi, '$1[REDACTED]')
     .replace(/\bsk-[a-zA-Z0-9_-]{12,}/g, '[REDACTED]')

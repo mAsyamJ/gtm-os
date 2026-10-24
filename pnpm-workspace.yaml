@@ -1,0 +1,4 @@
+# Patch the existing renderer's ZIP64 denial-of-service dependency (GHSA-px8p-9vwx-vf98).
+# pnpm 12 reads dependency overrides here rather than package.json.
+overrides:
+  fflate@0.7.3: 0.7.5

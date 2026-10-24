@@ -1,0 +1,11 @@
+# ADR 001: Buffer as the single active V5 publisher
+
+Status: accepted for implementation by the owner's V5 prompt and approved plan; live execution remains separately gated. Revision: v5-r1. Audience: maintainers/owner. Original analysis of cited first-party sources; no copied upstream implementation.
+
+Buffer personal keys authenticate GraphQL at `https://api.buffer.com`. A key belongs to the Buffer account and can access its organizations/channels subject to granted permissions. Its Free plan supports the requested two channels within the published three-channel allowance, ten pending posts per channel and 3,000 monthly API calls. Conflicting historical daily limits are handled by conservative durable caps and live structured quota headers. [Authentication](https://developers.buffer.com/guides/authentication.html), [pricing](https://buffer.com/pricing), [limits](https://developers.buffer.com/guides/api-limits.html).
+
+Postiz is a different scheduler with its own application and integrations, not a wrapper that accepts a Buffer key. A future Postiz adapter needs separately verified official authentication, X connector requirements, costs, account identity and owner authorization. [Official Postiz repository](https://github.com/gitroomhq/postiz-app). It is neither installed nor configured in V5. No double scheduling or assumption of interchangeable credentials is permitted.
+
+The provider-neutral interface permits a future adapter, but Buffer alone controls each accepted post. The local process refills approved queues and reconciles; it does not compete with Buffer's delivery clock. Unsupported capabilities return UNSUPPORTED. Buffer is not used as a general X search/reply/DM API; bounded research and human engagement remain separate. X automation must follow the [official rules](https://help.x.com/en/rules-and-policies/x-automation); no website/cookie automation is introduced.
+
+Consequences: lightweight operation and a small bounded queue; finite key validity, account-wide credential scope, remote delivery uncertainty and lagging metrics require explicit operational handling. Live verification depends on actual credential provisioning, exact owner approval, provider sent state and independent public proof. Offline regressions cannot close that gate.
