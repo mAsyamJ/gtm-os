@@ -15,3 +15,5 @@
 **Handoff:** Return typed artifacts, hashes and test receipts to QA/owner; missing live integrations remain BLOCKED. No agent can self-authorize an external action.
 
 **V3 authorization:** The owner's final amendments authorize project-local V3 implementation, explicit reviewed keyless public-source reads, and reuse of existing protected router admission. Credentials are handled only inside established routing mechanisms; this package never imports their values. V3 source-reviewed editorial geometry may use licensed existing renderers without claiming product UI footage. All external account writes remain disabled. See packages/v3/AGENTS.md for evidence, manual state and dataset contracts.
+
+**V5 authorization:** The owner's V5 master prompt and approved plan authorize the separately scoped `packages/v5` Buffer publisher. Only its dedicated publisher runtime may load its own Linux service credential. Exact tenant/channel/payload/slot/rights/cost approval and explicit execution remain mandatory; see packages/v5/AGENTS.md. Existing V3/V4 manual packets, approvals and disabled paths remain historical contracts and grant no Buffer authority.

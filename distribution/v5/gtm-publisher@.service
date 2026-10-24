@@ -1,0 +1,25 @@
+[Unit]
+Description=GTM OS approved Buffer queue refill for %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=gtm-publisher
+Group=gtm-publisher
+WorkingDirectory=/opt/gtm-os
+LoadCredential=buffer-api-key:/etc/gtm-publisher/%i/buffer-api-key
+LoadCredential=buffer-expiry:/etc/gtm-publisher/%i/buffer-expiry
+LoadCredential=buffer-tenant:/etc/gtm-publisher/%i/buffer-tenant
+ExecStart=/usr/bin/node /opt/gtm-os/dist/packages/cli/src/index.js publishing tick --brand %i --provider buffer --execute --json
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/gtm-os/runtime
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LockPersonality=true
+MemoryDenyWriteExecute=false
+TimeoutStartSec=240
+# Operator-reviewed template only. No installation, timer, enablement or credential provisioning is performed by the implementation.

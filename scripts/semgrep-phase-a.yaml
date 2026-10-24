@@ -46,3 +46,26 @@ rules:
       - pattern: import { exec as $EXEC } from "node:child_process"
       - pattern: import { execSync as $EXEC } from "node:child_process"
       - pattern: eval(...)
+  - id: v5-outbound-boundary
+    languages: [typescript, javascript]
+    severity: ERROR
+    message: V5 network access belongs only to the reviewed fixed-host publisher transport.
+    paths:
+      include: ['**/packages/v5/**']
+      exclude: ['**/packages/v5/src/buffer.ts']
+    pattern-either:
+      - pattern: fetch(...)
+      - pattern: import { ... } from 'node:https'
+      - pattern: import { ... } from 'node:http'
+      - pattern: import $X from 'axios'
+      - pattern: import $X from 'undici'
+  - id: v5-credential-boundary
+    languages: [typescript, javascript]
+    severity: ERROR
+    message: Only the dedicated publisher transport may access service credential environment.
+    paths:
+      include: ['**/packages/v5/**']
+      exclude: ['**/packages/v5/src/buffer.ts']
+    pattern-either:
+      - pattern: process.env.$KEY
+      - pattern: process.env[$KEY]
